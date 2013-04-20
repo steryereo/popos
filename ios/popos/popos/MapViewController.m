@@ -70,15 +70,18 @@
         if ([description isKindOfClass:[NSNull class]]) {
             description = @"We don't have directions to this place!";
         }
-
-        Popo *popo = [[Popo alloc] initWithCoordinate:CLLocationCoordinate2DMake([coords[1] floatValue],[coords[0] floatValue]) hours:hours description:description name:poposName];
-        [self.allPopos addObject:popo];
-
-        RMAnnotation *annotation = [RMAnnotation annotationWithMapView:mapView coordinate:popo.coord andTitle:popo.name];
         
-        annotation.userInfo = popo;
-        
-        [mapView addAnnotation:annotation];
+        NSString *rating = popoDict[@"spur_rating"];
+        if (![rating isKindOfClass:[NSNull class]] && ([rating isEqualToString:@"excellent"] || [rating isEqualToString:@"fair/excellent"])) {
+            Popo *popo = [[Popo alloc] initWithCoordinate:CLLocationCoordinate2DMake([coords[1] floatValue],[coords[0] floatValue]) hours:hours description:description name:poposName];
+            [self.allPopos addObject:popo];
+            
+            RMAnnotation *annotation = [RMAnnotation annotationWithMapView:mapView coordinate:popo.coord andTitle:popo.name];
+            
+            annotation.userInfo = popo;
+            
+            [mapView addAnnotation:annotation];
+        }
     }
 }
 
