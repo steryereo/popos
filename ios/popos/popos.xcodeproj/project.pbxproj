@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF305A2817230186006958AD /* MapBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF305A2717230186006958AD /* MapBox.framework */; };
+		DF305A2A172301AE006958AD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF305A29172301AE006958AD /* CoreLocation.framework */; };
+		DF305A2C172301BB006958AD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF305A2B172301BB006958AD /* QuartzCore.framework */; };
+		DF305A2E172301C7006958AD /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF305A2D172301C7006958AD /* libsqlite3.dylib */; };
+		DF305A30172301D0006958AD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF305A2F172301D0006958AD /* libz.dylib */; };
+		DF305A3217230212006958AD /* MapBox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DF305A3117230212006958AD /* MapBox.bundle */; };
+		DF305A3517230235006958AD /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF305A3417230235006958AD /* MapViewController.m */; };
 		DF4EBF0C1722F5B4008AA009 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4EBF0B1722F5B4008AA009 /* UIKit.framework */; };
 		DF4EBF0E1722F5B4008AA009 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4EBF0D1722F5B4008AA009 /* Foundation.framework */; };
 		DF4EBF101722F5B4008AA009 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4EBF0F1722F5B4008AA009 /* CoreGraphics.framework */; };
@@ -21,6 +28,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF305A2717230186006958AD /* MapBox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapBox.framework; path = ../../../../Downloads/MapBox.framework; sourceTree = "<group>"; };
+		DF305A29172301AE006958AD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DF305A2B172301BB006958AD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DF305A2D172301C7006958AD /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		DF305A2F172301D0006958AD /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		DF305A3117230212006958AD /* MapBox.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MapBox.bundle; path = ../../../../Downloads/MapBox.framework/Versions/A/Resources/MapBox.bundle; sourceTree = "<group>"; };
+		DF305A3317230235006958AD /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		DF305A3417230235006958AD /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		DF4EBF081722F5B4008AA009 /* popos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = popos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF4EBF0B1722F5B4008AA009 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DF4EBF0D1722F5B4008AA009 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -43,6 +58,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF305A30172301D0006958AD /* libz.dylib in Frameworks */,
+				DF305A2E172301C7006958AD /* libsqlite3.dylib in Frameworks */,
+				DF305A2C172301BB006958AD /* QuartzCore.framework in Frameworks */,
+				DF305A2A172301AE006958AD /* CoreLocation.framework in Frameworks */,
+				DF305A2817230186006958AD /* MapBox.framework in Frameworks */,
 				DF4EBF0C1722F5B4008AA009 /* UIKit.framework in Frameworks */,
 				DF4EBF0E1722F5B4008AA009 /* Foundation.framework in Frameworks */,
 				DF4EBF101722F5B4008AA009 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +76,12 @@
 		DF4EBEFF1722F5B4008AA009 = {
 			isa = PBXGroup;
 			children = (
+				DF305A3117230212006958AD /* MapBox.bundle */,
+				DF305A2F172301D0006958AD /* libz.dylib */,
+				DF305A2D172301C7006958AD /* libsqlite3.dylib */,
+				DF305A2B172301BB006958AD /* QuartzCore.framework */,
+				DF305A29172301AE006958AD /* CoreLocation.framework */,
+				DF305A2717230186006958AD /* MapBox.framework */,
 				DF4EBF131722F5B4008AA009 /* popos */,
 				DF4EBF0A1722F5B4008AA009 /* Frameworks */,
 				DF4EBF091722F5B4008AA009 /* Products */,
@@ -88,6 +114,8 @@
 				DF4EBF1D1722F5B4008AA009 /* AppDelegate.m */,
 				DF4EBF251722F5B4008AA009 /* popos.xcdatamodeld */,
 				DF4EBF141722F5B4008AA009 /* Supporting Files */,
+				DF305A3317230235006958AD /* MapViewController.h */,
+				DF305A3417230235006958AD /* MapViewController.m */,
 			);
 			path = popos;
 			sourceTree = "<group>";
@@ -161,6 +189,7 @@
 				DF4EBF201722F5B4008AA009 /* Default.png in Resources */,
 				DF4EBF221722F5B4008AA009 /* Default@2x.png in Resources */,
 				DF4EBF241722F5B4008AA009 /* Default-568h@2x.png in Resources */,
+				DF305A3217230212006958AD /* MapBox.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +203,7 @@
 				DF4EBF1A1722F5B4008AA009 /* main.m in Sources */,
 				DF4EBF1E1722F5B4008AA009 /* AppDelegate.m in Sources */,
 				DF4EBF271722F5B4008AA009 /* popos.xcdatamodeld in Sources */,
+				DF305A3517230235006958AD /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +248,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -242,6 +273,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -250,6 +282,10 @@
 		DF4EBF2B1722F5B4008AA009 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Downloads\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "popos/popos-Prefix.pch";
 				INFOPLIST_FILE = "popos/popos-Info.plist";
@@ -261,6 +297,10 @@
 		DF4EBF2C1722F5B4008AA009 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Downloads\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "popos/popos-Prefix.pch";
 				INFOPLIST_FILE = "popos/popos-Info.plist";
@@ -288,6 +328,7 @@
 				DF4EBF2C1722F5B4008AA009 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
