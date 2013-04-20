@@ -5,9 +5,11 @@ gem 'rails', '3.2.11'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'bson_ext'
+gem 'bson_ext', '1.7.0'
 gem "mongoid", '2.5.0'
 gem "symbolize", :require => "symbolize/mongoid"
+gem 'devise', '2.2.0'
+gem 'cancan', '1.6.8'
 
 # Gems used only for assets and not required
 # in production environments by default.
