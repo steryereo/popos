@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MapViewController.h"
+#import "HomeController.h"
 
 @implementation AppDelegate
 
@@ -22,18 +23,26 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
+    [[UIApplication sharedApplication]setStatusBarStyle:UIStatusBarStyleBlackOpaque];
+    
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     self.window.rootViewController = tabBarController;
     
 
     UIViewController *mapViewController = [[MapViewController alloc] init];
     UINavigationController *wrapper = [[UINavigationController alloc] initWithRootViewController:mapViewController];
-    mapViewController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Map" image:nil tag:0];
+    mapViewController.navigationController.navigationBarHidden = YES;
+    mapViewController.navigationItem.title = @"POPOS";
+    wrapper.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Map" image:nil tag:0];
     
     UIViewController *nearestController = [[UIViewController alloc] init];
     nearestController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Nearest" image:nil tag:0];
     
-    tabBarController.viewControllers = @[wrapper, nearestController];
+    UIViewController *homeController = [[HomeController alloc] init];
+    homeController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Home" image:nil tag:0];
+
+    
+    tabBarController.viewControllers = @[homeController, wrapper, nearestController];
     
     return YES;
 }

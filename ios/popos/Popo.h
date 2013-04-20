@@ -11,9 +11,11 @@
 
 @interface Popo : NSObject
 
-- (id)initWithCoordinate:(CLLocationCoordinate2D)coord hours:(NSString *)hours;
+- (id)initWithCoordinate:(CLLocationCoordinate2D)coord hours:(NSString *)hours description:(NSString *)description name:(NSString *)name;
 
 @property (assign, nonatomic) CLLocationCoordinate2D coord;
-@property (assign, nonatomic) NSString *hours;
+@property (strong, nonatomic) NSString *hours;
+@property (strong, nonatomic) NSString *description;
+@property (strong, nonatomic) NSString *name;
 
 @end

@@ -1,18 +1,18 @@
 //
-//  PoposDetailViewController.m
+//  HomeController.m
 //  popos
 //
 //  Created by Brandon Liu on 4/20/13.
 //  Copyright (c) 2013 Brandon Liu. All rights reserved.
 //
 
-#import "PoposDetailViewController.h"
+#import "HomeController.h"
 
-@interface PoposDetailViewController ()
+@interface HomeController ()
 
 @end
 
-@implementation PoposDetailViewController
+@implementation HomeController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -34,15 +34,5 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-- (void) viewWillAppear:(BOOL)animated {
-    self.hoursLabel.text = self.popo.hours;
-    self.descriptionLabel.text = self.popo.description;
-}
-//- (void)setPopo:(Popo *)popo {
-//    self.hoursLabel.text = popo.hours;
-//    self.descriptionLabel.text = popo.description;
-//    _popo = popo;
-//}
 
 @end
