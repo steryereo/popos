@@ -2,6 +2,10 @@
 
 <h1><%= @popo.name %></h1>
 
+<% if !@popo.pic_1.blank? %>
+  <img src="<%= @popo.pic_1 %>">
+<% end %>
+
 <dl class="dl-horizontal">
   <%= render 'show_item', :title => "Name", :content => @popo.name %>
   <%= render 'show_item', :title => "Description", :content => @popo.description %>
