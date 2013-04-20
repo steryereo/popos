@@ -1,0 +1,688 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://earth.google.com/kml/2.2'>
+<Document id='PublicArt'>
+<name>Public Art</name>
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>600 California</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/600 California1.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Guardian"' by Bruce Beasley</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>bronze</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>top of the stairs of the California St. open space</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>open space and artwork are always accessible</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 1986. 085X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would develop the building by adding approximately 221,430 gross square feet to the office space, 11 stories, and 22,200 square feet to the parking garage.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://en.wikipedia.org/wiki/Bruce_Beasley_(American_sculptor)'>http://en.wikipedia.org/wiki/Bruce_Beasley_(American_sculptor)</a></td></tr>
+</table><table style='border-top: solid; border-width: 1px; border-color: #dcdcdc;' cellpadding='2px' width=97%> <tr><td></td><td></td><td></td></tr> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/600 California4.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Three Bridges"' by Kent Roberts</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>steel, concrete, brass</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>in stairway of California St. open space</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:<b/></td><td align='left' style='font-size:8pt;'>open space and artwork are always accessible</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 1986. 085X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would develop the building by adding approximately 221,430 gross square feet to the office space, 11 stories, and 22,200 square feet to the parking garage.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://kentroberts.com/'>http://kentroberts.com/</a></td></tr>
+</table><table style='border-top: solid; border-width: 1px; border-color: #dcdcdc;' cellpadding='2px' width=97%> <tr><td></td><td></td><td></td></tr> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/600 California2.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Untitled"' by Bella Feldman</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>fountain sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>stainless steel, water</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>inside of Bank lobby</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>artwork is available from 7:00 a.m. to 7:00 p.m.</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 1986. 085X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would develop the building by adding approximately 221,430 gross square feet to the office space, 11 stories, and 22,200 square feet to the parking garage.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://www.bellafeldman.com/gallery/wtr/index.html'>http://www.bellafeldman.com/gallery/wtr/index.html</a></td></tr>
+</table><table style='border-top: solid; border-width: 1px; border-color: #dcdcdc;' cellpadding='2px' width=97%> <tr><td></td><td></td><td></td></tr> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/600 California3.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Elevator Doors"' by Lee Lawrie</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>ArtDeco Elevator doors</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>bronze</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>outside of Sacramento St. entrance</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>open space and artwork are always accessible</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 1986. 085X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would develop the building by adding approximately 221,430 gross square feet to the office space, 11 stories, and 22,200 square feet to the parking garage.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://en.wikipedia.org/wiki/Lee_Lawrie'>http://en.wikipedia.org/wiki/Lee_Lawrie</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.404858,37.793109,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>343 Sansome</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/343 Sansome.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"L'Octagon"' by Pol Bury</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Water sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>stainless steel, marble</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>Sacramento St. lobby</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>artwork and open space are accessible from 9-5</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 1985.079X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>343 Sansome Street would concentrate both on the renovation of the existing 13- story office building, and the separation of one lot into two, 29- story office/ retail buildings with parking. The new building would be approximately 212 feet tall with approximately 160,449 square feet of office space, 13,370 square feet of retail space, and 87 new parking spots.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://en.wikipedia.org/wiki/Pol_Bury'>http://en.wikipedia.org/wiki/Pol_Bury</a></td></tr>
+</table><table style='border-top: solid; border-width: 1px; border-color: #dcdcdc;' cellpadding='2px' width=97%> <tr><td></td><td></td><td></td></tr> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/343 Sansome2.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Four Seasons"' by Joan Brown</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>obelisk</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>tile</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>roof garden</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:<b/></td><td align='left' style='font-size:8pt;'>artwork and open space are accessible from 9-5</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 1985.079X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>343 Sansome Street would concentrate both on the renovation of the existing 13- story office building, and the separation of one lot into two, 29- story office/ retail buildings with parking. The new building would be approximately 212 feet tall with approximately 160,449 square feet of office space, 13,370 square feet of retail space, and 87 new parking spots.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://en.wikipedia.org/wiki/Joan_Brown'>http://en.wikipedia.org/wiki/Joan_Brown</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.401572,37.793616,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>235 Pine</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/235 Pine.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Called to Rise"' by Thomas Marsh, Qiliu Pan</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Relief</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>bronze</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>above office building entrance</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>artwork is always accessible</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 1984.432X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would include the construction of a 325 foot tall office building with 27 stories. 235 Pine would contain approximately 147,500 square feet of office space, 5,000 square feet of retail space, 10,500 square feet of parking, and 3,540 square feet of open space</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://www.tmarshsculptor.com/index.htm'>http://www.tmarshsculptor.com/index.htm</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.400283,37.791904,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>Orchard Garden Hotel</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/466 Bush.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'Untitled' by Archie Held</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Fountain sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>bronze, glass</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>lobby, façade</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>artwork is always accessible</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 2000.171X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would include the construction of a 10- story, approximately 99 foot tall tourist hotel. The hotel would be located on the north side of Bush street, and would contain 86 rooms. </td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://www.archieheld.com/'>http://www.archieheld.com/</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.405226,37.790869,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>235 Geary</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/235 Geary.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Hothouse (Blue)"' by Teresita Fernandez</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>glass, cabochon mirrors</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>Louis Vuitton entrance</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>artwork is accessible Monday through Saturday from 10:00 a.m. to 7:00 p.m., and Sunday 12:00 p.m. to 6:00 p.m.</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 1996.228X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would demolish the six-story Allen and Bally buildings, and construct a new 8-story building in their place. The project would also include the replacement of the façade of the building to make one, transparent façade. </td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://en.wikipedia.org/wiki/Teresita_Fernandez'>http://en.wikipedia.org/wiki/Teresita_Fernandez</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.40688,37.787243,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>157 Mason</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/157 Mason.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Intertwined"' by Johanna Poethig</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Tile mosaic</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>ceramic tile</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>façade of the building</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>artwork is always accessible</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 2006.0413X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would demolish the existing parking lots on the project site and construct an 8-story homeless housing building including supportive and administrative services with approximately 37,790 gsf of developed space, 56 rental studio apartments for formerly homeless persons, and 986 gsf of office space.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://www.johannapoethig.com/splashpage_ie.html'>http://www.johannapoethig.com/splashpage_ie.html</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.409691,37.784975,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>125 Mason</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/125 Mason.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'Untitled' by Mildred Howard</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Façade</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>various</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>façade of building</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>artwork is always accessible</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 2006.0691X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would demolish the existing parking lots on the Project Site and construct a fourteen story, 81 unit affordable family housing building including approximately 556 gsf of office space and 2,111 gsf of lounge and community meeting space, for a total of about 123,057 gsf of developed space.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://www.moellerfineart.com/artists/mildred-howard/'>http://www.moellerfineart.com/artists/mildred-howard/</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.409766,37.784748,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>San Francisco Conservatory of Music</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/50 Oak6.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Exultadagio"' by Daniel Winterich</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Glass work</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>glass</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>façade of the addition/ left of the main entrance</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>artwork is always accessible</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 2001.0862X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project iwould merge 50 Oak Street and 70 Street to create one, 125,000 gross square foot building. 50 Oak Street would be retrofitted and made into a six story building, and 70 Oak Street would be demolished and reconstructed into a 6 story building. </td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://www.winterich.com/'>http://www.winterich.com/</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.420388,37.775559,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>77 Van Ness</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/77 Van Ness.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"New Life"' by Paul D. Gibson</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>patina bronze, stone</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>lobby</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>building manager may ask why you are there. Artwork is accessible from 9:00 a.m. to 5:00 p.m. Photos aren't recommended.</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 2000.074X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would construct an 8-story, approximately 90-foot tall building containing 50 dwelling units on floors four through eight, approximately 1,350 square feet of ground floor commercial space, amd approximately 625 square feet of public open space in the lobby.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://www.pdgarts.com/'>http://www.pdgarts.com/</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.41985,37.776063,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>66 9th</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/66 9th2.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Linking Hand Cloud"' by Ball-Nogues Studio</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Mural</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>acrylic</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>lobby</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>visible from street</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 2005.1127X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would construct a new, 11-story senior housing building containing approximately 107 dwelling units, 93,954 gross square feet, 10 off-street parking spaces, and ground & second floor ancillary space for community use.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://www.ball-nogues.com/'>http://www.ball-nogues.com/</a></td></tr>
+</table><table style='border-top: solid; border-width: 1px; border-color: #dcdcdc;' cellpadding='2px' width=97%> <tr><td></td><td></td><td></td></tr> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/66 9th3.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Linking Hand Veil"' by Ball-Nogues Studio</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>mural</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>acrylic beads</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>10th and Mission stair tower</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:<b/></td><td align='left' style='font-size:8pt;'>visible from street right-of-way</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 2005.1127X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would construct a new, 11-story senior housing building containing approximately 107 dwelling units, 93,954 gross square feet, 10 off-street parking spaces, and ground & second floor ancillary space for community use.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://www.ball-nogues.com/'>http://www.ball-nogues.com/</a></td></tr>
+</table><table style='border-top: solid; border-width: 1px; border-color: #dcdcdc;' cellpadding='2px' width=97%> <tr><td></td><td></td><td></td></tr> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/66 9th4.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Linking Hand Veil"' by Ball-Nogues Studio</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>mural</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>acrylic</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>10th street between Market and Mission</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>artwork is always accessible</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 2005.1127X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would construct a new, 11-story senior housing building containing approximately 107 dwelling units, 93,954 gross square feet, 10 off-street parking spaces, and ground & second floor ancillary space for community use.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://www.ball-nogues.com/'>http://www.ball-nogues.com/</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.415956,37.775862,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>400 Howard</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/400 Howard.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"The Signature"' by Richard Deutsch</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>stainless Steel</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>plaza in front of Foundry Square III</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>open space and artwork are always accessible</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 1998.902X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The construction of Foundry Square would include four buildings on the corners of 1st and Howard streets. The proposed four buildings would all be 10-story, low-rise structures together containing 1,149,000 square feet of new office space. All of the projects would be mixed use buildings, with retail space on the ground floors.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://www.richarddeutsch.com/'>http://www.richarddeutsch.com/</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.395881,37.789119,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>500 Howard</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/500 Howard.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Not Out of the Woods Yet"' by Richard Deacon</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>aluminum tread plate</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>under arcade of the plaza (Foundry Square)</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>open space and artwork are always accessible</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 1998.902X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The construction of Foundry Square includes four buildings on the corners of 1st and Howard streets. The proposed four buildings would all be 10-story, low-rise structures together containing 1,149,000 square feet of new office space. All of the projects would be mixed use buildings, with retail space on the ground floors. 500 Howard would contain approximately 216,000 square feet of new office space.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://en.wikipedia.org/wiki/Richard_Deacon_(sculptor)'>http://en.wikipedia.org/wiki/Richard_Deacon_(sculptor)</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.396677,37.788497,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>101 2nd St</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/101 2nd1.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Sumer #24"' by Larry Bell</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>bronze</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>indoor park</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>artwork is available from 8 am - 6 pm</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 1997.484X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would alter the existing building to incorporate 152,000 square feet of office space and 13,400 square feet of institutional space.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://www.larrybell.com/'>http://www.larrybell.com/</a></td></tr>
+</table><table style='border-top: solid; border-width: 1px; border-color: #dcdcdc;' cellpadding='2px' width=97%> <tr><td></td><td></td><td></td></tr> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/101 2nd3.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Core"' by Charles Arnoldi</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>painting</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>canvas, acrylic</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>indoor park</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:<b/></td><td align='left' style='font-size:8pt;'>artwork is available from 8 am - 6 pm</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 1997.484X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would alter the existing building to incorporate 152,000 square feet of office space and 13,400 square feet of institutional space.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://www.charlesarnoldistudio.com/'>http://www.charlesarnoldistudio.com/</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.399144,37.78808,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>555 Mission</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/555 Mission1.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Moonrise Sculptures: March, October and December"' by Ugo Rondinone</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>aluminum</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>plaza</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>open space and artwork are always accessible</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 2001.798X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would demolish the existing buildings on the site and construct a 33-story, approximately 481.5 foot tall building with 549,000 gross square feet (gsf) of office space, approximately 4,000 gsf of ground story retail space, at least 11,140 square feet of public open space, and a two-story below grade parking garage.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://en.wikipedia.org/wiki/Ugo_Rondinone'>http://en.wikipedia.org/wiki/Ugo_Rondinone</a></td></tr>
+</table>
+<table style='border-top: solid; border-width: 1px; border-color: #dcdcdc;' cellpadding='2px' width=97%> <tr><td></td><td></td><td></td></tr> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/555 Mission3.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Human Sculptures"' by Jonathan Borofsky</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>steel</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>plaza</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:<b/></td><td align='left' style='font-size:8pt;'>open space and artwork are always accessible</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 2001.798X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would demolish the existing buildings on the site and construct a 33-story, approximately 481.5 foot tall building with 549,000 gross square feet (gsf) of office space, approximately 4,000 gsf of ground story retail space, at least 11,140 square feet of public open space, and a two-story below grade parking garage.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://en.wikipedia.org/wiki/Jonathan_Borofsky'>http://en.wikipedia.org/wiki/Jonathan_Borofsky</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.398641,37.788446,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>199 New Montgomery</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/199 New Montgomery.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Volute"' by Albert Paley</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>steel</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>in front of lobby entrance</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>artwork is always accessible</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 2001.0669X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would construct a 150 foot tall building containing ground-level retail and approximately 168 residential units.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://en.wikipedia.org/wiki/Albert_Paley'>http://en.wikipedia.org/wiki/Albert_Paley</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.399099,37.786606,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>1160 Mission</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/1160 Mission2.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Realm"' by Dorothy Lenehan</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Glass mural</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>paint, glass</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>sides of building</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>artwork is always accessible</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 2006.0305X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'> The proposed project would replace a single level parking lot with at 23 story, 497,000 square foot apartment building. This residential space would have 246 living spaces, a 504 space garage, 5,356 square feet of retail space, and would be 280 feet tall.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://www.lenehan.com/Artist.asp?ArtistID=16860&Akey=L6DFL793'>http://www.lenehan.com/Artist.asp?ArtistID=16860&Akey=L6DFL793</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.412634,37.778704,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>560 Mission</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/560 Mission.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Annular Eclipse"' by George Rickey</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>aluminum</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>urban garden</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>open space and artwork are always accessible</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 1998.321X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would demolish a 65,000 square foot building and parking lot to reconstruct an office building with 645,000 square feet for office space.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://en.wikipedia.org/wiki/George_Rickey'>http://en.wikipedia.org/wiki/George_Rickey</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.399359,37.788865,0 
+ </coordinates>
+</Point></Placemark>
+
+
+<!--<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>55 2nd St</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/Memories 32.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Memories 32"' by Yoon Jeong Lee</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Painting</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>canvas, paint</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>indoor park</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>open space and artwork are accessible from 8 a.m. to 6 p.m.</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 1997.215B</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would construct a 25-story, 33 foot tall mixed use building, containing approximately 283,301 square feet of office and retail space, 109 parking spaces, and 8,492 square feet of public open space.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://www.hangart.com/art/artist_directory/bio.cfm?ArtistId=119'>http://www.hangart.com/art/artist_directory/bio.cfm?ArtistId=119</a></td></tr>
+</table><table style='border-top: solid; border-width: 1px; border-color: #dcdcdc;' cellpadding='2px' width=97%> <tr><td></td><td></td><td></td></tr> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/Memories 33.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Memories 33"' by Yoon Jeong Lee</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>painting</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>canvas, paint</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>indoor park</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:<b/></td><td align='left' style='font-size:8pt;'>open space and artwork are accessible from 8 a.m. to 6 p.m.</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 1997.215B</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would construct a 25-story, 33 foot tall mixed use building, containing approximately 283,301 square feet of office and retail space, 109 parking spaces, and 8,492 square feet of public open space.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'> </td></tr>
+</table><table style='border-top: solid; border-width: 1px; border-color: #dcdcdc;' cellpadding='2px' width=97%> <tr><td></td><td></td><td></td></tr> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/Memories 37.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Memories 33"' by Yoon Jeong Lee</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>painting</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>canvas, paint</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>indoor park</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>open space and artwork are accessible from 8 a.m. to 6 p.m.</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 1997.215B</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would construct a 25-story, 33 foot tall mixed use building, containing approximately 283,301 square feet of office and retail space, 109 parking spaces, and 8,492 square feet of public open space.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'> </td></tr>
+</table><table style='border-top: solid; border-width: 1px; border-color: #dcdcdc;' cellpadding='2px' width=97%> <tr><td></td><td></td><td></td></tr> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/City Poem 190.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Memories 33"' by Yoon Jeong Lee</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>painting</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>canvas, paint</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>indoor park</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>open space and artwork are accessible from 8 a.m. to 6 p.m.</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 1997.215B</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would construct a 25-story, 33 foot tall mixed use building, containing approximately 283,301 square feet of office and retail space, 109 parking spaces, and 8,492 square feet of public open space.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'> </td></tr>
+</table><table style='border-top: solid; border-width: 1px; border-color: #dcdcdc;' cellpadding='2px' width=97%> <tr><td></td><td></td><td></td></tr> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/City Poem 194.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Memories 33"' by Yoon Jeong Lee</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>painting</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>canvas, paint</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>indoor park</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>open space and artwork are accessible from 8 a.m. to 6 p.m.</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 1997.215B</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would construct a 25-story, 33 foot tall mixed use building, containing approximately 283,301 square feet of office and retail space, 109 parking spaces, and 8,492 square feet of public open space.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'> </td></tr>
+</table><table style='border-top: solid; border-width: 1px; border-color: #dcdcdc;' cellpadding='2px' width=97%> <tr><td></td><td></td><td></td></tr> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/Memories 36.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Memories 33"' by Yoon Jeong Lee</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>painting</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>canvas, paint</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>indoor park</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>open space and artwork are accessible from 8 a.m. to 6 p.m.</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 1997.215B</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would construct a 25-story, 33 foot tall mixed use building, containing approximately 283,301 square feet of office and retail space, 109 parking spaces, and 8,492 square feet of public open space.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'> </td></tr>
+</table><table style='border-top: solid; border-width: 1px; border-color: #dcdcdc;' cellpadding='2px' width=97%> <tr><td></td><td></td><td></td></tr> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/City Poem 172.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Memories 33"' by Yoon Jeong Lee</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>painting</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>canvas, paint</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>indoor park</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>open space and artwork are accessible from 8 a.m. to 6 p.m.</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 1997.215B</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would construct a 25-story, 33 foot tall mixed use building, containing approximately 283,301 square feet of office and retail space, 109 parking spaces, and 8,492 square feet of public open space.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'> </td></tr>
+</table><table style='border-top: solid; border-width: 1px; border-color: #dcdcdc;' cellpadding='2px' width=97%> <tr><td></td><td></td><td></td></tr> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/City Poem 114.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Memories 33"' by Yoon Jeong Lee</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>painting</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>canvas, paint</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>indoor park</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>open space and artwork are accessible from 8 a.m. to 6 p.m.</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 1997.215B</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would construct a 25-story, 33 foot tall mixed use building, containing approximately 283,301 square feet of office and retail space, 109 parking spaces, and 8,492 square feet of public open space.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'> </td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.400282,37.788877,0 
+ </coordinates>
+</Point></Placemark>-->
+
+
+
+
+
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>1 Market</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/1 Market2.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Float"' by Mark Lere</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>metal, bronze</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>landmark office building interior open space</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>artwork is available from 7:00 a.m. to 6:30 p.m.</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 1998.135X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would add 51,822 square feet of office space to an existing office building. This addition would include seismically upgrading two, multi-story, light courts of the existing building. </td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://www.marklere.com/'>http://www.marklere.com/</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.394233,37.793371,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>631 Folsom</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/631 Folsom.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Frammenti"' by Richard Deutsch</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Water sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>carrera marble</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>outside of building entrance</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>artwork is always accessible</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 2004.0296X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would construct a 21-story, 209-foot-high building containing up to 120 dwelling units and a garage with up to 64 parking spaces.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://en.wikipedia.org/wiki/Richard_Deutsch'>http://en.wikipedia.org/wiki/Richard_Deutsch</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.397682,37.783626,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>1 Hawthorne</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/1 Hawthorne.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Landmark"' by Robert Hudson</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Mural</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>porcelain enamel, steel</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>façade of building</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>artwork is always accessible</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 2004.0852X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would construct a 240- foot, 24-story tall residential building, containing up to 189 dwelling units. </td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://en.wikipedia.org/wiki/Robert_H._Hudson'>http://en.wikipedia.org/wiki/Robert_H._Hudson</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.398876,37.785769,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>235 2nd St</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/235 2nd.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Making the World Many"' by Anish Kapoor</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>stainless steel</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>lobby/ indoor park</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>open space and artwork are accessible from 8 a.m. to 6 p.m.</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 1999.176B</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would add 3 floors to a 4-story warehouse, which would become an office building. It would also erect a new, 7-story building with approximately 232, 789 square feet of office space, and 1,000 square feet of retail space.The two buildings would be integrated to act as one structure.  </td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://en.wikipedia.org/wiki/Anish_Kapoor'>http://en.wikipedia.org/wiki/Anish_Kapoor</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.397028,37.786498,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>SF Dtwn Courtyard by Marriott</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/299 2nd.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Globe"' by Topher Delaney</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>bronze</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>courtyard</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>accessible 8:00 a.m. to 6:00 p.m.</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 1997.689X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would include the construction of 17-story, 414 room hotel with120 parking spaces.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://www.tdelaney.com/'>http://www.tdelaney.com/</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.396559,37.786093,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>405 Howard</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/405 Howard.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Untitled"' by Joel Shapiro</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>bronze</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>plaza in front of Foundry Square II</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>artwork and open space are always accessible</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 1998.902X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The construction of Foundry Square includes four buildings on the corners of 1st and Howard streets. The four buildings would all be 10-story, low-rise structures together containing 1,149,000 square feet of new office space. All of the projects would be mixed use buildings, with retail space on the ground floors.405 Howard, also known as Foundry Square II, would contain approximately 460,000 square feet of new office space.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://en.wikipedia.org/wiki/Joel_Shapiro'>http://en.wikipedia.org/wiki/Joel_Shapiro</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.395144,37.78853,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>215 Fremont</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/215 Fremont.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Urban Grit"' by Gordon Huether</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Glass panels</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>glass</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>pathway to entrance</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>artwork is always accessible</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes, by Case No 1998.497B</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would add a 7th floor mezzanine with 23,000 square feet of office space, and 47,950 square feet of net new office space.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://www.gordonhuether.com/'>http://www.gordonhuether.com/</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.394299,37.789139,0 
+ </coordinates>
+</Point></Placemark>
+
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>200 California</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/200 California.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Hawaiian"' by Gwynn Murill</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>Bronze</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>Public right-of-way</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>open space and artwork is always accessible</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>yes, by 1986.223</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would demolish the existing 3-story, mixed-use office/ retail structure, and contruct a 26,983 gross square foot office building. The building would be 6 stories and 74 feet tall, adding approximately 17,594 square feet of office space to the structure and 723 square feet of open space. A clock tower would be the highest point of the building at approximately 103.5 feet tall.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://www.murrillsculpture.com/'>http://www.murrillsculpture.com/</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.399,37.7935,0 
+ </coordinates>
+</Point></Placemark>
+
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>720 Market</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/720 Market.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Angel"' by Stephen de Staebler</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>Bronze</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>building facade</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>artwork is always accessible.</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>yes, by 1986.21ex</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The construction of a ten story building containing approximately 49,963 gross square feet, which includes 8,092 gsf of retails space and 41,871 gsf of office space.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://en.wikipedia.org/wiki/Stephen_De_Staebler'>http://en.wikipedia.org/wiki/Stephen_De_Staebler</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.404,37.7876,0 
+ </coordinates>
+</Point></Placemark>
+
+
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>150 California</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/150 California.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Arbor Arch"' by Ed Carpenter</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>aluminum pipe, stainless steel cables and hardware, aluminum channel, dichroic glass</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>rooftop terrace of the sixth floor</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>artwork available from  9:00 a.m to 6:00 p.m.</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>yes, by motion # 14624</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The construction would include a 330 foot office building containing approximately 195,500 square feet of office space, 3,265 square feet of retail space, 9,029 square feet of parking space, and 4,150 square feet of open space.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://en.wikipedia.org/wiki/Ed_Carpenter_(artist)'>http://en.wikipedia.org/wiki/Ed_Carpenter_(artist)</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.3984,37.7936,0 
+ </coordinates>
+</Point></Placemark>
+
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>55 2nd St</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/5502nd.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Waterfall Series"' by Joe Goode</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>painting</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>oil on canvas</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>solarium</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>open space and artwork are accessible from 8 a.m. to 6 p.m.</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>yes, by 1997.215B</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would construct a 25-story, 33 foot tall mixed use building, containing approximately 283,301 square feet of office and retail space, 109 parking spaces, and 8,492 square feet of public open space.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://www.joegoodestudio.com/'>http://www.joegoodestudio.com/</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.4004,37.7887,0 
+ </coordinates>
+</Point></Placemark>
+
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>425 Battery St</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/425 Battery.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"The General Harrison"' by Curtis Hollenback and Topher Delaney</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Unearthed gold rush ship / Sidewalk art</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>unearthed ship parts</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>In public right-of-way in front of 425 Battery</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>artwork is always accessible</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>yes, by 2000.613X</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would include the demolition of three existing buildings and the construction of a new, 11-story building with 20,255 square feet of ground floor retail, 90,410 square feet of hotel use (max. of 308 rooms) on the 2nd through 8th floors, and 16,100 ground square feet (23 units) of residential use on the 9th through 11th floors.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://www.tdelaney.com'>http://www.tdelaney.com</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.4005,37.7953,0 
+ </coordinates>
+</Point></Placemark>
+
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>49 Stevenson St</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/49 Stevenson.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Escalieta I"' by Manuel Neri</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>ordinario marble</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>49 Stevenson entrance</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>open space and artwork is always accessible</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes by Case No 1985.657.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The existing buildings (49, 53, and 55 Stevenson Street) would be demolished and replaced with a 15- story office building. 49 Stevenson would be 253 feet tall with about 169,600 gross square feet of office space. The ground and second floor of the new building would only consist of retail space, taking up a total of 9,800 gross square feet.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://en.wikipedia.org/wiki/Manuel_Neri'>http://en.wikipedia.org/wiki/Manuel_Neri</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.3994,37.7898,0 
+ </coordinates>
+</Point></Placemark>
+
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>275 Battery St</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/275 Battery4.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Untitled"' by Fritz Koenig</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>bronze</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>spiral staircase on Commercial St.</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>artwork and open space are always accessible</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Although this project preceded the adoption of the Downtown Plan, this project's approvals were guided by the spirit of the pending plan, resulting in public art at this site.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'></td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' http://en.wikipedia.org/wiki/Fritz_Koenig'>http://en.wikipedia.org/wiki/Fritz_Koenig</a></td></tr>
+</table>
+<table style='border-top: solid; border-width: 1px; border-color: #dcdcdc;' cellpadding='2px' width=97%> <tr><td></td><td></td><td></td></tr> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/275 Battery2.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Creazione"' by Dimitri Hadzi</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>bronze</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>Commercial St.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:<b/></td><td align='left' style='font-size:8pt;'>artwork and open space are always accessible</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Although this project preceded the adoption of the Downtown Plan, this project's approvals were guided by the spirit of the pending plan, resulting in public art at this site.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'></td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://www.rogallery.com/Hadzi_Dimitri/hadzi-biography.html'>http://www.rogallery.com/Hadzi_Dimitri/hadzi-biography.html</a></td></tr>
+</table>
+<table style='border-top: solid; border-width: 1px; border-color: #dcdcdc;' cellpadding='2px' width=97%> <tr><td></td><td></td><td></td></tr> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/275 Battery3.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"The Universality of Wisdom"' by Arman</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>bronze</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>Federal Reserve steps Battery St.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:<b/></td><td align='left' style='font-size:8pt;'>artwork is always accessible</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Although this project preceded the adoption of the Downtown Plan, this project's approvals were guided by the spirit of the pending plan, resulting in public art at this site.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'></td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://en.wikipedia.org/wiki/Arman'>http://en.wikipedia.org/wiki/Arman</a></td></tr>
+</table>
+
+<table style='border-top: solid; border-width: 1px; border-color: #dcdcdc;' cellpadding='2px' width=97%> <tr><td></td><td></td><td></td></tr> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/275 Battery1.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Baile Merengue"' by Bill Barrett</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>bronze</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>Embarcadero West lobby</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:<b/></td><td align='left' style='font-size:8pt;'>artwork is always accessible.</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Although this project preceded the adoption of the Downtown Plan, this project's approvals were guided by the spirit of the pending plan, resulting in public art at this site.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'></td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://en.wikipedia.org/wiki/Bill_Barrett_(artist)'>http://en.wikipedia.org/wiki/Bill_Barrett_(artist)</a></td></tr>
+</table>
+
+
+</td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.4002,37.7939,0 
+ </coordinates>
+</Point></Placemark>
+
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>100 1st St</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/100 1st.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Linear Fountain"' by John Luebtow</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>water wall sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>granite, glass</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>sun terrace</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>artwork is always accessible.</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes by Case No 1983.331.  Although this project preceded the adoption of the Downtown Plan, this project's approvals were guided by the spitit of the pending plan, resulting in public art at this site.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project was to demolish 6, 40-year-old buildings, and erect a 27 story office building in its place. The new building would be 350 feet tall, and have 396,313 square feet of office space. In addition to the office space, there was planned to be 6,363 square feet of parking space and 16,300 square feet of open space.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://www.luebtow.com/'>http://www.luebtow.com/</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.3975,37.7896,0 
+ </coordinates>
+</Point></Placemark>
+
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>505 Montgomery St</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/505 Montgomery.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Untitled"' by Pepo Pichler</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>fountain sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>concrete, granite, stone, cast bronze</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>Empire Park</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>open space and artwork is accessible during daylight hours</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes by Case No 1982.463. Although this project preceded the adoption of the Downtown Plan, this project's approvals were guided by the spirit of the pending plan, resulting in public art at this site.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The project would include the construction of a 24-story, 345 foot office building, and the rehabilitation of 2 existing buildings at 641 and 653 Commercial Street. There would be 314,000 square feet of office space, 15,900 square feet of ground floor retail office space, 23 basement parking spaces, and a 2,000 square foot open air pocket park (Empire).</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://www.pepopichler.com/'>http://www.pepopichler.com/</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates> -122.4031,37.7941,0 
+ </coordinates>
+</Point></Placemark>
+
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>525 Market St</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/525 Market.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Waterfall Walls"' by Elyn Zimmerman</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>granite</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>granite</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>open space on side of building</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>artwork is always accessible</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Yes by, 1989.325.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>The proposed project would build a new 3-unit condiminium.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://elynzimmerman.com/'>http://elynzimmerman.com/</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates> -122.3993,37.7907,0 
+ </coordinates>
+</Point></Placemark>
+
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>199 Fremont St</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/199 Fremont1.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Big Bertha"' by Paul Kos</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>Sierra Granite Boulder</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>granite</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>center of sun terrace</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>artwork is always accessible.</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Although this project preceded the adoption of the Downtown Plan, this project's approvals were guided by the spirit of the pending plan, resulting in public art at this site.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>no information available.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates> -122.3952,37.7894,0 
+ </coordinates>
+</Point></Placemark>
+
+<Placemark>
+<description><![CDATA[<table width=97%><tr><td><div style='overflow: auto; max-width: 500px; max-height: 400px;'><table border=0 cellpadding='2px' width=97%><tr><th>160 Spear St</th></tr></table><table border=0 cellpadding='2px' width=97%> <tr valign=top><td rowspan=5 height=100%><img style='border: solid 1 #060;' width='180px' src='http://sf-planning.org/ftp/files/gis/PublicArt/Pictures/160 Spear.jpg'/></td><td width=100% colspan=2 align='left' style='font-size:12pt;'>'"Tau"' by Roger Berry</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Type:</b></td><td align='left' style='font-size:8pt;'>sculpture</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Medium:</b></td><td align='left' style='font-size:8pt;'>steel</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Location:</b></td><td align='left' style='font-size:8pt;'>open space in front of building</td></tr>
+ <tr valign=top height='100%'><td align='left' valign='top' style='font-size:8pt;'><b>Accessibility:</b></td><td align='left' style='font-size:8pt;'>artwork is always accessible</td></tr>
+ <table border=0 cellpadding='2px'width=97%>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Required Art:</b></td><td align= 'left' style='font-size:8pt;'>Although this project preceded the adoption of the Downtown Plan, this project's approvals were guided by the spirit of the pending plan, resulting in public art at this site.</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Project Description:</b></td><td align= 'left' style='font-size:8pt;'>no information available</td></tr>
+ <tr valign=top><td align='left' valign='top' style='font-size:8pt;'><b>Artist Link:</b></td><td align= 'left' style='font-size:8pt;'><a target='_blank' href='http://rogerberry.info/'>http://rogerberry.info/</a></td></tr>
+</table></td></tr></table></div>]]></description><styleUrl>#RedSmall</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates> -122.3932,37.7917,0 
+ </coordinates>
+</Point></Placemark>
+
+
+<Style id = 'RedSmall'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://sfplanning.org/ftp/files/gis/POPOS/artgallery3.png</href>
+</Icon>
+<hotSpot x='16' y='2' xunits='pixels' yunits='pixels'/>
+</IconStyle>
+</Style>
+</Document>
+</kml>

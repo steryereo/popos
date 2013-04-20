@@ -1,0 +1,935 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://earth.google.com/kml/2.2'>
+<Document id='POPOS'>
+<name>POPOS</name>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>555 Mission St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/555 Mission.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Open at all times</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>100 linear seats and benches.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>Empty retail on the plaza</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This large plaza has several art and landscaping features. It is located in front of 555 Mission Streets and runs along the west side of the building. There are several distinct sitting areas with different styles of seating.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/16303.pdf'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.39891,37.7884,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>Foundry Square NE</th></tr>
+        <tr><td align='center'>400 Howard St</td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/400_Howard.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Open at all times</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>20 linear seats</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>Yes </td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Restrooms:</b></td><td style='font-size:8pt;'>None visible</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This is one of three plazas fronting the intersection of 1st and Howard, forming Foundary Square. It features art sculptures and seating near a cafe. </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/15005.pdf'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.396,37.7888,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>Foundry Square SE</th></tr>
+        <tr><td align='center'>405 Howard St</td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/405_Howard.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>M-F 8:00AM-6:00PM</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>15 chairs, 24 linear seat on  ledge, 45 linear seats on planter boxes sides. </td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>Yes</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Restrooms:</b></td><td style='font-size:8pt;'>None visible</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This is one of three plazas on the 1st and Howard intersection, forming Foundry Square. This space features a sculpture, landscape, and seating near food services.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/15005.pdf'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.39566,37.78852,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>Foundry Square NW</th></tr>
+        <tr><td align='center'>500 Howard St</td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/500_Howard.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Open at all times</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>44 linear seating on ledges, 21 seating on planter box, 7 tables 28 chairs</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>Yes</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Restrooms:</b></td><td style='font-size:8pt;'>None visible</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This is one of three plazas on the 1st and Howard intersection, forming Foundry Square. This space features a sculpture, landscape, and seating near food services.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/15005.pdf'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.39631,37.78854,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>Intercontinental Hotel_Bay Terrace</th></tr>
+        <tr><td align='center'>888 Howard St</td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/InterCont Hotel B_Bay Terrace1.JPG'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>9:00am - 5:00pm</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>49 chairs, 6 chaise lounge</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Restrooms:</b></td><td style='font-size:8pt;'>Hotel. Could use the lobby restrooms</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>The Intercontinental Hotel provides two POPOS on the fourth and sixth floors. They have various seating arrangements and landscaping, each with views of the City. </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/16421.pdf'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.40468,37.78197,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>Intercontinental Hotel_Pacific Terrace</th></tr>
+        <tr><td align='center'>888 Howard St</td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/InterCont Hotel A_Pacific Terrace.JPG'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>9:00am - 5:00pm</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>Unknown - seating arranged for private event(s)</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Restrooms:</b></td><td style='font-size:8pt;'>Hotel. Could use the lobby restrooms etc</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>The Intercontinental Hotel provides two POPOS on the fourth and sixth floors. They have various seating arrangements and landscaping, each with views of the City. </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/16421.pdf'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.40483,37.78189,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>235 Second St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/235_Second.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>8:00am - 6:00pm</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>62 chairs and 15 tables</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>café</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Restrooms:</b></td><td style='font-size:8pt;'>Yes</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This plaza is located on the corner of 2nd St. and Clementina St. It features several types of seating, served by a cafe.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/15003.pdf'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.39721,37.78618,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>560 Mission St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/560_MISSION.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Open at all times</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>45 chairs with 15 tables.134 linear seating onl ledges. 10 linear seats on benches</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>café</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This large plaza features a sculpture in a pool of water, a large bamboo grove, and various forms of seating. It is served by a cafe. </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/14894.pdf'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.39908,37.78892,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>Marriott Courtyard - A (Starbucks)</th></tr>
+        <tr><td align='center'>299 2nd St</td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/Marriot Courtyard_299 2nd St_Snippet_street level.JPG'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>8:00am - 5:00pm</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>It appears that one bench near the entrance on 2nd Street is meant to meet this requirement.     Per Thayer:  12 linear seats by bench. </td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>café</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>Thayer referenced something that is not part of the open space requirement, this is pedestrian improvement requirement.  Per Thayer:  This open space has benches and landscaping along the sidewalk on Folsom at street level.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/14617.pdf'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.39684,37.78577,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>Marriott Courtyard - B (Starbucks)</th></tr>
+        <tr><td align='center'>299 2nd St</td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/Marriot Courtyard_299 2nd St_Snippet_cafe level.JPG'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>8:00am - 5:00pm</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>15 chairs</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>Café</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This open space has a small sitting space below street level on the corner of Folsom and Second, served by a café.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/14617.pdf'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.39668,37.78576,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>Marriott Courtyard - C</th></tr>
+        <tr><td align='center'>299 2nd St</td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/Marriot Courtyard_299 2nd St_Snippet_cafe level.JPG'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>42 chairs with tables </td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>Restaurant service nearby, starbucks outside</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Restrooms:</b></td><td style='font-size:8pt;'>Yes, hotel</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This space features extensive landscaping with several art attractions. Comfortable seating arrangements are located throughout the space. Food service nearby inside the hotel.  </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/14617.pdf'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.39669,37.78611,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>101 2nd St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/101_Second.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>8:00am - 6:00pm</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>25 linear seats on bench/  ledge. 23 tables, 69 chairs</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>Café</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This greenhouse features large trees, windows, and art. It has two levels of space and is served by a cafe.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/14453.pdf'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.39953,37.78803,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>199 Fremont St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/199_FREMONT.JPG'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Open at all times</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>Rock planter box seating. Approx 114 linear seats plus 17 iondividual rocks</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>Café</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This large plaza space features extensive rock landscaping and artwork. There are two adjoined areas, one of which has food service. </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/13217-89.589X -300 Howard St..pdf'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.39491,37.78967,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>343 Sansome St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/343_Sansome.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>10:00am - 5:00pm; Mon-Friday</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>18 chairs, 50 linear seats on planter box sizes. </td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This fifteenth floor open space has excellent views of surrounding buildings and streets, as well as the San Francisco Bay. It has various types of seating and landscaping. It also has art in the form of a large sundial. </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/11072 - 85.79X - 343 Sansome St..pdf'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.40146,37.79374,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>Empire Park</th></tr>
+        <tr><td align='center'>642 Commercial St </td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/642_Commercial.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>15 chairs w/ tables, 8 bench seats in the park, 8 along commercial.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>There is food service serving the commercial street POPOS, but not directly serving that of Empire park. </td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>Empire park, located at 642 Commercial, is an urban garden that features a water fountain and landscaping. Along Commercial in front of Empire park, there are many widened sidewalk spaces which have benches and landscaping. </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/10867 - 82.463EC - 505 Montgomery St..pdf'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.40384,37.79428,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>100 California St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/100 California.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>None. Stairs? Some planter box seating but doesn't meet linear seating specs (12'' H and 9'' depth"</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This is a large plaza with planter boxes, along with smaller spaces along Davis Street. There is also space for food service to serve the plaza in the future. </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/17543.pdf'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.39797,37.79358,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>Commercial Street (235 Pine Entitlement)</th></tr>
+        <tr><td align='center'>235 Pine St</td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/235Pine.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>Linear park improvements along Commercial Street feature various types of trees and concrete linear seating. These spaces are served by many cafés and restaurants along Commercial Street. Additional seating is provided during lunch hours.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/11071 - 84.432X - 235 Pine St..pdf'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.40228,37.79439,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>120 Howard St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/120 Howard.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>8AM - 6PM</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>None. </td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>Cart</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This space features plants along the entirety of the snippet and is served by an espresso cart.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/17465.pdf'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.39305,37.79107,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>1 Kearny St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/1_Kearny.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>23 linear seats. </td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>No</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Restrooms:</b></td><td style='font-size:8pt;'>Yes</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This rooftop terrace has extensive views of Market St. as well as rooftop architecture of nearby buildings. Landscaping and bench seating support this space. </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/17282.pdf'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.40376,37.78784,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>55 Second St - A</th></tr>
+        <tr><td align='center'>55 Second St</td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/55 Second St_Indoor Park.JPG'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>8:00am - 6:00pm</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>approx 52</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>No</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Restrooms:</b></td><td style='font-size:8pt;'>Located in hallway between lobby and indoor park</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This large, indoor "park" located inside the historia building has a wooden floor, tables with chairs, and large, comfortable leather chairs on a carpeted section near the large window looking out on Stevenson Street.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/14541-CND.pdf'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.40046,37.78874,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>55 Second St - B</th></tr>
+        <tr><td align='center'>55 Second St</td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/55 Second St_snippet_outside.JPG'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>8:00am - 6:00pm</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>8 plus benches</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>No</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Restrooms:</b></td><td style='font-size:8pt;'>Located in hallway between lobby and indoor park</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This space is located outside the rear entry of 55 Second Street. It has planter boxes that serve as seating throughout the plaza.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/14541-CND.pdf'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.40011,37.78895,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>55 Second St - C</th></tr>
+        <tr><td align='center'>55 Second St</td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/55 Second_Atrium.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/14541-CND.pdf'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.40041,37.7891,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>Millenium Tower Plaza</th></tr>
+        <tr><td align='center'>301 Mission St</td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/301_Mission.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>8:00am - 6:00pm</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>24 linear seats</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>Yes</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Restrooms:</b></td><td style='font-size:8pt;'>Yes</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This atrium features extensive artwork and is served by a bar/restaurant on the premises. It has various types of seating with tables, and high windows overhead. </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/16994.pdf'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.39656,37.79052,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>77 Van Ness Ave</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/77_VAN_NESS.JPG'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>12 chairs w/ tables</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>No</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Restrooms:</b></td><td style='font-size:8pt;'>No</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This space is in the front lobby of 77 Van Ness. It has tables and chairs and features a sculpture. </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/16320.pdf'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.41971,37.77613,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>345 California St - A</th></tr>
+        <tr><td align='center'>345 California St</td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/345_California.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Open at all times.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>Benches accommodate approximately 15.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>Sandwich shop</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This open space is provided in the form of a large plaza fronting California Street. Additionally, two snippets can be found on the west and east sides of the building, connected by an interior walkway. The plaza and east snippet are served by restaurants</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/9418.pdf'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.40046,37.79306,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>345 California St - East B</th></tr>
+        <tr><td align='center'>345 California St</td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/345 California_Snippet 1_Sansome St.JPG'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Open at all times.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>Bench for ~3 people; 10 chairs w/ tables</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>Café on one snippet.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>Two snippets can be found on the west and east sides of the building, connected by an interior walkway. The west snippet can be entered from Sansome Street, next to the Mandarin Hotel. There is a bench and bamboo in planters. The east snippet is on the Battery Street side, served by a cafe which has several tables in front, and no plants.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/9418.pdf'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.40005,37.79286,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>345 California St - West C</th></tr>
+        <tr><td align='center'>345 California St</td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/345 California_Snippet 2_Battery St.JPG'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Open at all times.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>Bench for ~3 people; 10 chairs w/ tables</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>Café on one snippet.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>Two snippets can be found on the west and east sides of the building, connected by an interior walkway. The west snippet can be entered from Sansome Street, next to the Mandarin Hotel. There is a bench and bamboo in planters. The east snippet is on the Battery Street side, served by a cafe which has several tables in front, and no plants.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/9418.pdf'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.40091,37.79263,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>Embarcadero Center West 1, 2, & 3</th></tr>
+        <tr><td align='center'>1-5 Embarcadero Center</td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/EmbarcCtr_Commercial Street Ped Walkway1.JPG'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Open at all times</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>30 tables, 107 chairs, plus planter-side seating, benches.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>Yes</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>Commercial Street throughout Embarcadero 1, 2, and 3 is a pedestrian mall on ground floor and 2nd level, which is accessed by an elaborate staircase system, flanked by waterfalls. Fountains, foliage, art work, and bench seating found throughout.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/10314 - 83.222 Embarcadero Center.PDF'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.40125,37.79446,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>Rincon Center</th></tr>
+        <tr><td align='center'>121 Spear St</td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/121_Spear.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>78 on benches and chairs. Also, the café provides some of its own seating.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>Café</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This large plaza space is found in the interior courtyard between Rincon Center 1 and Rincon Center 2. It features several art sculptures and different types of seating. </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'> </td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.39259,37.79208,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>123 Mission St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/123_Mission.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Open at all times.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>122 linear seats</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>Yes</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Restrooms:</b></td><td style='font-size:8pt;'>No signs for any</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This large plaza features extensive landscaping and art. Seperate seating areas with seating characterize the area. </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/9786.PDF'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.39423,37.79219,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>150 California St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/150_California.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>9:00am - 6:00pm</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>40 chairs w/ 10 tables, Linear Seating: only 10'' deep, but approx 82 linear seats</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>No café</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This view terrace is located six stories above the street level. There is a large sculpture, long periods of sunlight, and several types of seating. There are extensive views of the surrounding area. </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/11828 - 87.613B 150 California St..PDF'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.39864,37.79361,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>600 California St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/600_California.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>9 linear seats</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>Yes café</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>A shady open space area with art in the form of sculptures. This snippet found on the northwest side of the building, up the stairs. It adjoins the open space of the adjacent building. </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/11073 - 86.65X - 600 California St..PDF'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.40487,37.79277,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>Westfield Sky Terrace (Wesfield Center Mall)</th></tr>
+        <tr><td align='center'>845 Market St</td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/845 Market.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>59 chairs, 10 linear seats</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>None, but food on the premises</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Restrooms:</b></td><td style='font-size:8pt;'>None, but public restrooms downstairs</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This extensive 9th floor rooftop space looks onto the dome of the mall and has views westward and sunlight. It does not have direct food service, but food may be found in the food court below in the mall. </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'> </td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.40652,37.78473,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>100 1st St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/100_First.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Ground level arcade space accessible at all times, Sun Terrace open during daylight hours.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>30 seats at 10 tables plus numerous areas to sit along built-in benches and planters, grassy areas.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>At ground level</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Restrooms:</b></td><td style='font-size:8pt;'>None observed</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>The large Sun Terrace features extensive landscaping and seating. Several art sculptures are featured, along with an elevated view of the street below. There is a 'grand' staircase (snippet) up to the Sun Terrace. Ground level arcade in front of building on Mission side features retail and eating/drinking establishments.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/10431 - 83.331ECX - 100 First St.PDF'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.39797,37.7891,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>200 California St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/200_California.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Open at all times.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>24 linear</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This pedestrian seating area is on a widened sidewalk. Pedestrians may sit on linear seating that forms a planter box. There is a small, public sculpture next to the planter box.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/10830 - 86.223X - 200 California St..PDF'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.39889,37.79347,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>49 Stevenson St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/49_Stevenson.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Open at all times.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>20 chairs</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>Yes</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Restrooms:</b></td><td style='font-size:8pt;'>Restaurant</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This pedestrian walkway has small fountains and an art sculpture are featured in this space. Plaza seating is available for patrons of Yank Sing restaurant only.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/10162.PDF'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.39938,37.78993,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>Marathon Plaza</th></tr>
+        <tr><td align='center'>303 Second St</td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/Marathon Plaza_303 2nd St_Seating_Water Feature.JPG'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Open at all times.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>Yes</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>Large, triangular urban garden facing Second Street with a water feature, ample seating, and lush landscaping. Deli and restaurant open to the park provide food and additional seating.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/9396.PDF'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.3957,37.78522,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>Gap Building</th></tr>
+        <tr><td align='center'>2 Folsom St</td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/2 Folsom.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>76 seats</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Restrooms:</b></td><td style='font-size:8pt;'>None marked</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This is a large plaza with several seating areas. Art sculptures are featured along with diverse landscaping. </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>Yes</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><a target='_blank' href='http://www.sf-planning.org/ftp/files/GIS/POPOS/Motions/2_Folsom'>Read Planning Commission Motion</a></td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_New</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.391212,37.79123,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>1 Market St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/One_Market.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Open at all times.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>Plaza located on Mission Street along the rear of the building. Some planters with benches.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.394106,37.793639,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>71 Stevenson St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/71_Stevenson.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Open at all times.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>The open space connects Stevenson Street and Jessie Street, including planter boxes, a water fountaing, and seating with table outside the cafe. </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.399783,37.789024,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>525 Market St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/525_Market.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Open at all times.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This is a two level open space, with granite wall water fountains at the sidewalk level near Market Street and a view to the landscaped space on the second level. </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.399737,37.790343,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>14 Fremont St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/14_Freemont_aka_50_Freemont.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Open at all times.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This open space is a through walkway between Fremont and 1rst Street that opens into an interior plaza.  A farmers market was operating on location.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.397889,37.790766,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>456 Montomery St</th></tr>
+        <tr><td align='center'>456 Montgomery St</td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/456_Montgomery.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This is a sunken plaza, landscaped with flowers and small water fountains. Escalators are provided to this space. </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.402797,37.79364,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>Citygroup Center</th></tr>
+        <tr><td align='center'>1 Sansome St</td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/CitygroupCenter.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>Built with marble, and covered with glass, this greenhouse provides ample seating and tables. </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.400798,37.79048,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>Trinity Alley</th></tr>
+        <tr><td align='center'>333 Bush St</td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/Trinity_alley.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Open at all times.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.40268,37.790728,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>Spear Street Plaza</th></tr>
+        <tr><td align='center'>160 Spear St</td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/Spear_Street_Plaza.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Open at all times.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>Well landscaped walkway with seating and tables.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.393371,37.791547,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>25 Jessie St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/25_jessie.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Open at all times.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>Ledges around the water feature. </td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>Yes. </td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This urban garden include a water feature combined with a tall art piece. Seating available on the ledeges of raised water feature.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.398796,37.789612,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>201 Spear St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/201_Spear.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Open at all times.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>Plaza with seating along planters.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.391628,37.790945,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>Crocker Galleria</th></tr>
+        <tr><td align='center'>165 Sutter St</td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/Crocker_Galleria.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.402821,37.789275,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>135 Main St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/135_Main.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>Interior lobby with seating open business hours only.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.394112,37.791428,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>301 Howard St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/301_Howard.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Open at all times.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>Landscaped seating area located kitty-corner to 301 Howard. </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.394267,37.789685,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>444 Market  St</th></tr>
+        <tr><td align='center'>444 Market St</td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/444_Market.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Open at all times.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>Plaza with no seating.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.398682,37.791674,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>180 Howard St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/180_Howard.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>A cul-de-sac walkway with benches at the end.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.392219,37.790734,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>333 Market St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/333_Market.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Open at all times.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>Open plaza with minimal seating on the edge of planters.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.397791,37.791754,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>595 Market St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/595_Market.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Open at all times.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>Seating only on stairs.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This plaza is located on 2nd. Street and Stevenson. Seating is only available on the steps beyon the table and seating provided for the food establishment. </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.400727,37.789002,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>221 Main St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/221_Main.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>An open plaza with some seating, landscaping and planters.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.392546,37.790154,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>211 Main St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/211_Main.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>Open plaza with two benches and a gated children's play area through to Spear Street.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.392886,37.790397,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>425 Market St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/425_Market.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Open at all times.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>An open plaza between buildings with benches, trees and some landscape materials.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.39851,37.791112,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>Redwood Park</th></tr>
+        <tr><td align='center'>535 Washington St</td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/RedwoodPark.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This extensively landscaped urban park offers redwood trees at the foot of the Transamerica Pyramid. It features, a tall water fountain, sculptures, and ample seating. </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.402168,37.795052,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>50 California St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/50_California.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Open at all times.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>Plaza and wrap around walkway with seating along planters.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.397531,37.793807,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>100 Pine St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/100_Pine.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>Yes. </td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This Urban Garden is either accessed through the front entrance of the building or a narrow walkway on Front Street. This space offers water fountains, landscaping, and art. </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.399159,37.792739,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>Golden Gate University</th></tr>
+        <tr><td align='center'>536 Mission St</td></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/Goldengateuniversity.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Open at all times.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Food:</b></td><td style='font-size:8pt;'>None.</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>Concrete seating streches along the passage that connects the recessed entrance of Golden Gate University to the sidewalk on Mission Street. </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.398681,37.789151,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>1 California St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/One_California.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>Wrap around plaza area with seating near food services.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.397284,37.793353,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>77 Beale St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/77_Beale.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>Plaza with high planters that provide some landscaping but no seating.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.396226,37.791737,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>555 California St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/555_California.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Hours:</b></td><td style='font-size:8pt;'>Open at all times.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.403951,37.79246,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>1 Post St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/One_Post.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>Snippets surrounding the hexagonal fence of Montgomery Bart Station sunken plaza. This space include concrete steps with some planter boxes. </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.402646,37.788623,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>50 Beale St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/50_Beale.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>Large well landscaped plaza with many seating options.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.396916,37.791603,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>555/557 Market St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/555_Market.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Seating:</b></td><td style='font-size:8pt;'>No Seating</td></tr>
+                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>Extensive landscaping combined with water features signify this space between two high rises. Seating,however, is only availabe to employees.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.400158,37.789757,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>650 California St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/650_California.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This open space is elevated with the street slope. A large art piece represents one entrance to the open space on California Street. This space surrounds the building and offers seating on the ledges of planter boxes. </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.4052,37.79305,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>611 Folsom St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/611_Folsom.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>Brick plaza with some trees, artwork and seating on brick structures.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.396731,37.785168,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>201 Mission St</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/201_Mission.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>Initially hidden from street view there is seating along the building setback area to the right as you walk toward the door.</td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.395161,37.790962,0 
+ </coordinates>
+</Point></Placemark>
+<Placemark>
+<description><![CDATA[<table width=336px>   <tr>     <td>       <div style='overflow: auto; max-width: 520px; max-height: 500px;'>
+        <table align='center' cellpadding='2px'>
+          <tr><td bgcolor='#377625' align='center' style='font-size:10pt;font-weight:bold; color:white'>1 Bush Street</th></tr>
+          <tr><td width='300px' height=200px><img style='border: #000000 1px solid;' width='300px' src='http://sf-planning.org/ftp/files/gis/POPOS/Pics/Small/One_bush.jpg'/></td></tr>
+          <tr><td>                 <table border=0 width=300px>                  <tr valign=top><td align='left' style='font-size:8pt; width:70px'><b>Description:</b></td><td style='font-size:8pt;'>This Urban Garden provides a sunken space featuring a water fountain. Space is accessed with stairs from Bush Street and curved walkways from Market street. </td></tr>
+                  <tr valign=top><td colspan=2 align='left' style='font-size:8pt;'><b>Subject to the <a href='http://www.sf-planning.org/ftp/general_plan/Downtown.htm' target='_blank'>Downtown Plan:</a> </b>No</td></tr>
+                 </table>              </td>         </tr>        </table>       </div>     </td>    </tr></table>]]></description><styleUrl>#POPOS_Old</styleUrl><Snippet></Snippet><Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-122.400453,37.790981,0 
+ </coordinates>
+</Point></Placemark>
+<Style id = 'POPOS_New'>
+<IconStyle>
+<scale>1.0</scale><Icon>
+<href>http://sfplanning.org/ftp/files/gis/POPOS/urbanpark8.png</href>
+</Icon>
+<hotSpot x='16' y='2' xunits='pixels' yunits='pixels'/></IconStyle>
+</Style>
+<Style id = 'POPOS_Old'>
+<IconStyle>
+<scale>1.0</scale><Icon>
+<hotSpot x='16' y='2' xunits='pixels' yunits='pixels'/><href>http://sfplanning.org/ftp/files/gis/POPOS/urbanpark7.png</href>
+</Icon>
+</IconStyle>
+</Style>
+</Document>
+</kml>
