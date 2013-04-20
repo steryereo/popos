@@ -54,6 +54,12 @@
 
     for (NSDictionary *popoDict in popos[@"features"]) {
         NSArray *coords = popoDict[@"geometry"][@"coordinates"];
+        
+        NSString *poposName = popoDict[@"properties"][@"NAME"];
+        if ([poposName isKindOfClass:[NSNull class]]) {
+            poposName = @"Unknown";
+        }
+        
         NSString *hours = popoDict[@"properties"][@"HOURS"];
         if ([hours isKindOfClass:[NSNull class]]) {
             hours = @"Unknown";
@@ -64,10 +70,10 @@
             description = @"We don't have directions to this place!";
         }
 
-        Popo *popo = [[Popo alloc] initWithCoordinate:CLLocationCoordinate2DMake([coords[1] floatValue],[coords[0] floatValue]) hours:hours description:description];
+        Popo *popo = [[Popo alloc] initWithCoordinate:CLLocationCoordinate2DMake([coords[1] floatValue],[coords[0] floatValue]) hours:hours description:description name:poposName];
         [self.allPopos addObject:popo];
 
-        RMAnnotation *annotation = [RMAnnotation annotationWithMapView:mapView coordinate:popo.coord andTitle:@"foo"];
+        RMAnnotation *annotation = [RMAnnotation annotationWithMapView:mapView coordinate:popo.coord andTitle:popo.name];
         
         annotation.userInfo = popo;
         
@@ -91,6 +97,7 @@
 {
     PoposDetailViewController *detailController = [[PoposDetailViewController alloc] init];
     detailController.popo = annotation.userInfo;
+    detailController.navigationItem.title = detailController.popo.name;
     [self.navigationController pushViewController:detailController animated:YES];
 
 }

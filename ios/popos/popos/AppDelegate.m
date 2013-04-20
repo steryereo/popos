@@ -32,6 +32,7 @@
     UIViewController *mapViewController = [[MapViewController alloc] init];
     UINavigationController *wrapper = [[UINavigationController alloc] initWithRootViewController:mapViewController];
     mapViewController.navigationController.navigationBarHidden = YES;
+    mapViewController.navigationItem.title = @"POPOS";
     wrapper.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Map" image:nil tag:0];
     
     UIViewController *nearestController = [[UIViewController alloc] init];
