@@ -17,6 +17,7 @@ class Popo
   field :spurid,       type: String
   field :transportation,   type: String
   field :twitter_hash_tag, type: String
+  field :pic_1,            type:  String
 
   field :food,     type: Boolean, :default => false
   field :seating,  type: Boolean, :default => false
@@ -29,5 +30,17 @@ class Popo
   embeds_many :comments
 
   validates_presence_of :name, :latitude, :longitude
+
+  def migrate
+    self.name = self[:NAME]
+    self.description = self[:Descriptio]
+    self.latitude = self[:coordinates][0]
+    self.longitude = self[:coordinates][1]
+    self.address = self[:POPOS_ADDR]
+    self.pic_1 = self[:Pic_File]
+    self.food = (self[:Food] == "Y")
+    self.seating = (self[:Seating] == "Y")
+    self.restroom = (self[:Restroom] == "Y")
+  end
 
 end
