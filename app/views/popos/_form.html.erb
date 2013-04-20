@@ -1,0 +1,17 @@
+<%= form_for(@popo) do |f| %>
+  <% if @popo.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@popo.errors.count, "error") %> prohibited this popo from being saved:</h2>
+
+      <ul>
+      <% @popo.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

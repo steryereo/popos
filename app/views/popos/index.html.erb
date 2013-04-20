@@ -1,0 +1,21 @@
+<h1>Listing popos</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @popos.each do |popo| %>
+  <tr>
+    <td><%= link_to 'Show', popo %></td>
+    <td><%= link_to 'Edit', edit_popo_path(popo) %></td>
+    <td><%= link_to 'Destroy', popo, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Popo', new_popo_path %>
