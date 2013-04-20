@@ -14,7 +14,7 @@
 - (id)initWithCoordinate:(CLLocationCoordinate2D)coord hours:(NSString *)hours description:(NSString *)description;
 
 @property (assign, nonatomic) CLLocationCoordinate2D coord;
-@property (assign, nonatomic) NSString *hours;
-@property (assign, nonatomic) NSString *description;
+@property (strong, nonatomic) NSString *hours;
+@property (strong, nonatomic) NSString *description;
 
 @end

@@ -18,6 +18,25 @@
 		DF305A4C17231579006958AD /* Popo.m in Sources */ = {isa = PBXBuildFile; fileRef = DF305A4B17231579006958AD /* Popo.m */; };
 		DF305A5817231E03006958AD /* PoposDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF305A5617231E03006958AD /* PoposDetailViewController.m */; };
 		DF305A5917231E03006958AD /* PoposDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF305A5717231E03006958AD /* PoposDetailViewController.xib */; };
+		DF305A5B17232F73006958AD /* map-marker.png in Resources */ = {isa = PBXBuildFile; fileRef = DF305A5A17232F73006958AD /* map-marker.png */; };
+		DF305A5F17233B27006958AD /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF305A5D17233B27006958AD /* HomeController.m */; };
+		DF305A6017233B27006958AD /* HomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF305A5E17233B27006958AD /* HomeController.xib */; };
+		DF305A8C17233D06006958AD /* bookmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF305A8217233D06006958AD /* bookmark@2x.png */; };
+		DF305A8D17233D06006958AD /* outdoor_indoor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF305A8317233D06006958AD /* outdoor_indoor@2x.png */; };
+		DF305A8E17233D06006958AD /* ratings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF305A8417233D06006958AD /* ratings@2x.png */; };
+		DF305A8F17233D06006958AD /* reading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF305A8517233D06006958AD /* reading@2x.png */; };
+		DF305A9017233D06006958AD /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF305A8617233D06006958AD /* search@2x.png */; };
+		DF305A9117233D06006958AD /* wifi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF305A8717233D06006958AD /* wifi@2x.png */; };
+		DF305A9217233D06006958AD /* what_are_popos@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF305A8817233D06006958AD /* what_are_popos@2x.png */; };
+		DF305A9317233D06006958AD /* geo_pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF305A8917233D06006958AD /* geo_pin@2x.png */; };
+		DF305A9417233D06006958AD /* events@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF305A8A17233D06006958AD /* events@2x.png */; };
+		DF305A9517233D06006958AD /* tours@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF305A8B17233D06006958AD /* tours@2x.png */; };
+		DF305A9C17233D57006958AD /* bathroom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF305A9617233D57006958AD /* bathroom@2x.png */; };
+		DF305A9D17233D57006958AD /* art@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF305A9717233D57006958AD /* art@2x.png */; };
+		DF305A9E17233D57006958AD /* review@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF305A9817233D57006958AD /* review@2x.png */; };
+		DF305A9F17233D57006958AD /* music@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF305A9917233D57006958AD /* music@2x.png */; };
+		DF305AA017233D57006958AD /* muni@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF305A9A17233D57006958AD /* muni@2x.png */; };
+		DF305AA117233D57006958AD /* dining@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF305A9B17233D57006958AD /* dining@2x.png */; };
 		DF4EBF0C1722F5B4008AA009 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4EBF0B1722F5B4008AA009 /* UIKit.framework */; };
 		DF4EBF0E1722F5B4008AA009 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4EBF0D1722F5B4008AA009 /* Foundation.framework */; };
 		DF4EBF101722F5B4008AA009 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4EBF0F1722F5B4008AA009 /* CoreGraphics.framework */; };
@@ -46,6 +65,26 @@
 		DF305A5517231E03006958AD /* PoposDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoposDetailViewController.h; sourceTree = "<group>"; };
 		DF305A5617231E03006958AD /* PoposDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoposDetailViewController.m; sourceTree = "<group>"; };
 		DF305A5717231E03006958AD /* PoposDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PoposDetailViewController.xib; sourceTree = "<group>"; };
+		DF305A5A17232F73006958AD /* map-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "map-marker.png"; path = "popos/map-marker.png"; sourceTree = "<group>"; };
+		DF305A5C17233B27006958AD /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		DF305A5D17233B27006958AD /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		DF305A5E17233B27006958AD /* HomeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeController.xib; sourceTree = "<group>"; };
+		DF305A8217233D06006958AD /* bookmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bookmark@2x.png"; sourceTree = "<group>"; };
+		DF305A8317233D06006958AD /* outdoor_indoor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "outdoor_indoor@2x.png"; sourceTree = "<group>"; };
+		DF305A8417233D06006958AD /* ratings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ratings@2x.png"; sourceTree = "<group>"; };
+		DF305A8517233D06006958AD /* reading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reading@2x.png"; sourceTree = "<group>"; };
+		DF305A8617233D06006958AD /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
+		DF305A8717233D06006958AD /* wifi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wifi@2x.png"; sourceTree = "<group>"; };
+		DF305A8817233D06006958AD /* what_are_popos@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "what_are_popos@2x.png"; sourceTree = "<group>"; };
+		DF305A8917233D06006958AD /* geo_pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "geo_pin@2x.png"; sourceTree = "<group>"; };
+		DF305A8A17233D06006958AD /* events@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "events@2x.png"; sourceTree = "<group>"; };
+		DF305A8B17233D06006958AD /* tours@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tours@2x.png"; sourceTree = "<group>"; };
+		DF305A9617233D57006958AD /* bathroom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bathroom@2x.png"; sourceTree = "<group>"; };
+		DF305A9717233D57006958AD /* art@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "art@2x.png"; sourceTree = "<group>"; };
+		DF305A9817233D57006958AD /* review@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "review@2x.png"; sourceTree = "<group>"; };
+		DF305A9917233D57006958AD /* music@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "music@2x.png"; sourceTree = "<group>"; };
+		DF305A9A17233D57006958AD /* muni@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "muni@2x.png"; sourceTree = "<group>"; };
+		DF305A9B17233D57006958AD /* dining@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dining@2x.png"; sourceTree = "<group>"; };
 		DF4EBF081722F5B4008AA009 /* popos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = popos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF4EBF0B1722F5B4008AA009 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DF4EBF0D1722F5B4008AA009 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -83,9 +122,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF305A6117233C27006958AD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DF305A9617233D57006958AD /* bathroom@2x.png */,
+				DF305A9717233D57006958AD /* art@2x.png */,
+				DF305A9817233D57006958AD /* review@2x.png */,
+				DF305A9917233D57006958AD /* music@2x.png */,
+				DF305A9A17233D57006958AD /* muni@2x.png */,
+				DF305A9B17233D57006958AD /* dining@2x.png */,
+				DF305A8217233D06006958AD /* bookmark@2x.png */,
+				DF305A8317233D06006958AD /* outdoor_indoor@2x.png */,
+				DF305A8417233D06006958AD /* ratings@2x.png */,
+				DF305A8517233D06006958AD /* reading@2x.png */,
+				DF305A8617233D06006958AD /* search@2x.png */,
+				DF305A8717233D06006958AD /* wifi@2x.png */,
+				DF305A8817233D06006958AD /* what_are_popos@2x.png */,
+				DF305A8917233D06006958AD /* geo_pin@2x.png */,
+				DF305A8A17233D06006958AD /* events@2x.png */,
+				DF305A8B17233D06006958AD /* tours@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		DF4EBEFF1722F5B4008AA009 = {
 			isa = PBXGroup;
 			children = (
+				DF305A6117233C27006958AD /* Images */,
+				DF305A5C17233B27006958AD /* HomeController.h */,
+				DF305A5D17233B27006958AD /* HomeController.m */,
+				DF305A5E17233B27006958AD /* HomeController.xib */,
+				DF305A5A17232F73006958AD /* map-marker.png */,
 				DF305A5517231E03006958AD /* PoposDetailViewController.h */,
 				DF305A5617231E03006958AD /* PoposDetailViewController.m */,
 				DF305A5717231E03006958AD /* PoposDetailViewController.xib */,
@@ -208,6 +275,24 @@
 				DF305A3217230212006958AD /* MapBox.bundle in Resources */,
 				DF305A4417231171006958AD /* popos.json in Resources */,
 				DF305A5917231E03006958AD /* PoposDetailViewController.xib in Resources */,
+				DF305A5B17232F73006958AD /* map-marker.png in Resources */,
+				DF305A6017233B27006958AD /* HomeController.xib in Resources */,
+				DF305A8C17233D06006958AD /* bookmark@2x.png in Resources */,
+				DF305A8D17233D06006958AD /* outdoor_indoor@2x.png in Resources */,
+				DF305A8E17233D06006958AD /* ratings@2x.png in Resources */,
+				DF305A8F17233D06006958AD /* reading@2x.png in Resources */,
+				DF305A9017233D06006958AD /* search@2x.png in Resources */,
+				DF305A9117233D06006958AD /* wifi@2x.png in Resources */,
+				DF305A9217233D06006958AD /* what_are_popos@2x.png in Resources */,
+				DF305A9317233D06006958AD /* geo_pin@2x.png in Resources */,
+				DF305A9417233D06006958AD /* events@2x.png in Resources */,
+				DF305A9517233D06006958AD /* tours@2x.png in Resources */,
+				DF305A9C17233D57006958AD /* bathroom@2x.png in Resources */,
+				DF305A9D17233D57006958AD /* art@2x.png in Resources */,
+				DF305A9E17233D57006958AD /* review@2x.png in Resources */,
+				DF305A9F17233D57006958AD /* music@2x.png in Resources */,
+				DF305AA017233D57006958AD /* muni@2x.png in Resources */,
+				DF305AA117233D57006958AD /* dining@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +309,7 @@
 				DF305A3517230235006958AD /* MapViewController.m in Sources */,
 				DF305A4C17231579006958AD /* Popo.m in Sources */,
 				DF305A5817231E03006958AD /* PoposDetailViewController.m in Sources */,
+				DF305A5F17233B27006958AD /* HomeController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

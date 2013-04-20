@@ -14,7 +14,7 @@
 #import "PoposDetailViewController.h"
 
 @interface MapViewController ()
-
+@property (strong, nonatomic) NSMutableArray *allPopos;
 @end
 
 @implementation MapViewController
@@ -30,8 +30,10 @@
 
 - (void)viewDidLoad
 {
+    self.navigationController.navigationBarHidden = NO;
+    self.navigationController.navigationBar.tintColor = [UIColor blackColor];
     [super viewDidLoad];
-    RMMapBoxSource *onlineSource = [[RMMapBoxSource alloc] initWithMapID:@"bdon.popos-small"];
+    RMMapBoxSource *onlineSource = [[RMMapBoxSource alloc] initWithMapID:@"bdon.popos-yellow"];
     RMMapView *mapView = [[RMMapView alloc] initWithFrame:self.view.bounds andTilesource:onlineSource];
 
     mapView.zoom = 17;
@@ -47,22 +49,26 @@
     
     NSError *charError = nil;
     NSDictionary* popos = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&charError];
+    
+    self.allPopos = [[NSMutableArray alloc] init];
 
     for (NSDictionary *popoDict in popos[@"features"]) {
         NSArray *coords = popoDict[@"geometry"][@"coordinates"];
         NSString *hours = popoDict[@"properties"][@"HOURS"];
-        if ([hours isEqual:[NSNull null]]) {
+        if ([hours isKindOfClass:[NSNull class]]) {
             hours = @"Unknown";
         }
         
         NSString *description = popoDict[@"properties"][@"Descriptio"];
-        if ([description isEqual:[NSNull null]]) {
+        if ([description isKindOfClass:[NSNull class]]) {
             description = @"We don't have directions to this place!";
         }
 
         Popo *popo = [[Popo alloc] initWithCoordinate:CLLocationCoordinate2DMake([coords[1] floatValue],[coords[0] floatValue]) hours:hours description:description];
+        [self.allPopos addObject:popo];
 
         RMAnnotation *annotation = [RMAnnotation annotationWithMapView:mapView coordinate:popo.coord andTitle:@"foo"];
+        
         annotation.userInfo = popo;
         
         [mapView addAnnotation:annotation];
@@ -71,8 +77,9 @@
 
 - (RMMapLayer *)mapView:(RMMapView *)mapView layerForAnnotation:(RMAnnotation *)annotation
 {
+//    RMMarker *marker = [[RMMarker alloc] initWithUIImage:[UIImage imageNamed:@"map-marker"]];
+//   
     RMMarker *marker = [[RMMarker alloc] initWithMapBoxMarkerImage];
-   
     marker.canShowCallout = YES;
     UIButton *theButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
     marker.rightCalloutAccessoryView = theButton;
@@ -83,8 +90,9 @@
 - (void)tapOnCalloutAccessoryControl:(UIControl *)control forAnnotation:(RMAnnotation *)annotation onMap:(RMMapView *)map
 {
     PoposDetailViewController *detailController = [[PoposDetailViewController alloc] init];
-    [self.navigationController pushViewController:detailController animated:YES];
     detailController.popo = annotation.userInfo;
+    [self.navigationController pushViewController:detailController animated:YES];
+
 }
 
 - (void)didReceiveMemoryWarning
