@@ -2,7 +2,6 @@ class PoposController < ApplicationController
   # GET /popos
   # GET /popos.json
   def index
-    authorize! :edit, Popo
     @popos = Popo.all
 
     respond_to do |format|

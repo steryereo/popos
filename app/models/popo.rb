@@ -1,3 +1,4 @@
+require 'csv'
 class Popo
   include Mongoid::Document
   include Mongoid::Timestamps
@@ -51,6 +52,32 @@ class Popo
     self.restroom = (self[:Restroom] == "Y")
   end
 
+  def self.import
+    import_fields = {
+      'downtown_plan' => :downtown_plan
+    }
+
+    popos = Popo.all
+    csv_text = File.read("sf_popos_import.csv")
+    csv = CSV.parse(csv_text, :headers => true)
+    csv.each do |row|
+      row = row.to_hash.with_indifferent_access
+      if !row['pic_1'].blank?
+        popo = popos.select{ |p| !p.pic_1.match(row['pic_1']).nil? }.first
+        if popo
+          import_fields.each do |k,v|
+            puts "update #{v} <#{popo[v]}> to <#{row[k]}>"
+            popo[v] = row[k].to_i == 1
+          end
+          puts "--- saving"
+          popo.save!
+        else
+          puts "No popo found #{row['pic_1']}"
+        end
+      end
+    end
+  end
+
   def as_json(options = {})
     {
       id: self.id.to_s,
@@ -61,10 +88,12 @@ class Popo
       address: self.address,
       type: self.type,
       year_built: self.year_built,
+      downtown_plan: self.downtown_plan,
 
       directions: self.directions,
       open_times: self.open_times,
       rating: self.rating,
+      spur_rating: self.spur_rating ? self.spur_rating.downcase : nil,
       foursquareid: self.foursquareid,
       spurid: self.spurid,
       transportation: self.transportation,
@@ -72,8 +101,11 @@ class Popo
       pic_1: self.pic_1,
 
       food: self.food,
+      food_notes: self.food_notes,
       seating: self.seating,
+      seating_notes: self.seating_notes,
       restroom: self.restroom,
+      restroom_notes: self.restroom_notes,
       wifi: self.wifi,
       indoor: self.indoor,
       tables: self.tables
