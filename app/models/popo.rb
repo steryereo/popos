@@ -13,6 +13,9 @@ class Popo
   field :directions,   type: String
   field :open_times,   type: String
   field :rating,       type: String
+  field :spur_rating,  type: String
+  field :downtown_plan,   type: Boolean
+
   field :foursquareid, type: String
   field :spurid,       type: String
   field :transportation,   type: String
@@ -20,11 +23,16 @@ class Popo
   field :pic_1,            type:  String
 
   field :food,     type: Boolean, :default => false
+  field :food_notes,     type: String
   field :seating,  type: Boolean, :default => false
+  field :seating_notes,  type: String
   field :restroom, type: Boolean, :default => false
+  field :restroom_notes, type: String
+
   field :wifi,     type: Boolean, :default => false
   field :indoor,   type: Boolean, :default => false
   field :tables,   type: Boolean, :default => false
+  field :notes,    type: String
 
   embeds_many :contacts
   embeds_many :comments
