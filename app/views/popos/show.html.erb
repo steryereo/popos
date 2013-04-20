@@ -1,5 +1,33 @@
 <p id="notice"><%= notice %></p>
 
+<h1><%= @popo.name %></h1>
+
+<% if !@popo.pic_1.blank? %>
+  <img src="<%= @popo.pic_1 %>">
+<% end %>
+
+<dl class="dl-horizontal">
+  <%= render 'show_item', :title => "Name", :content => @popo.name %>
+  <%= render 'show_item', :title => "Description", :content => @popo.description %>
+  <%= render 'show_item', :title => "Address", :content => @popo.address %>
+  <%= render 'show_item', :title => "Latitude", :content => @popo.latitude %>
+  <%= render 'show_item', :title => "Longitude", :content => @popo.longitude %>
+  <%= render 'show_item', :title => "Type", :content => @popo.type %>
+  <%= render 'show_item', :title => "Year Built", :content => @popo.year_built %>
+  <%= render 'show_item', :title => "Directions", :content => @popo.directions %>
+  <%= render 'show_item', :title => "Open Times", :content => @popo.open_times %>
+  <%= render 'show_item', :title => "Rating", :content => @popo.rating %>
+  <%= render 'show_item', :title => "4Sq ID", :content => @popo.foursquareid %>
+  <%= render 'show_item', :title => "Spur ID", :content => @popo.spurid %>
+  <%= render 'show_item', :title => "Transportation", :content => @popo.transportation %>
+  <%= render 'show_item', :title => "Twitter \#tag", :content => @popo.twitter_hash_tag %>
+  <%= render 'show_item', :title => "Food", :content => @popo.food ? 'Y' : 'N' %>
+  <%= render 'show_item', :title => "Seating", :content => @popo.seating ? 'Y' : 'N' %>
+  <%= render 'show_item', :title => "Restroom", :content => @popo.restroom ? 'Y' : 'N' %>
+  <%= render 'show_item', :title => "Wifi", :content => @popo.wifi ? 'Y' : 'N' %>
+  <%= render 'show_item', :title => "Indoors", :content => @popo.indoor ? 'Y' : 'N' %>
+  <%= render 'show_item', :title => "Tables", :content => @popo.tables ? 'Y' : 'N' %>
+</dl>
 
 <%= link_to 'Edit', edit_popo_path(@popo) %> |
 <%= link_to 'Back', popos_path %>
