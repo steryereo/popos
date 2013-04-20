@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="corporate, business software, app, one page template" />
+<meta name="keywords" content="one page template, corporate, software, app, business, marketing, landing page, web marketing, internate marketing"/>
+<meta name="author" content="Tansh" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<title>Theflow by Tansh</title>
+
+<!--Fav and touch icons-->
+<link rel="shortcut icon" href="images/icons/favicon.ico">
+<link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-touch-icon-114x114.png">
+
+<!--google web font-->
+<link href='http://fonts.googleapis.com/css?family=Vollkorn:400,400italic|Lato:400,300,300italic,400italic' rel='stylesheet' type='text/css'>
+
+<!--style sheets-->
+<link rel="stylesheet" media="screen" href="css/style.css"/>
+<link rel="stylesheet" media="screen" href="css/skeleton.css"/>
+
+<!--jquery libraries / others are at the bottom-->
+<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="js/modernizr.js" type="text/javascript"></script>
+
+<!--slider scripts starts-->
+<link rel="stylesheet" media="screen" href="css/cslider.css"/>
+<script src="js/jquery.cslider.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function() {
+	$('#da-slider').cslider({
+	autoplay	: true,
+	interval	: 5000  // time between transitions
+	});
+});
+</script>
+<!--slider scripts ends-->
+
+<!--prettyPhoto scripts starts-->
+<link rel="stylesheet" media="screen" href="css/prettyPhoto.css"/>
+<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+$('a[data-rel]').each(function() {
+    $(this).attr('rel', $(this).data('rel'));
+});
+$("a[rel^='prettyPhoto[gallery1]']").prettyPhoto({
+	animation_speed: 'fast',
+	slideshow: 5000,
+	autoplay_slideshow: false,
+	opacity: 0.80,
+	show_title: false,
+	theme: 'pp_default', /* light_rounded / dark_rounded / light_square / dark_square / facebook */
+	overlay_gallery: false,
+	social_tools: false,
+	deeplinking:false,
+	changepicturecallback: function(){
+	var $pp = $('.pp_default');
+	if( parseInt( $pp.css('left') ) < 0 ){
+	$pp.css('left', 0 );
+	}
+	}
+});
+});
+</script>
+<!--prettyPhoto scripts ends-->
+
+<!--carousel scripts starts-->
+<link rel="stylesheet" media="screen" href="css/jcarousel.css"/>
+<script src="js/jquery.jcarousel.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+var $postcarousel = $('#mycarousel');
+if( $postcarousel.length ) {
+	var scrollCount;
+	if( $(window).width() < 480 ) {
+    scrollCount = 1;
+    } else if( $(window).width() < 768 ) {
+    scrollCount = 1;
+    } else if( $(window).width() < 960 ) {
+    } else {
+    scrollCount = 1;
+    }
+    $postcarousel.jcarousel({
+    easing: 'easeInOutQuint',
+    animation: 600,
+    scroll    : scrollCount
+});
+}
+});
+</script>
+<!--carousel scripts ends-->
+
+<!--contact form scripts starts-->
+<script src="js/jquery.validate.js" type="text/javascript"></script>
+<script src="js/jquery.form.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+//Contact form
+$(function() {
+	var v = $("#contactform").validate({
+	submitHandler: function(form) {
+	$(form).ajaxSubmit({
+	target: "#result",
+	clearForm: true
+	});
+	}
+	});
+});
+//To clear form field on page refresh
+$('#contactform #message').val('');
+});
+</script>
+<!--contact form scripts ends-->
+
+</head>
+<body>
+
+<!--header_wrapper starts-->
+<div id="header_wrapper" class="scroll-content">
+  <div class="container clearfix"> 
+    
+    <!--header starts-->
+    <div id="header"> 
+      
+      <!--logo starts-->
+      <div class="four columns logo alpha"> <a href="#header_wrapper">
+        <h1><img src="images/logo.png" width="122" height="62" alt="logo"></h1>
+        </a> </div>
+      <!--logo ends--> 
+      
+      <!--menu / navigation starts-->
+      <div id="nav" class="twelve columns omega">
+        <ul>
+          <li><a href="#header_wrapper" class="nav-header_wrapper nav selected">Home</a></li>
+          <li><a href="#features" class="nav-features nav">Features</a></li>
+          <li><a href="#screenshots" class="nav-screenshots nav">Views</a></li>
+          <li><a href="#download" class="nav-download nav">Download</a></li>
+          <li><a href="#contact" class="nav-contact nav">Contact</a></li>
+         
+      </div>
+      <!--menu / navigation ends-->
+      
+      <div class="clear"></div>
+    </div>
+    <!--header ends--> 
+    
+    <!--slider starts-->
+    <div id="slider_wrapper">
+      <div id="da-slider" class="da-slider"> 
+        
+        <!--slide one starts-->
+        <div class="da-slide">
+          <h2>Find<strong> SF POPOS</strong></h2>
+          <p>With SFPOPOS, you can easily find nearby POPOS to get a great view of The City by The Bay, or find a place to eat you're lunch.</p>
+          <a href="#" class="da-link btn_googleplay"></a>
+          <div class="da-img"><img src="images/preview/iphone.png" alt="image"/></div>
+        </div>
+        <!--slide one ends--> 
+        
+        <!--slide two starts-->
+        <div class="da-slide">
+          <h2>Privately Owned,
+          <br>Public Spaces</h2>
+          
+          <p><br><br>A POPO, or a privately owned public space, is a location that is open to the public but had to be built by a private company by law. Many companies try to hide these from the public and we want to give the public access.</p>
+          <a href="#" class="da-link btn_appstore"></a>
+          <div class="da-img"><img src="images/preview/light.png" alt="image"/></div>
+        </div>
+        <!--slide two ends--> 
+        
+        <!--slide three starts-->
+        
+        <!--slide three ends--> 
+        
+      </div>
+    </div>
+    
+    <!--slider ends--> 
+    
+    <!--replace slider with following while responsive (in mobile)-->
+    <div id="slider_replace">
+      <div class="eight columns"><img src="images/preview/iphone.png" alt="image"/></div>
+      <div class="eight columns">
+        <h2>Get Head<strong>start</strong></h2>
+        <p> There's a voice that keeps on calling me. Down the road, that's where I'll always be. Every stop I make, I make a new friend. Can't stay for long, just turn around and I'm gone again. Maybe tomorrow, I'll want to settle down, Until tomorrow, I'll just keep moving on.</p>
+        <a href="#" class="btn_googleplay"></a> </div>
+    </div>
+    <!--slider_replace ends--> 
+    
+  </div>
+</div>
+<!--header_wrapper ends--> 
+
+<!--features section starts-->
+<div id="features" class="container clearfix scroll-content"> 
+  
+  <!--text and button-->
+  <div class="sixteen columns">
+    <h1>See the hidden spots of San Francisco</h1>
+   
+    <div class="centerline">
+      
+    </div>
+  </div>
+  
+  <!--feature one starts-->
+  <div class="four columns">
+    <div class="icon_bg"><img src="images/icons/icon-1.png" width="92" height="92" alt="icon"></div>
+    <h4>Art Installations</h4>
+    <p>Don't miss out on these amazing works of local artists!</p>
+  </div>
+  <!--feature one ends--> 
+  
+  <!--feature two starts-->
+  <div class="four columns">
+    <div class="icon_bg"><img src="images/icons/icon-2.png" width="92" height="92" alt="icon"></div>
+    <h4>Music Performances</h4>
+    <p>What better way to celebrate the .</p>
+  </div>
+  <!--feature two ends--> 
+  
+  <!--feature three starts-->
+  <div class="four columns">
+    <div class="icon_bg"><img src="images/icons/icon-3.png" width="92" height="92" alt="icon"></div>
+    <h4>Open Spaces</h4>
+    <p>Checkout these amazing views of The City by The Bay.</p>
+  </div>
+  <!--feature three ends--> 
+  
+  <!--feature four starts-->
+  <div class="four columns">
+    <div class="icon_bg"><img src="images/icons/icon-4.png" width="92" height="92" alt="icon"></div>
+    <h4>Closed Spaces</h4>
+    <p>Check out these great places to step out from the rain or eat your lunch and take in some scenery.</p>
+  </div>
+  <!--feature four ends--> 
+  
+</div>
+<!--features section ends--> 
+
+<!--screenshots section starts-->
+<div class="row_color">
+  <div id="screenshots" class="container clearfix scroll-content">
+    <div class="columns sixteen"> 
+      
+      <!--heading (do not remove clear below heading)-->
+      <h2>Views</h2>
+      <p class="textstyle2">Checkout what you're missing.</p>
+      <br class="clear"/>
+      
+      <!--gallery / carousel starts-->
+      <ul id="mycarousel" class="jcarousel-skin-tango">
+        <li>
+          <div class="thumb"><a href="images/preview/large1.jpg" data-rel="prettyPhoto[gallery1]" title="555 Mission Scultpure Garden"><img src="images/preview/thumb-1.jpg" alt="Image"/><span class="zoom zoom_icon"></span></a> </div>
+        </li>
+        <li>
+          <div class="thumb"><a href="images/preview/large2.jpg" data-rel="prettyPhoto[gallery1]" title="343 Sansome Roof Garden"><img src="images/preview/thumb-2.jpg" alt="Image"/><span class="zoom zoom_icon"></span></a> </div>
+        </li>
+        <li>
+          <div class="thumb"><a href="images/preview/large3.jpg" data-rel="prettyPhoto[gallery1]" title="Sky Terrace - Westfield Mall"><img src="images/preview/thumb-3.jpg" alt="Image"/><span class="zoom zoom_icon"></span></a> </div>
+        </li>
+        <li>
+          <div class="thumb"><a href="images/preview/large4.jpg" data-rel="prettyPhoto[gallery1]" title="This is title of image"><img src="images/preview/thumb-4.jpg" alt="Image"/><span class="zoom zoom_icon"></span></a> </div>
+        </li>
+        <li>
+          <div class="thumb"><a href="images/preview/large5.jpg" data-rel="prettyPhoto[gallery1]" title="This is title of image"><img src="images/preview/thumb-5.jpg" alt="Image"/><span class="zoom zoom_icon"></span></a> </div>
+        </li>
+        <li>
+          <div class="thumb"><a href="images/preview/large6.jpg" data-rel="prettyPhoto[gallery1]" title="This is title of image"><img src="images/preview/thumb-6.jpg" alt="Image"/><span class="zoom zoom_icon"></span></a> </div>
+        </li>
+      </ul>
+      <!--gallery / carousel ends--> 
+      
+    </div>
+  </div>
+</div>
+<!--screenshots section ends--> 
+
+
+
+<!--download section starts-->
+
+  <div id="download" class="container clearfix scroll-content">
+    <div class="columns sixteen"> 
+      
+      <!--grey logo-->
+      
+      <h2>Don't wait. Immerse yourself in the hidden POPOS of San Francisco.</h2>
+      <ul class="textlist">
+        <li> 84+ POPOS </li>
+        <li>| </li>
+        <li> Open to the public </li>
+        <li>| </li>
+        <li>Don't Miss Out</li>
+      </ul>
+      <!--center aligned button-->
+      <div align="center">
+     <a href="#" class="da-link btn_appstore"></a>
+     </div>
+    </div>
+  </div>
+
+<!--download section ends--> 
+
+<!--contact section starts-->
+<div class="row_color">
+  <div id="contact" class="container clearfix scroll-content"> 
+    
+    <!--heading here-->
+    <div class="columns sixteen">
+      <h2>Get In Touch</h2>
+      <p class="textstyle2">just say hello! or send us a message</p>
+    </div>
+    
+    <!--contact form starts-->
+    <div class="column two-thirds">
+      <form  id="contactform" method="post" action="submit-form.php">
+        <fieldset>
+          <div class="column one-third alpha">
+            <p>
+              <input name="name"  type="text" placeholder="Name"/>
+            </p>
+            <p>
+              <input name="email"  type="text" placeholder="Email" class="required email"/>
+            </p>
+            <p>
+              <input name="subject"  type="text" placeholder="Subject">
+            </p>
+          </div>
+          <div class="column one-third omega">
+            <p>
+              <textarea name="message" id="message" class="required" placeholder="Message"></textarea>
+            </p>
+            <p class="antispam">Leave this empty: <br />
+              <input name="url" />
+            </p>
+            <p>
+              <input class="submit" type="submit" value="Submit Message"/>
+            </p>
+            <div id="result"></div>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+    <!--contact form ends--> 
+    
+    <!--address / social starts-->
+    <div class="column one-third address">
+      <ul class="social">
+        <li><a href="#"><img src="images/icons/social-footer-dribbble.png" width="46" height="46" alt="icon"></a></li>
+        <li><a href="#"><img src="images/icons/social-footer-skype.png" width="46" height="46" alt="icon"></a></li>
+        <li><a href="#"><img src="images/icons/social-footer-facebook.png" width="46" height="46" alt="icon"></a></li>
+        <li><a href="#"><img src="images/icons/social-footer-twitter.png" width="46" height="46" alt="icon"></a></li>
+      </ul>
+      <div class="contact_info"> <a href="#" >hello@companyname.com</a>
+        <p>+12 (0) 345 678 9012</p>
+      </div>
+      <p>Lorem ip do SIT<br/>
+        Ametconsecte5, Northbloc D<br/>
+        3456 ipsumcity, Country </p>
+    </div>
+    <!--address / social ends--> 
+    
+
+    
+  </div>
+  
+  <!--footer starts-->
+  <div id="footer">
+    
+    <ul>
+      <li><a href="#">Terms of use </a></li>
+      <li><a href="#">Privacy policy</a></li>
+    </ul>
+    <div class="clear"></div>
+  </div>
+  <!--footer ends-->
+  
+  <div class="clear"></div>
+</div>
+<!--contact section ends--> 
+
+<!--scroll to top arrow--> 
+<a class="scrollToTop"></a> 
+
+<!--other jqueries required--> 
+<script src="js/jquery.easing.1.3.js" type="text/javascript"></script> 
+<script src="js/twitter.js" type="text/javascript"></script> 
+<script src="js/custom.js" type="text/javascript"></script>
+</body>
+</html>
