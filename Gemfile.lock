@@ -118,6 +118,8 @@ GEM
     rake (10.0.4)
     rdoc (3.12.2)
       json (~> 1.4)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
     sass (3.2.7)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
@@ -157,6 +159,7 @@ DEPENDENCIES
   pry-debugger (= 0.2.0)
   pry-stack_explorer (= 0.4.7)
   rails (= 3.2.11)
+  rest-client
   sass-rails (~> 3.2.3)
   spork (= 0.9.2)
   symbolize
