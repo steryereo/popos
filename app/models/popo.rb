@@ -11,9 +11,11 @@ class Popo
   field :close_time,   type: Time
   field :rating,       type: Float
   field :foursquareid, type: String
+  field :twitter_hash_tag, type: String
 
   embeds_many :amenities
   embeds_many :contacts
+  embeds_many :comments
 
   validates_presence_of :name, :latitude, :longitude
 
