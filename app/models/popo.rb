@@ -43,4 +43,33 @@ class Popo
     self.restroom = (self[:Restroom] == "Y")
   end
 
+  def as_json(options = {})
+    {
+      id: self.id.to_s,
+      name: self.name,
+      description: self.description,
+      latitude: self.latitude,
+      longitude: self.longitude,
+      address: self.address,
+      type: self.type,
+      year_built: self.year_built,
+
+      directions: self.directions,
+      open_times: self.open_times,
+      rating: self.rating,
+      foursquareid: self.foursquareid,
+      spurid: self.spurid,
+      transportation: self.transportation,
+      twitter_hash_tag: self.twitter_hash_tag,
+      pic_1: self.pic_1,
+
+      food: self.food,
+      seating: self.seating,
+      restroom: self.restroom,
+      wifi: self.wifi,
+      indoor: self.indoor,
+      tables: self.tables
+    }
+  end
+
 end
