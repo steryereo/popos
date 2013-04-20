@@ -1,0 +1,27 @@
+<h1>Listing popos</h1>
+
+<table class="table table-hover">
+  <tr>
+    <th>Name</th>
+    <th>Address</th>
+    <th>Type</th>
+    <th>Open Time</th>
+    <th></th>
+  </tr>
+
+<% @popos.each do |popo| %>
+  <tr>
+    <td><%= popo.name %></td>
+    <td><%= popo.description %></td>
+    <td><%= popo.type %></td>
+    <td><%= popo.open_times %></td>
+    <td><%= link_to 'Show', popo %> |
+    <%= link_to 'Edit', edit_popo_path(popo) %>
+    </td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Popo', new_popo_path %>

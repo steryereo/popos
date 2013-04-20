@@ -1,20 +1,17 @@
 development:
-  host: localhost
-  database: popos_development
+  host: <%= ENV["MONGOLAB_POPOS_HOST"] %>
+  port: <%= ENV["MONGOLAB_POPOS_PORT"] %>
+  database: <%= ENV["MONGOLAB_POPOS_DATABASE"] %>
+  username: <%= ENV["MONGOLAB_POPOS_USERNAME"] %>
+  password: <%= ENV["MONGOLAB_POPOS_PASSWORD"] %>
 
 test:
   host: localhost
   database: popos_test
 
-# set these environment variables on your prod server
 production:
-  host: <%= ENV['MONGOID_HOST'] %>
-  port: <%= ENV['MONGOID_PORT'] %>
-  username: <%= ENV['MONGOID_USERNAME'] %>
-  password: <%= ENV['MONGOID_PASSWORD'] %>
-  database: <%= ENV['MONGOID_DATABASE'] %>
-  # slaves:
-  #   - host: slave1.local
-  #     port: 27018
-  #   - host: slave2.local
-  #     port: 27019
+  host: <%= ENV["MONGOLAB_POPOS_HOST"] %>
+  port: <%= ENV["MONGOLAB_POPOS_PORT"] %>
+  database: <%= ENV["MONGOLAB_POPOS_DATABASE"] %>
+  username: <%= ENV["MONGOLAB_POPOS_USERNAME"] %>
+  password: <%= ENV["MONGOLAB_POPOS_PASSWORD"] %>

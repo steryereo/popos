@@ -25,13 +25,15 @@
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     self.window.rootViewController = tabBarController;
     
+
     UIViewController *mapViewController = [[MapViewController alloc] init];
+    UINavigationController *wrapper = [[UINavigationController alloc] initWithRootViewController:mapViewController];
     mapViewController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Map" image:nil tag:0];
     
     UIViewController *nearestController = [[UIViewController alloc] init];
     nearestController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Nearest" image:nil tag:0];
     
-    tabBarController.viewControllers = @[mapViewController, nearestController];
+    tabBarController.viewControllers = @[wrapper, nearestController];
     
     return YES;
 }
