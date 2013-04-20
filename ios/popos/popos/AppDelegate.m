@@ -42,9 +42,6 @@
     nearestController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Nearest" image:nil tag:0];
     
     [nearestController.tabBarItem setFinishedSelectedImage:[UIImage imageNamed:@"Search"] withFinishedUnselectedImage:[UIImage imageNamed:@"Search"]];
-//    UIViewController *homeController = [[HomeController alloc] init];
-//    homeController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Home" image:nil tag:0];
-
     
     tabBarController.viewControllers = @[wrapper, nearestController];
     

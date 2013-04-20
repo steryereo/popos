@@ -37,6 +37,8 @@
 		DF305A9F17233D57006958AD /* music@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF305A9917233D57006958AD /* music@2x.png */; };
 		DF305AA017233D57006958AD /* muni@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF305A9A17233D57006958AD /* muni@2x.png */; };
 		DF305AA117233D57006958AD /* dining@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF305A9B17233D57006958AD /* dining@2x.png */; };
+		DF305AA7172359B2006958AD /* Key_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DF305AA6172359B2006958AD /* Key_Icon.png */; };
+		DF305AA9172359BB006958AD /* Key_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DF305AA8172359BB006958AD /* Key_Icon.png */; };
 		DF4EBF0C1722F5B4008AA009 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4EBF0B1722F5B4008AA009 /* UIKit.framework */; };
 		DF4EBF0E1722F5B4008AA009 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4EBF0D1722F5B4008AA009 /* Foundation.framework */; };
 		DF4EBF101722F5B4008AA009 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4EBF0F1722F5B4008AA009 /* CoreGraphics.framework */; };
@@ -85,6 +87,8 @@
 		DF305A9917233D57006958AD /* music@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "music@2x.png"; sourceTree = "<group>"; };
 		DF305A9A17233D57006958AD /* muni@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "muni@2x.png"; sourceTree = "<group>"; };
 		DF305A9B17233D57006958AD /* dining@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dining@2x.png"; sourceTree = "<group>"; };
+		DF305AA6172359B2006958AD /* Key_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Key_Icon.png; path = popos/Key_Icon.png; sourceTree = "<group>"; };
+		DF305AA8172359BB006958AD /* Key_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Key_Icon.png; sourceTree = "<group>"; };
 		DF4EBF081722F5B4008AA009 /* popos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = popos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF4EBF0B1722F5B4008AA009 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DF4EBF0D1722F5B4008AA009 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -125,6 +129,7 @@
 		DF305A6117233C27006958AD /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				DF305AA6172359B2006958AD /* Key_Icon.png */,
 				DF305A9617233D57006958AD /* bathroom@2x.png */,
 				DF305A9717233D57006958AD /* art@2x.png */,
 				DF305A9817233D57006958AD /* review@2x.png */,
@@ -148,6 +153,7 @@
 		DF4EBEFF1722F5B4008AA009 = {
 			isa = PBXGroup;
 			children = (
+				DF305AA8172359BB006958AD /* Key_Icon.png */,
 				DF305A6117233C27006958AD /* Images */,
 				DF305A5C17233B27006958AD /* HomeController.h */,
 				DF305A5D17233B27006958AD /* HomeController.m */,
@@ -293,6 +299,8 @@
 				DF305A9F17233D57006958AD /* music@2x.png in Resources */,
 				DF305AA017233D57006958AD /* muni@2x.png in Resources */,
 				DF305AA117233D57006958AD /* dining@2x.png in Resources */,
+				DF305AA7172359B2006958AD /* Key_Icon.png in Resources */,
+				DF305AA9172359BB006958AD /* Key_Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
