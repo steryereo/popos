@@ -37,6 +37,7 @@
 
 - (void)setPopo:(Popo *)popo {
     self.hoursLabel.text = popo.hours;
+    self.descriptionLabel.text = popo.description;
     _popo = popo;
 }
 

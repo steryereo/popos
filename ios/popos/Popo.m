@@ -10,11 +10,12 @@
 
 @implementation Popo
 
-- (id)initWithCoordinate:(CLLocationCoordinate2D)coord hours:(NSString *)hours{
+- (id)initWithCoordinate:(CLLocationCoordinate2D)coord hours:(NSString *)hours description:(NSString *)description{
     self = [super init];
     if (self) {
         self.coord = coord;
         self.hours = hours;
+        self.description = description;
     }
     return self;
 }

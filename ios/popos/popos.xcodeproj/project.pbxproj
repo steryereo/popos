@@ -14,7 +14,6 @@
 		DF305A30172301D0006958AD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF305A2F172301D0006958AD /* libz.dylib */; };
 		DF305A3217230212006958AD /* MapBox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DF305A3117230212006958AD /* MapBox.bundle */; };
 		DF305A3517230235006958AD /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF305A3417230235006958AD /* MapViewController.m */; };
-		DF305A41172309EB006958AD /* foo.png in Resources */ = {isa = PBXBuildFile; fileRef = DF305A40172309EB006958AD /* foo.png */; };
 		DF305A4417231171006958AD /* popos.json in Resources */ = {isa = PBXBuildFile; fileRef = DF305A4317231171006958AD /* popos.json */; };
 		DF305A4C17231579006958AD /* Popo.m in Sources */ = {isa = PBXBuildFile; fileRef = DF305A4B17231579006958AD /* Popo.m */; };
 		DF305A5817231E03006958AD /* PoposDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF305A5617231E03006958AD /* PoposDetailViewController.m */; };
@@ -41,7 +40,6 @@
 		DF305A3117230212006958AD /* MapBox.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MapBox.bundle; path = ../../../../Downloads/MapBox.framework/Versions/A/Resources/MapBox.bundle; sourceTree = "<group>"; };
 		DF305A3317230235006958AD /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		DF305A3417230235006958AD /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
-		DF305A40172309EB006958AD /* foo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = foo.png; path = popos/foo.png; sourceTree = "<group>"; };
 		DF305A4317231171006958AD /* popos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = popos.json; path = popos/popos.json; sourceTree = "<group>"; };
 		DF305A4A17231579006958AD /* Popo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Popo.h; sourceTree = "<group>"; };
 		DF305A4B17231579006958AD /* Popo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Popo.m; sourceTree = "<group>"; };
@@ -94,7 +92,6 @@
 				DF305A4A17231579006958AD /* Popo.h */,
 				DF305A4B17231579006958AD /* Popo.m */,
 				DF305A4317231171006958AD /* popos.json */,
-				DF305A40172309EB006958AD /* foo.png */,
 				DF305A3117230212006958AD /* MapBox.bundle */,
 				DF305A2F172301D0006958AD /* libz.dylib */,
 				DF305A2D172301C7006958AD /* libsqlite3.dylib */,
@@ -209,7 +206,6 @@
 				DF4EBF221722F5B4008AA009 /* Default@2x.png in Resources */,
 				DF4EBF241722F5B4008AA009 /* Default-568h@2x.png in Resources */,
 				DF305A3217230212006958AD /* MapBox.bundle in Resources */,
-				DF305A41172309EB006958AD /* foo.png in Resources */,
 				DF305A4417231171006958AD /* popos.json in Resources */,
 				DF305A5917231E03006958AD /* PoposDetailViewController.xib in Resources */,
 			);

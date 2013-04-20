@@ -35,6 +35,7 @@
     RMMapView *mapView = [[RMMapView alloc] initWithFrame:self.view.bounds andTilesource:onlineSource];
 
     mapView.zoom = 17;
+    mapView.centerCoordinate = CLLocationCoordinate2DMake(37.7920,-122.399);
     mapView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
     [self.view addSubview:mapView];
     mapView.delegate = self;
@@ -51,11 +52,15 @@
         NSArray *coords = popoDict[@"geometry"][@"coordinates"];
         NSString *hours = popoDict[@"properties"][@"HOURS"];
         if ([hours isEqual:[NSNull null]]) {
-            NSLog(@"================> %@", @"Found null");
             hours = @"Unknown";
         }
+        
+        NSString *description = popoDict[@"properties"][@"Descriptio"];
+        if ([description isEqual:[NSNull null]]) {
+            description = @"We don't have directions to this place!";
+        }
 
-        Popo *popo = [[Popo alloc] initWithCoordinate:CLLocationCoordinate2DMake([coords[1] floatValue],[coords[0] floatValue]) hours:hours];
+        Popo *popo = [[Popo alloc] initWithCoordinate:CLLocationCoordinate2DMake([coords[1] floatValue],[coords[0] floatValue]) hours:hours description:description];
 
         RMAnnotation *annotation = [RMAnnotation annotationWithMapView:mapView coordinate:popo.coord andTitle:@"foo"];
         annotation.userInfo = popo;
@@ -77,7 +82,6 @@
 
 - (void)tapOnCalloutAccessoryControl:(UIControl *)control forAnnotation:(RMAnnotation *)annotation onMap:(RMMapView *)map
 {
-    NSLog(@"================> %@", @"SELECTED");
     PoposDetailViewController *detailController = [[PoposDetailViewController alloc] init];
     [self.navigationController pushViewController:detailController animated:YES];
     detailController.popo = annotation.userInfo;
@@ -90,7 +94,6 @@
 }
 
 - (void)mapView:(RMMapView *)mapView didSelectAnnotation:(RMAnnotation *)annotation {
-    NSLog(@"================> %@", @"Selected");
 }
 
 @end
