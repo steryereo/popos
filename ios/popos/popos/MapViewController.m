@@ -52,20 +52,21 @@
     
     self.allPopos = [[NSMutableArray alloc] init];
 
-    for (NSDictionary *popoDict in popos[@"features"]) {
-        NSArray *coords = popoDict[@"geometry"][@"coordinates"];
+    for (NSDictionary *popoDict in popos) {
+        NSArray *coords = @[popoDict[@"latitude"],popoDict[@"longitude"]];
+    
         
-        NSString *poposName = popoDict[@"properties"][@"NAME"];
+        NSString *poposName = popoDict[@"name"];
         if ([poposName isKindOfClass:[NSNull class]]) {
             poposName = @"Unknown";
         }
         
-        NSString *hours = popoDict[@"properties"][@"HOURS"];
+        NSString *hours = popoDict[@"open_times"];
         if ([hours isKindOfClass:[NSNull class]]) {
             hours = @"Unknown";
         }
         
-        NSString *description = popoDict[@"properties"][@"Descriptio"];
+        NSString *description = popoDict[@"description"];
         if ([description isKindOfClass:[NSNull class]]) {
             description = @"We don't have directions to this place!";
         }
