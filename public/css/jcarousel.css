@@ -1,0 +1,142 @@
+.jcarousel-skin-tango .jcarousel-container {
+}
+.jcarousel-skin-tango .jcarousel-direction-rtl {
+	direction: rtl;
+}
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+	width: 940px;
+	padding: 0;
+}
+.jcarousel-skin-tango .jcarousel-clip {
+	overflow: hidden;
+}
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+	width:  940px;
+	height: 155px;
+}
+.jcarousel-skin-tango .jcarousel-item {
+	width: 220px;
+	height: 155px;
+}
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+	margin-left: 0;
+	margin-right: 20px !important;
+}
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin-left: 20px !important;
+	margin-right: 0;
+}
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+	background: #fff;
+	color: #000;
+}
+/*Horizontal Buttons*/
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+	position: absolute;
+	top: -38px;
+	right: 0px;
+	background: url(../images/carousal-arr-sprite.png) no-repeat -29px 0;
+	width: 29px;
+	height: 32px;
+	cursor: pointer;
+}
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-next-horizontal {
+	left: 0px;
+	right: auto;
+	background-image: url(../images/carousal-arr-sprite.png);
+}
+.jcarousel-skin-tango .jcarousel-next-horizontal:hover, .jcarousel-skin-tango .jcarousel-next-horizontal:focus {
+	background-position: -29px -32px;
+}
+.jcarousel-skin-tango .jcarousel-next-horizontal:active {
+	background-position: -29px 0px;
+}
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal, .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover, .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:focus, .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+	cursor: default;
+	background-position: -29px -32px;
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+	position: absolute;
+	top: -38px;
+	right: 30px;
+	background: url(../images/carousal-arr-sprite.png) no-repeat 0 -32px;
+	width: 29px;
+	height: 32px;
+	cursor: pointer;
+}
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+	left: auto;
+	right: 0px;
+	background-image: url(../images/carousal-arr-sprite.png);
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover, .jcarousel-skin-tango .jcarousel-prev-horizontal:focus {
+	background-position: 0 0;
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+	background-position: 0 -32px;
+}
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal, .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover, .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:focus, .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+	cursor: default;
+	background-position: 0 0;
+}
+
+/*----------------------------------------*/
+/*----- jcarousel for Mobile (Portrait) / Design for a width of 320px -----*/
+/*----------------------------------------*/
+
+@media only screen and (max-width: 767px) {
+ul#mycarousel {
+margin-top: 30px !important;
+}
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+ width: 220px;
+ padding: 0;
+}
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+ width:  220px;
+ height: 185px;
+}
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+ position: absolute;
+ top: -5px;
+ right: 0px;
+ background: url(../images/carousal-arr-sprite.png) no-repeat -29px 0;
+ width: 29px;
+ height: 32px;
+ cursor: pointer;
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+ position: absolute;
+ top: -5px;
+ right: 30px;
+ background: url(../images/carousal-arr-sprite.png) no-repeat 0 -32px;
+ width: 29px;
+ height: 32px;
+ cursor: pointer;
+}
+}
+
+/*----------------------------------------*/
+/*----- jcarousel for  Mobile (Landscape) / Design for a width of 480px -----*/
+/*----------------------------------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+ul#mycarousel {
+margin-top: 30px !important;
+}
+}
+
+/*----------------------------------------*/
+/*----- 3.1 Tablet (Portrait) / Design for a width of 768px -----*/
+/*----------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+ width: 700px;
+ padding: 0;
+}
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+ width:  700px;
+ height: 155px;
+}
+}
