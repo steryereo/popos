@@ -22,6 +22,13 @@ end
 
 gem 'jquery-rails'
 
+group :test, :development do
+  gem 'pry', '0.9.9.6'
+  gem 'pry-debugger', '0.2.0'
+  gem 'spork', '0.9.2'
+  gem 'pry-stack_explorer', '0.4.7'
+end
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
