@@ -2,6 +2,7 @@ class PoposController < ApplicationController
   # GET /popos
   # GET /popos.json
   def index
+    authorize! :edit, Popo
     @popos = Popo.all
 
     respond_to do |format|
@@ -13,6 +14,7 @@ class PoposController < ApplicationController
   # GET /popos/1
   # GET /popos/1.json
   def show
+    authorize! :edit, Popo
     @popo = Popo.find(params[:id])
 
     respond_to do |format|
@@ -24,6 +26,7 @@ class PoposController < ApplicationController
   # GET /popos/new
   # GET /popos/new.json
   def new
+    authorize! :edit, Popo
     @popo = Popo.new
 
     respond_to do |format|
@@ -34,12 +37,14 @@ class PoposController < ApplicationController
 
   # GET /popos/1/edit
   def edit
+    authorize! :edit, Popo
     @popo = Popo.find(params[:id])
   end
 
   # POST /popos
   # POST /popos.json
   def create
+    authorize! :edit, Popo
     @popo = Popo.new(params[:popo])
 
     respond_to do |format|
@@ -56,6 +61,7 @@ class PoposController < ApplicationController
   # PUT /popos/1
   # PUT /popos/1.json
   def update
+    authorize! :edit, Popo
     @popo = Popo.find(params[:id])
 
     respond_to do |format|
@@ -72,6 +78,7 @@ class PoposController < ApplicationController
   # DELETE /popos/1
   # DELETE /popos/1.json
   def destroy
+    authorize! :edit, Popo
     @popo = Popo.find(params[:id])
     @popo.destroy
 
