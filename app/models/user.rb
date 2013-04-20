@@ -1,5 +1,7 @@
 class User
   include Mongoid::Document
+  include Mongoid::Timestamps
+
   # Include default devise modules. Others available are:
   # :token_authenticatable, :confirmable,
   # :lockable, :timeoutable and :omniauthable
@@ -9,7 +11,7 @@ class User
   ## Database authenticatable
   field :email,              :type => String, :default => ""
   field :encrypted_password, :type => String, :default => ""
-  
+
   ## Recoverable
   field :reset_password_token,   :type => String
   field :reset_password_sent_at, :type => Time
@@ -37,4 +39,17 @@ class User
 
   ## Token authenticatable
   # field :authentication_token, :type => String
+
+  has_and_belongs_to_many :roles, autosave: true
+
+  def set_role(role_name)
+    return if role?(role_name)
+    role = Role.where(:name => role_name).first
+    role = Role.create!(:name => role_name) if role.nil?
+    self.roles << role
+  end
+
+  def role?(role)
+    self.roles.select{ |r| r.name == role }.first != nil
+  end
 end
