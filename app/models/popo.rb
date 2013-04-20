@@ -11,17 +11,17 @@ class Popo
   field :type,         type: String
   field :year_built,   type: String
 
-  field :directions,   type: String
-  field :open_times,   type: String
-  field :rating,       type: String
-  field :spur_rating,  type: String
-  field :downtown_plan,   type: Boolean
+  field :directions,    type: String
+  field :open_times,    type: String
+  field :rating,        type: String
+  field :spur_rating,   type: String
+  field :downtown_plan, type: Boolean
 
-  field :foursquareid, type: String
-  field :spurid,       type: String
+  field :foursquareid,     type: String
+  field :spurid,           type: String
   field :transportation,   type: String
   field :twitter_hash_tag, type: String
-  field :pic_1,            type:  String
+  field :pic_1,            type: String
 
   field :food,     type: Boolean, :default => false
   field :food_notes,     type: String
