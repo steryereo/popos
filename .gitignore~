@@ -13,8 +13,3 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
-
-# Ignore IDEs and OS
-.DS_Store
-.idea
-*.sw*
