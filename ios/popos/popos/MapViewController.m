@@ -44,6 +44,28 @@
     
     
     NSString * resourcePath = [[NSBundle mainBundle] resourcePath];
+    
+    NSString* artJsonFile = [resourcePath stringByAppendingPathComponent:@"points.json"];
+    NSData* artData = [NSData dataWithContentsOfFile:artJsonFile];
+    
+    NSError *charError1 = nil;
+    NSDictionary* publicArts = [NSJSONSerialization JSONObjectWithData:artData options:kNilOptions error:&charError1];
+    for (NSDictionary *a in publicArts[@"features"]) {
+       
+        CLLocationCoordinate2D coord = CLLocationCoordinate2DMake([a[@"geometry"][@"coordinates"][1] floatValue], [a[@"geometry"][@"coordinates"][0] floatValue]);
+        RMAnnotation *annotation = [RMAnnotation annotationWithMapView:mapView coordinate:coord andTitle:@""];
+        
+        annotation.userInfo = [[NSMutableDictionary alloc] init];
+        annotation.userInfo[@"type"] = @"Art";
+        [mapView addAnnotation:annotation];
+        
+    }
+    
+    
+    
+    
+
+    
     NSString* jsonFile = [resourcePath stringByAppendingPathComponent:@"popos.json"];
     NSData* data = [NSData dataWithContentsOfFile:jsonFile];
     
@@ -80,7 +102,9 @@
             
             RMAnnotation *annotation = [RMAnnotation annotationWithMapView:mapView coordinate:popo.coord andTitle:popo.name];
             
-            annotation.userInfo = popo;
+            annotation.userInfo = [[NSMutableDictionary alloc] init];
+            annotation.userInfo[@"popo"] = popo;
+            annotation.userInfo[@"type"] = @"Popo";
             
             [mapView addAnnotation:annotation];
         }
@@ -90,19 +114,25 @@
 - (RMMapLayer *)mapView:(RMMapView *)mapView layerForAnnotation:(RMAnnotation *)annotation
 {
 //    RMMarker *marker = [[RMMarker alloc] initWithUIImage:[UIImage imageNamed:@"map-marker"]];
-//   
-    RMMarker *marker = [[RMMarker alloc] initWithMapBoxMarkerImage];
-    marker.canShowCallout = YES;
-    UIButton *theButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
-    marker.rightCalloutAccessoryView = theButton;
+//
+    if ([annotation.userInfo[@"type"] isEqualToString:@"Popo"]) {
+        RMMarker *marker = [[RMMarker alloc] initWithMapBoxMarkerImage];
+        marker.canShowCallout = YES;
+        UIButton *theButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+        marker.rightCalloutAccessoryView = theButton;
 
-    return marker;
+        return marker;
+    } else {
+        NSLog(@"================> %@", @"Drawing art");
+        RMMarker *marker = [[RMMarker alloc] initWithUIImage:[UIImage imageNamed:@"map-marker"]];
+        return marker;
+    }
 }
 
 - (void)tapOnCalloutAccessoryControl:(UIControl *)control forAnnotation:(RMAnnotation *)annotation onMap:(RMMapView *)map
 {
     PoposDetailViewController *detailController = [[PoposDetailViewController alloc] init];
-    detailController.popo = annotation.userInfo;
+    detailController.popo = annotation.userInfo[@"popo"];
     detailController.navigationItem.title = detailController.popo.name;
     [self.navigationController pushViewController:detailController animated:YES];
 
