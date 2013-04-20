@@ -33,16 +33,20 @@
     UINavigationController *wrapper = [[UINavigationController alloc] initWithRootViewController:mapViewController];
     mapViewController.navigationController.navigationBarHidden = YES;
     mapViewController.navigationItem.title = @"POPOS";
+    
+
     wrapper.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Map" image:nil tag:0];
+    [wrapper.tabBarItem setFinishedSelectedImage:[UIImage imageNamed:@"tours"] withFinishedUnselectedImage:[UIImage imageNamed:@"tours"]];
     
     UIViewController *nearestController = [[UIViewController alloc] init];
     nearestController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Nearest" image:nil tag:0];
     
-    UIViewController *homeController = [[HomeController alloc] init];
-    homeController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Home" image:nil tag:0];
+    [nearestController.tabBarItem setFinishedSelectedImage:[UIImage imageNamed:@"Search"] withFinishedUnselectedImage:[UIImage imageNamed:@"Search"]];
+//    UIViewController *homeController = [[HomeController alloc] init];
+//    homeController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Home" image:nil tag:0];
 
     
-    tabBarController.viewControllers = @[homeController, wrapper, nearestController];
+    tabBarController.viewControllers = @[wrapper, nearestController];
     
     return YES;
 }
