@@ -35,9 +35,14 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)setPopo:(Popo *)popo {
-    self.hoursLabel.text = popo.hours;
-    _popo = popo;
+- (void) viewWillAppear:(BOOL)animated {
+    self.hoursLabel.text = self.popo.hours;
+    self.descriptionLabel.text = self.popo.description;
 }
+//- (void)setPopo:(Popo *)popo {
+//    self.hoursLabel.text = popo.hours;
+//    self.descriptionLabel.text = popo.description;
+//    _popo = popo;
+//}
 
 @end

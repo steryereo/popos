@@ -12,4 +12,5 @@
 @interface PoposDetailViewController : UIViewController
 @property (strong, nonatomic) Popo *popo;
 @property (weak, nonatomic) IBOutlet UILabel *hoursLabel;
+@property (weak, nonatomic) IBOutlet UITextView *descriptionLabel;
 @end
