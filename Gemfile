@@ -10,6 +10,7 @@ gem "mongoid", '2.5.0'
 gem "symbolize", :require => "symbolize/mongoid"
 gem 'devise', '2.2.0'
 gem 'cancan', '1.6.8'
+gem 'rest-client'
 
 # Gems used only for assets and not required
 # in production environments by default.
