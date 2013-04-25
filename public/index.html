@@ -1,194 +1,199 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="description" content="" />
-<meta name="keywords" content=""/>
-<meta name="author" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-<title>SF POPOS</title>
+  <html class="no-js" lang="en">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="description" content="" />
+  <meta name="keywords" content=""/>
+  <meta name="author" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <title>SF POPOS</title>
 
-<!--Fav and touch icons-->
-<!--<link rel="shortcut icon" href="images/icons/favicon.ico">-->
-<link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-touch-icon-114x114.png">
+  <!--Fav and touch icons-->
+  <!--<link rel="shortcut icon" href="images/icons/favicon.ico">-->
+  <link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-touch-icon-114x114.png">
 
-<!--google web font-->
-<link href='http://fonts.googleapis.com/css?family=Vollkorn:400,400italic|Lato:400,300,300italic,400italic' rel='stylesheet' type='text/css'>
+  <!--google web font-->
+  <link href='http://fonts.googleapis.com/css?family=Vollkorn:400,400italic|Lato:400,300,300italic,400italic' rel='stylesheet' type='text/css'>
 
-<!--style sheets-->
-<link rel="stylesheet" media="screen" href="css/style.css"/>
-<link rel="stylesheet" media="screen" href="css/skeleton.css"/>
+  <!--style sheets-->
+  <link rel="stylesheet" media="screen" href="css/style.css"/>
+  <link rel="stylesheet" media="screen" href="css/skeleton.css"/>
 
-<!--jquery libraries / others are at the bottom-->
-<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
-<script src="js/modernizr.js" type="text/javascript"></script>
+  <!--jquery libraries / others are at the bottom-->
+  <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+  <script src="js/modernizr.js" type="text/javascript"></script>
 
-<!--slider scripts starts-->
-<link rel="stylesheet" media="screen" href="css/cslider.css"/>
-<link rel="stylesheet" media="screen" href="css/popos.css"/>
-<script src="js/jquery.cslider.js" type="text/javascript"></script>
-<script type="text/javascript">
-$(function() {
-	$('#da-slider').cslider({
-	autoplay	: true,
-	interval	: 5000  // time between transitions
-	});
-});
-</script>
-<!--slider scripts ends-->
+  <!--slider scripts starts-->
+  <link rel="stylesheet" media="screen" href="css/cslider.css"/>
+  <link rel="stylesheet" media="screen" href="css/popos.css"/>
+  <script src="js/jquery.cslider.js" type="text/javascript"></script>
+  <script type="text/javascript">
+  $(function() {
+    $('#da-slider').cslider({
+    autoplay	: true,
+    interval	: 5000  // time between transitions
+    });
+  });
+  </script>
+  <!--slider scripts ends-->
 
-<!--prettyPhoto scripts starts-->
-<link rel="stylesheet" media="screen" href="css/prettyPhoto.css"/>
-<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-$('a[data-rel]').each(function() {
-    $(this).attr('rel', $(this).data('rel'));
-});
-$("a[rel^='prettyPhoto[gallery1]']").prettyPhoto({
-	animation_speed: 'fast',
-	slideshow: 5000,
-	autoplay_slideshow: false,
-	opacity: 0.80,
-	show_title: false,
-	theme: 'pp_default', /* light_rounded / dark_rounded / light_square / dark_square / facebook */
-	overlay_gallery: false,
-	social_tools: false,
-	deeplinking:false,
-	changepicturecallback: function(){
-	var $pp = $('.pp_default');
-	if( parseInt( $pp.css('left') ) < 0 ){
-	$pp.css('left', 0 );
-	}
-	}
-});
-});
-</script>
-<!--prettyPhoto scripts ends-->
-
-<!--carousel scripts starts-->
-<link rel="stylesheet" media="screen" href="css/jcarousel.css"/>
-<script src="js/jquery.jcarousel.min.js" type="text/javascript"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-var $postcarousel = $('#mycarousel');
-if( $postcarousel.length ) {
-	var scrollCount;
-	if( $(window).width() < 480 ) {
-    scrollCount = 1;
-    } else if( $(window).width() < 768 ) {
-    scrollCount = 1;
-    } else if( $(window).width() < 960 ) {
-    } else {
-    scrollCount = 1;
+  <!--prettyPhoto scripts starts-->
+  <link rel="stylesheet" media="screen" href="css/prettyPhoto.css"/>
+  <script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+  $('a[data-rel]').each(function() {
+      $(this).attr('rel', $(this).data('rel'));
+  });
+  $("a[rel^='prettyPhoto[gallery1]']").prettyPhoto({
+    animation_speed: 'fast',
+    slideshow: 5000,
+    autoplay_slideshow: false,
+    opacity: 0.80,
+    show_title: false,
+    theme: 'pp_default', /* light_rounded / dark_rounded / light_square / dark_square / facebook */
+    overlay_gallery: false,
+    social_tools: false,
+    deeplinking:false,
+    changepicturecallback: function(){
+    var $pp = $('.pp_default');
+    if( parseInt( $pp.css('left') ) < 0 ){
+    $pp.css('left', 0 );
     }
-    $postcarousel.jcarousel({
-    easing: 'easeInOutQuint',
-    animation: 600,
-    scroll    : scrollCount
-});
-}
-});
-</script>
-<!--carousel scripts ends-->
+    }
+  });
+  });
+  </script>
+  <!--prettyPhoto scripts ends-->
 
-<!--contact form scripts starts-->
-<script src="js/jquery.validate.js" type="text/javascript"></script>
-<script src="js/jquery.form.js" type="text/javascript"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-//Contact form
-$(function() {
-	var v = $("#contactform").validate({
-	submitHandler: function(form) {
-	$(form).ajaxSubmit({
-	target: "#result",
-	clearForm: true
-	});
-	}
-	});
-});
-//To clear form field on page refresh
-$('#contactform #message').val('');
-});
-</script>
-<!--contact form scripts ends-->
+  <!--carousel scripts starts-->
+  <link rel="stylesheet" media="screen" href="css/jcarousel.css"/>
+  <script src="js/jquery.jcarousel.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+  var $postcarousel = $('#mycarousel');
+  if( $postcarousel.length ) {
+    var scrollCount;
+    if( $(window).width() < 480 ) {
+      scrollCount = 1;
+      } else if( $(window).width() < 768 ) {
+      scrollCount = 1;
+      } else if( $(window).width() < 960 ) {
+      } else {
+      scrollCount = 1;
+      }
+      $postcarousel.jcarousel({
+      easing: 'easeInOutQuint',
+      animation: 600,
+      scroll    : scrollCount
+  });
+  }
+  });
+  </script>
+  <!--carousel scripts ends-->
 
-</head>
-<body>
-    <div id='construction'>more to come...</div>
-    <div id='overlay'></div>
+  <!--contact form scripts starts-->
+  <script src="js/jquery.validate.js" type="text/javascript"></script>
+  <script src="js/jquery.form.js" type="text/javascript"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+  //Contact form
+  $(function() {
+    var v = $("#contactform").validate({
+    submitHandler: function(form) {
+    $(form).ajaxSubmit({
+    target: "#result",
+    clearForm: true
+    });
+    }
+    });
+  });
+  //To clear form field on page refresh
+  $('#contactform #message').val('');
+  });
+  </script>
+  <!--contact form scripts ends-->
 
-<!--header_wrapper starts-->
-<div id="header_wrapper" class="scroll-content">
-  <div class="container clearfix"> 
-    
-    <!--header starts-->
-    <div id="header"> 
+  </head>
+  <body>
+      <div id='construction'>more to come...</div>
+      <div id='overlay'></div>
+
+  <!--header_wrapper starts-->
+  <div id="header_wrapper" class="scroll-content">
+    <div class="container clearfix"> 
       
-      <!--logo starts-->
-      <div class="four columns logo alpha"> <a href="#header_wrapper">
-      <div class="headerlogo">
-        <h1><img src="images/logo.png" alt="logo"></h1>
+      <!--header starts-->
+      <div id="header"> 
+        
+        <!--logo starts-->
+        <div class="four columns logo alpha"> <a href="#header_wrapper">
+        <div class="headerlogo">
+          <h1><img src="images/logo.png" alt="logo"></h1>
+          </div>
+          </a> </div>
+        <!--logo ends--> 
+        
+        <!--menu / navigation starts-->
+        <div id="nav" class="twelve columns omega">
+          <ul>
+            <li><a href="#header_wrapper" class="nav-header_wrapper nav selected">Home</a></li>
+            <li><a href="#features" class="nav-features nav">Features</a></li>
+            <li><a href="#screenshots" class="nav-screenshots nav">Views</a></li>
+            <li><a href="#download" class="nav-download nav">Download</a></li>
+            <li><a href="#contact" class="nav-contact nav">Contact</a></li>
+           
         </div>
-        </a> </div>
-      <!--logo ends--> 
-      
-      <!--menu / navigation starts-->
-      <div id="nav" class="twelve columns omega">
-        <ul>
-          <li><a href="#header_wrapper" class="nav-header_wrapper nav selected">Home</a></li>
-          <li><a href="#features" class="nav-features nav">Features</a></li>
-          <li><a href="#screenshots" class="nav-screenshots nav">Views</a></li>
-          <li><a href="#download" class="nav-download nav">Download</a></li>
-          <li><a href="#contact" class="nav-contact nav">Contact</a></li>
-         
+        <!--menu / navigation ends-->
+        
+        <div class="clear"></div>
       </div>
-      <!--menu / navigation ends-->
+      <!--header ends--> 
       
-      <div class="clear"></div>
-    </div>
-    <!--header ends--> 
-    
-    <!--slider starts-->
-    <div id="slider_wrapper">
-      <div id="da-slider" class="da-slider"> 
-        
-        <!--slide one starts-->
-        <div class="da-slide">
-          <h2>Find<strong> SF POPOS</strong></h2>
-          <p>With SFPOPOS, you can easily find nearby POPOS to get a great view of The City by The Bay, or find a place to eat you're lunch.</p>
-          <div class="da-img"><img src="images/preview/iphone.png" alt="image"/></div>
-        </div>
-        <!--slide one ends--> 
-        
-        <!--slide two starts-->
-        <div class="da-slide">
-          <h2>Privately Owned,
-          <br>Public Spaces</h2>
+      <!--slider starts-->
+      <div id="slider_wrapper">
+        <div id="da-slider" class="da-slider"> 
           
-          <p><br><br>A POPO, or a privately owned public space, is a location that is open to the public but had to be built by a private company by law. Many companies try to hide these from the public and we want to give the public access.</p>
-          <div class="da-img"><img src="images/preview/light.png" alt="image"/></div>
+          <!--slide one starts-->
+          <div class="da-slide">
+            <h2>Find<strong> SF POPOS</strong></h2>
+            <p>With SFPOPOS, you can easily find nearby POPOS to get a great view of The City by The Bay, or find a place to eat your lunch.</p>
+            <div class="da-img"><img src="images/preview/iphone.png" alt="image"/></div>
+          </div>
+          <!--slide one ends--> 
+          
+          <!--slide two starts-->
+          <div class="da-slide">
+            <h2>Privately Owned,
+            <br>Public Spaces</h2>
+            
+            <p><br><br>A POPOS, or a privately owned public space, is a location that is open to the public but had to be built by a private company by law. Many companies try to hide these from the public and we want to give the public access.</p>
+            <div class="da-img"><img src="images/preview/light.png" alt="image"/></div>
+          </div>
+          <!--slide two ends--> 
+          
+          <!--slide three starts-->
+          
+          <!--slide three ends--> 
+          
         </div>
-        <!--slide two ends--> 
-        
-        <!--slide three starts-->
-        
-        <!--slide three ends--> 
-        
       </div>
-    </div>
-    
-    <!--slider ends--> 
-    
-    <!--replace slider with following while responsive (in mobile)-->
-    <div id="slider_replace">
-      <div class="eight columns"><img src="images/preview/iphone.png" alt="image"/></div>
-      <div class="eight columns">
-        <h2>Get a Head<strong>start</strong></h2>
-        <p> There's a voice that keeps on calling me. Down the road, that's where I'll always be. Every stop I make, I make a new friend. Can't stay for long, just turn around and I'm gone again. Maybe tomorrow, I'll want to settle down, Until tomorrow, I'll just keep moving on.</p>
+      
+      <!--slider ends--> 
+      
+      <!--replace slider with following while responsive (in mobile)-->
+      <div id="slider_replace">
+        <div class="eight columns"><img src="images/preview/iphone.png" alt="image"/></div>
+        <div class="eight columns">
+        <h2>Privately Owned,
+        <br>Public Spaces</h2>
+        <p><br><br>A POPOS, or a privately owned public space, is a location
+        that is open to the public but had to be built by a private company by
+        law. Many companies try to hide these from the public and we want to
+        give the public access.</p>
+        <div class="da-img"><img src="images/preview/light.png" alt="image"/></div>
     </div>
     <!--slider_replace ends--> 
     
@@ -220,7 +225,7 @@ $('#contactform #message').val('');
   <div class="four columns">
     <div class="icon_bg"><img src="images/icons/Music.png" width="20" height="20" alt="icon"></div>
     <h4>Music Performances</h4>
-    <p>What better way to make use of these spaces than by taking in a show.</p>
+    <p>What better way to make use of these spaces than by taking in a show?</p>
   </div>
   <!--feature two ends--> 
   
