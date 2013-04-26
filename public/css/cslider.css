@@ -53,6 +53,7 @@
 	top: 0px;
 	height: 512px;
 	left: 100%; /*60%*/
+    padding-left: 30px;
 }
 .da-slide-current {
 	z-index: 1000;
@@ -77,6 +78,7 @@
 	opacity: 1;
 }
 .da-dots {
+    display: none;
 	width: 100%;
 	position: absolute;
 	text-align: center;
