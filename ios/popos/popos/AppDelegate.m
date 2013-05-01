@@ -45,8 +45,17 @@
     UIViewController *homeController = [[HomeController alloc] init];
     homeController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Home" image:nil tag:0];
     [homeController.tabBarItem setFinishedSelectedImage:[UIImage imageNamed:@"bookmark"] withFinishedUnselectedImage:[UIImage imageNamed:@"bookmark"]];
+
+//    UIViewController *demoController = [[DemoController alloc] init];
+//    demoController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Future" image:nil tag:0];
+//    [demoController.tabBarItem setFinishedSelectedImage:[UIImage imageNamed:@"events"] withFinishedUnselectedImage:[UIImage imageNamed:@"events"]];
     
     tabBarController.viewControllers = @[wrapper, homeController];
+    
+
+    
+    
+    self.geotriggerManager = [[AGSGeotriggerManager alloc] initWithClientID:@"Gxg29jmGHS8y76FZ"                                                            andDelegate:self                                                             andProfile:AGSTrackingProfileAdaptive];
     
     return YES;
 }

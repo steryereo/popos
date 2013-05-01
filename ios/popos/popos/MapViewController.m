@@ -124,7 +124,7 @@
         return marker;
     } else {
         NSLog(@"================> %@", @"Drawing art");
-        RMMarker *marker = [[RMMarker alloc] initWithUIImage:[UIImage imageNamed:@"map-marker"]];
+        RMMarker *marker = [[RMMarker alloc] initWithUIImage:[UIImage imageNamed:@"art-shape"]];
         return marker;
     }
 }
