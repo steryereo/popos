@@ -33,16 +33,29 @@
     UINavigationController *wrapper = [[UINavigationController alloc] initWithRootViewController:mapViewController];
     mapViewController.navigationController.navigationBarHidden = YES;
     mapViewController.navigationItem.title = @"POPOS";
+    
+
     wrapper.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Map" image:nil tag:0];
+    [wrapper.tabBarItem setFinishedSelectedImage:[UIImage imageNamed:@"tours"] withFinishedUnselectedImage:[UIImage imageNamed:@"tours"]];
     
     UIViewController *nearestController = [[UIViewController alloc] init];
     nearestController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Nearest" image:nil tag:0];
     
+    [nearestController.tabBarItem setFinishedSelectedImage:[UIImage imageNamed:@"Search"] withFinishedUnselectedImage:[UIImage imageNamed:@"Search"]];
     UIViewController *homeController = [[HomeController alloc] init];
     homeController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Home" image:nil tag:0];
+    [homeController.tabBarItem setFinishedSelectedImage:[UIImage imageNamed:@"bookmark"] withFinishedUnselectedImage:[UIImage imageNamed:@"bookmark"]];
+
+//    UIViewController *demoController = [[DemoController alloc] init];
+//    demoController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Future" image:nil tag:0];
+//    [demoController.tabBarItem setFinishedSelectedImage:[UIImage imageNamed:@"events"] withFinishedUnselectedImage:[UIImage imageNamed:@"events"]];
+    
+    tabBarController.viewControllers = @[wrapper, homeController];
+    
 
     
-    tabBarController.viewControllers = @[homeController, wrapper, nearestController];
+    
+    self.geotriggerManager = [[AGSGeotriggerManager alloc] initWithClientID:@"Gxg29jmGHS8y76FZ"                                                            andDelegate:self                                                             andProfile:AGSTrackingProfileAdaptive];
     
     return YES;
 }

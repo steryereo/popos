@@ -37,6 +37,13 @@
 		DF305A9F17233D57006958AD /* music@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF305A9917233D57006958AD /* music@2x.png */; };
 		DF305AA017233D57006958AD /* muni@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF305A9A17233D57006958AD /* muni@2x.png */; };
 		DF305AA117233D57006958AD /* dining@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF305A9B17233D57006958AD /* dining@2x.png */; };
+		DF305AA7172359B2006958AD /* Key_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DF305AA6172359B2006958AD /* Key_Icon.png */; };
+		DF305AA9172359BB006958AD /* Key_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DF305AA8172359BB006958AD /* Key_Icon.png */; };
+		DF305AAB17235CA9006958AD /* points.json in Resources */ = {isa = PBXBuildFile; fileRef = DF305AAA17235CA8006958AD /* points.json */; };
+		DF305AD717235FE2006958AD /* libGeotriggerSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF305AD617235FE2006958AD /* libGeotriggerSDK.a */; };
+		DF305AE417236247006958AD /* art-shape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF305AE317236247006958AD /* art-shape@2x.png */; };
+		DF305AE817236ABC006958AD /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF305AE617236ABB006958AD /* DemoViewController.m */; };
+		DF305AE917236ABC006958AD /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF305AE717236ABB006958AD /* DemoViewController.xib */; };
 		DF4EBF0C1722F5B4008AA009 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4EBF0B1722F5B4008AA009 /* UIKit.framework */; };
 		DF4EBF0E1722F5B4008AA009 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4EBF0D1722F5B4008AA009 /* Foundation.framework */; };
 		DF4EBF101722F5B4008AA009 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4EBF0F1722F5B4008AA009 /* CoreGraphics.framework */; };
@@ -85,6 +92,36 @@
 		DF305A9917233D57006958AD /* music@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "music@2x.png"; sourceTree = "<group>"; };
 		DF305A9A17233D57006958AD /* muni@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "muni@2x.png"; sourceTree = "<group>"; };
 		DF305A9B17233D57006958AD /* dining@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dining@2x.png"; sourceTree = "<group>"; };
+		DF305AA6172359B2006958AD /* Key_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Key_Icon.png; path = popos/Key_Icon.png; sourceTree = "<group>"; };
+		DF305AA8172359BB006958AD /* Key_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Key_Icon.png; sourceTree = "<group>"; };
+		DF305AAA17235CA8006958AD /* points.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = points.json; path = popos/points.json; sourceTree = "<group>"; };
+		DF305ACA17235FE2006958AD /* AGSCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSCoding.h; sourceTree = "<group>"; };
+		DF305ACB17235FE2006958AD /* AGSGeotriggerAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSGeotriggerAPIClient.h; sourceTree = "<group>"; };
+		DF305ACC17235FE2006958AD /* AGSGeotriggerBaseTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSGeotriggerBaseTask.h; sourceTree = "<group>"; };
+		DF305ACD17235FE2006958AD /* AGSGeotriggerDeviceTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSGeotriggerDeviceTask.h; sourceTree = "<group>"; };
+		DF305ACE17235FE2006958AD /* AGSGeotriggerLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSGeotriggerLocation.h; sourceTree = "<group>"; };
+		DF305ACF17235FE2006958AD /* AGSGeotriggerLocationTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSGeotriggerLocationTask.h; sourceTree = "<group>"; };
+		DF305AD017235FE2006958AD /* AGSGeotriggerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSGeotriggerManager.h; sourceTree = "<group>"; };
+		DF305AD117235FE2006958AD /* AGSGeotriggerTagTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSGeotriggerTagTask.h; sourceTree = "<group>"; };
+		DF305AD217235FE2006958AD /* AGSGeotriggerTriggerTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSGeotriggerTriggerTask.h; sourceTree = "<group>"; };
+		DF305AD317235FE2006958AD /* AGSLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSLocationManager.h; sourceTree = "<group>"; };
+		DF305AD417235FE2006958AD /* AGSPortalDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSPortalDevice.h; sourceTree = "<group>"; };
+		DF305AD517235FE2006958AD /* GeotriggerSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeotriggerSDK.h; sourceTree = "<group>"; };
+		DF305AD617235FE2006958AD /* libGeotriggerSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGeotriggerSDK.a; sourceTree = "<group>"; };
+		DF305AD9172360F6006958AD /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		DF305ADA172360F6006958AD /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		DF305ADB172360F6006958AD /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		DF305ADC172360F7006958AD /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		DF305ADD172360F7006958AD /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		DF305ADE172360F7006958AD /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		DF305ADF172360F8006958AD /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		DF305AE0172360F9006958AD /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		DF305AE1172360F9006958AD /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		DF305AE2172360F9006958AD /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		DF305AE317236247006958AD /* art-shape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "art-shape@2x.png"; path = "popos/art-shape@2x.png"; sourceTree = "<group>"; };
+		DF305AE517236ABB006958AD /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		DF305AE617236ABB006958AD /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		DF305AE717236ABB006958AD /* DemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
 		DF4EBF081722F5B4008AA009 /* popos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = popos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF4EBF0B1722F5B4008AA009 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DF4EBF0D1722F5B4008AA009 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -116,6 +153,7 @@
 				DF4EBF0E1722F5B4008AA009 /* Foundation.framework in Frameworks */,
 				DF4EBF101722F5B4008AA009 /* CoreGraphics.framework in Frameworks */,
 				DF4EBF121722F5B4008AA009 /* CoreData.framework in Frameworks */,
+				DF305AD717235FE2006958AD /* libGeotriggerSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +163,7 @@
 		DF305A6117233C27006958AD /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				DF305AA6172359B2006958AD /* Key_Icon.png */,
 				DF305A9617233D57006958AD /* bathroom@2x.png */,
 				DF305A9717233D57006958AD /* art@2x.png */,
 				DF305A9817233D57006958AD /* review@2x.png */,
@@ -145,9 +184,54 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
+		DF305AC917235FE2006958AD /* GeotriggerSDK */ = {
+			isa = PBXGroup;
+			children = (
+				DF305ACA17235FE2006958AD /* AGSCoding.h */,
+				DF305ACB17235FE2006958AD /* AGSGeotriggerAPIClient.h */,
+				DF305ACC17235FE2006958AD /* AGSGeotriggerBaseTask.h */,
+				DF305ACD17235FE2006958AD /* AGSGeotriggerDeviceTask.h */,
+				DF305ACE17235FE2006958AD /* AGSGeotriggerLocation.h */,
+				DF305ACF17235FE2006958AD /* AGSGeotriggerLocationTask.h */,
+				DF305AD017235FE2006958AD /* AGSGeotriggerManager.h */,
+				DF305AD117235FE2006958AD /* AGSGeotriggerTagTask.h */,
+				DF305AD217235FE2006958AD /* AGSGeotriggerTriggerTask.h */,
+				DF305AD317235FE2006958AD /* AGSLocationManager.h */,
+				DF305AD417235FE2006958AD /* AGSPortalDevice.h */,
+				DF305AD517235FE2006958AD /* GeotriggerSDK.h */,
+				DF305AD617235FE2006958AD /* libGeotriggerSDK.a */,
+			);
+			path = GeotriggerSDK;
+			sourceTree = "<group>";
+		};
+		DF305AD8172360EA006958AD /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
 		DF4EBEFF1722F5B4008AA009 = {
 			isa = PBXGroup;
 			children = (
+				DF305AE517236ABB006958AD /* DemoViewController.h */,
+				DF305AE617236ABB006958AD /* DemoViewController.m */,
+				DF305AE717236ABB006958AD /* DemoViewController.xib */,
+				DF305AE317236247006958AD /* art-shape@2x.png */,
+				DF305AD9172360F6006958AD /* AFURLConnectionOperation.h */,
+				DF305ADA172360F6006958AD /* AFHTTPClient.h */,
+				DF305ADB172360F6006958AD /* AFJSONRequestOperation.h */,
+				DF305ADC172360F7006958AD /* AFNetworkActivityIndicatorManager.h */,
+				DF305ADD172360F7006958AD /* AFNetworking.h */,
+				DF305ADE172360F7006958AD /* AFPropertyListRequestOperation.h */,
+				DF305ADF172360F8006958AD /* AFHTTPRequestOperation.h */,
+				DF305AE0172360F9006958AD /* AFImageRequestOperation.h */,
+				DF305AE1172360F9006958AD /* AFXMLRequestOperation.h */,
+				DF305AE2172360F9006958AD /* UIImageView+AFNetworking.h */,
+				DF305AD8172360EA006958AD /* AFNetworking */,
+				DF305AC917235FE2006958AD /* GeotriggerSDK */,
+				DF305AAA17235CA8006958AD /* points.json */,
+				DF305AA8172359BB006958AD /* Key_Icon.png */,
 				DF305A6117233C27006958AD /* Images */,
 				DF305A5C17233B27006958AD /* HomeController.h */,
 				DF305A5D17233B27006958AD /* HomeController.m */,
@@ -293,6 +377,11 @@
 				DF305A9F17233D57006958AD /* music@2x.png in Resources */,
 				DF305AA017233D57006958AD /* muni@2x.png in Resources */,
 				DF305AA117233D57006958AD /* dining@2x.png in Resources */,
+				DF305AA7172359B2006958AD /* Key_Icon.png in Resources */,
+				DF305AA9172359BB006958AD /* Key_Icon.png in Resources */,
+				DF305AAB17235CA9006958AD /* points.json in Resources */,
+				DF305AE417236247006958AD /* art-shape@2x.png in Resources */,
+				DF305AE917236ABC006958AD /* DemoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +399,7 @@
 				DF305A4C17231579006958AD /* Popo.m in Sources */,
 				DF305A5817231E03006958AD /* PoposDetailViewController.m in Sources */,
 				DF305A5F17233B27006958AD /* HomeController.m in Sources */,
+				DF305AE817236ABC006958AD /* DemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +485,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "popos/popos-Prefix.pch";
 				INFOPLIST_FILE = "popos/popos-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/GeotriggerSDK\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -410,6 +504,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "popos/popos-Prefix.pch";
 				INFOPLIST_FILE = "popos/popos-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/GeotriggerSDK\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

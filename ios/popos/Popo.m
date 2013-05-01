@@ -10,13 +10,14 @@
 
 @implementation Popo
 
-- (id)initWithCoordinate:(CLLocationCoordinate2D)coord hours:(NSString *)hours description:(NSString *)description name:(NSString *)name{
+- (id)initWithCoordinate:(CLLocationCoordinate2D)coord hours:(NSString *)hours description:(NSString *)description name:(NSString *)name imageUrl:(NSString *)imageUrl {
     self = [super init];
     if (self) {
         self.coord = coord;
         self.hours = hours;
         self.description = description;
         self.name = name;
+        self.imageUrl = imageUrl;
     }
     return self;
 }
