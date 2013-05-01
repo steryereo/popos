@@ -1,192 +1,173 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="description" content="corporate, business software, app, one page template" />
-<meta name="keywords" content="one page template, corporate, software, app, business, marketing, landing page, web marketing, internate marketing"/>
-<meta name="author" content="Tansh" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-<title>Theflow by Tansh</title>
+  <html class="no-js" lang="en">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="description" content="" />
+  <meta name="keywords" content=""/>
+  <meta name="author" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <title>SF POPOS</title>
 
-<!--Fav and touch icons-->
-<link rel="shortcut icon" href="images/icons/favicon.ico">
-<link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-touch-icon-114x114.png">
+  <!--Fav and touch icons-->
+  <!--<link rel="shortcut icon" href="images/icons/favicon.ico">-->
+  <link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-touch-icon-114x114.png">
 
-<!--google web font-->
-<link href='http://fonts.googleapis.com/css?family=Vollkorn:400,400italic|Lato:400,300,300italic,400italic' rel='stylesheet' type='text/css'>
+  <!--google web font-->
+  <link href='http://fonts.googleapis.com/css?family=Vollkorn:400,400italic|Lato:400,300,300italic,400italic' rel='stylesheet' type='text/css'>
 
-<!--style sheets-->
-<link rel="stylesheet" media="screen" href="css/style.css"/>
-<link rel="stylesheet" media="screen" href="css/skeleton.css"/>
+  <!--style sheets-->
+  <link rel="stylesheet" media="screen" href="css/style.css"/>
+  <link rel="stylesheet" media="screen" href="css/skeleton.css"/>
 
-<!--jquery libraries / others are at the bottom-->
-<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
-<script src="js/modernizr.js" type="text/javascript"></script>
+  <!--jquery libraries / others are at the bottom-->
+  <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+  <script src="js/modernizr.js" type="text/javascript"></script>
 
-<!--slider scripts starts-->
-<link rel="stylesheet" media="screen" href="css/cslider.css"/>
-<script src="js/jquery.cslider.js" type="text/javascript"></script>
-<script type="text/javascript">
-$(function() {
-	$('#da-slider').cslider({
-	autoplay	: true,
-	interval	: 5000  // time between transitions
-	});
-});
-</script>
-<!--slider scripts ends-->
+  <!--slider scripts starts-->
+  <link rel="stylesheet" media="screen" href="css/cslider.css"/>
+  <link rel="stylesheet" media="screen" href="css/popos.css"/>
+  <script src="js/jquery.cslider.js" type="text/javascript"></script>
+  <script type="text/javascript">
+  $(function() {
+    $('#da-slider').cslider({
+        autoplay	: true,
+        interval	: 5000  // time between transitions
+    });
+  });
+  </script>
+  <!--slider scripts ends-->
 
-<!--prettyPhoto scripts starts-->
-<link rel="stylesheet" media="screen" href="css/prettyPhoto.css"/>
-<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-$('a[data-rel]').each(function() {
-    $(this).attr('rel', $(this).data('rel'));
-});
-$("a[rel^='prettyPhoto[gallery1]']").prettyPhoto({
-	animation_speed: 'fast',
-	slideshow: 5000,
-	autoplay_slideshow: false,
-	opacity: 0.80,
-	show_title: false,
-	theme: 'pp_default', /* light_rounded / dark_rounded / light_square / dark_square / facebook */
-	overlay_gallery: false,
-	social_tools: false,
-	deeplinking:false,
-	changepicturecallback: function(){
-	var $pp = $('.pp_default');
-	if( parseInt( $pp.css('left') ) < 0 ){
-	$pp.css('left', 0 );
-	}
-	}
-});
-});
-</script>
-<!--prettyPhoto scripts ends-->
-
-<!--carousel scripts starts-->
-<link rel="stylesheet" media="screen" href="css/jcarousel.css"/>
-<script src="js/jquery.jcarousel.min.js" type="text/javascript"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-var $postcarousel = $('#mycarousel');
-if( $postcarousel.length ) {
-	var scrollCount;
-	if( $(window).width() < 480 ) {
-    scrollCount = 1;
-    } else if( $(window).width() < 768 ) {
-    scrollCount = 1;
-    } else if( $(window).width() < 960 ) {
-    } else {
-    scrollCount = 1;
+  <!--prettyPhoto scripts starts-->
+  <link rel="stylesheet" media="screen" href="css/prettyPhoto.css"/>
+  <script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+  $('a[data-rel]').each(function() {
+      $(this).attr('rel', $(this).data('rel'));
+  });
+  $("a[rel^='prettyPhoto[gallery1]']").prettyPhoto({
+    animation_speed: 'fast',
+    slideshow: 5000,
+    autoplay_slideshow: false,
+    opacity: 0.80,
+    show_title: false,
+    theme: 'pp_default', /* light_rounded / dark_rounded / light_square / dark_square / facebook */
+    overlay_gallery: false,
+    social_tools: false,
+    deeplinking:false,
+    changepicturecallback: function(){
+    var $pp = $('.pp_default');
+    if( parseInt( $pp.css('left') ) < 0 ){
+    $pp.css('left', 0 );
     }
-    $postcarousel.jcarousel({
-    easing: 'easeInOutQuint',
-    animation: 600,
-    scroll    : scrollCount
-});
-}
-});
-</script>
-<!--carousel scripts ends-->
+    }
+  });
+  });
+  </script>
+  <!--prettyPhoto scripts ends-->
 
-<!--contact form scripts starts-->
-<script src="js/jquery.validate.js" type="text/javascript"></script>
-<script src="js/jquery.form.js" type="text/javascript"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-//Contact form
-$(function() {
-	var v = $("#contactform").validate({
-	submitHandler: function(form) {
-	$(form).ajaxSubmit({
-	target: "#result",
-	clearForm: true
-	});
-	}
-	});
-});
-//To clear form field on page refresh
-$('#contactform #message').val('');
-});
-</script>
-<!--contact form scripts ends-->
+  <!--carousel scripts starts-->
+  <link rel="stylesheet" media="screen" href="css/jcarousel.css"/>
+  <script src="js/jquery.jcarousel.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+  var $postcarousel = $('#mycarousel');
+  if( $postcarousel.length ) {
+    var scrollCount;
+    if( $(window).width() < 480 ) {
+      scrollCount = 1;
+      } else if( $(window).width() < 768 ) {
+      scrollCount = 1;
+      } else if( $(window).width() < 960 ) {
+      } else {
+      scrollCount = 1;
+      }
+      $postcarousel.jcarousel({
+      easing: 'easeInOutQuint',
+      animation: 600,
+      scroll    : scrollCount
+  });
+  }
+  });
+  </script>
+  <!--carousel scripts ends-->
 
-</head>
-<body>
+  <!--contact form scripts starts-->
+  <script src="js/jquery.validate.js" type="text/javascript"></script>
+  <script src="js/jquery.form.js" type="text/javascript"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+  //Contact form
+  $(function() {
+    var v = $("#contactform").validate({
+    submitHandler: function(form) {
+    $(form).ajaxSubmit({
+    target: "#result",
+    clearForm: true
+    });
+    }
+    });
+  });
+  //To clear form field on page refresh
+  $('#contactform #message').val('');
+  });
+  </script>
+  <!--contact form scripts ends-->
 
-<!--header_wrapper starts-->
-<div id="header_wrapper" class="scroll-content">
-  <div class="container clearfix"> 
-    
-    <!--header starts-->
-    <div id="header"> 
+  </head>
+  <body>
+      <div id='construction'>more to come...</div>
+      <div id='overlay'></div>
+
+  <!--header_wrapper starts-->
+  <div id="header_wrapper" class="scroll-content">
+    <div class="container clearfix"> 
       
-      <!--logo starts-->
-      <div class="four columns logo alpha"> <a href="#header_wrapper">
-        <h1><img src="images/logo.png" width="122" height="62" alt="logo"></h1>
-        </a> </div>
-      <!--logo ends--> 
-      
-      <!--menu / navigation starts-->
-      <div id="nav" class="twelve columns omega">
-        <ul>
-          <li><a href="#header_wrapper" class="nav-header_wrapper nav selected">Home</a></li>
-          <li><a href="#features" class="nav-features nav">Features</a></li>
-          <li><a href="#screenshots" class="nav-screenshots nav">Views</a></li>
-          <li><a href="#download" class="nav-download nav">Download</a></li>
-          <li><a href="#contact" class="nav-contact nav">Contact</a></li>
-         
-      </div>
-      <!--menu / navigation ends-->
-      
-      <div class="clear"></div>
-    </div>
-    <!--header ends--> 
-    
-    <!--slider starts-->
-    <div id="slider_wrapper">
-      <div id="da-slider" class="da-slider"> 
+      <!--header starts-->
+      <div id="header"> 
         
-        <!--slide one starts-->
-        <div class="da-slide">
-          <h2>Find<strong> SF POPOS</strong></h2>
-          <p>With SFPOPOS, you can easily find nearby POPOS to get a great view of The City by The Bay, or find a place to eat you're lunch.</p>
-          <a href="#" class="da-link btn_googleplay"></a>
-          <div class="da-img"><img src="images/preview/iphone.png" alt="image"/></div>
+        <!--logo starts-->
+        <div class="four columns logo alpha"> <a href="#header_wrapper">
+        <div class="headerlogo">
+          <h1><img src="images/logo.png" alt="logo"></h1>
+          </div>
+          </a> </div>
+        <!--logo ends--> 
+        
+        <!--menu / navigation starts-->
+        <div id="nav" class="twelve columns omega">
+          <ul>
+            <li><a href="#header_wrapper" class="nav-header_wrapper nav selected">Home</a></li>
+            <li><a href="#features" class="nav-features nav">Features</a></li>
+            <li><a href="#screenshots" class="nav-screenshots nav">Views</a></li>
+            <li><a href="#download" class="nav-download nav">Download</a></li>
+            <li><a href="#contact" class="nav-contact nav">Contact</a></li>
+           
         </div>
-        <!--slide one ends--> 
+        <!--menu / navigation ends-->
         
-        <!--slide two starts-->
-        <div class="da-slide">
-          <h2>Privately Owned,
-          <br>Public Spaces</h2>
-          
-          <p><br><br>A POPO, or a privately owned public space, is a location that is open to the public but had to be built by a private company by law. Many companies try to hide these from the public and we want to give the public access.</p>
-          <a href="#" class="da-link btn_appstore"></a>
-          <div class="da-img"><img src="images/preview/light.png" alt="image"/></div>
-        </div>
-        <!--slide two ends--> 
-        
-        <!--slide three starts-->
-        
-        <!--slide three ends--> 
-        
+        <div class="clear"></div>
       </div>
-    </div>
-    
-    <!--slider ends--> 
-    
-    <!--replace slider with following while responsive (in mobile)-->
-    <div id="slider_replace">
-      <div class="eight columns"><img src="images/preview/iphone.png" alt="image"/></div>
-      <div class="eight columns">
-        <h2>Get Head<strong>start</strong></h2>
-        <p> There's a voice that keeps on calling me. Down the road, that's where I'll always be. Every stop I make, I make a new friend. Can't stay for long, just turn around and I'm gone again. Maybe tomorrow, I'll want to settle down, Until tomorrow, I'll just keep moving on.</p>
-        <a href="#" class="btn_googleplay"></a> </div>
+      <!--header ends--> 
+      
+      <!--slider starts-->
+      <div id="slider_wrapper">
+        <div id="da-slider" class="da-slider"> 
+          <div class="da-slide">
+            <h2>Find<strong> SF's cool spaces</strong></h2>
+            <p>Discover an insider's view of San Francisco. Hidden public spaces like POPOS, parklets, stairwells, and playgrounds offer free and fun neighborhood adventures. Start your adventure today.</p>
+            <div class="da-img"><img src="images/preview/iphone.png" alt="image"/></div>
+          </div>
+        </div>
+      </div>
+      
+      <!--replace slider with following while responsive (in mobile)-->
+      <div id="slider_replace">
+        <h2>Find<strong> SF Secrets</strong></h2>
+        <p>Discover an insider's view of San Francisco. Hidden public spaces like POPOS, parklets, stairwells, and playgrounds offer free and fun neighborhood adventures. Start your adventure today.</p>
+        <div class="da-img"><img src="images/preview/light.png" alt="image"/></div>
     </div>
     <!--slider_replace ends--> 
     
@@ -208,7 +189,7 @@ $('#contactform #message').val('');
   
   <!--feature one starts-->
   <div class="four columns">
-    <div class="icon_bg"><img src="images/icons/icon-1.png" width="92" height="92" alt="icon"></div>
+    <div class="icon_bg"><img src="images/icons/Art.png" width="50" height="50" alt="icon"></div>
     <h4>Art Installations</h4>
     <p>Don't miss out on these amazing works of local artists!</p>
   </div>
@@ -216,25 +197,25 @@ $('#contactform #message').val('');
   
   <!--feature two starts-->
   <div class="four columns">
-    <div class="icon_bg"><img src="images/icons/icon-2.png" width="92" height="92" alt="icon"></div>
+    <div class="icon_bg"><img src="images/icons/Music.png" width="20" height="20" alt="icon"></div>
     <h4>Music Performances</h4>
-    <p>What better way to celebrate the .</p>
+    <p>What better way to make use of these spaces than by taking in a show?</p>
   </div>
   <!--feature two ends--> 
   
   <!--feature three starts-->
   <div class="four columns">
-    <div class="icon_bg"><img src="images/icons/icon-3.png" width="92" height="92" alt="icon"></div>
-    <h4>Open Spaces</h4>
-    <p>Checkout these amazing views of The City by The Bay.</p>
+    <div class="icon_bg"><img src="images/icons/Dining.png" width="92" height="92" alt="icon"></div>
+    <h4>Lunch Destinations</h4>
+    <p>Grab your lunch and take it to these hidden destinations.</p>
   </div>
   <!--feature three ends--> 
   
   <!--feature four starts-->
   <div class="four columns">
-    <div class="icon_bg"><img src="images/icons/icon-4.png" width="92" height="92" alt="icon"></div>
-    <h4>Closed Spaces</h4>
-    <p>Check out these great places to step out from the rain or eat your lunch and take in some scenery.</p>
+    <div class="icon_bg"><img src="images/icons/Reading.png" width="92" height="92" alt="icon"></div>
+    <h4>Reading</h4>
+    <p>Need to get away? Grab a book and head to one of these locations.</p>
   </div>
   <!--feature four ends--> 
   
@@ -279,8 +260,6 @@ $('#contactform #message').val('');
 </div>
 <!--screenshots section ends--> 
 
-
-
 <!--download section starts-->
 
   <div id="download" class="container clearfix scroll-content">
@@ -298,7 +277,6 @@ $('#contactform #message').val('');
       </ul>
       <!--center aligned button-->
       <div align="center">
-     <a href="#" class="da-link btn_appstore"></a>
      </div>
     </div>
   </div>
@@ -355,12 +333,13 @@ $('#contactform #message').val('');
         <li><a href="#"><img src="images/icons/social-footer-facebook.png" width="46" height="46" alt="icon"></a></li>
         <li><a href="#"><img src="images/icons/social-footer-twitter.png" width="46" height="46" alt="icon"></a></li>
       </ul>
-      <div class="contact_info"> <a href="#" >hello@companyname.com</a>
-        <p>+12 (0) 345 678 9012</p>
+      <div class="contact_info"> <a href="#" >info@sfpopos.com</a>
+        
       </div>
-      <p>Lorem ip do SIT<br/>
-        Ametconsecte5, Northbloc D<br/>
-        3456 ipsumcity, Country </p>
+      <p>Airbnb HQ<br/>
+        
+        99 Rhode Island<br/>
+        San Francisco, CA </p>
     </div>
     <!--address / social ends--> 
     
@@ -390,5 +369,15 @@ $('#contactform #message').val('');
 <script src="js/jquery.easing.1.3.js" type="text/javascript"></script> 
 <script src="js/twitter.js" type="text/javascript"></script> 
 <script src="js/custom.js" type="text/javascript"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40308421-1', 'sfpopos.com');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>
