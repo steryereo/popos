@@ -2,7 +2,7 @@ class PoposController < ApplicationController
   # GET /popos
   # GET /popos.json
   def index
-    @popos = Popo.all
+    @popos = Popo.all.sort_by { |d| -d.updated_at.to_i }
 
     respond_to do |format|
       format.html # index.html.erb
