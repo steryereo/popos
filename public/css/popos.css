@@ -7,6 +7,7 @@
     z-index: 9998;
     background-color: black;
     opacity: 0.15;
+    z-index: -1;
 }
 
 #construction {
@@ -18,4 +19,25 @@
     font-size: 3em;
     color: white;
     top: 100px;
+    z-index: -1;
+}
+
+.da-slider {
+  top: 200px;
+  background: url('/map_bg.png') no-repeat;
+  opacity: 50%;
+  top: 10px;
+}
+
+.da-slider .slide-content {
+  background-color: white;
+  left: 50px;
+  position: relative;
+  top: 50px;
+  border: 1px solid grey;
+  left: 30px;
+  opacity: 40;
+  padding: 25px;
+  top: 290px;
+  width: 380px;
 }
