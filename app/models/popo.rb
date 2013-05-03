@@ -38,7 +38,7 @@ class Popo
   embeds_many :contacts
   embeds_many :comments
 
-  validates_presence_of :name, :latitude, :longitude
+  validates_presence_of :name
 
   def migrate
     self.name = self[:NAME]
