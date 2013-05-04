@@ -35,14 +35,13 @@
 
 .da-slider .slide-content {
   background-color: white;
-  left: 50px;
-  position: relative;
-  top: 50px;
+  position: absolute;
   border: 1px solid grey;
   left: 30px;
   opacity: 40;
   padding: 25px;
-  top: 290px;
+  bottom: 25px;
+  left: 25px;
   width: 380px;
 }
 
