@@ -1,193 +1,129 @@
 <!DOCTYPE html>
-  <html class="no-js" lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="description" content="" />
-    <meta name="keywords" content=""/>
-    <meta name="author" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-    <title>SF POPOS</title>
+<!--[if lt IE 7]>      <html class='no-js lt-ie9 lt-ie8 lt-ie7'> <![endif]-->
+<!--[if IE 7]>         <html class='no-js lt-ie9 lt-ie8'> <![endif]-->
+<!--[if IE 8]>         <html class='no-js lt-ie9'> <![endif]-->
+<!--[if gt IE 8]><!--> <html class='no-js'> <!--<![endif]-->
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <title>SF POPOS</title>
+        <meta name='description' content=''>
+        <meta name='viewport' content='width=device-width'>
 
-    <!--Fav and touch icons-->
-    <!--<link rel="shortcut icon" href="images/icons/favicon.ico">-->
-    <link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-touch-icon-114x114.png">
+        <link href='css/styles.less' rel='stylesheet/less' type='text/css' />
+        <script src='js/vendor/less-1.3.3.min.js' type='text/javascript'></script>
 
-    <!--google web font-->
-    <link href='http://fonts.googleapis.com/css?family=Vollkorn:400,400italic|Lato:400,300,300italic,400italic' rel='stylesheet' type='text/css'>
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-    <!--style sheets-->
-    <link rel="stylesheet" media="screen" href="css/style.css"/>
-    <link rel="stylesheet" media="screen" href="css/skeleton.css"/>
+        <link rel='stylesheet' href='css/main.css'>
+        <script src='js/vendor/modernizr-2.6.2.min.js'></script>
+        
+        <!-- MailChimp -->
+        <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+          #mc_embed_signup{background: transparent; clear:left; font:14px Helvetica,Arial,sans-serif; }
+          #mc_embed_signup form {
+            padding: 0;
+          }
+          #mc_embed_signup input {
+            width: 100%;
+          }
+          /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+             We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+        </style>
+        <!-- end Mailchimp -->  
 
-    <!--jquery libraries / others are at the bottom-->
-    <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
-    <script src="js/modernizr.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class='chromeframe'>You are using an <strong>outdated</strong> browser. Please <a href='http://browsehappy.com/'>upgrade your browser</a> or <a href='http://www.google.com/chromeframe/?redirect=true'>activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
 
-    <!--slider scripts starts-->
-    <link rel="stylesheet" media="screen" href="css/cslider.css"/>
-    <link rel="stylesheet" media="screen" href="css/popos.css"/>
-    <script src="js/jquery.cslider.js" type="text/javascript"></script>
-    <script type="text/javascript">
-    $(function() {
-      $('#da-slider').cslider({
-          autoplay	: true,
-          interval	: 5000  // time between transitions
-      });
-    });
-    </script>
-    <!--slider scripts ends-->
+        <section id='top'>
 
-    <!--prettyPhoto scripts starts-->
-    <link rel="stylesheet" media="screen" href="css/prettyPhoto.css"/>
-    <script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-    $('a[data-rel]').each(function() {
-        $(this).attr('rel', $(this).data('rel'));
-    });
-    $("a[rel^='prettyPhoto[gallery1]']").prettyPhoto({
-      animation_speed: 'fast',
-      slideshow: 5000,
-      autoplay_slideshow: false,
-      opacity: 0.80,
-      show_title: false,
-      theme: 'pp_default', /* light_rounded / dark_rounded / light_square / dark_square / facebook */
-      overlay_gallery: false,
-      social_tools: false,
-      deeplinking:false,
-      changepicturecallback: function(){
-      var $pp = $('.pp_default');
-      if( parseInt( $pp.css('left') ) < 0 ){
-      $pp.css('left', 0 );
-      }
-      }
-    });
-    });
-    </script>
-    <!--prettyPhoto scripts ends-->
+          <div id='main' class='container'>
+          
+            <header>
+              <img src="images/logo.png" alt="logo" width='400' height='95'>
 
-    <!--carousel scripts starts-->
-    <link rel="stylesheet" media="screen" href="css/jcarousel.css"/>
-    <script src="js/jquery.jcarousel.min.js" type="text/javascript"></script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-    var $postcarousel = $('#mycarousel');
-    if( $postcarousel.length ) {
-      var scrollCount;
-      if( $(window).width() < 480 ) {
-        scrollCount = 1;
-        } else if( $(window).width() < 768 ) {
-        scrollCount = 1;
-        } else if( $(window).width() < 960 ) {
-        } else {
-        scrollCount = 1;
-        }
-        $postcarousel.jcarousel({
-        easing: 'easeInOutQuint',
-        animation: 600,
-        scroll    : scrollCount
-    });
-    }
-    });
-    </script>
-    <!--carousel scripts ends-->
+              <h1>Find San Francisco's coolest spaces.</h1>
+            </header>
 
-    <!--contact form scripts starts-->
-    <script src="js/jquery.validate.js" type="text/javascript"></script>
-    <script src="js/jquery.form.js" type="text/javascript"></script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-    //Contact form
-    $(function() {
-      var v = $("#contactform").validate({
-      submitHandler: function(form) {
-      $(form).ajaxSubmit({
-      target: "#result",
-      clearForm: true
-      });
-      }
-      });
-    });
-    //To clear form field on page refresh
-    $('#contactform #message').val('');
-    });
-    </script>
-    <!--contact form scripts ends-->
-
-  </head>
-  <body>
-    <div id='construction'>
-      <div>more to come...</div>
-    </div>
-
-  <!--header_wrapper starts-->
-  <div id="home" class="scroll-content">
-    <div class="container clearfix">
-
-      <!--header starts-->
-      <div id="header">
-
-        <!--logo starts-->
-        <div class="four columns logo alpha"> <a href="#home">
-        <div class="headerlogo">
-          <h1><img src="images/logo.png" alt="logo"></h1>
+            <section id='about'>
+              <p>
+                Discover an insider's view of San Francisco. Hidden public spaces
+                like POPOS, parklets, stairwells, and playgrounds offer free and
+                fun neighborhood adventures. <br /><strong>Coming soon.</strong> <!-- Start your adventure today. -->
+              </p>
+            </section>
+          
           </div>
-          </a> </div>
-        <!--logo ends-->
 
-        <!--menu / navigation starts-->
-        <div id="nav" class="twelve columns omega">
-          <ul>
-            <li id='contact'>info@sfpopos.com</li>
-          </ul>
-        </div>
-        <!--menu / navigation ends-->
+        </section>
 
-        <div class="clear"></div>
-      </div>
-      <!--header ends-->
+        <section id='middle'>
 
-      <!--slider starts-->
-      <div class="da-slider">
-        <div class='slide-content'>
-          <h2>Find<strong> SF's cool spaces</strong></h2>
-          Discover an insider's view of San Francisco. Hidden public spaces
-          like POPOS, parklets, stairwells, and playgrounds offer free and
-          fun neighborhood adventures. Start your adventure today.
-        </div>
-      </div>
-  </div>
-</div>
-<!--header_wrapper ends-->
+          <div class='container'>
 
-<!--features section starts-->
-<div id="news" class="container clearfix scroll-content">
-  <h2>News</h2>
-  <a href="http://www.fastcoexist.com/1681937/a-new-way-to-explore-some-san-franciscos-hidden-public-spaces?utm_source=twitter&utm_medium=feed&utm_campaign=Feed%3A+fastcompany%2Fheadlines+%28Fast+Company%29">
-    A New Way To Explore Some of San Francisco’s Hidden Public Spaces
-  </a>
-  <br />
-  <a href="http://blogs.esri.com/esri/arcgis/2013/04/22/discover-san-francisco-hackathon/">
-    Discover San Francisco Hackathon
-  </a>
+            <section id='news'>
+              <h2>News</h2>
+              <ul>
+                <li><a href="http://www.fastcoexist.com/1681937/a-new-way-to-explore-some-san-franciscos-hidden-public-spaces">A New Way To Explore Some of San Francisco’s Hidden Public Spaces</a></li>
+                <li><a href='http://blogs.esri.com/esri/arcgis/2013/04/22/discover-san-francisco-hackathon/'>Discover San Francisco Hackathon</a></li>
+              </ul>
+            </section>
 
-</div>
-<!--features section ends-->
+            <section id='signup'>
+              <h2>Keep me updated!</h2>
 
-<!--scroll to top arrow-->
-<a class="scrollToTop"></a>
+              <!-- Begin MailChimp Signup Form -->
+              <div id="mc_embed_signup">
+              <form action="http://sfpopos.us7.list-manage.com/subscribe/post?u=8519924cb9130140d935b7dbe&amp;id=8178b2db21" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <label for="mce-EMAIL"></label>
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+              </form>
+              </div>
+              <!--End mc_embed_signup-->
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            </section>
 
-  ga('create', 'UA-40308421-1', 'sfpopos.com');
-  ga('send', 'pageview');
+            <section id='contact'>
+              <h2>Contact us</h2>
 
-</script>
-</body>
+              <p>
+                For more information contact us at info@sfpopos.com
+              </p>
+            </section>
+
+          </div>
+
+        </section>
+
+        <footer>
+          <p>&copy; 2013 SFPOPOS.com</p>
+        </footer>
+
+
+        <script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+        <script>window.jQuery || document.write('<script src='js/vendor/jquery-1.9.1.min.js'><\/script>')</script>
+        <!-- remove migrate once plugin code works with jQuery 1.9+ -->
+        <script src="http://code.jquery.com/jquery-migrate-1.2.0.js"></script>
+        <script type='text/javascript' src='js/vendor/jquery.scrollto.min.js'></script>
+        <script type='text/javascript' src='js/plugins.js'></script>
+        <script type='text/javascript' src='js/main.js'></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-40308421-1', 'sfpopos.com');
+        ga('send', 'pageview');
+        </script>
+
+    </body>
 </html>

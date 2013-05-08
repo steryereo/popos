@@ -19,6 +19,21 @@
         <link rel='stylesheet' href='css/main.css'>
         <script src='js/vendor/modernizr-2.6.2.min.js'></script>
         
+        <!-- MailChimp -->
+        <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+          #mc_embed_signup{background: transparent; clear:left; font:14px Helvetica,Arial,sans-serif; }
+          #mc_embed_signup form {
+            padding: 0;
+          }
+          #mc_embed_signup input {
+            width: 100%;
+          }
+          /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+             We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+        </style>
+        <!-- end Mailchimp -->  
+
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -61,12 +76,17 @@
 
             <section id='signup'>
               <h2>Keep me updated!</h2>
-              <form>
-                <p>
-                  <input id='input-email' placeholder='Enter your e-mail address' type='text'>
-                  <input type='submit' class='btn' id='signup-submit'>
-                </p>
+
+              <!-- Begin MailChimp Signup Form -->
+              <div id="mc_embed_signup">
+              <form action="http://sfpopos.us7.list-manage.com/subscribe/post?u=8519924cb9130140d935b7dbe&amp;id=8178b2db21" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <label for="mce-EMAIL"></label>
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
               </form>
+              </div>
+              <!--End mc_embed_signup-->
+
             </section>
 
             <section id='contact'>
