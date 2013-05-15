@@ -71,7 +71,7 @@
         iconAnchor: new L.Point(23, 60)
       }),
       selected : L.icon({
-        iconUrl: 'images/poposmarkergreen.png',
+        iconUrl: 'images/poposmarkerred.png',
         shadowUrl: 'images/marker-shadow.png',
         iconAnchor: new L.Point(23, 60)
       })
