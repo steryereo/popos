@@ -1,54 +1,34 @@
 </html>
   <head>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
     <!-- LEAFLET -->
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.css" />
+    <link rel="stylesheet" href="leaflet.css" />
     <!--[if lte IE 8]>
-      <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.ie.css" />
+      <link rel="stylesheet" href="leaflet-0.5.1/leaflet.ie.css" />
     <![endif]-->
     <script src="leaflet.js"></script>
 
     <!-- STAMEN -->
     <script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.2.1"></script>
+    <link rel="stylesheet" media="screen" href="map.css" />
 
-    <style>
-      .map {
-        width: 100%;
-        height: 100%;
-      }
-    </style>
-
-    <script type='text/javascript' src='http://underscorejs.org/underscore-min.js'></script>
+    <script type='text/javascript' src='underscore-min.js'></script>
     <script type='text/javascript' src='popos.js'></script>
   </head>
   <body>
-    <div class='map' id='map'></div>
-    <script type='text/javascript'>
+    <div>
+      <span class='map' id='map'></span>
+      <span class='detailview'>
+        <div id='detailview'></div>
+        <div class='arrows'>
+          <span class='leftArrow'><</span>
+          <span class='rightArrow'>></span>
+        </div>
+      </span>
 
-      var layertypea = 'watercolor';
-      var watercolorlayer = new L.StamenTileLayer(layertypea);
-
-      var layertypeb = 'toner-labels';
-      var tonerlabellayer = new L.StamenTileLayer(layertypeb);
-
-      var mapOptions = {
-          minZoom : 12,
-          maxZoom : 18
-      };
-      var map = new L.Map('map', mapOptions);
-
-      var polyline = L.polyline(document.data().points(), { color: 'red' });
-      polyline.addTo(map);
-      map.fitBounds(polyline.getBounds());
-
-      var watercolorurl = 'http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.jpg';
-      L.tileLayer(watercolorurl).addTo(map);
-      map.addLayer(tonerlabellayer);
-
-      // markers and popups
-      document.data().popups();
-
-    </script>
-
+    </div>
+    <script type='text/javascript' src='map.js'></script>
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
