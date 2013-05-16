@@ -1,3 +1,8 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
 .map {
   width: 100%;
   height: 100%;
@@ -11,19 +16,17 @@
   margin-top: 30px;
   background-color: rgba(255, 255, 255, 0.85);
   height: 570px;
-  width: 300px;
-}
-
-#detailview {
-  text-align: center;
-  display: block;
-  padding: 10px;
+  width: 285px;
+  overflow: hidden;
+  border-radius: 15px;
+  -mozilla-border-radius: 15px;
+  -webkit-border-radius: 15px;
 }
 
 #detailview img {
-  background-color: white;
-  border: 1px solid grey;
-  z-index: 3;
+  border-radius: 15px;
+  -mozilla-border-radius: 15px;
+  -webkit-border-radius: 15px;
 }
 
 .arrows {
@@ -36,12 +39,6 @@
 
 .arrows span:hover {
   background-color: white;
-  z-index: 1;
-}
-
-.rightArrow {
-  width: 50%;
-  float: left;
 }
 
 .leftArrow {
@@ -49,4 +46,7 @@
   float: left;
 }
 
-
+.rightArrow {
+  width: 50%;
+  float: left;
+}

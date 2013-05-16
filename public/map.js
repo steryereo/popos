@@ -6,7 +6,8 @@ var tonerlabellayer = new L.StamenTileLayer(layertypeb);
 
 var mapOptions = {
   minZoom : 17,
-  maxZoom : 17
+  maxZoom : 17,
+  zoomControl : false
 };
 var map = new L.Map('map', mapOptions);
 
