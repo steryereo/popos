@@ -62,13 +62,13 @@
 
     var poposMarker = {
       default : L.icon({
-        iconUrl: 'images/poposmarkerblue.png',
-        shadowUrl: 'images/marker-shadow.png',
+        iconUrl: 'img/poposmarkerblue.png',
+        shadowUrl: 'img/marker-shadow.png',
         iconAnchor: new L.Point(23, 60)
       }),
       selected : L.icon({
-        iconUrl: 'images/poposmarkerred.png',
-        shadowUrl: 'images/marker-shadow.png',
+        iconUrl: 'img/poposmarkerred.png',
+        shadowUrl: 'img/marker-shadow.png',
         iconAnchor: new L.Point(23, 60)
       })
     };
@@ -111,7 +111,7 @@
 
       // set default icon
       popo.setIcon(poposMarker.selected);
-      var popupsnippet = '<img src=images/popup' + (1 + idx).toString() + '.png>';
+      var popupsnippet = '<img src=img/preview/popup' + (1 + idx).toString() + '.png>';
 
       $('#detailview').html(popupsnippet);
       map.fitBounds(document.polyline.getBounds());

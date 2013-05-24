@@ -28,7 +28,7 @@
 }
 
 .da-slider {
-  background: url('/map_bg.png') no-repeat;
+  background: url('../img/map_bg.png') no-repeat;
   opacity: 50%;
   top: 17px;
 }
