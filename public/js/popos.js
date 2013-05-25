@@ -75,13 +75,13 @@
 
     document.popos = [];
 
-    $('.arrows .leftArrow').on('click', function() {
+    $('.navigation .left-arrow').on('click', function() {
       if (document.poposindex >= 1) {
         setCurrentPopos( document.poposindex - 1 );
       }
     });
 
-    $('.arrows .rightArrow').click(function() {
+    $('.navigation .right-arrow').click(function() {
       if (document.poposindex >= 0 && document.poposindex < document.popos.length - 1) {
         setCurrentPopos( document.poposindex + 1 );
       }
@@ -91,15 +91,15 @@
       document.poposindex = idx;
 
       if (document.poposindex + 1 == document.popos.length) {
-        $('.rightArrow').css('visibility', 'hidden');
+        $('.right-arrow img').css('visibility', 'hidden');
       } else {
-        $('.rightArrow').css('visibility', 'visible');
+        $('.right-arrow img').css('visibility', 'visible');
       }
 
       if (document.poposindex <= 0) {
-        $('.leftArrow img').css('visibility', 'hidden');
+        $('.left-arrow img').css('visibility', 'hidden');
       } else {
-        $('.leftArrow img').css('visibility', 'visible');
+        $('.left-arrow img').css('visibility', 'visible');
       }
 
       var popo = document.popos[idx];
@@ -111,9 +111,11 @@
 
       // set default icon
       popo.setIcon(poposMarker.selected);
+
+      console.log(data);
       var popupsnippet = '<img src=img/preview/popup' + (1 + idx).toString() + '.png>';
 
-      $('#detailview').html(popupsnippet);
+      //$('#detailview').html(popupsnippet);
       map.fitBounds(document.polyline.getBounds());
     };
 
