@@ -116,6 +116,8 @@
       var m_place = $('#m_place').html();
       $('#place').html(Mustache.render(m_place, data[idx]));
 
+      $('#detailview').draggable({ handle: '#place .title', containment: '#map', cursor: '-webkit-grabbing !important'});
+
       map.fitBounds(document.polyline.getBounds());
     };
 
