@@ -18,36 +18,9 @@
   </head>
   <body>
 
-    <div class='map' id='map'>
-
     <section id='detailview'>
-    </section>
-
-    <!-- MUSTACHE TEMPLATE -->
-    <section id='detailview-template'>
-    <script id='m_detailview' type='text/template'>
-      <div class='title'>
-        <h2>{{name}}</h2>
-      </div>
-      <div class='photo'>
-        <img src='img/popos/{{pic_file}}' width='640' height='300' alt='{{name}}' />
-      </div>
-      <div class='info'>
-        <div class='buttons'>
-          <div class='address'>
-            {{popos_addr}}
-          </div>
-          <div class='icons'>
-            <span class='icon-art'>art</span>
-            <span class='icon-outdoor'>outdoor</span>
-            <span class='icon-food'>food available</span>
-          </div>
-        </div>
-        <div class='description'>
-          <p>
-            {{description}}
-          </p>
-        </div>
+      <div id='place'>
+        <!-- placeholder for place info -->
       </div>
       <div class='navigation'>
         <span class='left-arrow'>
@@ -57,9 +30,39 @@
           <img src='img/ui/right_arrow.png' />
         </span>
       </div>
+    </section>
+
+    <!-- MUSTACHE TEMPLATE -->
+    <section id='place-template'>
+    <script id='m_place' type='text/template'>
+        <div class='title'>
+          <h2>{{name}}</h2>
+        </div>
+        <div class='photo'>
+          <img src='img/popos/{{pic_file}}' width='100%' height='100%' alt='{{name}}' />
+        </div>
+        <div class='info'>
+          <div class='buttons'>
+            <div class='address'>
+              {{popos_addr}}
+            </div>
+            <div class='icons'>
+              <span class='icon-art'>art</span>
+              <span class='icon-outdoor'>outdoor</span>
+              <span class='icon-food'>food available</span>
+            </div>
+          </div>
+          <div class='description'>
+            <p>
+              {{description}}
+            </p>
+          </div>
+        </div>
     </script>
     </div>
     <!-- // end Mustache template -->
+
+    <div class='map' id='map'>
 
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
     <script>window.jQuery || document.write('<script src=\'js/vendor/jquery-1.9.1.min.js\'><\/script>')</script>

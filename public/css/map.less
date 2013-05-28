@@ -6,7 +6,8 @@
 
 // CONSTANTS
 
-@title-bg:    #3d263b;
+@title-bg:      #3d263b;
+@detail-width:  520px;
 
 // TYPOGRAPHY PRESETS
 
@@ -37,15 +38,15 @@ body {
   position: absolute;
   left: 40px;
   top: 40px;
-  width: 640px;
+  width: @detail-width;
   overflow: hidden;
   // border-radius: 16px;
-  .border-top-radius(20px);
+  //.border-top-radius(20px);
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
   font-family: 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   font-size: 14px;
   // broken
-  .border-bottom-radius(20px);
+  //.border-bottom-radius(20px);
   .title {
     text-align: center;
     height: 60px;
@@ -64,14 +65,14 @@ body {
   }
   .photo {
     .user-select(none);
-    width: 640px;
-    height: 300px;
+    width: @detail-width;
+    height: @detail-width * 0.46875;
   }
   .info {
     background-color: rgba(255, 255, 255, 0.90);
     padding: 0 30px;
     .buttons {
-      height: 40px;
+      height: 60px;
       .address {
         width: 50%;
         float: left;
@@ -82,12 +83,12 @@ body {
       .icons {
         .user-select(none);
         width: 50%;
-        float: left;
+        position: absolute;
+        right: 15px;
         text-align: center;
         padding-top: 10px;
         span {
           display: block;
-          position: relative;
           float: right;
           width: 30px;
           height: 40px;
