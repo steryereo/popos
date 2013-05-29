@@ -20,16 +20,7 @@
 
 // LAYOUT
 
-body {
-  padding: 0;
-  margin: 0;
-}
-
-#map {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-}
+// moved to map.html because these elements were being rendered slower than less.js can process it.
 
 // OVERLAY
 
@@ -133,7 +124,7 @@ body {
       float: left;
       text-align: center;
       border-top: 1px solid rgb(220, 220, 220);
-      box-sizing: border-box;
+      .box-sizing(border-box);
       cursor: pointer;
       &:hover {
         background-color: white;
