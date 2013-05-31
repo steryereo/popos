@@ -19,19 +19,22 @@ var linestyle = {
 };
 
 // Determine map style
-if (mapStyle == 'watercolor') {
-    // Watercolor map option
-    var watercolorurl = 'http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.jpg';
-    var tonerlabellayer = new L.StamenTileLayer(stamenLabels);
-
-    var map = new L.Map('map', mapOptions);
-
-    L.tileLayer(watercolorurl).addTo(map);
-    map.addLayer(tonerlabellayer);
+if (mapStyle == 'new') {
+  var map = L.mapbox.map('map', mapboxID, mapOptions);
+}
+else if (mapStyle) {
+  var map = L.mapbox.map('map', mapStyle, mapOptions);  
 }
 else {
-    // Default map style
-    var map = L.mapbox.map('map', mapboxID, mapOptions);
+  // Default map style
+  // Watercolor map option
+  var watercolorurl = 'http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.jpg';
+  var tonerlabellayer = new L.StamenTileLayer(stamenLabels);
+
+  var map = new L.Map('map', mapOptions);
+
+  L.tileLayer(watercolorurl).addTo(map);
+  map.addLayer(tonerlabellayer);
 }
 
 // Initiate POPOS
