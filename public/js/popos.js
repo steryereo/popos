@@ -62,10 +62,17 @@
     });
 
     var offsetMap = function() {
-        // this should move the center of the polyline to the center of the "non detailview" map area
-        map.fitBounds(document.polyline.getBounds());
-        var centerOffset = ($("#detailview").width() + $("#detailview").offset().left) * -0.5;
-        map.panBy([centerOffset, 0]);
+      // this should move the center of the polyline to the center of the "non-detailview" map area
+
+      var clearAreaLeft = $("#detailview").width() + $("#detailview").offset().left;
+      var clearAreaCenter = Math.floor(window.innerWidth - (window.innerWidth - clearAreaLeft) / 2);
+      var centerOffset = clearAreaCenter - Math.floor(window.innerWidth / 2);
+
+      // var z = map.getZoom();
+      var z = 17; // Hardcoded - BAD!
+      var pathCenterAbs = map.project(document.polyline.getBounds().getCenter(), z);
+      var newCenterLatLng = map.unproject([pathCenterAbs.x - centerOffset, pathCenterAbs.y]);
+      map.setView(newCenterLatLng, z);
     };
 
     var setCurrentPopos = function(idx) {
