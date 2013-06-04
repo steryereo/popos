@@ -61,6 +61,13 @@
       }
     });
 
+    var offsetMap = function() {
+        // this should move the center of the polyline to the center of the "non detailview" map area
+        map.fitBounds(document.polyline.getBounds());
+        var centerOffset = ($("#detailview").width() + $("#detailview").offset().left) * -0.5;
+        map.panBy([centerOffset, 0]);
+    };
+
     var setCurrentPopos = function(idx) {
       document.poposindex = idx;
 
@@ -93,10 +100,8 @@
       $('#detailview').draggable({ handle: '#place .title', containment: '#map', cursor: '-webkit-grabbing !important'});
 
       map.fitBounds(document.polyline.getBounds());
+      offsetMap();
 
-      // this should move the center of the polyline to the center of the "non detailview" map area
-      var centerOffset = ($("#detailview").width() + $("#detailview").offset().left * 2.0) * -0.5;
-      map.panBy([centerOffset, 0]);
     };
 
     return {
@@ -119,7 +124,8 @@
         });
       },
       walkpath : walkpath,
-      setCurrentPopos : setCurrentPopos
+      setCurrentPopos : setCurrentPopos,
+      offsetMap : offsetMap 
     };
   }
 })();
