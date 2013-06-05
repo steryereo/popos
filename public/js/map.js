@@ -44,17 +44,14 @@ var points = popos.walkpath;
 document.polyline = L.polyline(points, linestyle);
 document.polyline.addTo(map);
 
-//map.fitBounds(document.polyline.getBounds());
-
-//popos.offsetMap();
-
-window.onload = popos.offsetMap;
-window.onresize = popos.offsetMap;
+window.onresize = popos.centerOnPath;
 // markers and popups
 popups = popos.popups();
 
 // Set first popo
 popos.setCurrentPopos(0);
+map.fitBounds(document.polyline.getBounds());
+popos.centerOnPath(true);
 
 function GetQueryStringParams(sParam) {
     var sPageURL = window.location.search.substring(1);
