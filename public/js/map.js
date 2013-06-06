@@ -44,7 +44,7 @@ var points = popos.walkpath;
 document.polyline = L.polyline(points, linestyle);
 document.polyline.addTo(map);
 
-window.onresize = popos.centerOnPath;
+window.onresize = function(){popos.centerOnPath(false)};
 // markers and popups
 popups = popos.popups();
 
