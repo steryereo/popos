@@ -16,12 +16,16 @@
   min-width:1088px;
 }
 
-.teaserhold {
-  display: inline-block;
-  min-width: 552px;
-  width: 75.4%;
-  height: 50px;
-}
+// .teaserhold {
+//   display: inline-block;
+//   min-width: 552px;
+//   width: 75.4%;
+//   height: 50px;
+// }
+    .maplink {
+        position: absolute;
+        right: 3%;
+    }
 
 // TYPOGRAPHY PRESETS
 
@@ -153,6 +157,16 @@ px      68    160    252    344    436    528    620    712    804    896    */
     .container {
         width: 800px;
     }
+}
+
+@media only screen and (max-width: 1080px) {
+
+    .teaser {
+        min-width: 100px;
+        padding-top:25px;
+        top: 128px;
+    }
+
     
 }
 
@@ -222,6 +236,17 @@ px      68    160    252    */
 
     header img {
         max-width: 100%;
+    }
+        .teaser {
+        float:none;
+        text-align: center;
+    }
+      .maplink {
+        position:static;
+      //  right:auto;
+    }
+    #topheadertext {
+        font-size: 14px;
     }
     
 }
