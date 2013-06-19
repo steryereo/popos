@@ -1,0 +1,313 @@
+@import "normalize.less";
+@import "preboot.less";
+
+// CONSTANTS
+
+@background:            #dcdcdc;
+@container-width:       945px;
+
+
+// TYPOGRAPHY PRESETS
+
+@font-face {
+    font-family: 'futuramedium';
+    src: url('fonts/futura-webfont.eot');
+    src: url('fonts/futura-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/futura-webfont.woff') format('woff'),
+         url('fonts/futura-webfont.ttf') format('truetype'),
+         url('fonts/futura-webfont.svg#futuramedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// none
+
+// MIXINS
+
+
+
+.text-outline(@radius, @color) {
+    text-shadow: @radius 0 @radius @color,
+                 0 @radius @radius @color,
+                 -@radius 0 @radius @color,
+                 0 -@radius @radius @color;
+}
+
+// LAYOUT
+
+
+html {
+    background: url('../img/pattern1.jpg') repeat #fff;
+    font-family: 'futuramedium', sans-serif;    font-size: 14px;
+    padding-bottom: 40px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'futuramedium', sans-serif;
+    text-transform: uppercase;
+   // letter-spacing: .05em;
+    line-height: 110%;
+}
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+
+
+
+.container {
+    clear:both;
+    width: 100%;
+    max-width: @container-width;
+    margin:auto;
+    padding: 0 20px;
+    h1 {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.7em;
+        width:100%;
+    }
+}
+
+.column {
+    display:inline-block;
+    margin: 0px;
+    text-align: center;
+}
+
+#top {
+#nav 
+{   
+    text-align: right;
+    padding:1em 0 .25em 0;
+    a {
+        font-family: 'futuramedium', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        color:#000;
+        font-size: 1.7em;
+        margin-left: 1em;
+    }
+}
+header {
+    float:left;
+    position: relative;
+     width: 100%;
+     max-width: 945px;
+     max-height:357px;
+     img {
+        width:100%;
+     }
+}
+
+#appimage {
+    float:left;
+    position:absolute;
+    bottom: 4.5% ;
+    right: 1.7%;
+    width:16%;
+    min-width:100px;
+}
+}
+
+
+.column-box {
+   text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+
+    .stretch {
+        width: 100%;
+        display: inline-block;
+        font-size: 0;
+        line-height: 0
+    }
+    .divider {
+        display:inline-block;
+        //top:30px;
+        height:150px;
+        border-left:1px solid #ccc;
+    }
+}
+#routes {
+    clear:both;
+    padding-top:1em;
+    text-transform: uppercase;
+
+    .column {
+        padding: 0.5em 0;
+        vertical-align: top;
+        margin: 0;
+        width: 20%;
+        min-width: 128px;
+
+        .route-subhead {
+            font-size :70%;
+            line-height: 0;
+        }
+
+    }
+}
+
+#about {
+    header {
+        text-align: center;
+    }
+    p {
+        font-size: 1.2857em;
+        padding: 0.25em;
+    }
+}
+
+#news_and_updates {
+    a {
+        color: #777;
+        text-decoration: none;
+        border-bottom: 1px dotted #777;
+    }
+    .column {
+        padding: 0;
+        vertical-align: top;
+        margin: 0;
+        width: 30%;
+        min-width: 128px;
+        ul {
+            padding:0;
+            margin:0;
+            text-align: left;
+            overflow-x: hidden;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+    }
+    #news {
+        li {
+          padding:0.3em;
+          font-size: 1.2857em;
+        }
+
+    }
+    #tweets {
+        font-size: 0.857em;
+        ul {
+            list-style-type: none;
+        }
+    }
+    #signup {
+        padding-left: 5%;
+        text-align: left;
+        h2 {
+            padding-top: 1em;
+            line-height: 1.5em;
+        }
+    }
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding-top: 30px;
+    color: #aaa;
+    font-size: 12px;
+}
+
+
+/*      Default Layout: 992px. 
+        Gutters: 24px.
+        Outer margins: 48px.
+        Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+ 
+
+
+/*      Tablet Layout: 768px.
+        Gutters: 24px.
+        Outer margins: 28px.
+        Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+
+/*      Mobile Layout: 320px.
+        Gutters: 24px.
+        Outer margins: 34px.
+        Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 991px) {
+
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+
+    header {
+        width: 100%;
+        border-radius: 0;
+    }
+    // #top {
+    //     background: url('../img/map_bg.png') 60% 35% no-repeat;
+    //     background-size: cover;
+    // }
+
+    #about {
+        max-width: 100%;
+        border-radius: 0;
+        padding: 20px;
+        overflow: hidden;
+    }
+
+    #middle {
+        padding: 20px;
+
+        section {
+            width: 100%;
+            box-sizing: border-box;
+            float: none;
+            padding: 20px;
+            height: auto;
+            border-bottom: 1px solid #ccc;
+            border-right: 0;
+        }
+        #news {
+            ul {
+                padding-left: 20px;
+            }
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 420px) {
+
+    header img {
+        max-width: 100%;
+    }
+      .maplink {
+        position:static;
+      //  right:auto;
+    }
+    #topheadertext {
+        font-size: 14px;
+    }
+    
+}
+
+
+/*      Wide Mobile Layout: 480px.
+        Gutters: 24px.
+        Outer margins: 22px.
+        Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+}
