@@ -46,7 +46,7 @@ v=document.createTextNode(a);s.appendChild(v);s.setAttribute("aria-label",a);e[b
  *     Twitter's default renderings.
  */
 
-twitterFetcher.fetch('347464599987183618', 'tweets', 3, true, false, false);
+twitterFetcher.fetch('347464599987183618', 'tweets', 3, true, false);
 // ##### Simple example 1 #####
 // A simple example to get my latest tweet and write to a HTML element with
 // id "tweets". Also automatically hyperlinks URLS and user mentions and

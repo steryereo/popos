@@ -57,7 +57,7 @@ a {
 
 .container {
     clear:both;
-    width: 100%;
+    width: 95%;
     max-width: @container-width;
     margin:auto;
     padding: 0 20px;
@@ -109,7 +109,9 @@ header {
     min-width:100px;
 }
 }
-
+    #middlestretch, #middlestretch2{
+    display: none;
+}
 
 .column-box {
    text-align: justify;
@@ -122,6 +124,7 @@ header {
         font-size: 0;
         line-height: 0
     }
+
     .divider {
         display:inline-block;
         //top:30px;
@@ -138,8 +141,8 @@ header {
         padding: 0.5em 0;
         vertical-align: top;
         margin: 0;
-        width: 20%;
-        min-width: 128px;
+        width: 23%;
+        min-width: 100px;
 
         .route-subhead {
             font-size :70%;
@@ -148,7 +151,6 @@ header {
 
     }
 }
-
 #about {
     header {
         text-align: center;
@@ -169,11 +171,11 @@ header {
         padding: 0;
         vertical-align: top;
         margin: 0;
-        width: 30%;
+        max-width: 35%;
         min-width: 128px;
         ul {
             padding:0;
-            margin:0;
+            margin:0.5 0;
             text-align: left;
             overflow-x: hidden;
             font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -191,10 +193,18 @@ header {
         ul {
             list-style-type: none;
         }
+        p{
+            margin-bottom: 0.25em;
+        }
+        .timePosted {
+            margin:0;
+            font-style: italic;
+        }
     }
     #signup {
         padding-left: 5%;
         text-align: left;
+        width:22%;
         h2 {
             padding-top: 1em;
             line-height: 1.5em;
@@ -241,61 +251,29 @@ px      68    160    252    */
 
 @media only screen and (max-width: 991px) {
 
-    .container {
-        width: 100%;
-        padding: 0;
-    }
-
-    header {
-        width: 100%;
-        border-radius: 0;
-    }
-    // #top {
-    //     background: url('../img/map_bg.png') 60% 35% no-repeat;
-    //     background-size: cover;
-    // }
-
-    #about {
-        max-width: 100%;
-        border-radius: 0;
-        padding: 20px;
-        overflow: hidden;
-    }
-
-    #middle {
-        padding: 20px;
-
-        section {
-            width: 100%;
-            box-sizing: border-box;
-            float: none;
-            padding: 20px;
-            height: auto;
-            border-bottom: 1px solid #ccc;
-            border-right: 0;
-        }
-        #news {
-            ul {
-                padding-left: 20px;
-            }
-        }
-    }
-    
 }
 
-@media only screen and (max-width: 420px) {
+// 600px in normal zoom
+@media only screen and (max-width: 600px) {
 
-    header img {
-        max-width: 100%;
-    }
-      .maplink {
-        position:static;
-      //  right:auto;
-    }
-    #topheadertext {
-        font-size: 14px;
-    }
-    
+#middle-divider {
+    display: none;
+}
+#middlestretch, #middlestretch2{
+    display: inline-block;
+}
+#routes .column-box {
+    text-align: center;
+}
+#routes .column {
+    width:48%;
+   // padding:10%;
+}
+#news_and_updates .column {
+    max-width:44%;
+    min-width:200px;
+    padding:2%;
+}
 }
 
 
@@ -307,7 +285,11 @@ px      68    160    252    */
 cols    1     2      3      4      5
 px      68    160    252    344    436    */
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-
+@media only screen and (max-width: 480px) {
+#news_and_updates .column {
+    max-width:100%;
+    padding:1%;
+    text-align: center;
+}
 
 }
