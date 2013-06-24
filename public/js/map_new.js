@@ -1,7 +1,7 @@
 // Set map types
-var mapboxID = 'cdawson.map-0ymh0yul';
+var mapboxID = 'cdawson.map-rfzl19el';
 var stamenMap = 'watercolor',
-    stamenLabels = 'toner-labels';
+stamenLabels = 'toner-labels';
 
 var mapStyle = GetQueryStringParams('m');
 var routeID = GetQueryStringParams('routeID');
@@ -18,7 +18,6 @@ var linestyle = {
   dashArray: '15, 15',
   opacity : 1.0
 };
-
 
 if (mapStyle) {
   var map = L.mapbox.map('map', mapStyle, mapOptions);  
@@ -57,35 +56,39 @@ if (routeID) {
   document.polyline = L.polyline(route, linestyle);
   document.polyline.addTo(map);
 
-window.onresize = function(){
-  var idx = document.poposindex;
-   var lat = document.routeObjs[idx].latitude;
-      var lon = document.routeObjs[idx].longitude;
-      popos.centerOnPoint(new L.LatLng(lat, lon));
-  popos.centerOnPoint(false)
-};
-// markers and popups
-popos.routePopups(routeID);
+  window.onresize = function(){
+    var idx = document.poposindex;
+    var lat = document.routeObjs[idx].latitude;
+    var lon = document.routeObjs[idx].longitude;
+    popos.centerOnPoint(new L.LatLng(lat, lon));
+    popos.centerOnPoint(false)
+  };
+  // markers and popups
+  popos.routePopups(routeID);
 
-// Set first popo
-// map.fitBounds(document.polyline.getBounds());
+  // Set first popo
+  // map.fitBounds(document.polyline.getBounds());
 
+  // Mark navigation as active
+  $("nav a[href*=" + parseInt(routeID, 10) + "]").addClass('active');
 
-// popos.centerOnPath(true);
+  // popos.centerOnPath(true);
 }
 else {
   map.fitBounds(points);
-popos.popups();
+  popos.popups();
 }
 popos.setCurrentPopos(0);
+
+
 // }
 function GetQueryStringParams(sParam) {
-    var sPageURL = window.location.search.substring(1);
-    var sURLVariables = sPageURL.split('&');
-    for (var i = 0; i < sURLVariables.length; i++) {
-        var sParameterName = sURLVariables[i].split('=');
-        if (sParameterName[0] == sParam) {
-            return sParameterName[1];
-        }
+  var sPageURL = window.location.search.substring(1);
+  var sURLVariables = sPageURL.split('&');
+  for (var i = 0; i < sURLVariables.length; i++) {
+    var sParameterName = sURLVariables[i].split('=');
+    if (sParameterName[0] == sParam) {
+      return sParameterName[1];
     }
- }
+  }
+}

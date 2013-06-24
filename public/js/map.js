@@ -1,5 +1,5 @@
 // Set map types
-var mapboxID = 'cdawson.map-0ymh0yul';
+var mapboxID = 'cdawson.map-rfzl19el';
 var stamenMap = 'watercolor',
     stamenLabels = 'toner-labels';
 
