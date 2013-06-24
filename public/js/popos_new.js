@@ -80,12 +80,12 @@
     //     ];
     var poposMarker = {
       default: L.icon({
-        iconUrl: 'img/poposmarkerblue.png',
+        iconUrl: 'img/uw_marker_gray.png',
         shadowUrl: 'img/marker-shadow.png',
         iconAnchor: new L.Point(23, 60)
       }),
       selected: L.icon({
-        iconUrl: 'img/poposmarkerred.png',
+        iconUrl: 'img/uw_marker_red.png',
         shadowUrl: 'img/marker-shadow.png',
         iconAnchor: new L.Point(23, 60)
       })
@@ -186,7 +186,9 @@
         cursor: '-webkit-grabbing !important'
       });
 
+if (document.polyline) {
       map.fitBounds(document.polyline.getBounds());
+    }
       //centerOnPath();
       // var lat = parseFloat(gdocObj.gsx$latitude.$t);
       // var lon = parseFloat(gdocObj.gsx$longitude.$t);
@@ -286,7 +288,8 @@
       routePopups: routePopups,
       setCurrentPopos: setCurrentPopos,
       routePoints: routePoints,
-      centerOnPath: centerOnPath
+      centerOnPath: centerOnPath,
+      centerOnPoint: centerOnPoint
     };
   }
 })();

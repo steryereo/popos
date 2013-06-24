@@ -57,16 +57,27 @@ if (routeID) {
   document.polyline = L.polyline(route, linestyle);
   document.polyline.addTo(map);
 
-window.onresize = function(){popos.centerOnPath(false)};
+window.onresize = function(){
+  var idx = document.poposindex;
+   var lat = document.routeObjs[idx].latitude;
+      var lon = document.routeObjs[idx].longitude;
+      popos.centerOnPoint(new L.LatLng(lat, lon));
+  popos.centerOnPoint(false)
+};
 // markers and popups
 popos.routePopups(routeID);
 
 // Set first popo
-map.fitBounds(document.polyline.getBounds());
-popos.setCurrentPopos(0);
+// map.fitBounds(document.polyline.getBounds());
 
-//popos.centerOnPath(true);
+
+// popos.centerOnPath(true);
 }
+else {
+  map.fitBounds(points);
+popos.popups();
+}
+popos.setCurrentPopos(0);
 // }
 function GetQueryStringParams(sParam) {
     var sPageURL = window.location.search.substring(1);
