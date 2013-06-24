@@ -1,19 +1,19 @@
 (function() {
-  document.popos = function(d) {
+  document.popos = function() {
 
     var json = 'data/popos_new.json',
       data = [];
 
-    data = d.feed.entry;
+    //data = d.feed.entry;
 
-    // $.ajax({
-    //   url: json,
-    //   async: false,
-    //   dataType: 'json',
-    //   success: function(i) {
-    //     data = i;
-    //   }
-    // });
+    $.ajax({
+      url: json,
+      async: false,
+      dataType: 'json',
+      success: function(i) {
+        data = i;
+      }
+    });
     var walkingRoutes = [];
     walkingRoutes[1] = [
       new L.LatLng(37.7951184623911, -122.40214169025421),
@@ -126,8 +126,8 @@
       var clearAreaCenter = Math.floor(window.innerWidth - (window.innerWidth - clearAreaLeft) / 2);
       var centerOffset = clearAreaCenter - Math.floor(window.innerWidth / 2);
 
-      //var z = map.getZoom();
-      var z = 17; // Hardcoded - BAD!
+      var z = map.getZoom();
+      //var z = 17; // Hardcoded - BAD!
       var pathCenterAbs = map.project(p, z);
       var newCenterLatLng = map.unproject([pathCenterAbs.x - centerOffset, pathCenterAbs.y]);
       map.setView(newCenterLatLng, z, reset);
@@ -160,24 +160,25 @@
       popo.setIcon(poposMarker.selected);
 
       // Translate stupid gdoc json
-      var placeObj = new Object();
-      var gdocObj = document.routeObjs[idx];
-      placeObj.name = gdocObj.gsx$name.$t;
-      if (gdocObj.gsx$photo_url) {
-        placeObj.pic_file = gdocObj.gsx$photo_url.$t;
-      }
-      else {placeObj.pic_file = "no-photo.jpg";}
-      placeObj.popos_addr = gdocObj.gsx$address.$t;
-      placeObj.art = gdocObj.gsx$art.$t;
-      placeObj.outdoor = gdocObj.gsx$indoor.$t;
-      placeObj.food = gdocObj.gsx$food.$t;
-      placeObj.hours = gdocObj.gsx$openhours.$t;
-      placeObj.views = gdocObj.gsx$views.$t;
-      placeObj.description = gdocObj.gsx$description.$t;
+      // var placeObj = new Object();
+      // var gdocObj = document.routeObjs[idx];
+      // // placeObj.name = gdocObj.gsx$name.$t;
+      // placeObj.name = gdocObj.name;
+      // if (gdocObj.gsx$photo_url) {
+      //   placeObj.pic_file = gdocObj.gsx$photo_url.$t;
+      // }
+      // else {placeObj.pic_file = "no-photo.jpg";}
+      // placeObj.popos_addr = gdocObj.gsx$address.$t;
+      // placeObj.art = gdocObj.gsx$art.$t;
+      // placeObj.outdoor = gdocObj.gsx$indoor.$t;
+      // placeObj.food = gdocObj.gsx$food.$t;
+      // placeObj.hours = gdocObj.gsx$openhours.$t;
+      // placeObj.views = gdocObj.gsx$views.$t;
+      // placeObj.description = gdocObj.gsx$description.$t;
 
       // display content
       var m_place = $('#m_place').html();
-      $('#place').html(Mustache.render(m_place, placeObj));
+      $('#place').html(Mustache.render(m_place, document.routeObjs[idx]));
 
       $('#detailview').draggable({
         handle: '#place .title',
@@ -187,8 +188,10 @@
 
       map.fitBounds(document.polyline.getBounds());
       //centerOnPath();
-      var lat = parseFloat(gdocObj.gsx$latitude.$t);
-      var lon = parseFloat(gdocObj.gsx$longitude.$t);
+      // var lat = parseFloat(gdocObj.gsx$latitude.$t);
+      // var lon = parseFloat(gdocObj.gsx$longitude.$t);
+      var lat = document.routeObjs[idx].latitude;
+      var lon = document.routeObjs[idx].longitude;
       centerOnPoint(new L.LatLng(lat, lon));
 }
     };
@@ -197,16 +200,18 @@
 
     var route = function(routeID) {
       var r = _.filter(data, function(d) {
-        var rid = parseInt(d.gsx$routeid.$t);
-        var lat = parseFloat(d.gsx$latitude.$t);
-        var lon = parseFloat(d.gsx$longitude.$t);
-        // var lat = d.latitude;
-        // var lon = d.longitude;
+        // var rid = parseInt(d.gsx$routeid.$t);
+        var rid = d.route_id;
+        // var lat = parseFloat(d.gsx$latitude.$t);
+        // var lon = parseFloat(d.gsx$longitude.$t);
+        var lat = d.latitude;
+        var lon = d.longitude;
 
         return rid == routeID && (!isNaN(lat)) && (!isNaN(lon));
       });
       var sorted = _.sortBy(r, function(d) {
-        return parseInt(d.gsx$routeorder.$t) - 1;
+        // return parseInt(d.gsx$routeorder.$t) - 1;
+        return d.route_order - 1;
       });
       return sorted;
     };
@@ -217,12 +222,12 @@
       } else {
         var r = route(routeID);
         var p = _.map(r, function(d) {
-          var lat = parseFloat(d.gsx$latitude.$t);
-          var lon = parseFloat(d.gsx$longitude.$t);
-          // var lat = d.latitude;
-          // var lon = d.longitude;
-          if (!isNaN(lat) && !isNaN(lon)) {
-            // if (lon && lat) {
+          // var lat = parseFloat(d.gsx$latitude.$t);
+          // var lon = parseFloat(d.gsx$longitude.$t);
+          var lat = d.latitude;
+          var lon = d.longitude;
+          // if (!isNaN(lat) && !isNaN(lon)) {
+            if (lon && lat) {
             return new L.LatLng(lat, lon);
           }
         });
@@ -237,12 +242,12 @@
       document.routeObjs = [];
       _.forEach(pointsToPop, function(d, index) {
 
-        var lat = parseFloat(d.gsx$latitude.$t);
-        var lon = parseFloat(d.gsx$longitude.$t);
-        // var lat = d.latitude;
-        // var lon = d.longitude;
-        if (!isNaN(lat) && !isNaN(lon)) {
-          // if (lon && lat) {
+        // var lat = parseFloat(d.gsx$latitude.$t);
+        // var lon = parseFloat(d.gsx$longitude.$t);
+        var lat = d.latitude;
+        var lon = d.longitude;
+        // if (!isNaN(lat) && !isNaN(lon)) {
+          if (lon && lat) {
           var marker = L.marker([lat, lon], {
             icon: poposMarker.
             default
@@ -264,12 +269,12 @@
       currentRouteID: currentRouteID,
       points: function() {
         var result = _.map(data, function(d) {
-          var lat = parseFloat(d.gsx$latitude.$t);
-          var lon = parseFloat(d.gsx$longitude.$t);
-          // var lat = d.latitude;
-          // var lon = d.longitude;
-          if (!isNaN(lat) && !isNaN(lon)) {
-            // if (lon && lat) {
+          // var lat = parseFloat(d.gsx$latitude.$t);
+          // var lon = parseFloat(d.gsx$longitude.$t);
+          var lat = d.latitude;
+          var lon = d.longitude;
+          // if (!isNaN(lat) && !isNaN(lon)) {
+            if (lon && lat) {
             return new L.LatLng(lat, lon);
           }
         });

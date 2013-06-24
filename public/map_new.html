@@ -61,12 +61,12 @@
           <h2>{{name}}</h2>
         </div>
         <div class='photo'>
-          <img src='img/popos/{{pic_file}}' width='100%' height='100%' alt='{{name}}' />
+          <img src='{{photo_url}}' width='100%' height='100%' alt='{{name}}' />
         </div>
         <div class='info'>
           <div class='buttons'>
             <div class='address'>
-              {{popos_addr}}
+              {{address}}
             </div>
             <div class='icons'>
               {{#art}}
@@ -78,9 +78,9 @@
               {{#food}}
                 <span class='icon-food'>food available</span>
               {{/food}}
-              {{#hours}}
+              {{#open_hours}}
                 <span class='icon-open'>open at all times</span>
-              {{/hours}}
+              {{/open_hours}}
               {{#views}}
                 <span class='icon-views'>views</span>
               {{/views}}
@@ -105,10 +105,10 @@
 
     <script type='text/javascript' src='js/vendor/underscore-min.js'></script>
     <!--<script type='text/javascript' src='js/popos.js'></script> -->
-    <script type='text/javascript' src='js/popos_gdoc.js'></script>
+    <script type='text/javascript' src='js/popos_new.js'></script>
     <script type='text/javascript' src='js/map_new.js'></script>
 
-    <script src="http://spreadsheets.google.com/feeds/list/0Aj3Ad9AGomNCdGstYUtTUlZzQWpBZXhraFViQU51aVE/1/public/values?alt=json-in-script&amp;callback=initMap"></script>
+  <!-- <script src="http://spreadsheets.google.com/feeds/list/0AlbltfEyPSDNdDJkVUNuS1d1ZGktZE1jdmlFbERjbmc/1/public/values?alt=json-in-script&amp;callback=initMap"></script> -->
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

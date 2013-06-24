@@ -8,8 +8,8 @@ var routeID = GetQueryStringParams('routeID');
 
 // Set map options
 var mapOptions = {
-  minZoom : 17,
-  maxZoom : 17,
+  // minZoom : 17,
+  // maxZoom : 17,
   zoomControl : false
 };
 
@@ -46,25 +46,28 @@ else {
 // }
 
 // Initiate POPOS
-var initMap = function (d) {
-var popos = document.popos(d);
-var points = _.filter(popos.points(),function(i){ return i !== undefined; });
+// var initMap = function (d) {
+var popos = document.popos();
+var points = popos.points();
+// var points = _.filter(popos.points(),function(i){ return i !== undefined; });
 
 if (routeID) {
+  popos.currentRouteID = routeID;
   var route = popos.routePoints(routeID);
   document.polyline = L.polyline(route, linestyle);
   document.polyline.addTo(map);
 
 window.onresize = function(){popos.centerOnPath(false)};
 // markers and popups
-popups = popos.popups();
+popos.routePopups(routeID);
 
 // Set first popo
-popos.setCurrentPopos(0);
 map.fitBounds(document.polyline.getBounds());
-popos.centerOnPath(true);
+popos.setCurrentPopos(0);
+
+//popos.centerOnPath(true);
 }
-}
+// }
 function GetQueryStringParams(sParam) {
     var sPageURL = window.location.search.substring(1);
     var sURLVariables = sPageURL.split('&');
@@ -74,4 +77,4 @@ function GetQueryStringParams(sParam) {
             return sParameterName[1];
         }
     }
-}
+ }
