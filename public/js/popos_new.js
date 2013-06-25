@@ -14,6 +14,8 @@
         data = i;
       }
     });
+
+    var routeNames = ["","POPOS Route", "", "", "", "Let's Get Physical","Beautiful Views","Kids Corner"];
     var walkingRoutes = [];
     walkingRoutes[1] = [
       new L.LatLng(37.7951184623911, -122.40214169025421),
@@ -301,6 +303,9 @@ if (document.polyline) {
     };
     var routePopups = function(routeID) {
       popups(route(routeID));
+      _.forEach(document.routeObjs, function(d) {
+        d.route_name = routeNames[routeID];
+      });
     };
     return {
       data: data,
