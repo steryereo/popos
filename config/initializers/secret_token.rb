@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Popos::Application.config.secret_token = '71b2252b9de12bb1f9a609c6b37bc82e4411e0013a3353ca58c7f6e494e1e82d515419b9e37d65825d98062c144f6032c88171abec1ed4cf60132d20db9f0760'
+Urbanwander::Application.config.secret_token = 'ea9c2a5d802afe4183b3fe61be6bd8c9e479b757791d9ccd6f5b4a27185123942d42eb960fb768a7d1b002415d669059a51cf1fe8ac50de3f7f6b5019aac4218'

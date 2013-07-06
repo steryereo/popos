@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Popos::Application.load_tasks
+Urbanwander::Application.load_tasks

@@ -5,12 +5,8 @@ gem 'rails', '3.2.11'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'bson_ext', '1.7.0'
-gem "mongoid", '2.5.0'
-gem "symbolize", :require => "symbolize/mongoid"
-gem 'devise', '2.2.0'
-gem 'cancan', '1.6.8'
-gem 'rest-client'
+gem 'sqlite3'
+gem "strong_parameters", "~> 0.2.1"
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -25,13 +21,6 @@ group :assets do
 end
 
 gem 'jquery-rails'
-
-group :test, :development do
-  gem 'pry', '0.9.9.6'
-  gem 'pry-debugger', '0.2.0'
-  gem 'spork', '0.9.2'
-  gem 'pry-stack_explorer', '0.4.7'
-end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
