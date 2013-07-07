@@ -5,8 +5,13 @@ gem 'rails', '3.2.11'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+
+gem "activeadmin", github: "gregbell/active_admin"
 gem 'sqlite3'
 gem "strong_parameters", "~> 0.2.1"
+gem "meta_search",    '>= 1.1.0.pre'
+gem "ransack"
+
 
 # Gems used only for assets and not required
 # in production environments by default.
