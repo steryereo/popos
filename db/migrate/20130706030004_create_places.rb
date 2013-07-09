@@ -4,8 +4,8 @@ class CreatePlaces < ActiveRecord::Migration
       t.string :name
       t.string :name_display
       t.string :address
-      t.string :type
-      t.string :popos_type
+      t.string :category
+      t.string :popos_category
       t.string :neighborhood
       t.text :description
       t.string :photo_url
@@ -19,9 +19,9 @@ class CreatePlaces < ActiveRecord::Migration
       t.integer :route_id
       t.integer :route_order
       t.boolean :open
-      t.time :open_hours
+      t.string :open_hours
       t.string :open_days
-      t.string :open_notes
+      t.text :open_notes
       t.boolean :seating
       t.boolean :restrooms
       t.boolean :wifi
