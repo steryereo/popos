@@ -64,7 +64,7 @@ ActiveRecord::Schema.define(:version => 20130709021344) do
     t.integer  "route_id"
     t.integer  "route_order"
     t.boolean  "open"
-    t.text     "open_hours",          :limit => 255
+    t.text     "open_hours"
     t.string   "open_days"
     t.string   "open_notes"
     t.boolean  "seating"
