@@ -13,5 +13,5 @@ csv_text = File.read("urbanwander_import.csv")
 csv = CSV.parse(csv_text, :headers => true)
 csv.each do |row|
   row = row.to_hash.with_indifferent_access
-  Place.create(row)
+  Place.create!(row)
 end
