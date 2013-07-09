@@ -8,7 +8,7 @@ class CreatePlaces < ActiveRecord::Migration
       t.string :popos_category
       t.string :neighborhood
       t.text :description
-      t.string :photo_url
+      t.text :photo_url
       t.date :year_built
       t.boolean :reject
       t.text :reject_reason
