@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130707062104) do
+ActiveRecord::Schema.define(:version => 20130709021344) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "namespace"
@@ -59,12 +59,12 @@ ActiveRecord::Schema.define(:version => 20130707062104) do
     t.boolean  "reject"
     t.text     "reject_reason"
     t.string   "reject_auth"
-    t.decimal  "latitude",            :precision => 10, :scale => 6
-    t.decimal  "longitude",           :precision => 10, :scale => 6
+    t.decimal  "latitude",                           :precision => 10, :scale => 6
+    t.decimal  "longitude",                          :precision => 10, :scale => 6
     t.integer  "route_id"
     t.integer  "route_order"
     t.boolean  "open"
-    t.string   "open_hours"
+    t.text     "open_hours",          :limit => 255
     t.string   "open_days"
     t.string   "open_notes"
     t.boolean  "seating"
@@ -91,8 +91,8 @@ ActiveRecord::Schema.define(:version => 20130707062104) do
     t.string   "popos_rating_spur"
     t.boolean  "popos_downtown_plan"
     t.text     "notes"
-    t.datetime "created_at",                                         :null => false
-    t.datetime "updated_at",                                         :null => false
+    t.datetime "created_at",                                                        :null => false
+    t.datetime "updated_at",                                                        :null => false
   end
 
 end
