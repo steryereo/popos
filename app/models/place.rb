@@ -8,6 +8,19 @@ class Place < ActiveRecord::Base
     validates :longitude, presence: true
     validates :latitude, presence: true
 
+
+  geocoded_by :address_in_sf
+
+  # CALLBACKS
+
+  before_validation :geocode, if: lambda { |l|
+    l.address && (!(l.latitude && l.longitude) || l.address_changed?)
+  }
+
+  def address_in_sf
+    address + ", San Francisco, CA"
+  end
+
     def to_geojson
     { 
       id: id,

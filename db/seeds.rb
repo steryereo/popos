@@ -9,9 +9,14 @@
 
 require 'csv'
 
-csv_text = File.read("urbanwander_import.csv")
+csv_text = File.read("places-2013-07-10.csv")
 csv = CSV.parse(csv_text, :headers => true)
 csv.each do |row|
   row = row.to_hash.with_indifferent_access
-  Place.create(row)
+  p =Place.create(row)
+  if p
+    print ("added " + p.name + "\n")
+  else
+    print ("ERROR: could not add " + row["name"] + "\n")
+  end
 end

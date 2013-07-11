@@ -10,6 +10,7 @@ gem "activeadmin", github: "gregbell/active_admin"
 gem "strong_parameters", "~> 0.2.1"
 gem "meta_search",    '>= 1.1.0.pre'
 gem "ransack"
+gem 'geocoder'
 
 group :development, :test do
   gem 'sqlite3'
