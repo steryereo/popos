@@ -14,7 +14,7 @@ class Place < ActiveRecord::Base
   # CALLBACKS
 
   before_validation :geocode, if: lambda { |l|
-    l.address && (!(l.latitude && l.longitude))
+    l.address && !(l.latitude && l.longitude)
   }
 
   def address_in_sf
