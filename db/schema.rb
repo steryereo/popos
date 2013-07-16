@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130709021344) do
+ActiveRecord::Schema.define(:version => 20130716024114) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "namespace"
@@ -93,6 +93,27 @@ ActiveRecord::Schema.define(:version => 20130709021344) do
     t.text     "notes"
     t.datetime "created_at",                                         :null => false
     t.datetime "updated_at",                                         :null => false
+  end
+
+  create_table "route_points", :force => true do |t|
+    t.integer  "route_order"
+    t.decimal  "latitude",    :precision => 10, :scale => 6
+    t.decimal  "longitude",   :precision => 10, :scale => 6
+    t.integer  "route_id"
+    t.integer  "place_id"
+    t.datetime "created_at",                                 :null => false
+    t.datetime "updated_at",                                 :null => false
+  end
+
+  add_index "route_points", ["place_id"], :name => "index_route_points_on_place_id"
+  add_index "route_points", ["route_id"], :name => "index_route_points_on_route_id"
+
+  create_table "routes", :force => true do |t|
+    t.string   "name"
+    t.text     "description"
+    t.float    "length_in_miles"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
   end
 
 end

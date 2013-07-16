@@ -18,7 +18,7 @@ class Place < ActiveRecord::Base
   }
 
   def address_in_sf
-    address + ", San Francisco, CA"
+    address + " near San Francisco, CA"
   end
 
     def to_geojson

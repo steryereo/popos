@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  route_order: 1
+  latitude: 9.99
+  longitude: 9.99
+  route: 
+  place: 
+
+two:
+  route_order: 1
+  latitude: 9.99
+  longitude: 9.99
+  route: 
+  place: 
