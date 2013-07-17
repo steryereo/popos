@@ -42,8 +42,11 @@
     <![endif]-->
 
     <section id='top' class='container'>
-        <h1 class="uw-title">urban wander</h1>
-        <h3 class="tagline">discover. explore. wander.</h1>
+
+        <div class = title-div>
+          <h1 class="uw-title">urban wander</h1>
+          <h3 class="tagline">discover. explore. wander.</h3>
+        </div>
         <div id='nav'>
           <a href = "index.html">home</a>
           <a href = "map.html">adventures</a>
@@ -52,9 +55,10 @@
           <a href = "mailto:info@urbanwander.org">contact</a>
         </div>
         <header>
-           <img src="img/urbanwander_banner.jpg" alt="banner">
+           <img src="img/uw_banner.jpg" alt="banner">
            <!-- <a href = ""> -->
-          <img id="appimage" src="img/app_coming_soon.png" alt = "app coming soon!">
+           <div id="banner-text"><h1>fun<br>free<br>off the beaten<br>track<h1></div>
+          <!-- <img id="appimage" src="img/app_coming_soon.png" alt = "app coming soon!"> -->
         <!-- </a> -->
         </header>
     </section>
@@ -100,13 +104,13 @@
       </div>
     </section> 
 
-    <section id='about' class='container'>
+    <section id='howto-and-about' class='container'>
       <img class='howto-img' src="img/iphone_howto.png">
-      <header>
-        <div id="about-text"
+        <div class="about">
+      <!-- <header> -->
         <img src="img/ui/about.png" alt="about">
         <h1>About</h1>
-      </header>
+      <!-- </header> -->
       <p>
             For the urban explorer interested in discovering unique, hidden, beautiful public spaces in San Francisco. Get off the beaten track. Discover POPOS (privately owned public open spaces), parklets, stairwells, playgrounds and other local secrets within San Francisco. Take a curated adventure and immerse yourself in art, exercise, nature or play. 
       </p>
@@ -163,15 +167,16 @@
     <script type='text/javascript' src='js/plugins.js'></script>
     <script type='text/javascript' src='js/main.js'></script>
     <script type='text/javascript' src='js/twitterFetcher.js'></script>
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-40308421-1', 'sfpopos.com');
-    ga('send', 'pageview');
-    </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-40308421-1', 'urbanwander.org');
+  ga('send', 'pageview');
+
+</script>
   </body>
 </html>
