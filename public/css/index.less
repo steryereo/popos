@@ -1,5 +1,6 @@
 @import "normalize.less";
 @import "preboot.less";
+@import "fonts.less";
 
 // CONSTANTS
 
@@ -9,52 +10,6 @@
 
 // TYPOGRAPHY PRESETS
 
-@font-face {
-    font-family: 'futura_mdcn_btmedium';
-    src: url('fonts/futurabt-mediumcondensed-webfont.eot');
-    src: url('fonts/futurabt-mediumcondensed-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/futurabt-mediumcondensed-webfont.woff') format('woff'),
-         url('fonts/futurabt-mediumcondensed-webfont.ttf') format('truetype'),
-         url('fonts/futurabt-mediumcondensed-webfont.svg#futura_mdcn_btmedium') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'futura_md_btmedium';
-    src: url('fonts/futura_medium-webfont.eot');
-    src: url('fonts/futura_medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/futura_medium-webfont.woff') format('woff'),
-         url('fonts/futura_medium-webfont.ttf') format('truetype'),
-         url('fonts/futura_medium-webfont.svg#futura_md_btmedium') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'futura_lt_btlight';
-    src: url('fonts/futurabt-light-webfont.eot');
-    src: url('fonts/futurabt-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/futurabt-light-webfont.woff') format('woff'),
-         url('fonts/futurabt-light-webfont.ttf') format('truetype'),
-         url('fonts/futurabt-light-webfont.svg#futura_lt_btlight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'futura_ltcn_btlight';
-    src: url('fonts/futura_light_condensed-webfont.eot');
-    src: url('fonts/futura_light_condensed-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/futura_light_condensed-webfont.woff') format('woff'),
-         url('fonts/futura_light_condensed-webfont.ttf') format('truetype'),
-         url('fonts/futura_light_condensed-webfont.svg#futura_ltcn_btlight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@body-font: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-@body-bold:'futura_mdcn_btmedium', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-@title-font:'futura_mdcn_btmedium', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-@title-light:'futura_ltcn_btlight', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 
 
 // none
@@ -65,9 +20,9 @@
 
 .text-outline(@radius, @color) {
     text-shadow: @radius 0 @radius @color,
-                 0 @radius @radius @color,
-                 -@radius 0 @radius @color,
-                 0 -@radius @radius @color;
+    0 @radius @radius @color,
+    -@radius 0 @radius @color,
+    0 -@radius @radius @color;
 }
 
 // LAYOUT
@@ -77,13 +32,13 @@ html {
     background: url('../img/pattern1.jpg') repeat #fff;
   //  font-family: 'futuramedium', sans-serif;
   font-family: @body-font;
-    font-size: 14px;
-    padding-bottom: 40px;
+  font-size: 14px;
+  padding-bottom: 40px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: @body-bold;
 //    font-family: 'futuramedium', sans-serif;
-    text-transform: uppercase;
+text-transform: uppercase;
    // letter-spacing: .05em;
    // line-height: 110%;
 }
@@ -100,13 +55,13 @@ a {
     width: 95%;
     max-width: @container-width;
     margin:auto;
-    padding: 0 20px;
+    padding: 0 2%;
     h1 {
         text-transform: uppercase;
         text-align: center;
-        font-size: 1.7em;
-        width:100%;
-    }
+      //  font-size: 1.7em;
+      width:100%;
+  }
 }
 
 .column {
@@ -124,86 +79,103 @@ a {
 }
 
 #top {
+    margin-top:2em;
     .title-div {
         float:left;
-        display: inline-block;
+        .uw-title {
+            font-family: @title-font;
+            font-size: 2.5em;
+            font-weight: normal;
+            margin: 0;
+            line-height: 1em
+
+        }
+    }
+    .tagline {
         font-family: @title-font;
-        font-size: 2em;
-        font-weight: normal;
-  }
-.tagline {
-        display: inline-block;
-    font-family: @title-font;
-    font-size: 1em;
-    font-weight: normal;
-    text-align:left;
-  }
-  #nav 
-  {
-  float:left;   
-    text-align: right;
-    vertical-align: bottom;
-    //padding: 1em 0 .25em 0;
-    a {
+        font-size: 1em;
+        margin: 0.2em 0 1em 0;
+    };
+    #nav 
+    {
+        float:right;   
+        text-align: right;
+   // height:3em;
+   width:70%;
+   padding-top: 0.6em;
+   a {
         //font-family: 'futuramedium', sans-serif;
+        display: inline-block;
         font-family: @body-bold;
         text-transform: uppercase;
         text-decoration: none;
         color:#000;
-        font-size: 1.7em;
-        margin-left: 1em;
+        font-size: 1.5em;
+        padding-left: 7%;
     }
+    a:nth-child(1) {padding: 0;}
 }
 header {
     float:left;
-    position: relative;
-     width: 100%;
-     max-width: 945px;
-     max-height:400px;
-     img {
+    width: 100%;
+    max-width: 945px;
+    max-height:400px;
+    img {
         width:100%;
-     }
-}
-
-#banner-text {
-    position:absolute;
-    top:0;
-    float:left;
-    width:100%;
-    height:100%;
-    text-align: center;
-    vertical-align: middle;
-    h1 {
-    font-family: @title-light;
-        color:#fff;
-        font-size: 2em;
     }
 }
+
+// #banner-text {
+//     paddingon:abso5te;
+//     top:25%;
+//     left:37%;
+//     width:26%;
+//     height:50%;
+//     border: 5px solid white;
+//     h1 {
+//     font-family: @title-light;
+//         color:#fff;
+//         font-size: 2.5em;
+//         margin: 0;
+//     }
+// }
 }
-    #middlestretch, #middlestretch2{
+#map-container {
+   // float:left;
+    position: absolute;
+    clear:both;
+    //width:100%;
+    height:500px;
+    #map {
+        width: 100%;
+        height: 100%;
+        position: absolute !important; // need !mportant for firefox
+    }
+}
+#middlestretch, #middlestretch2{
     display: none;
 }
 
 .column-box {
-   text-align: justify;
-    -ms-text-justify: distribute-all-lines;
-    text-justify: distribute-all-lines;
+ text-align: justify;
+ -ms-text-justify: distribute-all-lines;
+ text-justify: distribute-all-lines;
 
-    .stretch {
-        width: 100%;
-        display: inline-block;
-        font-size: 0;
-        line-height: 0
-    }
+ .stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+}
 
-    .divider {
-        display:inline-block;
+.divider {
+    display:inline-block;
         //top:30px;
         height:150px;
         border-left:1px solid #ccc;
     }
 }
-#routes {
+#adventures {
     clear:both;
     padding-top:1em;
     text-transform: uppercase;
@@ -217,29 +189,30 @@ header {
 
         .route-subhead {
             font-size :70%;
-            line-height: 0;
+            line-height: 0.5em;
         }
 
     }
 }
 #howto-and-about {
     .howto-img {
+        float:left;
         display: inline-block;
         max-width:60%;
         margin: 0 5% 5% 0;
     }
-    .about {
+    #about {
         display: inline-block;
         max-width: 30%;
         text-align: center;
-    p {
-        padding: 0.25em;
+        p {
+            padding: 0.25em;
+        }
     }
-}
 }
 
 #news_and_updates {
-    margin: 3em 0;
+    //margin: 3em 0;
     a {
         color: #777;
         text-decoration: none;
@@ -261,35 +234,35 @@ header {
             text-align: left;
             overflow-x: hidden;
            // font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-family: @body-font;
-        }
-    }
-    #news {
-        li {
-          padding:0.3em;
-          font-size: 1.2857em;
-        }
+           font-family: @body-font;
+       }
+   }
+   #news {
+    li {
+      padding:0.3em;
+      font-size: 1.2857em;
+  }
 
+}
+#tweets {
+    font-size: 0.857em;
+    ul {
+        list-style-type: none;
     }
-    #tweets {
-        font-size: 0.857em;
-        ul {
-            list-style-type: none;
-        }
-        p{
-            margin-bottom: 0.25em;
-        }
-        .timePosted {
-            margin:0;
-            font-style: italic;
-        }
+    p{
+        margin-bottom: 0.25em;
     }
-    #signup {
-        
+    .timePosted {
+        margin:0;
+        font-style: italic;
+    }
+}
+#signup {
+
      //   padding-left: 5%;
      //   text-align: left;
      //   width:22%;
-        h2 {
+     h2 {
             //padding-top: 1em;
             //line-height: 1.5em;
         }
@@ -313,7 +286,7 @@ footer {
 cols    1     2      3      4      5      6      7      8      9      10
 px      68    160    252    344    436    528    620    712    804    896    */
 
- 
+
 
 
 /*      Tablet Layout: 768px.
@@ -339,12 +312,12 @@ px      68    160    252    */
 
 // 600px in normal zoom
 @media only screen and (max-width: 600px) {
-.container {
-    margin:0;
-    padding:0;
-    overflow:hidden;
-    width:100%;
-}
+    .container {
+        margin:0;
+        padding:0;
+        overflow:hidden;
+        width:100%;
+    }
 
 
 // #top header {
@@ -359,12 +332,22 @@ px      68    160    252    */
 #middlestretch, #middlestretch2{
     display: inline-block;
 }
-#routes .column-box {
+#adventures .column-box {
     text-align: center;
 }
-#routes .column {
+#adventures .column {
     width:48%;
    // padding:10%;
+}
+#howto-and-about {
+    text-align: center;
+    .howto-img {
+        float: none;
+        max-width:90%;
+       // margin: auto;
+       }#about {
+        max-width: 90%;
+    }
 }
 #news_and_updates .column {
     max-width:44%;
@@ -383,10 +366,10 @@ cols    1     2      3      4      5
 px      68    160    252    344    436    */
 
 @media only screen and (max-width: 480px) {
-#news_and_updates .column {
-    max-width:100%;
-    padding:3%;
-    text-align: center;
-}
+    #news_and_updates .column {
+        max-width:100%;
+        padding:3%;
+        text-align: center;
+    }
 
 }

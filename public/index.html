@@ -9,7 +9,6 @@
       <meta name='viewport' content='width=device-width, initial-scale=1.0'>
       <title>Urban Wander</title>
       <meta name='description' content=''>
-      <meta name='viewport' content='width=device-width'>
 
       <link href='css/index.less' rel='stylesheet/less' type='text/css' />
       <script src='js/vendor/less-1.3.3.min.js' type='text/javascript'></script>
@@ -18,10 +17,21 @@
 
       <link rel='stylesheet' href='css/main.css'>
       <script src='js/vendor/modernizr-2.6.2.min.js'></script>
+     
+          <!-- MAPBOX -->
+      <link href='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.css' rel='stylesheet' />
+      <!--[if lte IE 8]>
+        <link href='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.ie.css' rel='stylesheet' />
+      <![endif]-->
+      <script src='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.js'></script>
       
+      <link href='css/map.less' rel='stylesheet/less' type='text/css' />
+      <script src='js/vendor/less-1.3.3.min.js' type='text/javascript'></script>
+
       <!-- MailChimp -->
       <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
       <link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
       <style type="text/css">
         /*#mc_embed_signup{background: transparent; clear:left; font:14px Helvetica,Arial,sans-serif; }*/
         #mc_embed_signup form {
@@ -48,67 +58,130 @@
           <h3 class="tagline">discover. explore. wander.</h3>
         </div>
         <div id='nav'>
-          <a href = "index.html">home</a>
+          <a href = "index.html" id="homelink">home</a>
           <a href = "map.html">adventures</a>
           <a href = "#news">news</a>
           <a href = "#about">about</a>
           <a href = "mailto:info@urbanwander.org">contact</a>
         </div>
+      </section>
+      <section id="banner" class="container">
         <header>
            <img src="img/uw_banner.jpg" alt="banner">
            <!-- <a href = ""> -->
-           <div id="banner-text"><h1>fun<br>free<br>off the beaten<br>track<h1></div>
+           <!-- <div id="banner-text"><h1>fun<br>free<br>off the beaten<br>track<h1></div> -->
           <!-- <img id="appimage" src="img/app_coming_soon.png" alt = "app coming soon!"> -->
         <!-- </a> -->
         </header>
     </section>
+    <div id="map-container" class="container">
 
-    <section id='routes' class='container'>
-        <h1>click to choose your adventure!</h1>
+    <section id='map'></section>
+    <section id='detailview'>
+      <div id='place'>
+        <!-- placeholder for place info -->
+      </div>
+      <div class='navigation'>
+        <span class='left-arrow'>
+          <img src='img/ui/left_arrow.png' />
+        </span>
+        <span class='right-arrow'>
+          <img src='img/ui/right_arrow.png' />
+        </span>
+      </div>
+    </section>
+
+    <!-- MUSTACHE TEMPLATE -->
+    <section id='place-template' style='display: none'>
+    <script id='m_place' type='text/template'>
+        <div class='title'>
+        <a href='index.html' id='home'> <img src='img/ui/home.png' alt='Home'> </a>
+          <h2>{{name}}</h2>
+          <div class='routename'>{{route_name}}</div>
+        </div>
+        <div class='photo'>
+          <img src='{{photo_url}}' alt='{{name}}' onError="this.src='img/popos/no_photo.png';" />
+        </div>
+        <div class='info'>
+          <div class='buttons'>
+            <div class='address'>
+              {{address}}
+            </div>
+            <div class='icons'>
+              {{#art}}
+                <span class='icon-art'>art</span>
+              {{/art}}
+              {{#outdoor}}
+                <span class='icon-outdoor'>outdoor</span>
+              {{/outdoor}}
+              {{#food}}
+                <span class='icon-food'>food available</span>
+              {{/food}}
+              {{#open_hours}}
+                <span class='icon-open'>open at all times</span>
+              {{/open_hours}}
+              {{#views}}
+                <span class='icon-views'>views</span>
+              {{/views}}
+            </div>
+          </div>
+          <div class='description'>
+            <p>
+              {{description}}
+            </p>
+          </div>
+        </div>
+    </script>
+    </section>
+    </div>
+      
+    <section id='adventures' class='container'>
+        <h1>click to explore an adventure!</h1>
       <div class='column-box'>
         <!-- <div id='routes-left'> -->
         <section class='column'>
-          <a href= "map.html?routeID=1">
+          <!-- <a href= "map.html?routeID=1"> -->
             <img src = "img/ui/popos_icon.png">
             <h2>POPOS
-              <br><span class='route-subhead'> [privately owned public open spaces] </span>
+              <br><span class='route-subhead'> [privately owned<br>public open spaces] </span>
             </h2>
-          </a>
+          <!-- </a> -->
         </section>
         <div class = 'divider'></div>
         <section class='column'>
-          <a href= "map.html?routeID=5">
+          <!-- <a href= "map.html?routeID=5"> -->
             <img src = "img/ui/get_physical.png">
             <h2>Let's get physical</h2>
-          </a>
+          <!-- </a> -->
         </section>
       <!-- </div> -->
         <div class = 'divider' id="middle-divider"></div>
         <span class='stretch' id='middlestretch'></span>
         <!-- <div id = 'routes-right'> -->
         <section class='column'>
-          <a href= "map.html?routeID=6">
+          <!-- <a href= "map.html?routeID=6"> -->
             <img src = "img/ui/nature_calls.png">
             <h2>Beautiful Views</h2>
-          </a>
+          <!-- </a> -->
         </section>
         <div class = 'divider'></div>
         <section class='column'>
-          <a href= "map.html?routeID=7">
+          <!-- <a href= "map.html?routeID=7"> -->
             <img src = "img/ui/kids.png">
             <h2>Kids Corner</h2>
-          </a>
+          <!-- </a> -->
         </section>
       <!-- </div> -->
         <span class='stretch'></span>
       </div>
     </section> 
+  </section>
 
     <section id='howto-and-about' class='container'>
       <img class='howto-img' src="img/iphone_howto.png">
-        <div class="about">
+        <div id="about">
       <!-- <header> -->
-        <img src="img/ui/about.png" alt="about">
+        <!-- <img src="img/ui/about.png" alt="about"> -->
         <h1>About</h1>
       <!-- </header> -->
       <p>
@@ -162,12 +235,21 @@
 
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
     <script>window.jQuery || document.write('<script src=\'js/vendor/jquery-1.9.1.min.js\'><\/script>')</script>
+
+
+    <script src='http://code.jquery.com/ui/1.10.2/jquery-ui.js'></script>
     <!-- remove migrate once plugin code works with jQuery 1.9+ -->
     <script src="http://code.jquery.com/jquery-migrate-1.2.0.js"></script>
     <script type='text/javascript' src='js/plugins.js'></script>
     <script type='text/javascript' src='js/main.js'></script>
     <script type='text/javascript' src='js/twitterFetcher.js'></script>
 
+        <script src='js/vendor/mustache.js' type='text/javascript'></script>
+
+    <script type='text/javascript' src='js/vendor/underscore-min.js'></script>
+    <!--<script type='text/javascript' src='js/popos.js'></script> -->
+    <script type='text/javascript' src='js/places.js'></script>
+    <script type='text/javascript' src='js/map.js'></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
