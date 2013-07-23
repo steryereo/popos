@@ -54,7 +54,7 @@ a {
     clear:both;
     width: 95%;
     max-width: @container-width;
-    margin:auto;
+    margin:0 auto;
     padding: 0 2%;
     h1 {
         text-transform: uppercase;
@@ -115,15 +115,7 @@ a {
     }
     a:nth-child(1) {padding: 0;}
 }
-header {
-    float:left;
-    width: 100%;
-    max-width: 945px;
-    max-height:400px;
-    img {
-        width:100%;
-    }
-}
+
 
 // #banner-text {
 //     paddingon:abso5te;
@@ -142,21 +134,37 @@ header {
 }
 #map-container {
    // float:left;
-    position: absolute;
-    clear:both;
-    //width:100%;
-    height:500px;
-    #map {
+    position: relative; 
+   // clear:both;
+   // margin:auto;
+    //width:95%;
+    height:600px;
+   // max-width: 945px;
+    max-height:600px;
+     #map {
+    //    float:left;
         width: 100%;
         height: 100%;
+        max-width: 945px;
         position: absolute !important; // need !mportant for firefox
     }
 }
+#banner header {
+    float:left;
+    width: 100%;
+    max-width: 945px;
+    max-height:400px;
+    img {
+        width:100%;
+    }
+}
+
 #middlestretch, #middlestretch2{
     display: none;
 }
 
 .column-box {
+    clear:both;
  text-align: justify;
  -ms-text-justify: distribute-all-lines;
  text-justify: distribute-all-lines;

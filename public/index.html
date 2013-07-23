@@ -59,22 +59,15 @@
         </div>
         <div id='nav'>
           <a href = "index.html" id="homelink">home</a>
-          <a href = "map.html">adventures</a>
+          <a href = "#adventures">adventures</a>
           <a href = "#news">news</a>
           <a href = "#about">about</a>
           <a href = "mailto:info@urbanwander.org">contact</a>
         </div>
       </section>
-      <section id="banner" class="container">
-        <header>
-           <img src="img/uw_banner.jpg" alt="banner">
-           <!-- <a href = ""> -->
-           <!-- <div id="banner-text"><h1>fun<br>free<br>off the beaten<br>track<h1></div> -->
-          <!-- <img id="appimage" src="img/app_coming_soon.png" alt = "app coming soon!"> -->
-        <!-- </a> -->
-        </header>
-    </section>
-    <div id="map-container" class="container">
+
+
+    <section id="map-container" class="container" style="display:none">
 
     <section id='map'></section>
     <section id='detailview'>
@@ -105,7 +98,7 @@
         <div class='info'>
           <div class='buttons'>
             <div class='address'>
-              {{address}}
+              {{address}} 
             </div>
             <div class='icons'>
               {{#art}}
@@ -133,13 +126,21 @@
         </div>
     </script>
     </section>
-    </div>
-      
+    </section>
+    <section id="banner" class="container">
+        <header>
+           <img src="img/uw_banner.jpg" alt="banner">
+           <!-- <a href = ""> -->
+           <!-- <div id="banner-text"><h1>fun<br>free<br>off the beaten<br>track<h1></div> -->
+          <!-- <img id="appimage" src="img/app_coming_soon.png" alt = "app coming soon!"> -->
+        <!-- </a> -->
+        </header>
+    </section>
     <section id='adventures' class='container'>
         <h1>click to explore an adventure!</h1>
       <div class='column-box'>
         <!-- <div id='routes-left'> -->
-        <section class='column'>
+        <section id='adventure_1' class='column'>
           <!-- <a href= "map.html?routeID=1"> -->
             <img src = "img/ui/popos_icon.png">
             <h2>POPOS
@@ -148,7 +149,7 @@
           <!-- </a> -->
         </section>
         <div class = 'divider'></div>
-        <section class='column'>
+        <section id='adventure_5' class='column'>
           <!-- <a href= "map.html?routeID=5"> -->
             <img src = "img/ui/get_physical.png">
             <h2>Let's get physical</h2>
@@ -158,14 +159,14 @@
         <div class = 'divider' id="middle-divider"></div>
         <span class='stretch' id='middlestretch'></span>
         <!-- <div id = 'routes-right'> -->
-        <section class='column'>
+        <section id='adventure_6' class='column'>
           <!-- <a href= "map.html?routeID=6"> -->
             <img src = "img/ui/nature_calls.png">
             <h2>Beautiful Views</h2>
           <!-- </a> -->
         </section>
         <div class = 'divider'></div>
-        <section class='column'>
+        <section id='adventure_7' class='column'>
           <!-- <a href= "map.html?routeID=7"> -->
             <img src = "img/ui/kids.png">
             <h2>Kids Corner</h2>
@@ -175,7 +176,6 @@
         <span class='stretch'></span>
       </div>
     </section> 
-  </section>
 
     <section id='howto-and-about' class='container'>
       <img class='howto-img' src="img/iphone_howto.png">

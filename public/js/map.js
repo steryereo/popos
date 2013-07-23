@@ -9,9 +9,10 @@ var routeID = GetQueryStringParams('routeID');
 
 // Set map options
 var mapOptions = {
-    // minZoom : 17,
+    minZoom: 10,
     // maxZoom : 17,
-    zoomControl: false
+    zoomControl: true,
+    scrollWheelZoom: false
 };
 
 var linestyle = {
@@ -48,14 +49,20 @@ if (mapStyle) {
 $(document).ready(function() {
     $('#map-container').hide();
     $('#adventures .column').click(function() {
+        //    $('#map-container').css("display", "block");
+        routeID = parseInt(this.id.substring(this.id.length - 1));
+
+        $('#map-container').slideDown(400, function() {
+            initMap();
+        });
         $('#banner').slideUp();
-        $('#map-container').show('slow');
-        initMap();
+        // initMap();
     });
 
-    $('#homelink').click(function() {
+    $('#homelink').click(function(e) {
+        e.preventDefault();
         $('#map-container').slideUp();
-        $('#banner').show('slow');
+        $('#banner').slideDown();
     });
 });
 
@@ -68,21 +75,26 @@ var initMap = function() {
     if (routeID) {
         places.currentRouteID = routeID;
         var route = places.routePoints(routeID);
-        document.polyline = L.polyline(route, linestyle);
-        document.polyline.addTo(map);
+        if (document.polyline) {
+            document.polyline.setLatLngs(route);
+            document.polyline.redraw();
+        } else {
+            document.polyline = L.polyline(route, linestyle);
+            document.polyline.addTo(map);
+        }
 
         window.onresize = function() {
             var idx = document.placeIndex;
             var lat = document.routeObjs[idx].latitude;
             var lon = document.routeObjs[idx].longitude;
             places.centerOnPoint(new L.LatLng(lat, lon));
-            places.centerOnPoint(false)
+            // places.centerOnPoint(false)
         };
         // markers and popups
         places.routePopups(routeID);
 
         // Set first place
-        // map.fitBounds(document.polyline.getBounds());
+        map.fitBounds(document.polyline.getBounds());
 
 
         // places.centerOnPath(true);

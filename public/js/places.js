@@ -147,9 +147,9 @@ var initPlaces = function() {
         var centerOnPath = function(reset) {
             // this should move the center of the polyline to the center of the "non-detailview" map area
             reset = typeof reset !== 'undefined' ? reset : false; //default argument reset = false
-            var clearAreaLeft = $("#detailview").width() + $("#detailview").offset().left;
-            var clearAreaCenter = Math.floor(window.innerWidth - (window.innerWidth - clearAreaLeft) / 2);
-            var centerOffset = clearAreaCenter - Math.floor(window.innerWidth / 2);
+            var clearAreaLeft = $("#detailview").width() + $("#detailview").position().left;
+            var clearAreaCenter = Math.floor($('#map-container').width() - ($('#map-container').width() - clearAreaLeft) / 2);
+            var centerOffset = clearAreaCenter - Math.floor($('#map-container').width() / 2);
 
             var z = map.getZoom();
             //var z = 17; // Hardcoded - BAD!
@@ -160,9 +160,9 @@ var initPlaces = function() {
         var centerOnPoint = function(p, reset) {
             // this should move the center of the polyline to the center of the "non-detailview" map area
             reset = typeof reset !== 'undefined' ? reset : false; //default argument reset = false
-            var clearAreaLeft = $("#detailview").width() + $("#detailview").offset().left;
-            var clearAreaCenter = Math.floor(window.innerWidth - (window.innerWidth - clearAreaLeft) / 2);
-            var centerOffset = clearAreaCenter - Math.floor(window.innerWidth / 2);
+            var clearAreaLeft = $("#detailview").width() + $("#detailview").position().left;
+            var clearAreaCenter = Math.floor($('#map-container').width() - ($('#map-container').width() - clearAreaLeft) / 2);
+            var centerOffset = clearAreaCenter - Math.floor($('#map-container').width() / 2);
 
             var z = map.getZoom();
             //var z = 17; // Hardcoded - BAD!
@@ -218,11 +218,11 @@ var initPlaces = function() {
                 var m_place = $('#m_place').html();
                 $('#place').html(Mustache.render(m_place, document.routeObjs[idx]));
 
-                $('#detailview').draggable({
-                    handle: '#place .title',
-                    containment: '#map',
-                    cursor: '-webkit-grabbing !important'
-                });
+                // $('#detailview').draggable({
+                //     handle: '#place .title',
+                //     containment: '#map',
+                //     cursor: '-webkit-grabbing !important'
+                // });
 
                 if (document.polyline) {
                     map.fitBounds(document.polyline.getBounds());
