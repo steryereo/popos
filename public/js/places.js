@@ -118,14 +118,14 @@ var initPlaces = function() {
         ];
         var placeMarker = {
             default: L.icon({
-                iconUrl: 'img/uw_marker_gray.png',
-                shadowUrl: 'img/marker-shadow.png',
-                iconAnchor: new L.Point(23, 60)
+                iconUrl: 'img/marker.png',
+               // shadowUrl: 'img/marker-shadow.png',
+                iconAnchor: new L.Point(30, 54)
             }),
             selected: L.icon({
-                iconUrl: 'img/uw_marker_red.png',
-                shadowUrl: 'img/marker-shadow.png',
-                iconAnchor: new L.Point(23, 60)
+                iconUrl: 'img/marker_highlight.png',
+               // shadowUrl: 'img/marker-shadow.png',
+                iconAnchor: new L.Point(30, 54)
             })
         };
 
