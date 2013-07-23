@@ -1,3 +1,5 @@
+var map;
+
 // Set map types
 var mapboxID = 'cdawson.map-rfzl19el';
 //var mapboxID = 'examples.map-vyofok3q'
@@ -11,7 +13,7 @@ var routeID = GetQueryStringParams('routeID');
 var mapOptions = {
     minZoom: 10,
     // maxZoom : 17,
-    zoomControl: true,
+    // zoomControl: true,
     scrollWheelZoom: false
 };
 
@@ -22,41 +24,21 @@ var linestyle = {
 };
 
 
-if (mapStyle) {
-    var map = L.mapbox.map('map', mapStyle, mapOptions);
-} else {
-    var map = L.mapbox.map('map', mapboxID, mapOptions);
-}
-// Determine map style
-// if (mapStyle == 'new') {
-//   var map = L.mapbox.map('map', mapboxID, mapOptions);
-// }
-// else if (mapStyle) {
-//   var map = L.mapbox.map('map', mapStyle, mapOptions);  
-// }
-// else {
-//   // Default map style
-//   // Watercolor map option
-//   var watercolorurl = 'http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.jpg';
-//   var tonerlabellayer = new L.StamenTileLayer(stamenLabels);
-
-//   var map = new L.Map('map', mapOptions);
-
-//   L.tileLayer(watercolorurl).addTo(map);
-//   map.addLayer(tonerlabellayer);
-// }
-
 $(document).ready(function() {
+
     $('#map-container').hide();
     $('#adventures .column').click(function() {
         //    $('#map-container').css("display", "block");
         routeID = parseInt(this.id.substring(this.id.length - 1));
 
         $('#map-container').slideDown(400, function() {
-            initMap();
+            if (!map) {createMap();}
+            // map.tileLayer.on('ready', function(e) {
+                initMap();
+            // });
+
         });
         $('#banner').slideUp();
-        // initMap();
     });
 
     $('#homelink').click(function(e) {
@@ -66,7 +48,16 @@ $(document).ready(function() {
     });
 });
 
+var createMap = function() {
+    if (mapStyle) {
+        map = L.mapbox.map('map', mapStyle, mapOptions);
+    } else {
+        map = L.mapbox.map('map', mapboxID, mapOptions);
+    }
+    map.zoomControl.setPosition('topright');
+}
 var initMap = function() {
+
     initPlaces();
     var places = document.places();
     var points = places.points();
