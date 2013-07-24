@@ -1,5 +1,5 @@
 var map;
-
+var places;
 
 // Set map types
 var mapboxID = 'cdawson.map-rfzl19el';
@@ -27,17 +27,21 @@ var showMap = function() {
         if (!map) {
             createMap();
         }
-        initMap();
-
+        if (routeID) {
+            setRoute();
+        }
+        else {
+            noRoute();
+        }
     });
     $('#banner').slideUp();
 }
 
 $(document).ready(function() {
-
     $('#map-container').hide();
     $('#adventures .column').click(function() {
         routeID = parseInt(this.id.substring(this.id.length - 1));
+      //  $(this).css()
         showMap();
     });
 
@@ -64,20 +68,10 @@ var createMap = function() {
         map = L.mapbox.map('map', mapboxID, mapOptions);
     }
     map.zoomControl.setPosition('topright');
+    places = document.places();
 }
-var initMap = function() {
-
-    initPlaces();
-    var places = document.places();
-//    var points = places.points();
-    // var points = _.filter(places.points(),function(i){ return i !== undefined; });
-    // var markerLayer = L.mapbox.markerLayer().addTo(map);
-    // markerLayer.loadURL('/places.geojson');
-
-
-
-    // map.markerLayer.setGeoJson(geoJsonData)
-     if (routeID) {
+var setRoute = function() {
+     
          places.currentRouteID = routeID;
          var route = places.routePoints(routeID);
          if (document.polyline) {
@@ -106,8 +100,13 @@ var initMap = function() {
 //     } else {
 //         map.fitBounds(points);
 //         places.popups();
-     }
+
      places.setCurrentPlace(0);
+}
+var noRoute = function() {
+    document.polyline = undefined;
+    places.setCurrentPlace(0);
+    map.fitBounds(map.markerLayer.getBounds());
 }
 
     function GetQueryStringParams(sParam) {

@@ -1,21 +1,19 @@
-var initPlaces = function() {
-    document.places = function() {
-    
-      //  var data;
-    var markerLayer = L.mapbox.markerLayer()
-        .addTo(map);
+document.places = function() {
 
-    markerLayer.on('click', function(e) {
-        var l = markerLayer.getLayers();
-        var i = l.indexOf(e.layer);
-        e.layer.unbindPopup();
-        setCurrentPlace(i);
-    });
+        //  var data;
+        var markerLayer = map.markerLayer;
 
-    // markerLayer.loadURL('/places.geojson');
-    // data = markerLayer.getGeoJSON();
+        markerLayer.on('click', function(e) {
+            var l = markerLayer.getLayers();
+            var i = l.indexOf(e.layer);
+            e.layer.unbindPopup();
+            setCurrentPlace(i);
+        });
+
+        // markerLayer.loadURL('/places.geojson');
+        // data = markerLayer.getGeoJSON();
         var json = '/places.geojson',
-             data = [];
+            data = [];
 
         // //data = d.feed.entry;
 
@@ -133,12 +131,12 @@ var initPlaces = function() {
         var placeMarker = {
             default: L.icon({
                 iconUrl: 'img/marker.png',
-               // shadowUrl: 'img/marker-shadow.png',
+                // shadowUrl: 'img/marker-shadow.png',
                 iconAnchor: new L.Point(30, 54)
             }),
             selected: L.icon({
                 iconUrl: 'img/marker_highlight.png',
-               // shadowUrl: 'img/marker-shadow.png',
+                // shadowUrl: 'img/marker-shadow.png',
                 iconAnchor: new L.Point(30, 54)
             })
         };
@@ -165,10 +163,11 @@ var initPlaces = function() {
             var clearAreaCenter = Math.floor($('#map-container').width() - ($('#map-container').width() - clearAreaLeft) / 2);
             var centerOffset = clearAreaCenter - Math.floor($('#map-container').width() / 2);
 
-            var z = map.getZoom();
+            var z = map.getBoundsZoom(document.polyline.getBounds());
             //var z = 17; // Hardcoded - BAD!
+
             var pathCenterAbs = map.project(document.polyline.getBounds().getCenter(), z);
-            var newCenterLatLng = map.unproject([pathCenterAbs.x - centerOffset, pathCenterAbs.y]);
+            var newCenterLatLng = map.unproject([pathCenterAbs.x - centerOffset, pathCenterAbs.y], z);
             map.setView(newCenterLatLng, z, reset);
         };
         var centerOnPoint = function(p, reset) {
@@ -177,11 +176,13 @@ var initPlaces = function() {
             var clearAreaLeft = $("#detailview").width() + $("#detailview").position().left;
             var clearAreaCenter = Math.floor($('#map-container').width() - ($('#map-container').width() - clearAreaLeft) / 2);
             var centerOffset = clearAreaCenter - Math.floor($('#map-container').width() / 2);
+            var z = 17; // Hardcoded - BAD!
 
-            var z = map.getZoom();
-            //var z = 17; // Hardcoded - BAD!
+            //if (document.polyline) {
+                z = map.getZoom();
+            //}
             var pathCenterAbs = map.project(p, z);
-            var newCenterLatLng = map.unproject([pathCenterAbs.x - centerOffset, pathCenterAbs.y]);
+            var newCenterLatLng = map.unproject([pathCenterAbs.x - centerOffset, pathCenterAbs.y],z);
             map.setView(newCenterLatLng, z, reset);
         };
 
@@ -204,7 +205,8 @@ var initPlaces = function() {
 
             // reset other popos icons
             _.forEach(layers, function(l) {
-                l.setIcon(placeMarker.default);
+                l.setIcon(placeMarker.
+                    default);
             });
             if (place) {
                 // set default icon
@@ -219,19 +221,14 @@ var initPlaces = function() {
                 //     containment: '#map',
                 //     cursor: '-webkit-grabbing !important'
                 // });
-                var z = 17;
+                //var z = 17;
                 if (document.polyline) {
-                    map.fitBounds(document.polyline.getBounds());
-                    z = map.getZoom();
+                  //  map.fitBounds(document.polyline.getBounds());
+                    centerOnPath();
+                } else {
+                    centerOnPoint(place.getLatLng());
                 }
-                //centerOnPath();
-                // var lat = parseFloat(gdocObj.gsx$latitude.$t);
-                // var lon = parseFloat(gdocObj.gsx$longitude.$t);
-                // var lat = document.routeObjs[idx].latitude;
-                // var lon = document.routeObjs[idx].longitude;
-                // centerOnPoint(new L.LatLng(lat, lon));
-
-                map.setView(place.getLatLng(), z);
+                //map.setView(place.getLatLng(), z);
 
             }
         };
@@ -302,13 +299,14 @@ var initPlaces = function() {
             });
         };
         var routePopups = function(routeID) {
+            markerLayer.setGeoJSON(data);
             markerLayer.setFilter(function(f) {
-            return f.properties['route_id'] === routeID;
-        });
+                return f.properties['route_id'] === routeID;
+            });
             // popups(route(routeID));
-            // _.forEach(document.routeObjs, function(d) {
-            //     d.route_name = routeNames[routeID];
-            // });
+            _.forEach(markerLayer.getLayers(), function(d) {
+                 d.feature.properties.route_name = routeNames[routeID];
+             });
         };
         return {
             data: data,
@@ -335,5 +333,4 @@ var initPlaces = function() {
             centerOnPath: centerOnPath,
             centerOnPoint: centerOnPoint
         };
-    }
-};
+}
