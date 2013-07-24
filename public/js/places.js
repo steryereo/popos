@@ -1,10 +1,23 @@
 var initPlaces = function() {
     document.places = function() {
+    
+      //  var data;
+    var markerLayer = L.mapbox.markerLayer()
+        .addTo(map);
 
-        var json = '/places.json',
-            data = [];
+    markerLayer.on('click', function(e) {
+        var l = markerLayer.getLayers();
+        var i = l.indexOf(e.layer);
+        e.layer.unbindPopup();
+        setCurrentPlace(i);
+    });
 
-        //data = d.feed.entry;
+    // markerLayer.loadURL('/places.geojson');
+    // data = markerLayer.getGeoJSON();
+        var json = '/places.geojson',
+             data = [];
+
+        // //data = d.feed.entry;
 
         $.ajax({
             url: json,
@@ -12,6 +25,7 @@ var initPlaces = function() {
             dataType: 'json',
             success: function(i) {
                 data = i;
+                markerLayer.setGeoJSON(i);
             }
         });
 
@@ -173,8 +187,8 @@ var initPlaces = function() {
 
         var setCurrentPlace = function(idx) {
             document.placeIndex = idx;
-
-            if (document.placeIndex + 1 == document.places.length) {
+            var layers = markerLayer.getLayers();
+            if (document.placeIndex + 1 == layers.length) {
                 $('.right-arrow img').css('visibility', 'hidden');
             } else {
                 $('.right-arrow img').css('visibility', 'visible');
@@ -186,53 +200,39 @@ var initPlaces = function() {
                 $('.left-arrow img').css('visibility', 'visible');
             }
 
-            var place = document.places[idx];
+            var place = layers[idx];
 
             // reset other popos icons
-            _.forEach(document.places, function(place) {
-                place.setIcon(placeMarker.
-                    default);
+            _.forEach(layers, function(l) {
+                l.setIcon(placeMarker.default);
             });
             if (place) {
                 // set default icon
                 place.setIcon(placeMarker.selected);
 
-                // Translate stupid gdoc json
-                // var placeObj = new Object();
-                // var gdocObj = document.routeObjs[idx];
-                // // placeObj.name = gdocObj.gsx$name.$t;
-                // placeObj.name = gdocObj.name;
-                // if (gdocObj.gsx$photo_url) {
-                //   placeObj.pic_file = gdocObj.gsx$photo_url.$t;
-                // }
-                // else {placeObj.pic_file = "no-photo.jpg";}
-                // placeObj.popos_addr = gdocObj.gsx$address.$t;
-                // placeObj.art = gdocObj.gsx$art.$t;
-                // placeObj.outdoor = gdocObj.gsx$indoor.$t;
-                // placeObj.food = gdocObj.gsx$food.$t;
-                // placeObj.hours = gdocObj.gsx$openhours.$t;
-                // placeObj.views = gdocObj.gsx$views.$t;
-                // placeObj.description = gdocObj.gsx$description.$t;
-
                 // display content
                 var m_place = $('#m_place').html();
-                $('#place').html(Mustache.render(m_place, document.routeObjs[idx]));
+                $('#place').html(Mustache.render(m_place, place.feature.properties));
 
                 // $('#detailview').draggable({
                 //     handle: '#place .title',
                 //     containment: '#map',
                 //     cursor: '-webkit-grabbing !important'
                 // });
-
+                var z = 17;
                 if (document.polyline) {
                     map.fitBounds(document.polyline.getBounds());
+                    z = map.getZoom();
                 }
                 //centerOnPath();
                 // var lat = parseFloat(gdocObj.gsx$latitude.$t);
                 // var lon = parseFloat(gdocObj.gsx$longitude.$t);
-                var lat = document.routeObjs[idx].latitude;
-                var lon = document.routeObjs[idx].longitude;
-                centerOnPoint(new L.LatLng(lat, lon));
+                // var lat = document.routeObjs[idx].latitude;
+                // var lon = document.routeObjs[idx].longitude;
+                // centerOnPoint(new L.LatLng(lat, lon));
+
+                map.setView(place.getLatLng(), z);
+
             }
         };
 
@@ -302,10 +302,13 @@ var initPlaces = function() {
             });
         };
         var routePopups = function(routeID) {
-            popups(route(routeID));
-            _.forEach(document.routeObjs, function(d) {
-                d.route_name = routeNames[routeID];
-            });
+            markerLayer.setFilter(function(f) {
+            return f.properties['route_id'] === routeID;
+        });
+            // popups(route(routeID));
+            // _.forEach(document.routeObjs, function(d) {
+            //     d.route_name = routeNames[routeID];
+            // });
         };
         return {
             data: data,

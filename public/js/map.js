@@ -1,5 +1,6 @@
 var map;
 
+
 // Set map types
 var mapboxID = 'cdawson.map-rfzl19el';
 //var mapboxID = 'examples.map-vyofok3q'
@@ -42,7 +43,9 @@ $(document).ready(function() {
 
     $('#adventures-link').click(function(e) {
         e.preventDefault();
-        if ($('#map-container').is(':visible')) {return;}
+        if ($('#map-container').is(':visible')) {
+            return;
+        }
         routeID = undefined;
         showMap();
     });
@@ -66,40 +69,45 @@ var initMap = function() {
 
     initPlaces();
     var places = document.places();
-    var points = places.points();
+//    var points = places.points();
     // var points = _.filter(places.points(),function(i){ return i !== undefined; });
+    // var markerLayer = L.mapbox.markerLayer().addTo(map);
+    // markerLayer.loadURL('/places.geojson');
 
-    if (routeID) {
-        places.currentRouteID = routeID;
-        var route = places.routePoints(routeID);
-        if (document.polyline) {
-            document.polyline.setLatLngs(route);
+
+
+    // map.markerLayer.setGeoJson(geoJsonData)
+     if (routeID) {
+         places.currentRouteID = routeID;
+         var route = places.routePoints(routeID);
+         if (document.polyline) {
+             document.polyline.setLatLngs(route);
             document.polyline.redraw();
         } else {
             document.polyline = L.polyline(route, linestyle);
             document.polyline.addTo(map);
         }
 
-        window.onresize = function() {
-            var idx = document.placeIndex;
-            var lat = document.routeObjs[idx].latitude;
-            var lon = document.routeObjs[idx].longitude;
-            places.centerOnPoint(new L.LatLng(lat, lon));
-            // places.centerOnPoint(false)
-        };
-        // markers and popups
-        places.routePopups(routeID);
+//         window.onresize = function() {
+//             var idx = document.placeIndex;
+//             var lat = document.routeObjs[idx].latitude;
+//             var lon = document.routeObjs[idx].longitude;
+//             places.centerOnPoint(new L.LatLng(lat, lon));
+//             // places.centerOnPoint(false)
+//         };
+//         // markers and popups
+         places.routePopups(routeID);
 
-        // Set first place
-        map.fitBounds(document.polyline.getBounds());
+//         // Set first place
+//         map.fitBounds(document.polyline.getBounds());
 
 
-        // places.centerOnPath(true);
-    } else {
-        map.fitBounds(points);
-        places.popups();
-    }
-    places.setCurrentPlace(0);
+//         // places.centerOnPath(true);
+//     } else {
+//         map.fitBounds(points);
+//         places.popups();
+     }
+     places.setCurrentPlace(0);
 }
 
     function GetQueryStringParams(sParam) {
