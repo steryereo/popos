@@ -8,7 +8,7 @@
 // CONSTANTS
 
 @title-bg:      #2c2c38;
-@detail-width:  30%;
+@detail-width:  20%;
 
 
 
@@ -26,31 +26,38 @@
 
 // OVERLAY
 
+     #map {
+
+      //  float:left;
+        //left:@detail-width;
+        //width: 98% - @detail-width;
+        height: 100%;
+        //margin-left:20px;
+    //    max-width: 945px;
+       // position: absolute !important; // need !mportant for firefox
+    }
+    #sidebar {
+      height:100%;
+      position: absolute;
+      background-color: #bbbdbf;
+     // padding: 10px;
+    }
 #detailview {
-  z-index: 2000;
   position: absolute;
-  // left: 10px;
-  // top: 10px;
-  margin-top: 5px;
-  margin-left: 5px;
-  width: @detail-width;
-  max-height:80%;
+  background-color: #FFF;
+  bottom:0;
+  top:0;
+  padding:5px;
   overflow: hidden;
-  // border-radius: 16px;
-  //.border-top-radius(20px);
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
-  //font-family: 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  border:10px solid #bbbdbf;
   font-family: @body-font;
   font-size: 14px;
-  // broken
-  //.border-bottom-radius(20px);
   .title {
     text-align: center;
     height: 40px;
     background-color: @title-bg;
     color: white;
     padding: 0;
-  //  width:100%;
     overflow: hidden;
     // cursor: grab;
     // cursor: -moz-grab;
@@ -103,8 +110,8 @@
     }
   }
   .info {
-    background-color: rgba(255, 255, 255, 0.90);
-    padding: 0 30px;
+    //background-color: rgba(255, 255, 255, 0.90);
+    //padding: 0 30px;
     .buttons {
       height: 60px;
       .address {
@@ -116,7 +123,7 @@
         padding-top: 20px;
       }
       .icons {
-        .user-select(none);
+      //  .user-select(none);
         width: 50%;
         position: absolute;
         right: 15px;

@@ -3,7 +3,7 @@ class Route < ActiveRecord::Base
 
   has_many :route_points
   has_many :places, through: :route_points
-
+  belongs_to :adventure
 
   validates :name, presence: true, uniqueness: true
 end

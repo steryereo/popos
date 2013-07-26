@@ -22,7 +22,20 @@ var linestyle = {
     opacity: 1.0
 };
 
+var sizeMap = function() {
+    var mapTop = Math.max($("#banner").position().top, $("#map-container").position().top);
+    var mapHeight = $(window).height() - mapTop;
+    mapHeight -= 30;
+    $('#map-container, #sidebar, #map').height(mapHeight);
+    $('#sidebar').width($('.container').width() *0.3);
+    var cssval = $('#sidebar').outerWidth() + 'px';
+    $('#map').css( 'left', cssval);
+    $('#map').width($('.container').width() - $('#sidebar').outerWidth());
+
+}
+
 var showMap = function() {
+    sizeMap();
     $('#map-container').slideDown(400, function() {
         if (!map) {
             createMap();
@@ -59,6 +72,12 @@ $(document).ready(function() {
         $('#map-container').slideUp();
         $('#banner').slideDown();
     });
+    window.onresize = function() {
+        if ($('#map-container').is(':visible')) {
+            sizeMap();
+        }
+            // places.centerOnPoint(false)
+        };
 });
 
 var createMap = function() {
@@ -82,13 +101,7 @@ var setRoute = function() {
             document.polyline.addTo(map);
         }
 
-//         window.onresize = function() {
-//             var idx = document.placeIndex;
-//             var lat = document.routeObjs[idx].latitude;
-//             var lon = document.routeObjs[idx].longitude;
-//             places.centerOnPoint(new L.LatLng(lat, lon));
-//             // places.centerOnPoint(false)
-//         };
+//         
 //         // markers and popups
          places.routePopups(routeID);
 

@@ -223,10 +223,11 @@ document.places = function() {
                 // });
                 //var z = 17;
                 if (document.polyline) {
-                  //  map.fitBounds(document.polyline.getBounds());
-                    centerOnPath();
+                   map.fitBounds(document.polyline.getBounds().pad(0.1));
+                    // centerOnPath();
                 } else {
-                    centerOnPoint(place.getLatLng());
+//                    centerOnPoint(place.getLatLng());
+                    map.setView(place.getLatLng(), map.getZoom());
                 }
                 //map.setView(place.getLatLng(), z);
 
