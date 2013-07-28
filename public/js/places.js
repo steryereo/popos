@@ -2,6 +2,11 @@ document.places = function() {
 
         //  var data;
         var markerLayer = map.markerLayer;
+        var sortedLayers = function () {
+            return _.sortBy(markerLayer.getLayers(), function (l) {
+                return l.feature.properties.route_order;
+            });
+        }
 
         markerLayer.on('click', function(e) {
             var l = markerLayer.getLayers();
@@ -141,7 +146,7 @@ document.places = function() {
             })
         };
 
-        document.places = [];
+      //  document.places = [];
         document.routeObjs = [];
 
         $('.left-arrow').on('click', function() {
@@ -151,7 +156,7 @@ document.places = function() {
         });
 
         $('.right-arrow').click(function() {
-            if (document.placeIndex >= 0 && document.placeIndex < document.places.length - 1) {
+            if (document.placeIndex >= 0 && document.placeIndex < markerLayer.getLayers().length - 1) {
                 setCurrentPlace(document.placeIndex + 1);
             }
         });
@@ -188,7 +193,10 @@ document.places = function() {
 
         var setCurrentPlace = function(idx) {
             document.placeIndex = idx;
-            var layers = markerLayer.getLayers();
+            //var layers = [];
+            //markerLayer.eachLayer(function(marker) { layers.push(marker); });
+            var layers = sortedLayers();
+
             if (document.placeIndex + 1 == layers.length) {
                 $('.right-arrow img').css('visibility', 'hidden');
             } else {

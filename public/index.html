@@ -59,18 +59,18 @@
           <img src="img/uw_title.png">
         </div>
         <ul id='nav'>
-          <li><a href = "index.html" id="home-link">home</a></li>
-          <li><a href = "#adventures" id="adventures-link">adventures</a>
+          <li><a href = "index.html" id="home-link" class="nav-main">home</a></li>
+          <li><a href = "#adventures" id="adventures-link" class="nav-main">adventures</a>
             <ul>
-              <li>POPOS</li>
-              <li>Beautiful views</li>
-              <li>Kids corner</li>
-              <li>Let's Get Physical</li>
+              <li><a href="#" data-adventure=1>POPOS</a></li>
+              <li><a href="#" data-adventure=6>Beautiful views</a></li>
+              <li><a href="#" data-adventure=7>Kids corner</a></li>
+              <li><a href="#" data-adventure=5>Let's Get Physical</a></li>
             </ul>
           </li>
-          <li><a href = "#news">news</a></li>
-          <li><a href = "#about">about</a></li>
-          <li><a href = "mailto:info@urbanwander.org">contact</a></li>
+          <li><a href = "#news" class="nav-main">news</a></li>
+          <li><a href = "#about" class="nav-main">about</a></li>
+          <li><a href = "mailto:info@urbanwander.org" class="nav-main">contact</a></li>
         </div>
       </section>
 
@@ -151,7 +151,7 @@
         <h1>click to explore an adventure!</h1>
       <div class='column-box'>
         <!-- <div id='routes-left'> -->
-        <section id='adventure_1' class='column'>
+        <section id='adventure_1' class='column' data-adventure=1>
           <!-- <a href= "map.html?routeID=1"> -->
             <img src = "img/ui/popos_icon.png">
             <h2>POPOS
@@ -160,7 +160,7 @@
           <!-- </a> -->
         </section>
         <div class = 'divider'></div>
-        <section id='adventure_5' class='column'>
+        <section id='adventure_5' class='column' data-adventure=5>
           <!-- <a href= "map.html?routeID=5"> -->
             <img src = "img/ui/get_physical.png">
             <h2>Let's get physical</h2>
@@ -170,14 +170,14 @@
         <div class = 'divider' id="middle-divider"></div>
         <span class='stretch' id='middlestretch'></span>
         <!-- <div id = 'routes-right'> -->
-        <section id='adventure_6' class='column'>
+        <section id='adventure_6' class='column' data-adventure=6>
           <!-- <a href= "map.html?routeID=6"> -->
             <img src = "img/ui/nature_calls.png">
             <h2>Beautiful Views</h2>
           <!-- </a> -->
         </section>
         <div class = 'divider'></div>
-        <section id='adventure_7' class='column'>
+        <section id='adventure_7' class='column' data-adventure=7>
           <!-- <a href= "map.html?routeID=7"> -->
             <img src = "img/ui/kids.png">
             <h2>Kids Corner</h2>

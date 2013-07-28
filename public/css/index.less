@@ -26,7 +26,7 @@
 }
 
 // LAYOUT
-
+@black-text:#231F20;
 
 html {
     background: url('../img/pattern1.jpg') repeat #fff;
@@ -34,6 +34,7 @@ html {
   font-family: @body-font;
   font-size: 14px;
   padding-bottom: 40px;
+  color:@black-text;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: @body-bold;
@@ -101,7 +102,7 @@ a {
             font-family: @body-bold;
             text-transform: uppercase;
             text-decoration: none;
-            color:#000;
+            color:@black-text;
             font-size: 1.2em;
 
         float:right;   
@@ -110,6 +111,7 @@ a {
         margin-top: 2.2em;
         li:hover ul {
             display:block;
+            z-index: 99;
         }
         li {
             list-style: none;
@@ -129,11 +131,9 @@ a {
                     margin:3px 1px;
                     display: block;
                     
-                    background-color: #000;
+                    background-color: #231F20;
 
-                    a {
-                        color:#fff;
-                    }
+
                 }
                 li:hover {
                     background-color: #64C4B8;

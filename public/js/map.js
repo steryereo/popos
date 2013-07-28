@@ -23,7 +23,8 @@ var linestyle = {
 };
 
 var sizeMap = function() {
-    var mapTop = Math.max($("#banner").position().top, $("#map-container").position().top);
+    // var mapTop = Math.max($("#banner").position().top, $("#map-container").position().top);
+    var mapTop = $("#nav").offset().top + $("#nav").height();
     var mapHeight = $(window).height() - mapTop;
     mapHeight -= 30;
     $('#map-container, #sidebar, #map').height(mapHeight);
@@ -52,20 +53,21 @@ var showMap = function() {
 
 $(document).ready(function() {
     $('#map-container').hide();
-    $('#adventures .column').click(function() {
-        routeID = parseInt(this.id.substring(this.id.length - 1));
+    $('#adventures .column, #nav li ul li a').click(function() {
+        // routeID = parseInt(this.id.substring(this.id.length - 1));
+        routeID = $(this).data('adventure')
       //  $(this).css()
         showMap();
     });
 
-    $('#adventures-link').click(function(e) {
-        e.preventDefault();
-        if ($('#map-container').is(':visible')) {
-            return;
-        }
-        routeID = undefined;
-        showMap();
-    });
+    // $('#adventures-link').click(function(e) {
+    //     e.preventDefault();
+    //     if ($('#map-container').is(':visible')) {
+    //         return;
+    //     }
+    //     routeID = undefined;
+    //     showMap();
+    // });
 
     $('#home-link').click(function(e) {
         e.preventDefault();
