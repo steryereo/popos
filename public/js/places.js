@@ -9,7 +9,7 @@ document.places = function() {
         }
 
         markerLayer.on('click', function(e) {
-            var l = markerLayer.getLayers();
+            var l = sortedLayers();
             var i = l.indexOf(e.layer);
             e.layer.unbindPopup();
             setCurrentPlace(i);

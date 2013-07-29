@@ -1,19 +1,21 @@
 var map;
 var places;
-
 // Set map types
-var mapboxID = 'cdawson.map-rfzl19el';
+var tileLayers = [L.mapbox.tileLayer('cdawson.map-rfzl19el'),
+                  L.mapbox.tileLayer('cdawson.map-dijsvtyd')];
 //var mapboxID = 'examples.map-vyofok3q'
 var stamenMap = 'watercolor',
     stamenLabels = 'toner-labels';
 
+var currentTileLayer = 0;
 var mapStyle = GetQueryStringParams('m');
 var routeID = GetQueryStringParams('routeID');
 
 // Set map options
 var mapOptions = {
     minZoom: 10,
-    scrollWheelZoom: false
+    zoomControl:false,
+    scrollWheelZoom: true
 };
 
 var linestyle = {
@@ -28,7 +30,7 @@ var sizeMap = function() {
     var mapHeight = $(window).height() - mapTop;
     mapHeight -= 30;
     $('#map-container, #sidebar, #map').height(mapHeight);
-    $('#sidebar').width($('.container').width() *0.3);
+    $('#sidebar').width(Math.floor($('.container').width() *0.3));
     var cssval = $('#sidebar').outerWidth() + 'px';
     $('#map').css( 'left', cssval);
     $('#map').width($('.container').width() - $('#sidebar').outerWidth());
@@ -74,6 +76,14 @@ $(document).ready(function() {
         $('#map-container').slideUp();
         $('#banner').slideDown();
     });
+
+    $('#daynight').click(function(e) {
+        if (map.hasLayer(tileLayers[currentTileLayer])) {
+            map.removeLayer(tileLayers[currentTileLayer]);
+        }
+        currentTileLayer = 1 - currentTileLayer;
+        map.tileLayer = tileLayers[currentTileLayer].addTo(map);
+    });
     window.onresize = function() {
         if ($('#map-container').is(':visible')) {
             sizeMap();
@@ -84,11 +94,14 @@ $(document).ready(function() {
 
 var createMap = function() {
     if (mapStyle) {
-        map = L.mapbox.map('map', mapStyle, mapOptions);
+        map = L.mapbox.map('map');
     } else {
-        map = L.mapbox.map('map', mapboxID, mapOptions);
+        map = L.mapbox.map('map');
     }
-    map.zoomControl.setPosition('topright');
+    map.tileLayer = tileLayers[currentTileLayer].addTo(map);
+  //  map.setOptions(mapOptions);
+
+     map.zoomControl.removeFrom(map);
     places = document.places();
 }
 var setRoute = function() {

@@ -104,6 +104,11 @@
           <img src='{{photo_url}}' alt='{{name}}' onError="this.src='img/popos/no_photo.png';" />
         </div>
         <div class='info'>
+          <div class='description'>
+            <p>
+              {{description}}
+            </p>
+          </div>
           <div class='buttons'>
             <div class='address'>
               {{address}} 
@@ -126,16 +131,14 @@
               {{/views}}
             </div>
           </div>
-          <div class='description'>
-            <p>
-              {{description}}
-            </p>
-          </div>
+          
         </div>
     </script>
     </section>
 
-    <section id='map'></section>
+    <section id='map'>
+      <img id="daynight" src="img/ui/day_night_small.png">
+    </section>
 
     </section>
     <section id="banner" class="container">
