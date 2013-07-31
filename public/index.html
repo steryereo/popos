@@ -132,6 +132,21 @@
               {{#views}}
                 <span class='icon-views'>views</span>
               {{/views}}
+              {{#dogs}}
+                <span class='icon-dogs'>dogs</span>
+              {{/dogs}}
+              {{#food}}
+                <span class='icon-food'>food</span>
+              {{/food}}
+              {{#indoor}}
+                <span class='icon-indoor'>indoor</span>
+              {{/indoor}}
+              {{#kids}}
+                <span class='icon-kids'>kids</span>
+              {{/kids}}
+              {{#wifi}}
+                <span class='icon-wifi'>wifi</span>
+              {{/wifi}}
             </div>
           </div>
           
@@ -144,15 +159,15 @@
         <ul>
           {{#stops}}
             <li>
-              <span class="list-number">
+              <div class="list-number">
                 {{route_order}}
-              </span>
-              <span = class="list-item">
+              </div>
+              <div = class="list-item">
                 {{name}}
-              </span>
-              <span = class="arrow">
+              </div>
+              <div = class="arrow">
                 <img src="img/ui/arrow_gray.png">
-              </span>
+              </div>
             </li>
           {{/stops}}
         </ul>

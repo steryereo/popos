@@ -70,43 +70,77 @@ ol, ul {
   font-size: 1.5em;
   height:100%;
   position: absolute;
- // background-color: #bbbdbf;
+  // background-color: #bbbdbf;
   // padding: 10px;
   #sidebar-list {
     position:absolute;
-    bottom:0;
     width:100%;
+   // height:50%;
+    bottom:0;
     li {
+      cursor:pointer;
+      padding: .5em .25em;
       font-family: @title-font;
       text-transform: uppercase;
-      font-size: 1.14285714286em;
+      font-size: 1.3em;
       position: relative;
       display: block;
-      height:2em;
+      //height:2em;
       border-bottom:1px solid #bbbdbf;
-      vertical-align: center;
-     // width:100%;
+      vertical-align: middle;
+      .list-number {
+        display: inline-block;
+        width:1.5em;
+        height:1.5em;
+        border-radius: 50%;
+        -webkit-border-radius: 50%; -moz-border-radius: 50%em;
+        border:1px solid #bbbdbf;
+        text-align: center;
+     //   vertical-align: middle;
+        margin:0 0.5em;
+        padding-top: 0.16em
+      
+      }
+      .list-item {
+        padding-top: 0.16em
+        position:absolute;
+        display:inline-block;
+        vertical-align: middle;
+        
+      }
+      .arrow {
+        float:right;
+        height:1.5em;
+        width:0.796875em;
+        max-height: 1.2em;
+        margin:0 0.5em;
+
+        background-image:url("../img/ui/arrow_gray.png");
+        background-size: 100% 100%; 
+    //    vertical-align: middle;
+        img {
+          max-height: 100%;
+          display:none;
+        }
+      }
     }
-    .list-number {
-      width:2em;
-      height:2em;
-      border-radius: 50%;
-      border:1px solid #bbbdbf;
-      padding:0.2em;
-      margin:0.2em;
-      text-align: center;
-      vertical-align: center;
-    }
-    .arrow {
-      position:absolute;
-      right:0;
-      max-height: 1em;
-      img {
-        max-height: 100%;
+    li.selected {
+      color:#FFF;
+      background-color: #64C4B8;
+      .list-number {
+        border:1px solid #FFF;
+      }
+      .arrow {
+        background-image:url("../img/ui/arrow_white.png");
+        background-size: 100% 100%; 
+        img {
+          display: none;
+        }
       }
     }
   }
 }
+
 #detailview {
   position: absolute;
   background-color: #FFF;
@@ -198,26 +232,27 @@ ol, ul {
           display: block;
           float: right;
           width: 30px;
-          height: 40px;
+          height: 30px;
           padding-top: 30px;
           font-size: 10px;
           line-height: 10px;
           margin: 0 15px;
+          background-size: 100% 100%;
         }
         .icon-views {
-          background: url('../img/ui/icons.png') 0 0 no-repeat;
+          background-image: url('../img/ui/views.png');
         }
         .icon-open {
-          background: url('../img/ui/icons.png') -30px 0 no-repeat;
+          background-image: url('../img/ui/24.png');
         }
         .icon-art {
-          background: url('../img/ui/icons.png') -60px 0 no-repeat;
+          background-image: url('../img/ui/art.png');
         }
         .icon-outdoor {
-          background: url('../img/ui/icons.png') -90px 0 no-repeat;
+          background-image: url('../img/ui/outdoor.png');
         }
         .icon-food {
-          background: url('../img/ui/icons.png') -120px 0 no-repeat;
+          background-image: url('../img/ui/food.png');
         }
       }
     }
