@@ -1,5 +1,7 @@
 document.places = function() {
-
+        var route_stops = { 
+            stops:[]
+        };
         //  var data;
         var markerLayer = map.markerLayer;
         var sortedLayers = function () {
@@ -137,14 +139,18 @@ document.places = function() {
             default: L.icon({
                 iconUrl: 'img/marker.png',
                 // shadowUrl: 'img/marker-shadow.png',
-                iconAnchor: new L.Point(30, 54)
+                iconSize: [50,50],
+                iconAnchor: new L.Point(25, 45)
             }),
             selected: L.icon({
                 iconUrl: 'img/marker_highlight.png',
                 // shadowUrl: 'img/marker-shadow.png',
-                iconAnchor: new L.Point(30, 54)
+                iconSize: [50,50],
+                iconAnchor: new L.Point(25, 45)
             })
         };
+
+
 
       //  document.places = [];
         document.routeObjs = [];
@@ -213,12 +219,27 @@ document.places = function() {
 
             // reset other popos icons
             _.forEach(layers, function(l) {
-                l.setIcon(placeMarker.
-                    default);
+//                l.setIcon(placeMarker.default);
+                l.setIcon(
+                    L.divIcon({
+                        iconSize: [50,50],
+                        iconAnchor: new L.Point(25, 45),
+                        className:"default-icon",
+                        html: l.feature.properties.route_order.toString()
+                    })
+                );
             });
             if (place) {
                 // set default icon
-                place.setIcon(placeMarker.selected);
+                //place.setIcon(placeMarker.selected);
+                place.setIcon(
+                    L.divIcon({
+                        iconSize: [50,50],
+                        iconAnchor: new L.Point(25, 45),
+                        className:"selected-icon",
+                        html: place.feature.properties.route_order.toString()
+                    })
+                );
 
                 // display content
                 var m_place = $('#m_place').html();
@@ -313,9 +334,17 @@ document.places = function() {
                 return f.properties['route_id'] === routeID;
             });
             // popups(route(routeID));
-            _.forEach(markerLayer.getLayers(), function(d) {
+            route_stops.stops = [];
+            _.forEach(sortedLayers(), function(d, i) {
                  d.feature.properties.route_name = routeNames[routeID];
+                 route_stops.stops[i] = {
+                    name: d.feature.properties.name,
+                    route_order: d.feature.properties.route_order
+                 };
              });
+            var rstemplate = $('#route_stops').html();
+            $('#sidebar-list').html(Mustache.to_html(rstemplate, route_stops));
+
         };
         return {
             data: data,

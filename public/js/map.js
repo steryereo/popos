@@ -30,7 +30,7 @@ var sizeMap = function() {
     var mapHeight = $(window).height() - mapTop;
     mapHeight -= 30;
     $('#map-container, #sidebar, #map').height(mapHeight);
-    $('#sidebar').width(Math.floor($('.container').width() *0.3));
+    $('#sidebar').width(Math.floor($('.container').width() *0.35));
     var cssval = $('#sidebar').outerWidth() + 'px';
     $('#map').css( 'left', cssval);
     $('#map').width($('.container').width() - $('#sidebar').outerWidth());
@@ -87,9 +87,10 @@ $(document).ready(function() {
     window.onresize = function() {
         if ($('#map-container').is(':visible')) {
             sizeMap();
+            map.fitBounds(document.polyline.getBounds().pad(0.1));
         }
-            // places.centerOnPoint(false)
-        };
+            // 
+    };
 });
 
 var createMap = function() {

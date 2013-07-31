@@ -81,14 +81,17 @@
       <div id='place'>
         <!-- placeholder for place info -->
       </div>
-      <div class='navigation'>
+      <div id="sidebar-list">
+
+      </div> 
+ <!--      <div class='navigation'>
         <span class='left-arrow'>
           <img src='img/ui/left_arrow.png' />
         </span>
         <span class='right-arrow'>
           <img src='img/ui/right_arrow.png' />
         </span>
-      </div>
+      </div> -->
     </section>
   </div>
 
@@ -97,8 +100,8 @@
     <script id='m_place' type='text/template'>
         <div class='title'>
         <!--<a href='index.html' id='home'> <img src='img/ui/home.png' alt='Home'> </a> -->
-          <h2>{{name}}</h2>
-          <div class='routename'>{{route_name}}</div>
+          <h2>{{route_name}}</h2>
+        <!--  <div class='routename'>{{route_name}}</div> -->
         </div>
         <div class='photo'>
           <img src='{{photo_url}}' alt='{{name}}' onError="this.src='img/popos/no_photo.png';" />
@@ -134,6 +137,26 @@
           
         </div>
     </script>
+    </section>
+
+    <section id='route-stops-template' style='display: none'>
+      <script id='route_stops' type='text/template'>
+        <ul>
+          {{#stops}}
+            <li>
+              <span class="list-number">
+                {{route_order}}
+              </span>
+              <span = class="list-item">
+                {{name}}
+              </span>
+              <span = class="arrow">
+                <img src="img/ui/arrow_gray.png">
+              </span>
+            </li>
+          {{/stops}}
+        </ul>
+      </script>
     </section>
 
     <section id='map'>
