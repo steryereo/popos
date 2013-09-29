@@ -25,12 +25,15 @@ var linestyle = {
 };
 
 var sizeMap = function() {
+
     // var mapTop = Math.max($("#banner").position().top, $("#map-container").position().top);
     var mapTop = $("#nav").offset().top + $("#nav").height();
     var mapHeight = $(window).height() - mapTop;
     mapHeight -= 30;
     $('#map-container, #sidebar, #map').height(mapHeight);
-    $('#sidebar').width(Math.floor($('.container').width() *0.35));
+        //return;
+    var sidebarWidth = (Math.floor($('.container').width() *0.35));
+    $('#sidebar').width(sidebarWidth);
     var cssval = $('#sidebar').outerWidth() + 'px';
     $('#map').css( 'left', cssval);
     $('#map').width($('.container').width() - $('#sidebar').outerWidth());
@@ -51,6 +54,7 @@ var showMap = function() {
         }
     });
     $('#banner').slideUp();
+    $('#below-map').hide();
 }
 
 $(document).ready(function() {
