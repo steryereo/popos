@@ -1,6 +1,15 @@
 Urbanwander::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
+  config.paperclip_defaults = {
+    :storage => :s3,
+    :s3_credentials => {
+      :bucket => ENV['urbanwander'],
+      :access_key_id => ENV['AKIAI2KTIJ3TTNBMO6OA'],
+      :secret_access_key => ENV['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']
+    }
+  }
+
   # Code is not reloaded between requests
   config.cache_classes = true
 
