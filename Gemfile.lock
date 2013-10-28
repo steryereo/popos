@@ -15,16 +15,6 @@ GIT
       rails (>= 3.0.0)
       sass (>= 3.1.0)
 
-GIT
-  remote: git://github.com/thoughtbot/paperclip.git
-  revision: 144693101637b784ef3524749019ff8112c0df81
-  specs:
-    paperclip (3.5.2)
-      activemodel (>= 3.0.0)
-      activesupport (>= 3.0.0)
-      cocaine (~> 0.5.3)
-      mime-types
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -58,19 +48,15 @@ GEM
     arbre (1.0.1)
       activesupport (>= 3.0.0)
     arel (3.0.2)
-    aws-sdk (1.22.1)
-      json (~> 1.4)
-      nokogiri (>= 1.4.4, < 1.6.0)
-      uuidtools (~> 2.1)
     bcrypt-ruby (3.1.0)
     bourbon (3.1.8)
       sass (>= 3.2.0)
       thor
     builder (3.0.4)
-    climate_control (0.0.3)
-      activesupport (>= 3.0)
-    cocaine (0.5.3)
-      climate_control (>= 0.0.3, < 1.0)
+    carrierwave (0.9.0)
+      activemodel (>= 3.2.0)
+      activesupport (>= 3.2.0)
+      json (>= 1.7)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -115,7 +101,6 @@ GEM
       polyamorous (~> 0.5.0)
     mime-types (1.23)
     multi_json (1.7.7)
-    nokogiri (1.5.10)
     orm_adapter (0.4.0)
     pg (0.15.1)
     polyamorous (0.5.0)
@@ -176,7 +161,6 @@ GEM
     uglifier (2.1.1)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
-    uuidtools (2.1.4)
     warden (1.2.1)
       rack (>= 1.0)
 
@@ -185,12 +169,11 @@ PLATFORMS
 
 DEPENDENCIES
   activeadmin!
-  aws-sdk
+  carrierwave
   coffee-rails (~> 3.2.1)
   geocoder
   jquery-rails
   meta_search (>= 1.1.0.pre)
-  paperclip!
   pg
   rails (= 3.2.11)
   ransack

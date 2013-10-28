@@ -1,7 +1,9 @@
 class Place < ActiveRecord::Base
-    attr_accessible :name, :description, :name_display, :address, :category, :popos_category, :neighborhood, :photo_url, :year_built, :reject, :reject_reason, :reject_auth, :longitude, :latitude, :marker_point, :route_id, :route_order, :open, :open_hours, :open_days, :open_notes, :seating, :restrooms, :wifi, :views, :food, :indoor, :exercise, :art, :dogs, :playground, :seating_notes, :restrooms_notes, :wifi_notes, :views_notes, :food_notes, :exercise_notes, :art_notes, :dogs_notes, :playground_notes, :transportation, :popos_id_spur, :popos_rating_spur, :popos_downtown_plan, :notes
+    attr_accessible :image, :name, :description, :name_display, :address, :category, :popos_category, :neighborhood, :photo_url, :year_built, :reject, :reject_reason, :reject_auth, :longitude, :latitude, :marker_point, :route_id, :route_order, :open, :open_hours, :open_days, :open_notes, :seating, :restrooms, :wifi, :views, :food, :indoor, :exercise, :art, :dogs, :playground, :seating_notes, :restrooms_notes, :wifi_notes, :views_notes, :food_notes, :exercise_notes, :art_notes, :dogs_notes, :playground_notes, :transportation, :popos_id_spur, :popos_rating_spur, :popos_downtown_plan, :notes
     attr_accessor :marker_point
     
+    mount_uploader :image, ImageUploader
+
     validates :name, presence: true, uniqueness: true
     validates :address, presence: true
     validates :category, presence: true
@@ -37,7 +39,7 @@ class Place < ActiveRecord::Base
         popos_category: popos_category,
         neighborhood: neighborhood,
         description: description,
-        photo_url: photo_url,
+        photo_url: image.url || photo_url,
         year_built: year_built,
         reject: reject,
         reject_reason: reject_reason,
