@@ -137,6 +137,7 @@ GEM
       json (~> 1.4)
     responders (0.9.3)
       railties (~> 3.1)
+    rmagick (2.13.2)
     sass (3.2.9)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
@@ -177,6 +178,7 @@ DEPENDENCIES
   pg
   rails (= 3.2.11)
   ransack
+  rmagick
   sass-rails (~> 3.2.3)
   sqlite3
   strong_parameters (~> 0.2.1)

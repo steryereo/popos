@@ -2,7 +2,7 @@ ActiveAdmin.register Place do
   form :html => { :enctype => "multipart/form-data" } do |f|
     f.inputs "Details" do
 
-      f.input :image, :as => :file, :hint => f.template.image_tag(f.object.image_url.to_s)
+      f.input :image, :as => :file, :hint => f.template.image_tag(f.object.url_for_photo.to_s)
       f.input :name
       f.input :name_display
       f.input :address
@@ -47,8 +47,78 @@ ActiveAdmin.register Place do
       f.input :popos_rating_spur
       f.input :popos_downtown_plan
       f.input :notes
-    end  
+    end
     f.buttons
   end
-end
 
+   show do |place|
+      attributes_table do      
+      row :image do
+        image_tag(place.url_for_photo.to_s)
+      end
+        row :url_for_photo
+        row :name
+        row :name_display
+        row :address
+        row :category
+        row :popos_category
+        row :neighborhood
+        row :description
+        row :year_built
+        row :reject
+        row :reject_reason
+        row :reject_auth
+        row :longitude
+        row :latitude
+        row :route_id
+        row :route_order
+        row :open
+        row :open_hours
+        row :open_days
+        row :open_notes
+        row :seating
+        row :restrooms
+        row :wifi
+        row :views
+        row :food
+        row :indoor
+        row :exercise
+        row :art
+        row :dogs
+        row :playground
+        row :seating_notes
+        row :restrooms_notes
+        row :wifi_notes
+        row :views_notes
+        row :food_notes
+        row :exercise_notes
+        row :art_notes
+        row :dogs_notes
+        row :playground_notes
+        row :transportation
+        row :popos_id_spur
+        row :popos_rating_spur
+        row :popos_downtown_plan
+        row :notes
+      end
+      active_admin_comments
+    end
+
+    index do
+      column :name
+      column :address
+      column "Photo" do |place|
+        link_to(image_tag(place.url_for_photo, :height => '100'), admin_place_path(place))
+      end
+      # column "Photo Url", :url_for_photo
+      column :category
+      column :neighborhood
+      column :year_built
+      column :longitude
+      column :latitude
+      column :route_id
+      column :route_order
+      column :notes
+      actions
+    end
+end

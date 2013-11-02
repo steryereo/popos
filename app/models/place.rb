@@ -19,6 +19,10 @@ class Place < ActiveRecord::Base
     l.address && !(l.latitude && l.longitude)
   }
 
+  def url_for_photo
+    image_url || photo_url
+end
+
   def address_in_sf
     address + " near San Francisco, CA"
   end
@@ -39,7 +43,7 @@ class Place < ActiveRecord::Base
         popos_category: popos_category,
         neighborhood: neighborhood,
         description: description,
-        photo_url: image.url || photo_url,
+        photo_url: url_for_photo,
         year_built: year_built,
         reject: reject,
         reject_reason: reject_reason,

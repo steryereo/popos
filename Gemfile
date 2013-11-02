@@ -5,6 +5,7 @@ gem 'rails', '3.2.11'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 gem 'carrierwave'
+gem 'rmagick'
 
 gem "activeadmin", github: "gregbell/active_admin"
 gem "strong_parameters", "~> 0.2.1"
