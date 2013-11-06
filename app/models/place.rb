@@ -20,7 +20,7 @@ class Place < ActiveRecord::Base
   }
 
   def url_for_photo
-    image_url || photo_url
+    image_url || photo_url || "/img/popos/no_photo.png"
 end
 
   def address_in_sf
