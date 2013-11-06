@@ -23,7 +23,7 @@ class ImageUploader < CarrierWave::Uploader::Base
 
   def default_url
     # "/images/fallback/" + [version_name, "default.png"].compact.join('_')
-    "img/popos/no_photo.png"
+    "/img/popos/no_photo.png"
   end
 
   include CarrierWave::MimeTypes
