@@ -21,6 +21,11 @@ class ImageUploader < CarrierWave::Uploader::Base
     "#{Rails.root}/tmp/uploads"
   end
 
+  def default_url
+    # "/images/fallback/" + [version_name, "default.png"].compact.join('_')
+    "img/popos/no_photo.png"
+  end
+
   include CarrierWave::MimeTypes
   process :set_content_type
 
