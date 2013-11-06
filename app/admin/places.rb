@@ -114,7 +114,7 @@ ActiveAdmin.register Place do
       # column "Photo" do |place|
       #   link_to(image_tag(place.url_for_photo, :height => '100'), admin_place_path(place))
       # end
-      column "Photo Url", :url_for_photo
+      # column "Photo Url", :url_for_photo
       column :category
       column :neighborhood
 
