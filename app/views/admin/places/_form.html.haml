@@ -1,0 +1,4 @@
+<%= direct_upload_form_for [:admin, @place.image] do |f| %>
+  <%= f.file_field :avatar %>
+  <%= f.submit %>
+<% end %>

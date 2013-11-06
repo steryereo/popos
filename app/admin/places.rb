@@ -1,7 +1,11 @@
 ActiveAdmin.register Place do
   form :html => { :enctype => "multipart/form-data" } do |f|
+      # uploader = f.object.image
+      # direct_upload_form_for uploader do |g|
+      #   g.file_field :image
+      #   g.submit "Upload Image"
+      # end
     f.inputs "Details" do
-
       f.input :image, :as => :file, :hint => f.template.image_tag(f.object.url_for_photo.to_s)
       f.input :name
       f.input :name_display
@@ -54,7 +58,7 @@ ActiveAdmin.register Place do
    show do |place|
       attributes_table do      
       row :image do
-        image_tag(place.url_for_photo.to_s)
+        image_tag(place.url_for_photo.to_s, :height => '250')
       end
         row :url_for_photo
         row :name
@@ -113,12 +117,7 @@ ActiveAdmin.register Place do
       # column "Photo Url", :url_for_photo
       column :category
       column :neighborhood
-      column :year_built
-      column :longitude
-      column :latitude
-      column :route_id
-      column :route_order
-      column :notes
+
       actions
     end
 end
