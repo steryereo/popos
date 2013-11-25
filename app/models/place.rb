@@ -1,8 +1,9 @@
 class Place < ActiveRecord::Base
-  attr_accessible :image, :name, :description, :name_display, :address, :category, :popos_category, :neighborhood, :photo_url, :year_built, :reject, :reject_reason, :reject_auth, :longitude, :latitude, :marker_point, :route_id, :route_order, :open, :open_hours, :open_days, :open_notes, :seating, :restrooms, :wifi, :views, :food, :indoor, :exercise, :art, :dogs, :playground, :seating_notes, :restrooms_notes, :wifi_notes, :views_notes, :food_notes, :exercise_notes, :art_notes, :dogs_notes, :playground_notes, :transportation, :popos_id_spur, :popos_rating_spur, :popos_downtown_plan, :notes
+  attr_accessible :photo, :name, :description, :name_display, :address, :category, :popos_category, :neighborhood, :old_photo_url, :year_built, :reject, :reject_reason, :reject_auth, :longitude, :latitude, :marker_point, :route_id, :route_order, :open, :open_hours, :open_days, :open_notes, :seating, :restrooms, :wifi, :views, :food, :indoor, :exercise, :art, :dogs, :playground, :seating_notes, :restrooms_notes, :wifi_notes, :views_notes, :food_notes, :exercise_notes, :art_notes, :dogs_notes, :playground_notes, :transportation, :popos_id_spur, :popos_rating_spur, :popos_downtown_plan, :notes
   attr_accessor :marker_point
 
-  mount_uploader :image, ImageUploader
+  # mount_uploader :image, ImageUploader
+  mount_uploader :photo, PhotoUploader
 
   validates :name, presence: true, uniqueness: true
   validates :address, presence: true
@@ -20,7 +21,7 @@ class Place < ActiveRecord::Base
   }
 
   def url_for_photo
-    u = image_url || photo_url || "/img/popos/no_photo.png"
+    u = photo_url || old_photo_url || "/img/popos/no_photo.png"
     u = u.sub(/^\/?img/, "http://urbanwander.org/img")
   end
 

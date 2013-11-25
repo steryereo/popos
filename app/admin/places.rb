@@ -6,7 +6,7 @@ ActiveAdmin.register Place do
       #   g.submit "Upload Image"
       # end
     f.inputs "Details" do
-      f.input :image, :as => :file, :hint => f.template.image_tag(f.object.url_for_photo.to_s)
+      f.input :photo, :as => :file, :hint => f.template.image_tag(f.object.url_for_photo.to_s)
       f.input :name
       f.input :name_display
       f.input :address
@@ -22,7 +22,7 @@ ActiveAdmin.register Place do
       f.input :latitude
       f.input :route_id
       f.input :route_order
-      f.input :photo_url
+      # f.input :photo_url
       f.input :open
       f.input :open_hours
       f.input :open_days
@@ -57,7 +57,7 @@ ActiveAdmin.register Place do
 
    show do |place|
       attributes_table do      
-      row :image do
+      row :photo do
         image_tag(place.url_for_photo.to_s, :height => '250')
       end
         row :url_for_photo
