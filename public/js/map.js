@@ -19,7 +19,7 @@ var mapOptions = {
 };
 
 var linestyle = {
-    color: 'red',
+    color: '#e85355',
     dashArray: '15, 15',
     opacity: 1.0
 };
