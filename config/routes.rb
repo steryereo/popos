@@ -6,6 +6,8 @@ Urbanwander::Application.routes.draw do
 
   resources :places
 
+  resources :routes
+  
   #root :to => "places#map"
 
   # The priority is based upon order of creation:
