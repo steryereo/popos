@@ -54,12 +54,12 @@ var showMap = function() {
         }
     });
     $('#banner').slideUp();
-    $('#below-map').slideUp();
+    $('#below-map').slideDown();
 }
 var goHome = function () {
         $('#map-container').slideUp();
         $('#banner').slideDown();
-        $('#below-map').fadeOut();
+        $('#below-map').slideDown();
 }
 
 $(document).ready(function() {
@@ -88,24 +88,11 @@ $(document).ready(function() {
     });
     $('#news-link').click(function(e) {
         e.preventDefault();
-        $('#adventures').hide();
-        $('#howto-and-about').hide();
-        $('#news-and-updates').show();
-        $('#below-map').fadeIn();
-        $('#map-container').slideUp();
-        $('#banner').slideDown();
     });
 
     $('#about-link').click(function(e) {
         e.preventDefault();
-        $('#adventures').hide();
-        $('#news-and-updates').hide();
-        $('#howto-and-about').show();
-        $('#below-map').fadeIn();
-        $('#map-container').slideUp();
-        $('#banner').slideDown();
     });
-
     $('#daynight').click(function(e) {
         if (map.hasLayer(tileLayers[currentTileLayer])) {
             map.removeLayer(tileLayers[currentTileLayer]);
