@@ -54,11 +54,17 @@ var showMap = function() {
         }
     });
     $('#banner').slideUp();
-    $('#below-map').hide();
+    $('#below-map').slideUp();
+}
+var goHome = function () {
+        $('#map-container').slideUp();
+        $('#banner').slideDown();
+        $('#below-map').fadeOut();
 }
 
 $(document).ready(function() {
     $('#map-container').hide();
+    goHome();
     $('#adventures .column, #nav li ul li a').click(function() {
         // routeID = parseInt(this.id.substring(this.id.length - 1));
         routeID = $(this).data('adventure')
@@ -77,6 +83,25 @@ $(document).ready(function() {
 
     $('#home-link').click(function(e) {
         e.preventDefault();
+        goHome();
+
+    });
+    $('#news-link').click(function(e) {
+        e.preventDefault();
+        $('#adventures').hide();
+        $('#howto-and-about').hide();
+        $('#news-and-updates').show();
+        $('#below-map').fadeIn();
+        $('#map-container').slideUp();
+        $('#banner').slideDown();
+    });
+
+    $('#about-link').click(function(e) {
+        e.preventDefault();
+        $('#adventures').hide();
+        $('#news-and-updates').hide();
+        $('#howto-and-about').show();
+        $('#below-map').fadeIn();
         $('#map-container').slideUp();
         $('#banner').slideDown();
     });
