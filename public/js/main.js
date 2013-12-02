@@ -7,10 +7,8 @@ $(document).ready(function() {
     }, function() {
         $(this).fadeTo(fadeTime, 1);
     });
-});
 
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
+     $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
@@ -22,4 +20,18 @@ $(function() {
       }
     }
   });
+      $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('.scrollup').fadeIn();
+            //    $('.scrollup').css('display', 'block');
+            } else {
+                $('.scrollup').fadeOut();
+            }
+        });
+ 
+        $('.scrollup').click(function(){
+            $("html, body").animate({ scrollTop: 0 }, 400);
+            return false;
+        });
+ 
 });

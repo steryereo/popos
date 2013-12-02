@@ -25,7 +25,6 @@ var linestyle = {
 };
 
 var sizeMap = function() {
-
     // var mapTop = Math.max($("#banner").position().top, $("#map-container").position().top);
     var mapTop = $("#nav").offset().top + $("#nav").height();
     var mapHeight = $(window).height() - mapTop;
@@ -37,7 +36,6 @@ var sizeMap = function() {
     var cssval = $('#sidebar').outerWidth() + 'px';
     $('#map').css( 'left', cssval);
     $('#map').width($('.container').width() - $('#sidebar').outerWidth());
-
 }
 
 var showMap = function() {
@@ -55,6 +53,7 @@ var showMap = function() {
     });
     $('#banner').slideUp();
     $('#below-map').slideDown();
+    $("html, body").animate({ scrollTop: 0 }, 400);
 }
 var goHome = function () {
         $('#map-container').slideUp();
@@ -71,15 +70,6 @@ $(document).ready(function() {
       //  $(this).css()
         showMap();
     });
-
-    // $('#adventures-link').click(function(e) {
-    //     e.preventDefault();
-    //     if ($('#map-container').is(':visible')) {
-    //         return;
-    //     }
-    //     routeID = undefined;
-    //     showMap();
-    // });
 
     $('#home-link').click(function(e) {
         e.preventDefault();

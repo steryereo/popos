@@ -16,7 +16,7 @@
 
       <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-      <link href='http://fonts.googleapis.com/css?family=Lato:400,400italic|Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,400italic|Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
 
 
       <link rel='stylesheet' href='css/main.css'>
@@ -52,7 +52,7 @@
     <!--[if lt IE 7]>
         <p class='chromeframe'>You are using an <strong>outdated</strong> browser. Please <a href='http://browsehappy.com/'>upgrade your browser</a> or <a href='http://www.google.com/chromeframe/?redirect=true'>activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
-
+<a href="#" class="scrollup">Scroll Up</a>
     <section id='top' class='container'>
 
         <div class = title-div>
@@ -101,13 +101,11 @@
     <section id='place-template' style='display: none'>
     <script id='m_place' type='text/template'>
         <div class='title'>
-        <!--<a href='index.html' id='home'> <img src='img/ui/home.png' alt='Home'> </a> -->
-          <h2>{{route_name}}</h2>
-        <!--  <div class='routename'>{{route_name}}</div> -->
+        <h3>{{name}}</h3>
         </div>
-      <!--  <div class='photo'>
+        <div class='photo'>
           <img src='{{photo_url}}' alt='{{name}}' onError="this.src='img/popos/no_photo.png';" />
-        </div> -->
+        </div>
           <div class='description'>
             <p>
               {{description}}
@@ -117,7 +115,13 @@
         <div class='info'>
           <div class='buttons'>
             <div class='address'>
-              {{address}} 
+              {{address}}
+              <span class="sub-address">
+              {{#open_hours}}
+              <br>
+              Open {{open_hours}}
+              {{/open_hours}}
+              </span>
             </div>
             <div class='icons'>
               {{#art}}
@@ -148,14 +152,18 @@
                 <span class='icon-wifi'>wifi</span>
               {{/wifi}}
             </div>
-          </div>
-          
+          </div>          
         </div>
     </script>
     </section>
 
     <section id='route-stops-template' style='display: none'>
       <script id='route_stops' type='text/template'>
+              <div class='title'>
+        <!--<a href='index.html' id='home'> <img src='img/ui/home.png' alt='Home'> </a> -->
+          <h2>{{name}}</h2>
+        <!--  <div class='routename'>{{route_name}}</div> -->
+        </div>
         <ul>
           {{#stops}}
             <li>
@@ -174,7 +182,7 @@
     </section>
 
     <section id='map'>
-      <img id="daynight" src="img/ui/day_night_small.png">
+      <img id="daynight" src="img/ui/day_night.png">
     </section>
 
     </section>
@@ -226,7 +234,7 @@
     <section id='howto-and-about' class='container'>
       <img class='howto-img' src="img/uw_iphone_info.jpg">
         <div id="about">
-        <h1>About</h1>
+        <h2>About</h2>
       <p>
             For the urban explorer interested in discovering unique, hidden, beautiful public spaces in San Francisco. Get off the beaten track. Discover POPOS (privately owned public open spaces), parklets, stairwells, playgrounds and other local secrets within San Francisco. Take a curated adventure and immerse yourself in art, exercise, nature or play. 
       </p>

@@ -1,5 +1,6 @@
 document.places = function() {
     var route_stops = {
+        name:"",
         stops: []
     };
     //  var places_data;
@@ -264,6 +265,7 @@ document.places = function() {
         });
         // popups(route(routeID));
         route_stops.stops = [];
+        route_stops.name = routeNames[routeID];
         _.forEach(sortedLayers(), function(d, i) {
             d.feature.properties.route_name = routeNames[routeID];
             route_stops.stops[i] = {
