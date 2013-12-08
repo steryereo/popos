@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131124234437) do
+ActiveRecord::Schema.define(:version => 20131208204548) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "namespace"
@@ -60,7 +60,7 @@ ActiveRecord::Schema.define(:version => 20131124234437) do
     t.string   "popos_category"
     t.string   "neighborhood"
     t.text     "description"
-    t.string   "old_photo_url"
+    t.text     "old_photo_url"
     t.date     "year_built"
     t.boolean  "reject"
     t.text     "reject_reason"
