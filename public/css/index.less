@@ -94,44 +94,44 @@ a {
 }
 
 #top {
-    margin-top:2em;
+    padding-top:1em;
     .title-div {
         float:left;
         .uw-title {
-            font-family: @title-font;
-            font-size: 2.5em;
-            font-weight: normal;
-            margin: 0;
-            line-height: 1em
+           // font-family: @title-font;
+           // font-size: 2.5em;
+           // font-weight: normal;
+           // margin: 0;
+           // line-height: 1em
 
         }
     }
-    .tagline {
-        font-family: @title-font;
-        font-size: 1em;
-        margin: 0.2em 0 1em 0;
-    }
+//    .tagline {
+//        font-family: @title-font;
+//        font-size: 1em;
+//        margin: 0.2em 0 1em 0;
+//    }
     #nav 
     {
-            font-family: @body-bold;
-            text-transform: uppercase;
-            text-decoration: none;
-            color:@black-text;
-            font-size: 1.5em;
+      font-family: @body-bold;
+      text-transform: uppercase;
+      text-decoration: none;
+      color:@black-text;
+      font-size: 1.5em;
 
-        float:right;   
-        text-align: right;
-        width:70%;
-        margin-top: 2.2em;
-        li:hover ul {
-            display:block;
-            z-index: 99;
-        }
+      float:right;   
+      text-align: right;
+      width:70%;
+      padding:1.4em 0 0 0;
+      li:hover ul {
+        display:block;
+        z-index: 99;
+      }
         li {
             cursor:pointer;
             list-style: none;
             display: inline;
-            margin-left: 12%;
+            margin-left: 10%;
             position:relative;
             ul { 
                 display:none;
@@ -264,6 +264,7 @@ ol, ul {
     font-size: 80%;
     bottom:0;
     overflow-y: auto;
+
     li {
       cursor:pointer;
       padding: .5em .25em;
@@ -339,8 +340,8 @@ ol, ul {
   font-size:1.3em;
     text-align: center;
     height: 40px;
-//    background-color: @title-bg;
-    color:@black-text;
+    background-color:#2C2C38;
+    color:#FFFFFF;
     padding: 0;
     overflow: hidden;
     
@@ -478,7 +479,7 @@ ol, ul {
 
 }
 
-#middlestretch, #middlestretch2{
+#middlestretch, #middlestretch2, #navbreak{
     display: none;
 }
 
@@ -637,7 +638,16 @@ px      68    160    252    344    436    528    620    712    */
 cols    1     2      3
 px      68    160    252    */
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 900px) {
+  #top {
+    #nav {
+      width:100%;
+      padding-top:0;
+    }
+  }
+  #navbreak {
+    display:block;
+  }
 
 }
 

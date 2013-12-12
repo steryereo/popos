@@ -30,11 +30,11 @@ class PhotoUploader < CarrierWave::Uploader::Base
   process :set_content_type
 
   version :thumb do
-    process :resize_to_limit => [100, 100]
+    process :resize_to_limit => [214, 100]
   end
 
-  version :preview do
-    process :resize_to_limit => [300, 300]
+  version :sidebar do
+    process :resize_to_limit => [640, 300]
   end
 
 
