@@ -28,7 +28,7 @@ var sizeMap = function() {
     // var mapTop = Math.max($("#banner").position().top, $("#map-container").position().top);
     var mapTop = $("#nav").offset().top + $("#nav").height();
     var mapHeight = $(window).height() - mapTop;
-    mapHeight -= 30;
+    mapHeight -= 50;
     $('#map-container, #sidebar, #map-section').height(mapHeight);
         //return;
     var sidebarWidth = (Math.floor($('.container').width() *0.35));
