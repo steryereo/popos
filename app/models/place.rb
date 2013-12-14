@@ -21,7 +21,7 @@ class Place < ActiveRecord::Base
   }
 
   def url_for_photo
-    u = photo_url || old_photo_url || "/img/popos/no_photo.png"
+    u = photo_url(:sidebar) || old_photo_url || "/img/popos/no_photo.png"
     u = u.sub(/^\/?img/, "http://urbanwander.org/img")
   end
 

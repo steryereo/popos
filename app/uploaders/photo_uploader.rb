@@ -34,7 +34,7 @@ class PhotoUploader < CarrierWave::Uploader::Base
   end
 
   version :sidebar do
-    process :resize_to_limit => [640, 300]
+    process :resize_to_limit => [358, 168]
   end
 
 
