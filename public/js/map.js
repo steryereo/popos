@@ -29,13 +29,13 @@ var sizeMap = function() {
     var mapTop = $("#nav").offset().top + $("#nav").height();
     var mapHeight = $(window).height() - mapTop;
     mapHeight -= 30;
-    $('#map-container, #sidebar, #map').height(mapHeight);
+    $('#map-container, #sidebar, #map-section').height(mapHeight);
         //return;
     var sidebarWidth = (Math.floor($('.container').width() *0.35));
     $('#sidebar').width(sidebarWidth);
     var cssval = $('#sidebar').outerWidth() + 'px';
-    $('#map').css( 'left', cssval);
-    $('#map').width($('.container').width() - $('#sidebar').outerWidth());
+    $('#map-section').css( 'left', cssval);
+    $('#map-section').width($('.container').width() - $('#sidebar').outerWidth());
 }
 
 var showMap = function() {
@@ -101,9 +101,9 @@ $(document).ready(function() {
 
 var createMap = function() {
     if (mapStyle) {
-        map = L.mapbox.map('map');
+        map = L.mapbox.map('map-section');
     } else {
-        map = L.mapbox.map('map');
+        map = L.mapbox.map('map-section');
     }
     map.tileLayer = tileLayers[currentTileLayer].addTo(map);
   //  map.setOptions(mapOptions);
