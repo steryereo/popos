@@ -11,6 +11,8 @@ class Place < ActiveRecord::Base
   validates :longitude, presence: true
   validates :latitude, presence: true
 
+  scope :no_photo, where(:photo => nil)
+
 
   geocoded_by :address_in_sf
 

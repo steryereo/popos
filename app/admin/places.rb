@@ -1,4 +1,5 @@
 ActiveAdmin.register Place do
+  config.sort_order = "name_asc"
   form :html => { :enctype => "multipart/form-data" } do |f|
       # uploader = f.object.image
       # direct_upload_form_for uploader do |g|
