@@ -6,9 +6,16 @@ document.places = function() {
     //  var places_data;
     var markerLayer = map.markerLayer;
     var sortedLayers = function() {
-        return _.sortBy(markerLayer.getLayers(), function(l) {
-            return l.feature.properties.route_order;
-        });
+        if (currentRouteID !== undefined) {
+            return _.sortBy(markerLayer.getLayers(), function(l) {
+                return l.feature.properties.route_order;
+            });
+        }
+        else {
+            return _.sortBy(markerLayer.getLayers(), function(l) {
+                return l.feature.properties.name;
+            });
+        }
     }
 
     markerLayer.on('click', function(e) {
@@ -69,17 +76,6 @@ document.places = function() {
     //  document.places = [];
     document.routeObjs = [];
 
-    $('.left-arrow').on('click', function() {
-        if (document.placeIndex >= 1) {
-            setCurrentPlace(document.placeIndex - 1);
-        }
-    });
-
-    $('.right-arrow').click(function() {
-        if (document.placeIndex >= 0 && document.placeIndex < markerLayer.getLayers().length - 1) {
-            setCurrentPlace(document.placeIndex + 1);
-        }
-    });
 
     var centerOnPath = function(reset) {
         // this should move the center of the polyline to the center of the "non-detailview" map area
@@ -116,7 +112,6 @@ document.places = function() {
         //var layers = [];
         //markerLayer.eachLayer(function(marker) { layers.push(marker); });
         var layers = sortedLayers();
-
         if (document.placeIndex + 1 == layers.length) {
             $('.right-arrow img').css('visibility', 'hidden');
         } else {
@@ -139,7 +134,7 @@ document.places = function() {
                     iconSize: [50, 50],
                     iconAnchor: new L.Point(25, 45),
                     className: "default-icon",
-                    html: l.feature.properties.route_order.toString()
+                    html: (currentRouteID !== undefined) ? l.feature.properties.route_order.toString() : ""
                 })
             );
         });
@@ -152,7 +147,7 @@ document.places = function() {
                     iconSize: [50, 50],
                     iconAnchor: new L.Point(25, 45),
                     className: "selected-icon",
-                    html: place.feature.properties.route_order.toString()
+                    html: (currentRouteID !== undefined) ? l.feature.properties.route_order.toString() : ""
                 })
             );
 
@@ -171,7 +166,7 @@ document.places = function() {
                 // centerOnPath();
             } else {
                 //                    centerOnPoint(place.getLatLng());
-                map.setView(place.getLatLng(), map.getZoom());
+                //map.setView(place.getLatLng());
             }
             //map.setView(place.getLatLng(), z);
 
@@ -234,28 +229,26 @@ document.places = function() {
         }
     };
 
-    var popups = function(pointsToPop) {
+    var popups = function(title, pointsToPop) {
         pointsToPop = typeof pointsToPop !== 'undefined' ? pointsToPop : places_data;
-        document.routeObjs = [];
-        _.forEach(pointsToPop, function(d, index) {
-
-            // var lat = parseFloat(d.gsx$latitude.$t);
-            // var lon = parseFloat(d.gsx$longitude.$t);
-            var lat = d.latitude;
-            var lon = d.longitude;
-            // if (!isNaN(lat) && !isNaN(lon)) {
-            if (lon && lat) {
-                var marker = L.marker([lat, lon], {
-                    icon: placeMarker.
-                    default
-                });
-                document.places[index] = marker;
-                document.routeObjs[index] = d;
-                marker.addTo(map);
-                marker.on('click', function(e) {
-                    setCurrentPlace(index);
-                });
-            }
+        
+        markerLayer.setGeoJSON(pointsToPop);
+        markerLayer.setFilter(function(f) {
+            return (!isNaN (f.geometry.coordinates[0]) && !isNaN (f.geometry.coordinates[1]));
+        });
+        // popups(route(routeID));
+                var layers = sortedLayers();
+        _.forEach(layers, function(d, i) {
+            d.feature.properties.route_name = title;
+            route_stops.stops[i] = {
+                name: d.feature.properties.name,
+                route_order: ""
+            };
+        });
+        var rstemplate = $('#route_stops').html();
+        $('#sidebar-list').html(Mustache.to_html(rstemplate, route_stops));
+        $('#sidebar-list ul li').click(function() {
+            setCurrentPlace($(this).index());
         });
     };
     var routePopups = function(routeID) {
@@ -285,8 +278,6 @@ document.places = function() {
         currentRouteID: currentRouteID,
         points: function() {
             var result = _.map(places_data, function(d) {
-                // var lat = parseFloat(d.gsx$latitude.$t);
-                // var lon = parseFloat(d.gsx$longitude.$t);
                 var lat = d.latitude;
                 var lon = d.longitude;
                 // if (!isNaN(lat) && !isNaN(lon)) {

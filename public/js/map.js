@@ -139,9 +139,15 @@ var setRoute = function() {
      places.setCurrentPlace(0);
 }
 var noRoute = function() {
+    if (document.polyline) {
+    map.removeLayer(document.polyline);
     document.polyline = undefined;
+}
+    places.currentRouteID = undefined;
+    places.popups("All Places");
     places.setCurrentPlace(0);
     map.fitBounds(map.markerLayer.getBounds());
+
 }
 
     function GetQueryStringParams(sParam) {
