@@ -108,7 +108,7 @@ document.places = function() {
     };
     function isScrolledIntoView(container, elem)
 {
-    var docViewTop = container.scrollTop();
+    var docViewTop = container.offset().top;
     var docViewBottom = docViewTop + container.height();
 
     var elemTop = elem.offset().top;
