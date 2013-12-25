@@ -165,8 +165,11 @@ document.places = function() {
 
             $( "#photo_large img" ).attr("src",place.feature.properties.photo_url_large);
 
-            $( "#photo, #photo_large" ).click(function() {
+            $( "#photo" ).click(function() {
                 $( "#photo_large" ).fadeToggle( "fast" );
+            });
+            $( "#photo_large" ).click(function() {
+                $( "#photo_large" ).fadeOut( "fast" );
             });
 
 
