@@ -106,25 +106,24 @@ document.places = function() {
         var newCenterLatLng = map.unproject([pathCenterAbs.x - centerOffset, pathCenterAbs.y], z);
         map.setView(newCenterLatLng, z, reset);
     };
+    function isScrolledIntoView(container, elem)
+{
+    var docViewTop = container.scrollTop();
+    var docViewBottom = docViewTop + container.height();
 
+    var elemTop = elem.offset().top;
+    var elemBottom = elemTop + elem.height();
+
+    return ((elemBottom >= docViewTop) && (elemTop <= docViewBottom)
+      && (elemBottom <= docViewBottom) &&  (elemTop >= docViewTop) );
+}
     var setCurrentPlace = function(idx) {
         document.placeIndex = idx;
         //var layers = [];
         //markerLayer.eachLayer(function(marker) { layers.push(marker); });
         var layers = sortedLayers();
-        if (document.placeIndex + 1 == layers.length) {
-            $('.right-arrow img').css('visibility', 'hidden');
-        } else {
-            $('.right-arrow img').css('visibility', 'visible');
-        }
-
-        if (document.placeIndex <= 0) {
-            $('.left-arrow img').css('visibility', 'hidden');
-        } else {
-            $('.left-arrow img').css('visibility', 'visible');
-        }
-
         var place = layers[idx];
+
         $('#sidebar-list ul li').removeClass("selected");
         // reset other popos icons
         _.forEach(layers, function(l) {
@@ -139,7 +138,13 @@ document.places = function() {
             );
         });
         if (place) {
-            $('#sidebar-list ul li:eq(' + idx + ')').addClass("selected");
+            var selectedListItem = $('#sidebar-list ul li:eq(' + idx + ')');
+            selectedListItem.addClass("selected");
+            if (!isScrolledIntoView($('#sidebar-list'), selectedListItem)) {
+                // $('#sidebar-list').animate({scrollTop: selectedListItem.offset().top-$('#sidebar-list').offset().top}, 250);
+                                $('#sidebar-list').scrollTop(selectedListItem.offset().top-$('#sidebar-list ul li:eq(0)').offset().top);
+
+            }
             // set default icon
             //place.setIcon(placeMarker.selected);
             place.setIcon(
@@ -165,8 +170,8 @@ document.places = function() {
                 map.fitBounds(document.polyline.getBounds().pad(0.1));
                 // centerOnPath();
             } else {
-                //                    centerOnPoint(place.getLatLng());
-                //map.setView(place.getLatLng());
+               //                     centerOnPoint(place.getLatLng());
+              //  map.setView(place.getLatLng());
             }
             //map.setView(place.getLatLng(), z);
 

@@ -145,8 +145,8 @@ var noRoute = function() {
 }
     places.currentRouteID = undefined;
     places.popups("All Places");
-    places.setCurrentPlace(0);
     map.fitBounds(map.markerLayer.getBounds());
+    places.setCurrentPlace(0);
 
 }
 
