@@ -152,7 +152,7 @@ document.places = function() {
                     iconSize: [50, 50],
                     iconAnchor: new L.Point(25, 45),
                     className: "selected-icon",
-                    html: (currentRouteID !== undefined) ? l.feature.properties.route_order.toString() : ""
+                    html: (currentRouteID !== undefined) ? place.feature.properties.route_order.toString() : ""
                 })
             );
 
@@ -171,7 +171,7 @@ document.places = function() {
                 // centerOnPath();
             } else {
                //                     centerOnPoint(place.getLatLng());
-              //  map.setView(place.getLatLng());
+               map.panTo(place.getLatLng());
             }
             //map.setView(place.getLatLng(), z);
 
@@ -235,6 +235,7 @@ document.places = function() {
     };
 
     var popups = function(title, pointsToPop) {
+        currentRouteID = undefined;
         pointsToPop = typeof pointsToPop !== 'undefined' ? pointsToPop : places_data;
         
         markerLayer.setGeoJSON(pointsToPop);
@@ -244,7 +245,9 @@ document.places = function() {
         // popups(route(routeID));
                 var layers = sortedLayers();
         _.forEach(layers, function(d, i) {
-            d.feature.properties.route_name = title;
+           // d.feature.properties.route_name = title;
+            route_stops.name = title;
+        
             route_stops.stops[i] = {
                 name: d.feature.properties.name,
                 route_order: ""
@@ -257,6 +260,7 @@ document.places = function() {
         });
     };
     var routePopups = function(routeID) {
+        currentRouteID = routeID;
         markerLayer.setGeoJSON(places_data);
         markerLayer.setFilter(function(f) {
             return f.properties['route_id'] === routeID;
