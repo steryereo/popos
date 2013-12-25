@@ -27,6 +27,11 @@ class Place < ActiveRecord::Base
     u = u.sub(/^\/?img/, "http://urbanwander.org/img")
   end
 
+  def photo_url_large
+    u = photo_url || old_photo_url || "" #|| "/img/popos/no_photo.png"
+    u = u.sub(/^\/?img/, "http://urbanwander.org/img")
+  end
+
   def address_in_sf
     address + " near San Francisco, CA"
   end
@@ -48,6 +53,7 @@ class Place < ActiveRecord::Base
         neighborhood: neighborhood,
         description: description,
         photo_url: url_for_photo,
+        photo_url_large: photo_url_large,
         year_built: year_built,
         reject: reject,
         reject_reason: reject_reason,

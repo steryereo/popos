@@ -80,6 +80,10 @@
 
 
     <section id="map-container" class="container" style="display:none">
+
+      <div id='photo_large' style="display:none">
+            <img>
+      </div>
       <div id="sidebar">
     <section id='detailview'>
       <div id='place'>
@@ -106,7 +110,7 @@
         <h3>{{name}}</h3>
         </div>
         {{#photo_url}}
-          <div class='photo'>
+          <div id='photo'>
             <img src='{{photo_url}}' alt='{{name}}' />
             <!-- <img src='{{photo_url}}' alt='{{name}}' onError="this.src='img/popos/no_photo.png';" /> -->
           </div>

@@ -118,11 +118,14 @@ document.places = function() {
       && (elemBottom <= docViewBottom) &&  (elemTop >= docViewTop) );
 }
     var setCurrentPlace = function(idx) {
+
         document.placeIndex = idx;
         //var layers = [];
         //markerLayer.eachLayer(function(marker) { layers.push(marker); });
         var layers = sortedLayers();
         var place = layers[idx];
+
+        $( "#photo_large" ).hide();
 
         $('#sidebar-list ul li').removeClass("selected");
         // reset other popos icons
@@ -159,6 +162,14 @@ document.places = function() {
             // display content
             var m_place = $('#m_place').html();
             $('#place').html(Mustache.render(m_place, place.feature.properties));
+
+            $( "#photo_large img" ).attr("src",place.feature.properties.photo_url_large);
+
+            $( "#photo, #photo_large" ).click(function() {
+                $( "#photo_large" ).fadeToggle( "fast" );
+            });
+
+
 
             // $('#detailview').draggable({
             //     handle: '#place .title',
