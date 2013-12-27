@@ -163,10 +163,10 @@ document.places = function() {
             var m_place = $('#m_place').html();
             $('#place').html(Mustache.render(m_place, place.feature.properties));
 
-            $( "#large-photo" ).attr("src",place.feature.properties.photo_url_large);
 
             $( "#popout" ).click(function() {
-                $( "#photo_large" ).fadeToggle( "fast" );
+                $( "#photo_large" ).fadeIn( "fast" );
+                $( "#large-photo" ).attr("src",place.feature.properties.photo_url_large);
             });
             $( "#close-icon" ).click(function() {
                 $( "#photo_large" ).fadeOut( "fast" );
