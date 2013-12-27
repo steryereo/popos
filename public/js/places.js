@@ -163,12 +163,12 @@ document.places = function() {
             var m_place = $('#m_place').html();
             $('#place').html(Mustache.render(m_place, place.feature.properties));
 
-            $( "#photo_large img" ).attr("src",place.feature.properties.photo_url_large);
+            $( "#large-photo" ).attr("src",place.feature.properties.photo_url_large);
 
-            $( "#photo" ).click(function() {
+            $( "#popout" ).click(function() {
                 $( "#photo_large" ).fadeToggle( "fast" );
             });
-            $( "#photo_large" ).click(function() {
+            $( "#close-icon" ).click(function() {
                 $( "#photo_large" ).fadeOut( "fast" );
             });
 

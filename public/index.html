@@ -82,7 +82,9 @@
     <section id="map-container" class="container" style="display:none">
 
       <div id='photo_large' style="display:none">
-            <img>
+            <img id='large-photo'/>
+            <img src="img/ui/close-x.png" id='close-icon' />
+
       </div>
       <div id="sidebar">
     <section id='detailview'>
@@ -111,8 +113,9 @@
         </div>
         {{#photo_url}}
           <div id='photo'>
-            <img src='{{photo_url}}' alt='{{name}}' />
-            <!-- <img src='{{photo_url}}' alt='{{name}}' onError="this.src='img/popos/no_photo.png';" /> -->
+            <img src='{{photo_url}}' alt='{{name}}' id='preview-photo'/>
+            <img src="img/ui/popout_white.png" id='popout' />
+
           </div>
         {{/photo_url}}
           <div class='description'>
