@@ -2,11 +2,17 @@
   <strong>Name:</strong>
   <%= @place.name %>
 </p>
- 
+ <p>
+  <%= image_tag @place.photo_url_large if @place.photo_url_large != nil  %>
+</p>
 <p>
   <strong>Description:</strong>
   <%= @place.description %>
 </p>
 
 
-<%= link_to 'Back', places_path %>
+<p>
+  <%= link_to "Edit", edit_place_path(@place) %> |
+  <%= link_to "Destroy", @place, method: :delete, confirm: "Are you sure?" %> |
+  <%= link_to "View All", places_path %>
+</p>
