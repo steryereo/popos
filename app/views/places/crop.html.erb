@@ -1,3 +1,17 @@
 
 <h1>Crop Photo</h1>
 <%= image_tag @place.photo_url(:large), id: "cropbox" %>
+
+<h4>Preview</h4>
+<div style="width:358px; height:168px; overflow:hidden;">
+  <%= image_tag @place.photo_url(:large), :id => "preview" %>
+</div>
+
+<%= form_for @place do |f| %>
+  <div class="actions">
+    <% %w[x y w h].each do |attribute| %>
+      <%= f.hidden_field "crop_#{attribute}"%>
+    <% end %>
+    <%= f.submit "Crop" %>
+  </div>
+<% end %>

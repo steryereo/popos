@@ -3,7 +3,12 @@
   <%= @place.name %>
 </p>
  <p>
+  Large Image:
   <%= image_tag @place.photo_url_large if @place.photo_url_large != nil  %>
+</p>
+ <p>
+  Sidebar Image:
+  <%= image_tag @place.photo_url(:sidebar) if @place.photo?  %>
 </p>
 <p>
   <strong>Description:</strong>
