@@ -34,9 +34,12 @@ class PhotoUploader < CarrierWave::Uploader::Base
   end
 
   version :sidebar do
-    process :resize_to_limit => [358, 168]
+    process :resize_to_fill => [358, 168]
   end
 
+  version :large do
+    process :resize_to_limit => [1024, 1024]
+  end
 
   # Provide a default URL as a default if there hasn't been a file uploaded:
   # def default_url

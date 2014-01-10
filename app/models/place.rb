@@ -1,6 +1,8 @@
 class Place < ActiveRecord::Base
   attr_accessible :photo, :name, :description, :name_display, :address, :category, :popos_category, :neighborhood, :old_photo_url, :year_built, :reject, :reject_reason, :reject_auth, :longitude, :latitude, :marker_point, :route_id, :route_order, :open, :open_hours, :open_days, :open_notes, :seating, :restrooms, :wifi, :views, :food, :indoor, :exercise, :art, :dogs, :playground, :seating_notes, :restrooms_notes, :wifi_notes, :views_notes, :food_notes, :exercise_notes, :art_notes, :dogs_notes, :playground_notes, :transportation, :popos_id_spur, :popos_rating_spur, :popos_downtown_plan, :notes
   attr_accessor :marker_point
+  attr_accessor :crop_x, :crop_y, :crop_w, :crop_h
+  after_update :crop_photo
 
   # mount_uploader :image, ImageUploader
   mount_uploader :photo, PhotoUploader

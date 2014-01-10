@@ -113,7 +113,7 @@
         </div>
         {{#photo_url}}
           <div id='photo'>
-            <img src='{{photo_url}}' alt='{{name}}' id='preview-photo'/>
+            <img src='{{photo_url}}' alt='{{name}}' onerror="$('#photo').hide()" id='preview-photo'/>
             <img src="img/ui/popout_white.png" id='popout' />
 
           </div>
