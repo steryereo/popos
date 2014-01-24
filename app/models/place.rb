@@ -43,6 +43,17 @@ class Place < ActiveRecord::Base
     address + " near San Francisco, CA"
   end
 
+  def to_jq_upload
+    {
+      "name" => read_attribute(:photo),
+      "size" => photo.size,
+      "url" => photo.url,
+      "thumbnail_url" => photo_url(:thumb),
+      "delete_url" => place_path(:id => id),
+      "delete_type" => "DELETE" 
+    }
+  end
+
   def to_geojson
     {
       id: id,

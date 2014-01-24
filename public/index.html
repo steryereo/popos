@@ -66,7 +66,6 @@
             <ul>
               <li><a data-adventure=1>POPOS</a></li>
               <li><a data-adventure=6>Beautiful views</a></li>
-              <p id="navbreak"></p>
               <li><a data-adventure=7>Kids corner</a></li>
               <li><a data-adventure=5>Let's Get Physical</a></li>
               <li><a >All Places</a></li>
@@ -171,10 +170,8 @@
 
     <section id='route-stops-template' style='display: none'>
       <script id='route_stops' type='text/template'>
-              <div class='title'>
-        <!--<a href='index.html' id='home'> <img src='img/ui/home.png' alt='Home'> </a> -->
-          <h2>{{name}}</h2>
-        <!--  <div class='routename'>{{route_name}}</div> -->
+        <div class='title'>
+          <h3>{{name}}</h3>
         </div>
         <ul>
           {{#stops}}

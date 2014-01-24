@@ -93,7 +93,8 @@ $(document).ready(function() {
     window.onresize = function() {
         if ($('#map-container').is(':visible')) {
             sizeMap();
-            map.fitBounds(document.polyline.getBounds().pad(0.1));
+            if (document.polyline != undefined)
+                map.fitBounds(document.polyline.getBounds().pad(0.1));
         }
             // 
     };

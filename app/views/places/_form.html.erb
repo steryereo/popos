@@ -9,11 +9,12 @@
       </ul>
     </div>
   <% end %>
-
-  <div class="field">
+   <div class="field">
     <%= f.label :name %><br />
     <%= f.text_field :name %>
   </div>
+  <div id="buttons">
+
   <div class="field">
     <%= f.label :photo %><br />
     <%= f.file_field :photo %>
@@ -21,4 +22,15 @@
   <div class="actions">
     <%= f.submit %>
   </div>
+  </div>
+  <div id="progress-indicator" style="display:none">
+    <%= image_tag "ajax_loader_gray_64.gif" %>
+  </div>
 <% end %>
+
+<script>
+$("input[name='commit']").click(function() {
+  $("#buttons").slideUp();
+  $("#progress-indicator").fadeIn();
+});
+</script>
