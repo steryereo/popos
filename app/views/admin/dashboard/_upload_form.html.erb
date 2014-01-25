@@ -1,6 +1,19 @@
+<style>
+	form {
+		list-style: none;
+	}
+	li, input {
+		display:inline;
+	}
+	label {
+		display: none;
+		font-weight: bold;
+		padding-right: .5em;
+	}
+</style>
+
 <%= semantic_form_for [:admin, place] do |f| %>
-  <%= f.input :photo, :as => :file  %>
+  <%= f.input :photo, :as => :file, :label => "Photo "  %>
   <%= f.submit "Upload" %>
 <% end %>
-
 
