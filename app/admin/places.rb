@@ -59,7 +59,8 @@ ActiveAdmin.register Place do
   show do |place|
     attributes_table do
       row :photo do
-        image_tag(place.url_for_photo.to_s, :height => '250')
+        image_tag(place.photo_url(:large).to_s, :height => '250')
+        image_tag(place.photo_url(:sidebar).to_s)
       end
       row :url_for_photo
       row :name
@@ -120,5 +121,26 @@ ActiveAdmin.register Place do
     column :neighborhood
 
     actions
+  end
+
+  member_action :update, :method => :put do
+    # debugger
+    @place = Place.find(params[:id])
+    if params[:place].present?
+      if @place.update_attributes(params[:place])
+        if params[:place][:photo].present?
+          render :admin_crop
+        else
+          if params[:place][:crop_x].present?
+            @place.crop_photo
+          end
+          redirect_to admin_place_path(@place)
+        end
+      else
+        # render :new
+      end
+    # else
+    #   redirect_to admin_place_path(@place), :action => :show
+    end
   end
 end

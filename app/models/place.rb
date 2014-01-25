@@ -3,12 +3,15 @@ class Place < ActiveRecord::Base
   attr_accessor :marker_point
   attr_accessor :crop_x, :crop_y, :crop_w, :crop_h
   attr_accessible :crop_x, :crop_y, :crop_w, :crop_h
-  after_update :crop_photo
+  # after_update :crop_photo
 
   def crop_photo
-    photo.recreate_versions! if crop_x.present?
+    if crop_x.present?
+      photo.recreate_versions!(:sidebar)
+      self.save!
+    end
   end
-  
+
   # mount_uploader :image, ImageUploader
   mount_uploader :photo, PhotoUploader
 
