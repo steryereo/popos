@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131208204548) do
+ActiveRecord::Schema.define(:version => 20140125211252) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "namespace"
@@ -101,6 +101,7 @@ ActiveRecord::Schema.define(:version => 20131208204548) do
     t.datetime "updated_at",                                         :null => false
     t.boolean  "outdoor"
     t.string   "photo"
+    t.string   "photo_credit"
   end
 
   create_table "route_points", :force => true do |t|

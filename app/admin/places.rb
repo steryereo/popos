@@ -8,6 +8,7 @@ ActiveAdmin.register Place do
     # end
     f.inputs "Details" do
       f.input :photo, :as => :file, :hint => f.template.image_tag(f.object.url_for_photo.to_s)
+      f.input :photo_credit
       f.input :name
       f.input :name_display
       f.input :address
@@ -74,6 +75,7 @@ ActiveAdmin.register Place do
           end
         end
       end
+      row :photo_credit
       # row :url_for_photo
       row :name
       row :name_display
