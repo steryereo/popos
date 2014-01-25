@@ -26,10 +26,12 @@ ActiveAdmin.register_page "Dashboard" do
         panel "Places that need uploaded photos" do
           table_for Place.no_photo.order('name asc').each do |place|
             column(:name) {|place| link_to(place.name, edit_admin_place_path(place)) }
+            column(:upload) do |place|
+              render :partial => "upload_form", locals: {place: place}
+            end
           end
         end
       end
-
     end # columns
 
     # columns do

@@ -59,10 +59,22 @@ ActiveAdmin.register Place do
   show do |place|
     attributes_table do
       row :photo do
-        image_tag(place.photo_url(:large).to_s, :height => '250')
-        image_tag(place.photo_url(:sidebar).to_s)
+        columns do
+          column :min_width => "520px", :max_width => "50%" do
+            ul(:style => "list-style: none; ") do
+              li image_tag(place.photo_url(:large).to_s, :width => '500')
+              li para(place.photo_url(:large).to_s)
+            end
+          end
+          column :min_width => "400px", :max_width => "30%" do
+            ul(:style => "list-style: none; ") do
+              li image_tag(place.photo_url(:sidebar).to_s)
+              li para place.photo_url(:sidebar).to_s
+            end
+          end
+        end
       end
-      row :url_for_photo
+      # row :url_for_photo
       row :name
       row :name_display
       row :address
