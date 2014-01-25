@@ -17,6 +17,9 @@ gem 'geocoder'
 
 group :development, :test do
   gem 'sqlite3'
+
+	# To use debugger
+	gem 'debugger'
 end
 group :production do
   gem 'pg'
@@ -48,5 +51,3 @@ gem 'jquery-rails'
 # Deploy with Capistrano
 # gem 'capistrano'
 
-# To use debugger
-gem 'debugger'
