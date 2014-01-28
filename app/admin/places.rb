@@ -1,4 +1,5 @@
 ActiveAdmin.register Place do
+
   config.sort_order = "name_asc"
   form :html => { :enctype => "multipart/form-data" } do |f|
     # uploader = f.object.image
@@ -133,7 +134,7 @@ ActiveAdmin.register Place do
   end
 
   index do
-    column :name
+    column :name do |place| link_to place.name, admin_place_path(place); end
     column :address
     column "Photo" do |place|
       if (place.photo_url != "" && place.photo_url != nil)
@@ -148,10 +149,12 @@ ActiveAdmin.register Place do
       end
     end
     # column "Photo Url", :url_for_photo
+    column :photo_credit
     column :category
     column :neighborhood
 
     actions
+
   end
 
   member_action :update, :method => :put do

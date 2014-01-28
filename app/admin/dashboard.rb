@@ -31,6 +31,13 @@ ActiveAdmin.register_page "Dashboard" do
             end
           end
         end
+        # panel "Photos that need a credit" do
+        #   table_for Place.order('name asc').each do |place|
+        #     if (place.photo_url != nil && place.photo_url != "" && (place.photo_credit == nil || place.photo_credit == ""))
+        #       column(:name) {|place| link_to(place.name, edit_admin_place_path(place)) }
+        #     end
+        #   end
+        # end
       end
     end # columns
 
