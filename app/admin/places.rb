@@ -8,7 +8,7 @@ ActiveAdmin.register Place do
     #   g.submit "Upload Image"
     # end
     f.inputs "Details" do
-      f.input :photo, :as => :file, :hint => f.template.image_tag(f.object.url_for_photo.to_s)
+      f.input :photo, :as => :file, :hint => (f.object.photo_url(:large).to_s != "") ? (f.template.image_tag(f.object.photo_url(:large).to_s)) : nil
       f.input :photo_credit
       f.input :name
       f.input :name_display
