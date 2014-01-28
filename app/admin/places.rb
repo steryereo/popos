@@ -137,12 +137,14 @@ ActiveAdmin.register Place do
     column :address
     column "Photo" do |place|
       if (place.photo_url != "" && place.photo_url != nil)
-        link_to(image_tag(place.photo_url(:thumb), :height => '100'), admin_place_path(place))
+        link_to(image_tag(place.photo_url(:thumb), :height => '100'), place.photo_url(:large))
       end
     end
     column "Old Photo" do |place|
       if (place.old_photo_url != "" && place.old_photo_url != nil)
-        link_to(image_tag(place.old_photo_url, :height => '100'), admin_place_path(place))
+          u = place.old_photo_url;
+          u = u.sub(/^\/?img/, "http://urbanwander.org/img")
+        link_to(image_tag(u, :height => '100'), u)
       end
     end
     # column "Photo Url", :url_for_photo
