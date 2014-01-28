@@ -80,7 +80,9 @@ ActiveAdmin.register Place do
       row :photo_credit
       row :old_photo do
         if (place.old_photo_url != "" && place.old_photo_url != nil)
-          image_tag(place.old_photo_url, :height => '200')
+          u = place.old_photo_url;
+          u = u.sub(/^\/?img/, "http://urbanwander.org/img")
+          image_tag(u, :height => '200')
         end
       end
       row :name
