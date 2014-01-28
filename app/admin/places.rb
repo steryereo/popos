@@ -78,7 +78,11 @@ ActiveAdmin.register Place do
         end
       end
       row :photo_credit
-      # row :url_for_photo
+      row :old_photo do
+        if (place.old_photo_url != "" && place.old_photo_url != nil)
+          image_tag(place.old_photo_url, :height => '200')
+        end
+      end
       row :name
       row :name_display
       row :address
@@ -130,8 +134,13 @@ ActiveAdmin.register Place do
     column :name
     column :address
     column "Photo" do |place|
-      if (place.url_for_photo != "" && place.url_for_photo != nil)
-        link_to(image_tag(place.url_for_photo, :height => '100'), admin_place_path(place))
+      if (place.photo_url != "" && place.photo_url != nil)
+        link_to(image_tag(place.photo_url(:thumb), :height => '100'), admin_place_path(place))
+      end
+    end
+    column "Old Photo" do |place|
+      if (place.old_photo_url != "" && place.old_photo_url != nil)
+        link_to(image_tag(place.old_photo_url, :height => '100'), admin_place_path(place))
       end
     end
     # column "Photo Url", :url_for_photo
