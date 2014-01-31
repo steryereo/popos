@@ -2,7 +2,8 @@ var map;
 var places;
 // Set map types
 var tileLayers = [L.mapbox.tileLayer('cdawson.map-rfzl19el'),
-                  L.mapbox.tileLayer('cdawson.map-dijsvtyd')];
+    L.mapbox.tileLayer('cdawson.map-dijsvtyd')
+];
 //var mapboxID = 'examples.map-vyofok3q'
 var stamenMap = 'watercolor',
     stamenLabels = 'toner-labels';
@@ -14,7 +15,7 @@ var routeID = GetQueryStringParams('routeID');
 // Set map options
 var mapOptions = {
     minZoom: 10,
-    zoomControl:false,
+    zoomControl: false,
     scrollWheelZoom: true
 };
 
@@ -30,11 +31,11 @@ var sizeMap = function() {
     var mapHeight = $(window).height() - mapTop;
     mapHeight -= 50;
     $('#map-container, #sidebar, #map-section').height(mapHeight);
-        //return;
-    var sidebarWidth = (Math.floor($('.container').width() *0.35));
+    //return;
+    var sidebarWidth = (Math.floor($('.container').width() * 0.35));
     $('#sidebar').width(sidebarWidth);
     var cssval = $('#sidebar').outerWidth() + 'px';
-    $('#map-section').css( 'left', cssval);
+    $('#map-section').css('left', cssval);
     $('#map-section').width($('.container').width() - $('#sidebar').outerWidth());
 }
 
@@ -46,19 +47,20 @@ var showMap = function() {
         }
         if (routeID) {
             setRoute();
-        }
-        else {
+        } else {
             noRoute();
         }
     });
     $('#banner').slideUp();
     $('#below-map').slideDown();
-    $("html, body").animate({ scrollTop: 0 }, 400);
+    $("html, body").animate({
+        scrollTop: 0
+    }, 400);
 }
-var goHome = function () {
-        $('#map-container').slideUp();
-        $('#banner').slideDown();
-        $('#below-map').slideDown();
+var goHome = function() {
+    $('#map-container').slideUp();
+    $('#banner').slideDown();
+    $('#below-map').slideDown();
 }
 
 $(document).ready(function() {
@@ -67,7 +69,8 @@ $(document).ready(function() {
     $('#adventures .column, #nav li ul li a').click(function() {
         // routeID = parseInt(this.id.substring(this.id.length - 1));
         routeID = $(this).data('adventure')
-      //  $(this).css()
+        $('#nav li ul').fadeOut();
+        //  $(this).css()
         showMap();
     });
 
@@ -96,7 +99,7 @@ $(document).ready(function() {
             if (document.polyline != undefined)
                 map.fitBounds(document.polyline.getBounds().pad(0.1));
         }
-            // 
+        // 
     };
 });
 
@@ -107,43 +110,43 @@ var createMap = function() {
         map = L.mapbox.map('map-section');
     }
     map.tileLayer = tileLayers[currentTileLayer].addTo(map);
-  //  map.setOptions(mapOptions);
+    //  map.setOptions(mapOptions);
 
-     map.zoomControl.removeFrom(map);
+    map.zoomControl.removeFrom(map);
     places = document.places();
 }
 var setRoute = function() {
-     
-         places.currentRouteID = routeID;
-         var route = places.routePoints(routeID);
-         if (document.polyline) {
-             document.polyline.setLatLngs(route);
-            document.polyline.redraw();
-        } else {
-            document.polyline = L.polyline(route, linestyle);
-            document.polyline.addTo(map);
-        }
 
-//         
-//         // markers and popups
-         places.routePopups(routeID);
+    places.currentRouteID = routeID;
+    var route = places.routePoints(routeID);
+    if (document.polyline) {
+        document.polyline.setLatLngs(route);
+        document.polyline.redraw();
+    } else {
+        document.polyline = L.polyline(route, linestyle);
+        document.polyline.addTo(map);
+    }
 
-//         // Set first place
-//         map.fitBounds(document.polyline.getBounds());
+    //         
+    //         // markers and popups
+    places.routePopups(routeID);
+
+    //         // Set first place
+    //         map.fitBounds(document.polyline.getBounds());
 
 
-//         // places.centerOnPath(true);
-//     } else {
-//         map.fitBounds(points);
-//         places.popups();
+    //         // places.centerOnPath(true);
+    //     } else {
+    //         map.fitBounds(points);
+    //         places.popups();
 
-     places.setCurrentPlace(0);
+    places.setCurrentPlace(0);
 }
 var noRoute = function() {
     if (document.polyline) {
-    map.removeLayer(document.polyline);
-    document.polyline = undefined;
-}
+        map.removeLayer(document.polyline);
+        document.polyline = undefined;
+    }
     places.currentRouteID = undefined;
     places.popups("All Places");
     map.fitBounds(map.markerLayer.getBounds());

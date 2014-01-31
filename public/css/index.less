@@ -123,7 +123,7 @@ a {
       text-align: right;
       width:70%;
       padding:1.4em 0 0 0;
-      li:hover ul {
+      li ul.show {
         display:block;
         z-index: 1000;
       }
@@ -135,6 +135,7 @@ a {
             position:relative;
             ul { 
                 display:none;
+                z-index: 1000;
                 text-align: center;
                 left:-2.25em;
                 position:absolute;
@@ -233,11 +234,13 @@ ol, ul {
 #photo_large {
     display: none;
     position: absolute;
-    max-width: 95%;
+    max-width: 94%;
     //float:left;
     padding: 10px;
+    padding-top: 40px;
     top: 50px;
-    left: 25px;
+    // left: 0px;
+    margin:auto;
     z-index: 9999;
     background-color: #bbbdbf;
     //cursor: -webkit-zoom-out; cursor: -moz-zoom-out;

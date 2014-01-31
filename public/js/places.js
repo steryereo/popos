@@ -126,6 +126,10 @@ document.places = function() {
         var place = layers[idx];
 
         $( "#photo_large" ).hide();
+         
+        $( "#photo_large" ).bind( "clickoutside", function(event){
+            $(this).fadeOut();
+        });     
 
         $('#sidebar-list ul li').removeClass("selected");
         // reset other popos icons
@@ -164,9 +168,10 @@ document.places = function() {
             $('#place').html(Mustache.render(m_place, place.feature.properties));
 
 
-            $( "#popout" ).click(function() {
+            $( "#popout" ).click(function(e) {
                 $( "#photo_large" ).fadeIn( "fast" );
                 $( "#large-photo" ).attr("src",place.feature.properties.photo_url_large);
+                e.stopPropagation();
             });
             $( "#close-icon" ).click(function() {
                 $( "#photo_large" ).fadeOut( "fast" );

@@ -58,11 +58,10 @@
         <div class = title-div>
           <!-- <h1 class="uw-title">urban wander</h1> -->
           <!-- <h3 class="tagline">discover. explore. wander.</h3> -->
-          <img src="img/uw_title.png">
+          <a href = "index.html" id="home-link" class="nav-main"><img src="img/uw_title.png" alt='UrbanWander'></a>
         </div>
         <ul id='nav'>
-          <li><a href = "index.html" id="home-link" class="nav-main">home</a></li>
-          <li><a href="#adventures" id="adventures-link" class="nav-main">adventures</a>
+          <li><a  id="adventures-link" class="nav-main">adventures</a>
             <ul>
               <li><a data-adventure=1>POPOS</a></li>
               <li><a data-adventure=6>Beautiful views</a></li>
@@ -80,27 +79,20 @@
 
     <section id="map-container" class="container" style="display:none">
 
-      <div id='photo_large' style="display:none">
-            <img id='large-photo'/>
-            <img src="img/ui/close-x.png" id='close-icon' />
-
+    <div id='photo_large' style="display:none">
+      <div class="title">
+        <img src="img/ui/close-x.png" id='close-icon' />
       </div>
-      <div id="sidebar">
+      <img id='large-photo'/>
+    </div>
+
+
+  <div id="sidebar">  
     <section id='detailview'>
       <div id='place'>
         <!-- placeholder for place info -->
       </div>
-      <div id="sidebar-list">
-
-      </div> 
- <!--      <div class='navigation'>
-        <span class='left-arrow'>
-          <img src='img/ui/left_arrow.png' />
-        </span>
-        <span class='right-arrow'>
-          <img src='img/ui/right_arrow.png' />
-        </span>
-      </div> -->
+      <div id="sidebar-list"> </div>
     </section>
   </div>
 
@@ -299,6 +291,8 @@
 
 
     <script src='http://code.jquery.com/ui/1.10.2/jquery-ui.js'></script>
+
+      <script src='js/vendor/jquery.ba-outside-events.min.js' type='text/javascript'></script>
     <!-- remove migrate once plugin code works with jQuery 1.9+ -->
 <!--    <script src="http://code.jquery.com/jquery-migrate-1.2.0.js"></script> -->
     <script type='text/javascript' src='js/plugins.js'></script>
