@@ -73,7 +73,7 @@
           <li><a href="#news-and-updates" class="nav-main" id="news-link">news</a></li>
           <li><a href="#howto-and-about" class="nav-main" id="about-link">about</a></li>
           <li><a href = "mailto:info@urbanwander.org" class="nav-main">contact</a></li>
-        </div>
+          </ul
       </section>
 
 
@@ -81,7 +81,7 @@
 
     <div id='photo-large' style="display:none">
       <div class="title">
-        <img src="img/ui/close-x.png" id='close-icon' />
+        <img src="img/ui/close.png" id='close-icon' />
         <h3 id="photo-title"></h3>
       </div>
       <img class='photo'>
@@ -106,7 +106,7 @@
         {{#photo_url}}
           <div id='photo'>
             <img src='{{photo_url}}' alt='{{name}}' onerror="$('#photo').hide()" id='preview-photo'/>
-            <img src="img/ui/popout_white.png" id='popout' />
+            <img src="img/ui/expand.png" id='popout' />
 
           </div>
         {{/photo_url}}
