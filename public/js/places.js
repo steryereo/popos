@@ -125,9 +125,9 @@ document.places = function() {
         var layers = sortedLayers();
         var place = layers[idx];
 
-        $( "#photo_large" ).hide();
+        $( "#photo-large" ).hide();
          
-        $( "#photo_large" ).bind( "clickoutside", function(event){
+        $( "#photo-large" ).bind( "clickoutside", function(event){
             $(this).fadeOut();
         });     
 
@@ -169,12 +169,13 @@ document.places = function() {
 
 
             $( "#popout" ).click(function(e) {
-                $( "#photo_large" ).fadeIn( "fast" );
-                $( "#large-photo" ).attr("src",place.feature.properties.photo_url_large);
+                $( "#photo-large" ).fadeIn( "fast" );
+                $( "#photo-large img.photo" ).attr("src",place.feature.properties.photo_url_large);
+                $('#photo-title').text(place.feature.properties.name)
                 e.stopPropagation();
             });
             $( "#close-icon" ).click(function() {
-                $( "#photo_large" ).fadeOut( "fast" );
+                $( "#photo-large" ).fadeOut( "fast" );
             });
 
 
