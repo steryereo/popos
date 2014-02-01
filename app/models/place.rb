@@ -22,7 +22,7 @@ class Place < ActiveRecord::Base
   validates :latitude, presence: true
 
   scope :no_photo, where(:photo => nil)
-  scope :no_credit, where("photo_credit is  NULL or photo_credit = ''")
+  scope :no_credit, where("photo is not null and photo_credit is null or photo_credit = ''")
   
 
   geocoded_by :address_in_sf

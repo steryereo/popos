@@ -1,5 +1,8 @@
 ActiveAdmin.register Place do
 
+  scope :no_photo 
+  scope :no_credit
+
   config.sort_order = "name_asc"
   form :html => { :enctype => "multipart/form-data" } do |f|
     # uploader = f.object.image
