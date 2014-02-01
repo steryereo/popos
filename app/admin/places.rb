@@ -12,6 +12,7 @@ ActiveAdmin.register Place do
     # end
     f.inputs "Details" do
       f.input :photo, :as => :file, :hint => (f.object.photo_url(:large).to_s != "") ? (f.template.image_tag(f.object.photo_url(:large).to_s)) : nil
+      f.input :remove_photo, :as => :boolean
       f.input :photo_credit
       f.input :name
       f.input :name_display
@@ -28,7 +29,6 @@ ActiveAdmin.register Place do
       f.input :latitude
       f.input :route_id
       f.input :route_order
-      # f.input :photo_url
       f.input :open
       f.input :open_hours
       f.input :open_days
