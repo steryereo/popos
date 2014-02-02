@@ -1,5 +1,6 @@
 ActiveAdmin.register Place do
 
+  scope :all
   scope :no_photo 
   scope :no_credit
 
