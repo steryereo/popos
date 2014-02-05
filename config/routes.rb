@@ -1,4 +1,9 @@
 Urbanwander::Application.routes.draw do
+  
+
+  devise_for :users
+  resources :users
+
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
@@ -7,7 +12,7 @@ Urbanwander::Application.routes.draw do
   resources :places
 
   resources :routes
-  
+
   #root :to => "places#map"
 
   # The priority is based upon order of creation:
