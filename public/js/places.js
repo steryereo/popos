@@ -258,6 +258,12 @@ document.places = function() {
         currentRouteID = undefined;
         pointsToPop = typeof pointsToPop !== 'undefined' ? pointsToPop : places_data;
         
+        if (title == "Needs Photos") {
+            pointsToPop = _.filter(pointsToPop.features, function (p) {
+                return p.properties.photo_url_new == null || p.properties.photo_url_new == "";
+            });
+        }
+
         markerLayer.setGeoJSON(pointsToPop);
         markerLayer.setFilter(function(f) {
             return (!isNaN (f.geometry.coordinates[0]) && !isNaN (f.geometry.coordinates[1]));

@@ -42,7 +42,7 @@ class Place < ActiveRecord::Base
   end
 
   def photo_url_large
-    u = photo_url || old_photo_url || "" #|| "/img/popos/no_photo.png"
+    u = photo_url(:large) || old_photo_url || "" #|| "/img/popos/no_photo.png"
     u = u.sub(/^\/?img/, "http://urbanwander.org/img")
   end
 
@@ -77,6 +77,7 @@ class Place < ActiveRecord::Base
         popos_category: popos_category,
         neighborhood: neighborhood,
         description: description,
+        photo_url_new: photo_url(:large),
         photo_url: url_for_photo,
         photo_url_large: photo_url_large,
         photo_credit: photo_credit,
