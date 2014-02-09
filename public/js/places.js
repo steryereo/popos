@@ -131,7 +131,7 @@ document.places = function() {
             $(this).fadeOut();
         });     
 
-        $('#sidebar-list ul li').removeClass("selected");
+        $('#list-div ul li').removeClass("selected");
         // reset other popos icons
         _.forEach(layers, function(l) {
             //                l.setIcon(placeMarker.default);
@@ -145,11 +145,11 @@ document.places = function() {
             );
         });
         if (place) {
-            var selectedListItem = $('#sidebar-list ul li:eq(' + idx + ')');
+            var selectedListItem = $('#list-div ul li:eq(' + idx + ')');
             selectedListItem.addClass("selected");
-            if (!isScrolledIntoView($('#sidebar-list'), selectedListItem)) {
+            if (!isScrolledIntoView($('#list-div'), selectedListItem)) {
                 // $('#sidebar-list').animate({scrollTop: selectedListItem.offset().top-$('#sidebar-list').offset().top}, 250);
-                                $('#sidebar-list').scrollTop(selectedListItem.offset().top-$('#sidebar-list ul li:eq(0)').offset().top);
+                $('#list-div').scrollTop(selectedListItem.offset().top-$('#list-div ul li:eq(0)').offset().top);
 
             }
             // set default icon
@@ -202,17 +202,13 @@ document.places = function() {
 
     var route = function(routeID) {
         var r = _.filter(places_data, function(d) {
-            // var rid = parseInt(d.gsx$routeid.$t);
             var rid = d.route_id;
-            // var lat = parseFloat(d.gsx$latitude.$t);
-            // var lon = parseFloat(d.gsx$longitude.$t);
             var lat = d.latitude;
             var lon = d.longitude;
 
             return rid == routeID && (!isNaN(lat)) && (!isNaN(lon));
         });
         var sorted = _.sortBy(r, function(d) {
-            // return parseInt(d.gsx$routeorder.$t) - 1;
             return d.route_order - 1;
         });
         return sorted;
@@ -224,26 +220,18 @@ document.places = function() {
         if (currentRoute && currentRoute.geometry && currentRoute.geometry.coordinates) {
             var r = currentRoute.geometry.coordinates;
             var p = _.map(r, function(d) {
-                // var lat = parseFloat(d.gsx$latitude.$t);
-                // var lon = parseFloat(d.gsx$longitude.$t);
                 var lat = d[1];
                 var lon = d[0];
-                // if (!isNaN(lat) && !isNaN(lon)) {
                 if (lon && lat) {
                     return new L.LatLng(lat, lon);
                 }
             });
             return p;
-        // if (walkingRoutes[routeID]) {
-        //     return walkingRoutes[routeID];
-        } else {
-            var r = route(routeID);
-            var p = _.map(r, function(d) {
-                // var lat = parseFloat(d.gsx$latitude.$t);
-                // var lon = parseFloat(d.gsx$longitude.$t);
+            } else {
+                var r = route(routeID);
+                var p = _.map(r, function(d) {
                 var lat = d.latitude;
                 var lon = d.longitude;
-                // if (!isNaN(lat) && !isNaN(lon)) {
                 if (lon && lat) {
                     return new L.LatLng(lat, lon);
                 }
@@ -281,6 +269,9 @@ document.places = function() {
         });
         var rstemplate = $('#route_stops').html();
         $('#sidebar-list').html(Mustache.to_html(rstemplate, route_stops));
+        var listHeight = $("#sidebar-list").height() - $("#sidebar-list .title").height();
+        $('#list-div').height(listHeight);
+        $('#place').height($("#detailview").height() - $("#sidebar-list").height());
         $('#sidebar-list ul li').click(function() {
             setCurrentPlace($(this).index());
         });
@@ -303,6 +294,8 @@ document.places = function() {
         });
         var rstemplate = $('#route_stops').html();
         $('#sidebar-list').html(Mustache.to_html(rstemplate, route_stops));
+        var listHeight = $("#sidebar-list").height() - $("#sidebar-list .title").height();
+        $('#list-div').height(listHeight);
         $('#sidebar-list ul li').click(function() {
             setCurrentPlace($(this).index());
         });

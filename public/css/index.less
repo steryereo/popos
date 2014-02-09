@@ -1,5 +1,3 @@
-//@import "normalize.less";
-//@import "preboot.less";
 @import "fonts.less";
 
 // CONSTANTS
@@ -282,8 +280,8 @@ ol, ul {
   // padding: 10px;
   #place {
     position: absolute;
-    max-height:58%;
-    overflow-y: auto;
+    //max-height:58%;
+    overflow-y: hidden;
     width: 100%;
     .description {
       height: 40%;
@@ -302,8 +300,10 @@ ol, ul {
     width:100%;
     max-height:40%;
     bottom:0;
-    overflow-y: auto;
-
+    #list-div {
+      height: 100%;
+      overflow-y: auto;
+    }
     li {
       font-size: 80%;
       cursor:pointer;

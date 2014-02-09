@@ -89,10 +89,9 @@
 
   <div id="sidebar">  
     <section id='detailview'>
-      <div id='place'>
-        <!-- placeholder for place info -->
-      </div>
+     
       <div id="sidebar-list"> </div>
+       <div id='place'><!-- placeholder for place info --></div>
     </section>
   </div>
 
@@ -165,20 +164,22 @@
         <div class='title'>
           <h3>{{name}}</h3>
         </div>
-        <ul>
-          {{#stops}}
-            <li>
-              <div class="list-number">
-                {{route_order}}
-              </div>
-              <div = class="list-item">
-                {{name}}
-              </div>
-              <div = class="arrow">
-              </div>
-            </li>
-          {{/stops}}
-        </ul>
+        <div id="list-div">
+          <ul>
+            {{#stops}}
+              <li>
+                <div class="list-number">
+                  {{route_order}}
+                </div>
+                <div = class="list-item">
+                  {{name}}
+                </div>
+                <div = class="arrow">
+                </div>
+              </li>
+            {{/stops}}
+          </ul>
+        </div>
       </script>
     </section>
 
