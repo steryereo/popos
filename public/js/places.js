@@ -4,29 +4,29 @@ document.places = function() {
         stops: []
     };
     //  var places_data;
-    var markerLayer = map.markerLayer;
+    var featureLayer = map.featureLayer;
     var sortedLayers = function() {
         if (currentRouteID !== undefined) {
-            return _.sortBy(markerLayer.getLayers(), function(l) {
+            return _.sortBy(featureLayer.getLayers(), function(l) {
                 return l.feature.properties.route_order;
             });
         }
         else {
-            return _.sortBy(markerLayer.getLayers(), function(l) {
+            return _.sortBy(featureLayer.getLayers(), function(l) {
                 return l.feature.properties.name;
             });
         }
     }
 
-    markerLayer.on('click', function(e) {
+    featureLayer.on('click', function(e) {
         var l = sortedLayers();
         var i = l.indexOf(e.layer);
-        e.layer.unbindPopup();
+       // e.layer.unbindPopup();
         setCurrentPlace(i);
     });
 
-    // markerLayer.loadURL('/places.geojson');
-    // places_data = markerLayer.getGeoJSON();
+    // featureLayer.loadURL('/places.geojson');
+    // places_data = featureLayer.getGeoJSON();
     var places_json = '/places.geojson',
         routes_json = '/routes.geojson',
         places_data = [],
@@ -40,7 +40,7 @@ document.places = function() {
         dataType: 'json',
         success: function(i) {
             places_data = i;
-            markerLayer.setGeoJSON(i);
+            featureLayer.setGeoJSON(i);
         }
     });
 
@@ -50,7 +50,7 @@ document.places = function() {
         dataType: 'json',
         success: function(i) {
             routes_data = i;
-            //markerLayer.setGeoJSON(i);
+            //featureLayer.setGeoJSON(i);
         }
     });
 
@@ -121,7 +121,7 @@ document.places = function() {
 
         document.placeIndex = idx;
         //var layers = [];
-        //markerLayer.eachLayer(function(marker) { layers.push(marker); });
+        //featureLayer.eachLayer(function(marker) { layers.push(marker); });
         var layers = sortedLayers();
         var place = layers[idx];
 
@@ -264,8 +264,8 @@ document.places = function() {
             });
         }
 
-        markerLayer.setGeoJSON(pointsToPop);
-        markerLayer.setFilter(function(f) {
+        featureLayer.setGeoJSON(pointsToPop);
+        featureLayer.setFilter(function(f) {
             return (!isNaN (f.geometry.coordinates[0]) && !isNaN (f.geometry.coordinates[1]));
         });
         // popups(route(routeID));
@@ -287,8 +287,8 @@ document.places = function() {
     };
     var routePopups = function(routeID) {
         currentRouteID = routeID;
-        markerLayer.setGeoJSON(places_data);
-        markerLayer.setFilter(function(f) {
+        featureLayer.setGeoJSON(places_data);
+        featureLayer.setFilter(function(f) {
             return f.properties['route_id'] === routeID;
         });
         // popups(route(routeID));
