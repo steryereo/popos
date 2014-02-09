@@ -21,7 +21,7 @@ document.places = function() {
     featureLayer.on('click', function(e) {
         var l = sortedLayers();
         var i = l.indexOf(e.layer);
-       // e.layer.unbindPopup();
+        e.layer.closePopup();
         setCurrentPlace(i);
     });
 
