@@ -1,5 +1,3 @@
-//@import "normalize.less";
-//@import "preboot.less";
 @import "fonts.less";
 
 // CONSTANTS
@@ -24,7 +22,7 @@
 @black-text:#231F20;
 
 html {
-    background: url('../img/pattern1.jpg') repeat #fff;
+//    background: url('../img/pattern1.jpg') repeat #fff;
   //  font-family: 'futuramedium', sans-serif;
   font-family: @body-font;
   font-size: 14px;
@@ -48,10 +46,10 @@ a {
 
 .container {
     clear:both;
-    width: 95%;
+//    width: 95%;
     max-width: @container-width;
     margin:0 auto;
-    padding: 0 2%;
+    padding: 0;
     h1 {
         text-transform: uppercase;
         text-align: center;
@@ -122,7 +120,8 @@ a {
       float:right;   
       text-align: right;
       width:70%;
-      padding:1.4em 0 0 0;
+      vertical-align: bottom;
+      padding:35px 0 0 0;
       li ul.show {
         display:block;
         z-index: 1000;
@@ -282,8 +281,8 @@ ol, ul {
   // padding: 10px;
   #place {
     position: absolute;
-    max-height:58%;
-    overflow-y: auto;
+    //max-height:58%;
+    overflow-y: hidden;
     width: 100%;
     .description {
       height: 40%;
@@ -302,8 +301,10 @@ ol, ul {
     width:100%;
     max-height:40%;
     bottom:0;
-    overflow-y: auto;
-
+    #list-div {
+      height: 100%;
+      overflow-y: auto;
+    }
     li {
       font-size: 80%;
       cursor:pointer;

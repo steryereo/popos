@@ -11,6 +11,7 @@ var stamenMap = 'watercolor',
 var currentTileLayer = 0;
 var mapStyle = GetQueryStringParams('m');
 var routeID = GetQueryStringParams('routeID');
+var adventureName;
 
 // Set map options
 var mapOptions = {
@@ -68,7 +69,8 @@ $(document).ready(function() {
     goHome();
     $('#adventures .column, #nav li ul li a').click(function() {
         // routeID = parseInt(this.id.substring(this.id.length - 1));
-        routeID = $(this).data('adventure')
+        routeID = $(this).data('route')
+        adventureName = $(this).data('adventure')
         $('#nav li ul').fadeOut();
         //  $(this).css()
         showMap();
@@ -110,13 +112,10 @@ var createMap = function() {
         map = L.mapbox.map('map-section');
     }
     map.tileLayer = tileLayers[currentTileLayer].addTo(map);
-    //  map.setOptions(mapOptions);
-
     map.zoomControl.removeFrom(map);
     places = document.places();
 }
 var setRoute = function() {
-
     places.currentRouteID = routeID;
     var route = places.routePoints(routeID);
     if (document.polyline) {
@@ -126,20 +125,7 @@ var setRoute = function() {
         document.polyline = L.polyline(route, linestyle);
         document.polyline.addTo(map);
     }
-
-    //         
-    //         // markers and popups
     places.routePopups(routeID);
-
-    //         // Set first place
-    //         map.fitBounds(document.polyline.getBounds());
-
-
-    //         // places.centerOnPath(true);
-    //     } else {
-    //         map.fitBounds(points);
-    //         places.popups();
-
     places.setCurrentPlace(0);
 }
 var noRoute = function() {
@@ -148,7 +134,7 @@ var noRoute = function() {
         document.polyline = undefined;
     }
     places.currentRouteID = undefined;
-    places.popups("All Places");
+    places.popups(adventureName);
     map.fitBounds(map.markerLayer.getBounds());
     places.setCurrentPlace(0);
 
