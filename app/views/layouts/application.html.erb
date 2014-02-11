@@ -2,11 +2,12 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= content_for?(:title) ? yield(:title) : "App_Name" %></title>
-    <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "App_Name" %>">
+    <title><%= content_for?(:title) ? yield(:title) : "Urban Wander" %></title>
+    <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "fun. free. off the beaten track." %>">
     <%= stylesheet_link_tag "application", :media => "all" %>
     <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
+     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,400italic|Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
     <%= yield(:head) %>
   </head>
   <body>

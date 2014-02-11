@@ -1,0 +1,117 @@
+$body-font: 'Lato', sans-serif;
+$body-bold:'Open Sans Condensed', sans-serif;
+$title-font:'Open Sans Condensed', sans-serif;
+
+$background:            #dcdcdc;
+$container-width:       1024px;
+$title-bg:              #2c2c38;
+$detail-width:          20%;
+$black-text:            #231F20;
+
+html {
+//    background: url('../img/pattern1.jpg') repeat #fff;
+  //  font-family: 'futuramedium', sans-serif;
+  font-family: $body-font;
+  font-size: 14px;
+  padding-bottom: 40px;
+  color:$black-text;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: $body-bold;
+//    font-family: 'futuramedium', sans-serif;
+text-transform: uppercase;
+   // letter-spacing: .05em;
+   // line-height: 110%;
+}
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+.container {
+    clear:both;
+    max-width: $container-width;
+    margin:0 auto;
+    padding: 0;
+    h1 {
+        text-transform: uppercase;
+        text-align: center;
+      width:100%;
+  }
+}
+
+#top {
+    position: fixed;
+    left:0;
+    top:0;
+//    right:0;
+    padding-top:8px;
+    background-color:$title-bg;
+    width:100%;
+    .title-div {
+        float:left;
+        padding-left:1em;
+    }
+    #nav 
+    {
+      font-family: $body-font;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-decoration: none;
+      color:#fff;
+      font-size: 1.5em;
+      padding-right:1em;
+      float:right;   
+      text-align: right;
+      width:70%;
+      vertical-align: bottom;
+      margin:0;
+      li ul.show {
+        display:block;
+        z-index: 1000;
+      }
+      li {
+        cursor:pointer;
+        list-style: none;
+        display: inline-block;
+        margin-left: 10%;
+        position:relative;
+        ul.menu {
+          display:none;
+          z-index: 1000;
+          text-align: center;
+          left:-2.25em;
+          position:absolute;
+          padding: 0;
+          color:#fff;
+          li {
+              width:9em;
+              padding:0;
+              margin:3px 1px;
+              display: block;
+              background-color: #231F20;
+          }
+          li:hover {
+              background-color: #64C4B8;
+          }
+        }
+        ul.user-links {
+          display: inline-block;
+          font-family: $body-font;
+          font-size: 0.666667em;
+          li {
+            padding:0;
+            width:auto;
+          }
+        }
+      }
+      a {
+
+      }
+      li:nth-child(1) {margin: 0;}
+
+        //    a:hover {padding: 0;}
+}
+
+
+}
