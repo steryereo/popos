@@ -1,48 +1,46 @@
 
 <section id='top'>
-
-        <div class = title-div>
-           <a href = "index.html" id="home-link" class="nav-main"><img src="img/uw_title_key_white.png" alt='UrbanWander'></a>
-        </div>
-        <ul id='nav'>
-          <li><a  id="adventures-link" class="nav-main">adventures</a>
-            <ul class = "menu">
-              <li><a data-route=1>POPOS</a></li>
-              <li><a data-route=6>Beautiful views</a></li>
-              <li><a data-route=7>Kids corner</a></li>
-              <li><a data-route=5>Let's Get Physical</a></li>
-              <li><a data-adventure="All Places">All Places</a></li>
-              <li><a data-adventure="Needs Photos">Needs Photos</a></li>
-            </ul>
-          </li>
-          <li><a href = "mailto:info@urbanwander.org" class="nav-main">contact</a></li>
+  <div class = title-div>
+    <a href = "index.html" id="home-link" class="nav-main">
+      <%= image_tag("uw_title_key_gray.png", alt:'Urban Wander') %>
+    </a>
+  </div>
+  <ul id='nav'>
+    <li class="nav-main"><a  id="adventures-link" >adventures</a>
+      <ul class = "menu">
+        <li><a data-route=1>POPOS</a></li>
+        <li><a data-route=6>Beautiful views</a></li>
+        <li><a data-route=7>Kids corner</a></li>
+        <li><a data-route=5>Let's Get Physical</a></li>
+        <li><a data-adventure="All Places">All Places</a></li>
+        <li><a data-adventure="Needs Photos">Needs Photos</a></li>
+      </ul>
+    </li>
+    <li class="nav-main"><a href = "mailto:info@urbanwander.org">contact</a></li>
+    <li>
+      <ul class = "user-links">
+        <% if user_signed_in? %>
+          <% if current_user.has_role? :admin %>
+            <li>
+            <%= link_to('Admin', users_path) %>
+            </li>
+          <% end %>
           <li>
-            <ul class = "user-links">
-            
-            <% if user_signed_in? %>
-    <li>
-    <%= link_to('Logout', destroy_user_session_path, :method=>'delete') %>
-    </li>
-  <% else %>
-    <li>
-    <%= link_to('Login', new_user_session_path)  %>
-    </li>
-  <% end %>
-  <% if user_signed_in? %>
-    <li>
-    <%= link_to('Edit account', edit_user_registration_path) %>
-    </li>
-    <% if current_user.has_role? :admin %>
-      <li>
-      <%= link_to('Admin', users_path) %>
-      </li>
-    <% end %>
-  <% else %>
-    <li>
-    <%= link_to('Sign up', new_user_registration_path)  %>
-    </li>
-  <% end %>
-  </ul>
+          <%= link_to('Logout', destroy_user_session_path, :method=>'delete') %>
           </li>
-          </ul>
-      </section>
+          <li>
+            <%= link_to('Edit account', edit_user_registration_path) %>
+          </li>
+        <% else %>
+          <li>
+          <%= link_to('Login', new_user_session_path)  %>
+          </li>
+          <li>
+          <%= link_to('Sign up', new_user_registration_path)  %>
+          </li>
+        <% end %>
+        </ul>
+      </li>
+    </ul>
+  </section>  
+<div id="top-spacer"></div>

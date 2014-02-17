@@ -1,15 +1,18 @@
 $body-font: 'Lato', sans-serif;
-$body-bold:'Open Sans Condensed', sans-serif;
+//$body-bold:'Open Sans Condensed', sans-serif;
 $title-font:'Open Sans Condensed', sans-serif;
 
-$background:            #dcdcdc;
-$container-width:       1024px;
 $title-bg:              #2c2c38;
-$detail-width:          20%;
 $black-text:            #231F20;
+$light-gray:            #dcdcdc;
+$mid-gray:              #595961;
+$container-width:       1024px;
+$detail-width:          20%;
+$top-height:            90px;
 
 html {
 //    background: url('../img/pattern1.jpg') repeat #fff;
+//background-color: $light-gray;
   //  font-family: 'futuramedium', sans-serif;
   font-family: $body-font;
   font-size: 14px;
@@ -17,26 +20,24 @@ html {
   color:$black-text;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: $body-bold;
-//    font-family: 'futuramedium', sans-serif;
-text-transform: uppercase;
-   // letter-spacing: .05em;
-   // line-height: 110%;
+  font-family: $title-font;
+  //font-weight: 700;
+  text-transform: uppercase;
 }
 a {
-    text-decoration: none;
-    color:inherit;
+  text-decoration: none;
+  color:inherit;
 }
 
 .container {
-    clear:both;
-    max-width: $container-width;
-    margin:0 auto;
-    padding: 0;
-    h1 {
-        text-transform: uppercase;
-        text-align: center;
-      width:100%;
+  clear:both;
+  max-width: $container-width;
+  margin:0 auto;
+  padding: 0;
+  h1 {
+    text-transform: uppercase;
+    text-align: center;
+    width:100%;
   }
 }
 
@@ -44,27 +45,30 @@ a {
     position: fixed;
     left:0;
     top:0;
-//    right:0;
+    height:$top-height - 8px;
     padding-top:8px;
     background-color:$title-bg;
     width:100%;
     .title-div {
-        float:left;
-        padding-left:1em;
+      float:left;
+      padding-left:1em;
     }
     #nav 
     {
-      font-family: $body-font;
-      font-weight: 400;
+      position:absolute;
+      bottom:0;
+      right: 0;
+      font-family: $title-font;
+      letter-spacing: .08em;
+      font-weight: 700;
       text-transform: uppercase;
-      text-decoration: none;
-      color:#fff;
+      color:$light-gray;
       font-size: 1.5em;
       padding-right:1em;
-      float:right;   
+      padding-bottom:8px;
+//      float:right;
       text-align: right;
       width:70%;
-      vertical-align: bottom;
       margin:0;
       li ul.show {
         display:block;
@@ -96,22 +100,30 @@ a {
           }
         }
         ul.user-links {
+          text-transform: lowercase;
           display: inline-block;
           font-family: $body-font;
           font-size: 0.666667em;
           li {
             padding:0;
-            width:auto;
+            white-space:nowrap;
+            display: block;
+            margin: 0;
           }
         }
       }
-      a {
-
-      }
       li:nth-child(1) {margin: 0;}
-
-        //    a:hover {padding: 0;}
+    }
+}
+#top-spacer{
+  height:$top-height;
 }
 
+#main {
+  position:absolute;
+  width: 100%;
+  top: $top-height;
+  bottom:0;
+  left: 0;
 
 }
