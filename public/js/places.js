@@ -169,6 +169,7 @@ document.places = function() {
 
 
             $( "#popout" ).click(function(e) {
+                $( "#photo-large img.photo" ).attr("src","img/ui/loader.gif");
                 $( "#photo-large" ).fadeIn( "fast" );
                 $( "#photo-large img.photo" ).attr("src",place.feature.properties.photo_url_large);
                 $('#photo-title').text(place.feature.properties.name)
