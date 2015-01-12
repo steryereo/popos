@@ -69,7 +69,7 @@ $(document).ready(function() {
     goHome();
     $('#adventures .column, #nav li ul li a').click(function() {
         // routeID = parseInt(this.id.substring(this.id.length - 1));
-        routeID = $(this).data('route')
+        routeID = $(this).data('route') || $(this).data('adventure');
         adventureName = $(this).data('adventure')
         $('#nav li ul').fadeOut();
         //  $(this).css()
