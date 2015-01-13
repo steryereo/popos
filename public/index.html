@@ -75,14 +75,7 @@
 
 
     <section id="map-container" class="container" style="display:none">
-
-    <div id='photo-large' style="display:none">
-      <div class="title">
-        <img src="img/ui/close.png" id='close-icon' />
-        <h3 id="photo-title"></h3>
-      </div>
-      <img class='photo'>
-    </div>
+ 
 
 
   <div id="sidebar">  
@@ -279,9 +272,20 @@
       </div>
     </section>
 </section> <!-- end of below-map section -->
-    <footer>
-      <p>&copy; 2014 urbanwander.org</p>
-    </footer>
+<footer>
+  <p>&copy; 2014 urbanwander.org</p>
+</footer>
+<div id="lightbox" style="display:none;">
+  <div id="lightbox-bg"></div>
+  <div id='photo-large'>
+    <div class="title">
+      <img src="img/ui/close.png" id='close-icon' />
+      <h3 id="photo-title"></h3>
+     </div>
+    <div id='lightbox-image'>
+    </div>
+  </div>
+</div>
 
 
 <!--    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script> -->

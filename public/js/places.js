@@ -125,10 +125,10 @@ document.places = function() {
         var layers = sortedLayers();
         var place = layers[idx];
 
-        $( "#photo-large" ).hide();
+        $( "#lightbox" ).hide();
          
         $( "#photo-large" ).bind( "clickoutside", function(event){
-            $(this).fadeOut();
+            $('#lightbox').fadeOut();
         });     
 
         $('#list-div ul li').removeClass("selected");
@@ -169,14 +169,18 @@ document.places = function() {
 
 
             $( "#popout" ).click(function(e) {
-                $( "#photo-large img.photo" ).attr("src","img/ui/loader.gif");
-                $( "#photo-large" ).fadeIn( "fast" );
-                $( "#photo-large img.photo" ).attr("src",place.feature.properties.photo_url_large);
+
+                $('#lightbox-image').html('<img src="img/ui/loader.gif">' );
+                //$( "#photo-large img.photo" ).attr("src","img/ui/loader.gif");
+                $( "#lightbox" ).fadeIn( "fast" );
+                $('#lightbox-image').html('<img src="' + place.feature.properties.photo_url_large + '" style = "max-height:'+ $(window).height()*.9 +'px;max-width:'+ $(window).width()*.9 +'px;"/>');
+                
+                //$( "#photo-large img.photo" ).attr("src",place.feature.properties.photo_url_large);
                 $('#photo-title').text(place.feature.properties.name)
                 e.stopPropagation();
             });
             $( "#close-icon" ).click(function() {
-                $( "#photo-large" ).fadeOut( "fast" );
+                $( "#lightbox" ).fadeOut( "fast" );
             });
 
 

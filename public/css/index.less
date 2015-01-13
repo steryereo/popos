@@ -230,44 +230,59 @@ ol, ul {
     z-index: 100;
   }
 }
-#photo-large {
-    display: none;
-    position: absolute;
-    max-width: 94%;
-    //float:left;
-    padding: 10px;
-    // padding-top: 40px;
-    //top: 50px;
-    // left: 0px;
-    margin:auto;
+#lightbox {
+    position:fixed; /* keeps the lightbox window in the current viewport */
+    top:0;
+    left:0;
+    text-align:center;
+    width:100%;
+    height:100%;
     z-index: 9999;
-    background-color: #bbbdbf;
-    //cursor: -webkit-zoom-out; cursor: -moz-zoom-out;
-    img.photo {
-      max-width: 100%
-    }
-    // #close-icon {
-    //   position: absolute;
-    //   top: 10px;
-    //   left: 10px;
-    // }
-    div.title {
+
+
+}
+#lightbox-bg {
+  position: absolute;
+  width:100%;
+  height:100%;
+  background:url(../img/ui/overlay.png) repeat;
+}
+#lightbox-image {
+  // height:100%;
+  // img {
+  //   margin: auto;
+  //   position: absolute;
+  //   top: 0; left: 0; bottom: 0; right: 0;
+  // }
+}
+#photo-large {
+  corner-radius:5px;
+  overflow:hidden;
+  //margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #bbbdbf;
+  div.title {
+    position: relative;
+    text-align: center;
+    height: 40px;
+    background-color:#2C2C38;
+    overflow: hidden;
+    h3 {
+      display:inline;
+      color:#FFFFFF;
       text-align: center;
-      height: 40px;
-      background-color:#2C2C38;
-      overflow: hidden;
-      h3 {
-        display:inline;
-        color:#FFFFFF;
-        text-align: center;
-        line-height: 40px;
-      }
-      img {
-        position: absolute;
-        left: 20px;
-        top: 20px;
-      }
+      line-height: 40px;
     }
+    #close-icon {
+      position: absolute;
+      left:10px;
+  top: 50%;
+  transform: translateY(-50%);
+    }
+  }
 }
 #sidebar {
   font-family: @title-font;
@@ -276,12 +291,8 @@ ol, ul {
   position: absolute;
   display: block;
   z-index: 999;
-  //width:30%;
-  // background-color: #bbbdbf;
-  // padding: 10px;
   #place {
     position: absolute;
-    //max-height:58%;
     overflow-y: hidden;
     width: 100%;
     .description {
@@ -325,17 +336,14 @@ ol, ul {
         -webkit-border-radius: 50%; -moz-border-radius: 50%em;
         border:1px solid #bbbdbf;
         text-align: center;
-     //   vertical-align: middle;
         margin:0 0.5em;
         padding-top: 0.16em;
-      
       }
       .list-item {
         padding-top: 0.16em;
         position:absolute;
         display:inline-block;
         vertical-align: middle;
-        
       }
       .arrow {
         float:right;
@@ -343,11 +351,8 @@ ol, ul {
         width:0.796875em;
         max-height: 1.2em;
         margin:0 0.5em;
-
         background-image:url("../img/ui/arrow_gray.png");
-        background-size: 100% 100%; 
-    //    vertical-align: middle;
-       
+        background-size: 100% 100%;
       }
     }
     li.selected {
