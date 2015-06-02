@@ -1,5 +1,6 @@
 var map;
 var places;
+L.mapbox.accessToken = 'pk.eyJ1IjoidXJiYW53YW5kZXIiLCJhIjoiSnl6MmFCMCJ9.WNiYr0pi_RhgEfRYc1Sb1g';
 // Set map types
 var tileLayers = [L.mapbox.tileLayer('cdawson.map-rfzl19el'),
     L.mapbox.tileLayer('cdawson.map-dijsvtyd')
@@ -135,7 +136,7 @@ var noRoute = function() {
     }
     places.currentRouteID = undefined;
     places.popups(adventureName);
-    map.fitBounds(map.markerLayer.getBounds());
+    map.fitBounds(map.fq.getBounds());
     places.setCurrentPlace(0);
 
 }
