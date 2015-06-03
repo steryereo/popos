@@ -136,8 +136,9 @@ var noRoute = function() {
     }
     places.currentRouteID = undefined;
     places.popups(adventureName);
-    map.fitBounds(map.fq.getBounds());
+    //map.fitBounds(map.fq.getBounds());
     places.setCurrentPlace(0);
+    
 
 }
 
