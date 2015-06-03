@@ -331,7 +331,7 @@ DEPENDENCIES
   geocoder
   jquery-rails
   pg
-  rails
+  rails (= 4.2.1)
   rails_12factor
   ransack
   rmagick
