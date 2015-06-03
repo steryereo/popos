@@ -1,5 +1,5 @@
 class Adventure < ActiveRecord::Base
-  attr_accessible :name
+  #attr_accessible :name
 
   has_many :routes
   has_many :route_points, through: :routes

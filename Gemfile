@@ -4,7 +4,9 @@ gem 'rails'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-gem 'carrierwave'
+# 
+gem 'fog-aws'
+gem 'carrierwave', github:'carrierwaveuploader/carrierwave'
 gem 'rmagick'
 gem 'carrierwave_direct'
 gem 'sidekiq'

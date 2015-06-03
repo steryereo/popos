@@ -1,5 +1,7 @@
 ActiveAdmin.register Place do
 
+  permit_params :photo, :remove_photo, :photo_credit, :name, :name_display, :address, :category, :popos_category, :neighborhood, :description, :year_built, :reject, :reject_reason, :reject_auth, :longitude, :latitude, :route_id, :route_order, :open, :open_hours, :open_days, :open_notes, :seating, :restrooms, :wifi, :views, :food, :indoor, :exercise, :art, :dogs, :playground, :seating_notes, :restrooms_notes, :wifi_notes, :views_notes, :food_notes, :exercise_notes, :art_notes, :dogs_notes, :playground_notes, :transportation, :popos_id_spur, :popos_rating_spur, :popos_downtown_plan, :notes
+    
   scope :all
   scope :no_photo 
   scope :no_credit
@@ -59,7 +61,7 @@ ActiveAdmin.register Place do
       f.input :popos_downtown_plan
       f.input :notes
     end
-    f.buttons
+    f.actions
   end
 
   show do |place|
@@ -165,7 +167,7 @@ ActiveAdmin.register Place do
     # debugger
     @place = Place.find(params[:id])
     if params[:place].present?
-      if @place.update_attributes(params[:place])
+      if @place.update_attributes(permitted_params[:place])
         if params[:place][:photo].present?
           render :admin_crop
         else
