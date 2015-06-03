@@ -196,7 +196,9 @@ document.places = function() {
                 // centerOnPath();
             } else {
                //                     centerOnPoint(place.getLatLng());
-               map.panTo(place.getLatLng());
+               // map.panTo(place.getLatLng());
+
+            map.setView(place.getLatLng(), map.getZoom() || 17);
             }
             //map.setView(place.getLatLng(), z);
 
