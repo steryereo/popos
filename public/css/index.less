@@ -42,7 +42,10 @@ a {
 }
 
 
-
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
 
 .container {
     clear:both;
@@ -195,9 +198,9 @@ a {
   background-image:url('../img/marker.png');
   background-size: 100% 100%; 
   font-family: @title-font;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
-  padding-top:.2em;
+  padding-top:.5em;
   color: #FFF;
 }
 .selected-icon {
@@ -206,9 +209,9 @@ a {
   background-image:url('../img/marker_highlight.png');
   background-size: 100% 100%; 
   font-family: @title-font;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
-  padding-top:.2em;
+  padding-top:.5em;
   color: #FFF;
 }
 html {
@@ -330,14 +333,15 @@ ol, ul {
       vertical-align: middle;
       .list-number {
         display: inline-block;
-        width:1.5em;
-        height:1.5em;
+        width:1.35em;
+        height:1.35em;
         border-radius: 50%;
         -webkit-border-radius: 50%; -moz-border-radius: 50%em;
-        border:1px solid #bbbdbf;
+        border:4px solid #bbbdbf;
         text-align: center;
+        vertical-align: middle;
         margin:0 0.5em;
-        padding-top: 0.16em;
+        //padding-top: 0.1em;
       }
       .list-item {
         padding-top: 0.16em;
@@ -359,7 +363,7 @@ ol, ul {
       color:#FFF;
       background-color: #64C4B8;
       .list-number {
-        border:1px solid #FFF;
+        border:4px solid #FFF;
       }
       .arrow {
         background-image:url("../img/ui/arrow_white.png");
@@ -465,8 +469,9 @@ ol, ul {
       .icons {
         // .user-select(none);
         width: 50%;
-        position: absolute;
-        right: 5%;
+        //position: absolute;
+        //right: 5%;
+        float:right;
         text-align: center;
         padding-top: 10px;
         span {
