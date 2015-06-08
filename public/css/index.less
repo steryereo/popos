@@ -95,16 +95,15 @@ a {
 }
 
 #top {
-    padding-top:1em;
+  vertical-align: baseline;
+    padding-top:3em;
     .title-div {
         float:left;
-        .uw-title {
-           // font-family: @title-font;
-           // font-size: 2.5em;
-           // font-weight: normal;
-           // margin: 0;
-           // line-height: 1em
 
+        .uw-title {
+          margin: 0;
+          line-height: 36px;
+          vertical-align: baseline;
         }
     }
 //    .tagline {
@@ -114,6 +113,7 @@ a {
 //    }
     #nav 
     {
+      line-height: 36px;
       font-family: @body-bold;
       text-transform: uppercase;
       text-decoration: none;
@@ -123,8 +123,8 @@ a {
       float:right;   
       text-align: right;
       width:70%;
-      vertical-align: bottom;
-      padding:35px 0 0 0;
+      vertical-align: baseline;
+      //padding:35px 0 0 0;
       li ul.show {
         display:block;
         z-index: 1000;
@@ -447,6 +447,7 @@ ol, ul {
       bottom: 5px;
       right: 5px;
       max-width: 20px;
+      cursor:pointer;
     }
   }
 

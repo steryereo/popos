@@ -168,7 +168,7 @@ document.places = function() {
             $('#place').html(Mustache.render(m_place, place.feature.properties));
 
 
-            $( "#popout" ).click(function(e) {
+            $( "#popout, #preview-photo" ).click(function(e) {
 
                 $('#lightbox-image').html('<img src="img/ui/loader.gif">' );
                 //$( "#photo-large img.photo" ).attr("src","img/ui/loader.gif");
