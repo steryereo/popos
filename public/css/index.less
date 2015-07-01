@@ -7,7 +7,7 @@
 @title-bg:      #2c2c38;
 @detail-width:  20%;
 
-
+@nav-height:3em;
 
 
 
@@ -31,16 +31,23 @@ html {
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: @body-bold;
-//    font-family: 'futuramedium', sans-serif;
 text-transform: uppercase;
-   // letter-spacing: .05em;
-   // line-height: 110%;
 }
 a {
     text-decoration: none;
     color:inherit;
 }
 
+#loading {
+    position:absolute; top:0; bottom:0; width:100%;
+  img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99999999;
+}
+}
 
 .clearfix {
   overflow: auto;
@@ -50,9 +57,10 @@ a {
 .container {
     clear:both;
 //    width: 95%;
-    max-width: @container-width;
+    //max-width: @container-width;
     margin:0 auto;
     padding: 0;
+    //text-align: center;
     h1 {
         text-transform: uppercase;
         text-align: center;
@@ -93,10 +101,21 @@ a {
 -ms-transform:rotate(-90deg); /* IE 9 */
 -webkit-transform:rotate(-90deg); /* Safari and Chrome */
 }
-
+.top-spacer {
+    padding-top: @nav-height;
+    margin-top: 2em;
+}
 #top {
   vertical-align: baseline;
-    padding-top:3em;
+    text-align: center;
+    position: fixed;
+    top:0;
+    box-sizing:border-box;
+    width:100%;
+    z-index: 999;
+    height: @nav-height;
+    padding: 1em 1em;
+
     .title-div {
         float:left;
 
@@ -106,11 +125,6 @@ a {
           vertical-align: baseline;
         }
     }
-//    .tagline {
-//        font-family: @title-font;
-//        font-size: 1em;
-//        margin: 0.2em 0 1em 0;
-//    }
     #nav 
     {
       line-height: 36px;
@@ -119,10 +133,9 @@ a {
       text-decoration: none;
       color:@black-text;
       font-size: 1.5em;
-
       float:right;   
       text-align: right;
-      width:70%;
+      //width:70%;
       vertical-align: baseline;
       //padding:35px 0 0 0;
       li ul.show {
@@ -139,9 +152,8 @@ a {
                 display:none;
                 z-index: 1000;
                 text-align: center;
-                left:-2.25em;
+                right:0;
                 position:absolute;
-                //margin: 0 0 0 -50%;
                 padding: 0;
                 color:#fff;
                 li {
@@ -181,9 +193,10 @@ a {
 
 }
 #banner header {
-    float:left;
+    //float:left;
     width: 100%;
     max-width: @container-width;
+    margin:auto;
     //max-height:400px;
     img {
         width:100%;
@@ -606,6 +619,7 @@ ol, ul {
 
 #news-and-updates {
     margin-top: 6em;
+    padding:0 15%;
     a {
         color: #DDD;
         text-decoration: none;
@@ -618,7 +632,7 @@ ol, ul {
     .column {
         padding: 0;
         vertical-align: top;
-        margin: 0;
+        margin:0;
         max-width: 35%;
         min-width: 128px;
         ul {
@@ -710,7 +724,7 @@ px      68    160    252    */
 @media only screen and (max-width: 900px) {
   #top {
     #nav {
-      width:100%;
+     // width:100%;
       padding-top:0;
     }
   }
@@ -722,6 +736,14 @@ px      68    160    252    */
 
 // 600px in normal zoom
 @media only screen and (max-width: 600px) {
+  #banner {
+    overflow: none;
+    header img {
+      width:200%;
+      margin-left: -50%;
+
+    }
+  }
     .container {
         margin:0;
         padding:0;
@@ -759,10 +781,14 @@ px      68    160    252    */
         max-width: 90%;
     }
 }
-#news-and-updates .column {
+#news-and-updates
+{
+  padding: 0;
+.column {
     max-width:44%;
     min-width:200px;
     padding:2%;
+}
 }
 }
 

@@ -34,11 +34,11 @@ var sizeMap = function() {
     mapHeight -= 50;
     $('#map-container, #sidebar, #map-section').height(mapHeight);
     //return;
-    var sidebarWidth = (Math.floor($('.container').width() * 0.35));
+    var sidebarWidth = (Math.floor($(window).width() * 0.35));
     $('#sidebar').width(sidebarWidth);
     var cssval = $('#sidebar').outerWidth() + 'px';
     $('#map-section').css('left', cssval);
-    $('#map-section').width($('.container').width() - $('#sidebar').outerWidth());
+    $('#map-section').width($(window).width() - $('#sidebar').outerWidth());
 }
 
 var showMap = function() {
@@ -107,12 +107,10 @@ $(document).ready(function() {
 });
 
 var createMap = function() {
-    if (mapStyle) {
-        map = L.mapbox.map('map-section');
-    } else {
-        map = L.mapbox.map('map-section');
-    }
-    map.tileLayer = tileLayers[currentTileLayer].addTo(map);
+    startLoading();
+    map = L.mapbox.map('map-section');
+    map.tileLayer = tileLayers[currentTileLayer].addTo(map).on('load', finishedLoading); // when the tiles load, remove the screen
+;
     map.zoomControl.removeFrom(map);
     places = document.places();
 }
@@ -141,14 +139,20 @@ var noRoute = function() {
     
 
 }
+var startLoading = function() {
+    $("#loading").fadeIn();
+}
+var finishedLoading = function() {
+    $("#loading").fadeOut();
+}
 
-    function GetQueryStringParams(sParam) {
-        var sPageURL = window.location.search.substring(1);
-        var sURLVariables = sPageURL.split('&');
-        for (var i = 0; i < sURLVariables.length; i++) {
-            var sParameterName = sURLVariables[i].split('=');
-            if (sParameterName[0] == sParam) {
-                return sParameterName[1];
-            }
+function GetQueryStringParams(sParam) {
+    var sPageURL = window.location.search.substring(1);
+    var sURLVariables = sPageURL.split('&');
+    for (var i = 0; i < sURLVariables.length; i++) {
+        var sParameterName = sURLVariables[i].split('=');
+        if (sParameterName[0] == sParam) {
+            return sParameterName[1];
         }
     }
+}

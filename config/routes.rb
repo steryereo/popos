@@ -7,6 +7,8 @@ Urbanwander::Application.routes.draw do
   resources :places
 
   resources :routes
+
+  get ':controller(/:action(/:id))'
   
   #root :to => "places#map"
 
