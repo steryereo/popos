@@ -2,11 +2,11 @@ var fadeValue = .60;
 var fadeTime = 250;
 
 $(document).ready(function() {
-    $('#adventures .column, #nav li a.nav-main').hover(function() {
-        $(this).fadeTo(fadeTime, fadeValue);
-    }, function() {
-        $(this).fadeTo(fadeTime, 1);
-    });
+    // $('#adventures .column, #nav li a.nav-main').hover(function() {
+    //     $(this).fadeTo(fadeTime, fadeValue);
+    // }, function() {
+    //     $(this).fadeTo(fadeTime, 1);
+    // });
     
     $('a[href*=#]:not([href=#])').click(function() {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
