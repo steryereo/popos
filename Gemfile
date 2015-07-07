@@ -18,7 +18,10 @@ gem 'geocoder'
 
 group :development, :test do
   gem 'sqlite3'
-
+  gem 'rspec-rails', '~> 3.0.0'
+  gem 'factory_girl_rails'
+  gem 'capybara'
+  gem 'database_cleaner'
 	# To use debugger
 end
 group :production do
@@ -28,14 +31,12 @@ end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-
-#FOR SUSY
-gem 'sass-rails', '~> 5.0.0.beta1'
-gem 'susy'
-# If you want Compass:
-gem 'compass-rails', '~> 2.0.0'
-
-gem 'coffee-rails'
+	#FOR SUSY
+	gem 'sass-rails', '~> 5.0.0.beta1'
+	gem 'susy'
+	# If you want Compass:
+	gem 'compass-rails', '~> 2.0.0'
+	gem 'coffee-rails'
 
   gem 'uglifier'
 end
