@@ -3,26 +3,26 @@ class PlacesController < ApplicationController
   end
 
   def new
-    # @place = Place.new
+    @place = Place.new
   end
 
   def create
-    # @place = Place.new(place_params)
-    # if @place.save
-    #   if params[:place][:photo].present?
-    #     render :crop
-    #   else
-    #     redirect_to @place, notice: "Successfully created place."
-    #   end
-    # else
-    #   render 'new'
-    # end
+    @place = Place.new(place_params)
+    if @place.save
+      if params[:place][:photo].present?
+        render :crop
+      else
+        redirect_to @place, notice: "Successfully created place."
+      end
+    else
+      render 'new'
+    end
   end
 
   def show
     @place = Place.find(params[:id])
     respond_to do |format|
-      # format.html
+      format.html
       format.json { render json: @place }
       format.geojson do
         render json: @place.to_geojson
@@ -33,7 +33,7 @@ class PlacesController < ApplicationController
   def index
     @places = Place.all
     respond_to do |format|
-      # format.html
+      format.html
       format.json { render json: @places }
       format.geojson do
         render json: multi_geojson(@places)
@@ -77,7 +77,7 @@ class PlacesController < ApplicationController
   end
 
   def place_params
-    params.require(:place).permit(:name, :description)
+    params.require(:place).permit(:name, :description, :latitude, :longitude, :category, :address)
   end
 
 end

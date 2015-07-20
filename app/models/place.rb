@@ -36,13 +36,11 @@ class Place < ActiveRecord::Base
   }
 
   def url_for_photo
-    u = photo_url(:sidebar) || old_photo_url || "" #|| "/img/popos/no_photo.png"
-    u = u.sub(/^\/?img/, "http://urbanwander.org/img")
+    u = photo_url(:sidebar)
   end
 
   def photo_url_large
-    u = photo_url || old_photo_url || "" #|| "/img/popos/no_photo.png"
-    u = u.sub(/^\/?img/, "http://urbanwander.org/img")
+    u = photo_url
   end
 
   def address_in_sf
@@ -85,7 +83,6 @@ class Place < ActiveRecord::Base
         reject_auth: reject_auth,
         longitude: longitude,
         latitude: latitude,
-        #       marker_point: marker_point,
         route_id: route_id,
         route_order: route_order,
         open: open,
